@@ -48,6 +48,7 @@ Tài liệu này là nguồn hướng dẫn DUY NHẤT của tác vụ. Không c
 - build.py lỗi mạng hoàn toàn: khôi phục data.js cũ (`git checkout -- data.js`), vẫn viết bản tin và ghi rõ trong "gaps" rằng số liệu chưa cập nhật.
 - build.py lỗi một phần (mảng "errors" khác rỗng): vẫn dùng data.js mới, ghi lỗi vào "gaps".
 - `git push` bị từ chối vì remote đã có commit mới: `git fetch origin main && git rebase origin/main`, rồi push lại MỘT lần. Nếu rebase xung đột ở reports.js: giữ bản trên remote, thêm lại object bản tin hôm nay vào đầu mảng, commit, push.
+- WebFetch báo EGRESS_BLOCKED / "blocked by the network egress proxy" với các trang tin: môi trường của routine đang giới hạn mạng. Không viết bản tin từ đoạn trích tìm kiếm. Giữ nguyên bản tin cũ, không push, và kết thúc bằng thông báo nêu nguyên văn lỗi cùng yêu cầu người dùng đặt Network access của môi trường thành Full.
 - `git push` lỗi 403 (mất quyền GitHub): không thử lại nhiều lần. Kết thúc bằng thông báo nêu nguyên văn lỗi; người dùng cần cài lại Claude GitHub App cho repo.
 - reports.js hoặc index.html trong repo bị hỏng/không đọc được: KHÔNG tự chế file mới. Khôi phục bản gần nhất còn tốt từ lịch sử git (`git log -- <file>`, `git checkout <commit> -- <file>`), rồi làm tiếp.
 
@@ -63,7 +64,7 @@ Phần này dành cho phiên làm việc có người dùng (không phải lần
 - Repo và trang công khai: không đưa vị thế, giá mục tiêu, tên người dùng vào bất kỳ file nào.
 
 ## Các bước
-1. Làm việc ngay trong thư mục repo đã clone (nhánh `main` mới nhất). Lấy ngày hôm nay theo giờ Việt Nam: `TZ=Asia/Ho_Chi_Minh date +%F`. Đọc bản tin gần nhất ở đầu reports.js để nắm giọng văn, độ sâu và các mục đang theo dõi. Nếu reports.js đã có bản tin của ngày hôm nay: vẫn làm ĐẦY ĐỦ các bước 2–4d như một ngày chưa có bản tin, rồi THAY toàn bộ object của ngày hôm nay bằng bản mới viết lại (không chỉ vá thêm vài dòng vào bản cũ). Dọn nhánh rác: liệt kê `git ls-remote --heads origin "claude/*"` và xóa trên remote mọi nhánh `claude/...` KHÁC nhánh làm việc của lần chạy này (`git push origin --delete <tên nhánh>`); xóa lỗi thì bỏ qua.
+1. Làm việc ngay trong thư mục repo đã clone (nhánh `main` mới nhất). Lấy ngày hôm nay theo giờ Việt Nam: `TZ=Asia/Ho_Chi_Minh date +%F`. Đọc bản tin gần nhất ở đầu reports.js để nắm giọng văn, độ sâu và các mục đang theo dõi. Nếu reports.js đã có bản tin của ngày hôm nay: vẫn làm ĐẦY ĐỦ các bước 2–4d như một ngày chưa có bản tin, rồi THAY toàn bộ object của ngày hôm nay bằng bản mới viết lại (không chỉ vá thêm vài dòng vào bản cũ).
 2. `pip install pandas --break-system-packages` nếu thiếu; chạy `python3 build.py .` → ghi đè data.js (nguồn: raw.githubusercontent.com/yieldchaser/Shipping). In ra tóm tắt chỉ số. Nếu lỗi mạng: `git checkout -- data.js` để giữ file cũ và ghi rõ trong bản tin.
 3. Đối chiếu nhanh: BDI phiên gần nhất trên tradingeconomics.com/commodity/baltic (WebFetch). Lệch → ghi chú.
 4. Nghiên cứu 24–48h qua (WebSearch/WebFetch, được phép vào mọi trang): Hormuz, Biển Đỏ/Houthi, Biển Đen/Nga, trừng phạt, bảo hiểm rủi ro chiến tranh; cước tàu dầu thô/SP (Baltic Exchange weekly roundup, Hellenic Shipping News, Splash247, Teekay/Scorpio/Hafnia, The Edge "Baltic Exchange shipping updates"); hóa chất (ICIS, Odfjell, Stolt); LPG (BLPG, Fearnleys); hàng rời; orderbook/đóng mới/phá dỡ (BIMCO, Clarksons trích dẫn, Xclusiv, Vantage); El Niño (NOAA CPC), kênh Panama; OPEC+/giá dầu; tin PVT/PVN/BSR/Nghi Sơn (cafef, vietstock, petrotimes). Fearnleys Weekly PDF trên hellenicshippingnews.com (thứ Tư/Năm).
@@ -99,6 +100,6 @@ Phần này dành cho phiên làm việc có người dùng (không phải lần
    - Kiểm tra cú pháp trước: `node --check reports.js && node --check data.js` (hoặc tương đương). Lỗi cú pháp thì sửa trước, không push file hỏng.
    - `git add reports.js data.js` (kèm index.html, build.py, RUNBOOK.md chỉ khi lần chạy này có sửa chúng theo yêu cầu người dùng; lần chạy tự động hằng ngày KHÔNG sửa ba file đó).
    - `git commit -m "Bản tin YYYY-MM-DD"` rồi `git push origin HEAD:main`.
-   - Bản tin phải nằm trên `main`. Không mở pull request. Nếu hệ thống buộc phải đẩy cả nhánh làm việc `claude/...` của lần chạy này thì đẩy và để nguyên; lần chạy sau sẽ dọn (bước 1).
+   - Bản tin phải nằm trên `main`. Không mở pull request. Nếu hệ thống buộc phải đẩy cả nhánh làm việc `claude/...` của lần chạy này thì đẩy và để nguyên; KHÔNG thử xóa nhánh `claude/...` nào trên remote (hệ thống không cho phép; người dùng tự dọn).
    - Xác nhận: `git fetch origin main && git log origin/main -1 --oneline` phải là commit vừa tạo.
 7. Kết thúc bằng thông báo ngắn: điểm chính hôm nay (3–5 dòng); số truy vấn đã chạy, số trang đã mở, số tin nóng; kết quả push (thành công hay lỗi gì); và link https://staff1900.github.io/PVT/
