@@ -1,6 +1,6 @@
 # Bản tin Vận tải biển PVT — quy trình chạy hằng ngày
 
-Trang công khai: https://staff1900.github.io/PVT/ (GitHub Pages, lấy từ nhánh `main` của repo `staff1900/PVT`).
+Trang công khai: https://kienluaa.github.io/PVT/ (GitHub Pages, lấy từ nhánh `main` của repo `kienluaa/PVT`).
 Người đọc: nhà đầu tư cổ phiếu PVT, đọc tiếng Việt. Mục tiêu: theo dõi mọi diễn biến ảnh hưởng thị trường vận tải biển của đội tàu PVT.
 
 File trong repo (gốc repo): `index.html` (mã trang), `reports.js` (các bản tin), `data.js` (số liệu, do build.py sinh ra), `build.py`, `RUNBOOK.md` (tài liệu này).
@@ -102,4 +102,4 @@ Phần này dành cho phiên làm việc có người dùng (không phải lần
    - `git commit -m "Bản tin YYYY-MM-DD"` rồi `git push origin HEAD:main`.
    - Bản tin phải nằm trên `main`. Không mở pull request. Nếu hệ thống buộc phải đẩy cả nhánh làm việc `claude/...` của lần chạy này thì đẩy và để nguyên; KHÔNG thử xóa nhánh `claude/...` nào trên remote (hệ thống không cho phép; người dùng tự dọn).
    - Xác nhận: `git fetch origin main && git log origin/main -1 --oneline` phải là commit vừa tạo.
-7. Kết thúc bằng thông báo ngắn: điểm chính hôm nay (3–5 dòng); số truy vấn đã chạy, số trang đã mở, số tin nóng; kết quả push (thành công hay lỗi gì); và link https://staff1900.github.io/PVT/
+7. Kết thúc bằng thông báo ngắn: điểm chính hôm nay (3–5 dòng); số truy vấn đã chạy, số trang đã mở, số tin nóng; kết quả push (thành công hay lỗi gì); và link https://kienluaa.github.io/PVT/
