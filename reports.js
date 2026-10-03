@@ -90,6 +90,24 @@ window.REPORTS = [
     ]
    },
    {
+    "when": "30/09",
+    "tag": "Hormuz – an ninh",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "MR",
+     "LPG"
+    ],
+    "title": "UKMTO: 3 tàu (tàu dầu, tàu LNG, 1 tàu khác) trúng đạn không rõ nguồn ở Hormuz ngay sau khi Iran nhận phản đề xuất ngừng bắn 7 ngày của Mỹ; Mỹ dự kiến chiến sự có thể tái diễn sau bầu cử giữa kỳ",
+    "impact": "Đàm phán không ngăn được tấn công tàu, nên phí rủi ro và cách vận chuyển kém hiệu quả (con thoi, chuyển tải) còn kéo dài, giữ cước tàu dầu cao cho Aframax và MR của PVT. Ngược lại, nếu Iran chấp nhận khung ngừng bắn thì cước chịu áp lực giảm nhanh. Tin chưa kiểm chứng: kết quả tìm kiếm ngày 3/10 nhắc một tàu dầu thô trúng đạn ở Hormuz ngày 3/10 (chưa mở được nguồn gốc).",
+    "src": [
+     {
+      "t": "IBTimes, 30/09",
+      "u": "https://ibtimes.com/iran-received-uss-latest-ceasefire-counterproposal-tankers-were-reportedly-hit-hormuz-shortly-3808040"
+     }
+    ]
+   },
+   {
     "when": "30/09–02/10",
     "tag": "Dầu – Hormuz",
     "dir": "down",
@@ -311,22 +329,6 @@ window.REPORTS = [
       "u": "https://gcaptain.com/el-nino-has-arrived-noaa-warns-it-could-become-one-of-the-strongest-on-record/"
      }
     ]
-   },
-   {
-    "when": "04/10",
-    "tag": "Lịch sự kiện",
-    "dir": "mixed",
-    "segs": [
-     "toàn ngành tàu dầu"
-    ],
-    "title": "OPEC+ họp Chủ nhật 4/10, dự kiến giữ nguyên mục tiêu sản lượng tháng 11",
-    "impact": "7 nước nòng cốt sản xuất 25,0 triệu thùng/ngày trong tháng 8 (+630.000 so với tháng 7), còn thấp hơn khoảng 5 triệu thùng/ngày so với tháng 2. Trọng tâm là hạn ngạch 2027 và báo cáo thẩm định công suất của DeGolyer & MacNaughton. Giữ nguyên là trung tính với tàu dầu.",
-    "src": [
-     {
-      "t": "Yahoo Finance / Reuters",
-      "u": "https://finance.yahoo.com/energy/articles/opec-expected-keep-november-oil-102921735.html"
-     }
-    ]
    }
   ],
   "news": [
@@ -420,6 +422,7 @@ window.REPORTS = [
    "PVP họp ngày 23/10: giá và tuổi tàu Aframax số 3. BCTC quý 3 của PVT trước 30/10: biên gộp mảng hóa chất."
   ],
   "gaps": [
+   "Lần chạy lại thứ hai 03/10: 13 truy vấn, 9 trang mở thành công (Trading Economics, Fortune, Hellenic Shipping News x2, IBTimes, CAFEF, và vài bài cũ tháng 4–7 chỉ dùng để kiểm tra bối cảnh). Lloyd's List, The Hill, Modern Diplomacy, Seatrade trả 403; một truy vấn bị giới hạn tốc độ. BDI 3.148 (+8, +0,25%) khớp Trading Economics; không có số Baltic mới sau phiên 2/10. Tàu dầu thô trúng đạn ngày 3/10 chỉ có trong đoạn trích tìm kiếm, chưa kiểm chứng.",
    "Lần chạy lại 03/10: 14 truy vấn, 10 trang đã mở. Tin Ukraine tấn công cảng/nhà máy lọc dầu Nga: kết quả chỉ có tháng 4–8/2026, không có tin trong 48 giờ. G7 ra tuyên bố ngày 3/10 lên án Iran (chỉ thấy trong đoạn trích tìm kiếm, chưa mở được nguồn). Brent 2/10 có ba số: 99,68 (Trading Economics, qua tìm kiếm), 102,25 (chốt phiên, EnergyNow) và 103,37 (Fortune, 9:15 ET), khác giờ lấy số. AGBI trả lỗi 403.",
    "Cập nhật 03/10 (thứ Bảy): build.py chạy lại, không có số Baltic mới sau phiên 2/10. Quét tin nóng ngày 3/10 không tìm thấy diễn biến mới có nguồn mở được ngoài những gì đã nêu; OPEC+ họp 4/10, thị trường kỳ vọng giữ nguyên mục tiêu tháng 11 (chưa có kết quả).",
    "Báo cáo tuần 40 của Baltic Exchange (ra tối 2/10) chưa truy cập được: đường dẫn trả lỗi 404 và bản đăng lại trên The Edge chưa có. Mục cước theo tuyến dùng số Fearnleys 30/9 cho vài tuyến, phần còn lại giữ số Baltic 25/9.",
@@ -429,8 +432,7 @@ window.REPORTS = [
    "Fearnleys tuần 40: phần bình luận LPG và số định hạn MR/LR2 1 năm không đọc được đầy đủ từ PDF; dòng giá Brent trong PDF (83,97 USD) không khớp thị trường nên không dùng. Lợi nhuận hoạt động của Stolt Tankers lấy theo thông cáo (52,1 triệu USD); Investing.com ghi số khác (97,1 triệu).",
    "Không tìm thấy tin mới trong 48 giờ về Ukraine tấn công cảng dầu hoặc cảng ngũ cốc Nga; không có tin mới về PVT, BSR, Nghi Sơn.",
    "Giá định hạn tàu dầu trong nguồn dữ liệu của trang (Aframax, MR 1 năm) dừng ở 16/9. Phí bảo hiểm chiến tranh Hormuz chưa có số mới sau 21/9.",
-   "Cước tàu hóa chất và LPG cỡ nhỏ ở châu Á: không có chỉ số công khai; dùng Stolt và giá tàu LPG ven biển châu Âu của Fearnleys làm đại diện.",
-   "Dữ liệu cảng (PortWatch) trễ và dựa trên AIS nên thiếu tàu tắt tín hiệu: chỉ báo 'tàu dầu qua Hormuz' (1,3 lượt/ngày) không phản ánh dòng dầu thật."
+   "Cước tàu hóa chất và LPG cỡ nhỏ ở châu Á: không có chỉ số công khai; dùng Stolt và giá tàu LPG ven biển châu Âu của Fearnleys làm đại diện."
   ],
   "scoreManual": [
    {
@@ -1112,6 +1114,17 @@ window.REPORTS = [
      {
       "t": "The Edge / Baltic, 25/09",
       "u": "https://theedgemalaysia.com/node/819429"
+     }
+    ]
+   },
+   {
+    "topic": "Xuất khẩu LPG Mỹ → Trung Quốc",
+    "value": "Hàng tới Trung Quốc 630 nghìn thùng/ngày (7/2026), 530 (8/2026, cao nhất theo mùa); Bắc Mỹ chiếm >70% LPG đường biển vào Trung Quốc (5/2026) so với <20% giữa 2025",
+    "note": "Đường Panama 29 ngày so với 44 ngày vòng Mũi Hảo Vọng nên kênh Panama mở rộng từ 15/10 hỗ trợ cước VLGC. Thuế 11% với propane Mỹ vẫn còn nhưng đã né qua kho ngoại quan (~28% lượng). Nhu cầu này gắn với việc thiếu hàng Trung Đông, sẽ giảm nếu Hormuz mở lại, bất lợi cho 2 VLGC chạy Trung Đông của PVT chỉ khi tuyến Mỹ–Á rút ngắn cạnh tranh.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 2026",
+      "u": "https://www.hellenicshippingnews.com/chinas-us-lpg-buying-is-back-on-a-better-duty-strategy/"
      }
     ]
    }
