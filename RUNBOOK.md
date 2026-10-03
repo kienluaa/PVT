@@ -63,7 +63,7 @@ Phần này dành cho phiên làm việc có người dùng (không phải lần
 - Repo và trang công khai: không đưa vị thế, giá mục tiêu, tên người dùng vào bất kỳ file nào.
 
 ## Các bước
-1. Làm việc ngay trong thư mục repo đã clone (nhánh `main` mới nhất). Lấy ngày hôm nay theo giờ Việt Nam: `TZ=Asia/Ho_Chi_Minh date +%F`. Đọc bản tin gần nhất ở đầu reports.js để nắm giọng văn, độ sâu và các mục đang theo dõi. Nếu reports.js đã có bản tin của ngày hôm nay: cập nhật bản đó thay vì thêm bản mới.
+1. Làm việc ngay trong thư mục repo đã clone (nhánh `main` mới nhất). Lấy ngày hôm nay theo giờ Việt Nam: `TZ=Asia/Ho_Chi_Minh date +%F`. Đọc bản tin gần nhất ở đầu reports.js để nắm giọng văn, độ sâu và các mục đang theo dõi. Nếu reports.js đã có bản tin của ngày hôm nay: vẫn làm ĐẦY ĐỦ các bước 2–4d như một ngày chưa có bản tin, rồi THAY toàn bộ object của ngày hôm nay bằng bản mới viết lại (không chỉ vá thêm vài dòng vào bản cũ). Dọn nhánh rác: liệt kê `git ls-remote --heads origin "claude/*"` và xóa trên remote mọi nhánh `claude/...` KHÁC nhánh làm việc của lần chạy này (`git push origin --delete <tên nhánh>`); xóa lỗi thì bỏ qua.
 2. `pip install pandas --break-system-packages` nếu thiếu; chạy `python3 build.py .` → ghi đè data.js (nguồn: raw.githubusercontent.com/yieldchaser/Shipping). In ra tóm tắt chỉ số. Nếu lỗi mạng: `git checkout -- data.js` để giữ file cũ và ghi rõ trong bản tin.
 3. Đối chiếu nhanh: BDI phiên gần nhất trên tradingeconomics.com/commodity/baltic (WebFetch). Lệch → ghi chú.
 4. Nghiên cứu 24–48h qua (WebSearch/WebFetch, được phép vào mọi trang): Hormuz, Biển Đỏ/Houthi, Biển Đen/Nga, trừng phạt, bảo hiểm rủi ro chiến tranh; cước tàu dầu thô/SP (Baltic Exchange weekly roundup, Hellenic Shipping News, Splash247, Teekay/Scorpio/Hafnia, The Edge "Baltic Exchange shipping updates"); hóa chất (ICIS, Odfjell, Stolt); LPG (BLPG, Fearnleys); hàng rời; orderbook/đóng mới/phá dỡ (BIMCO, Clarksons trích dẫn, Xclusiv, Vantage); El Niño (NOAA CPC), kênh Panama; OPEC+/giá dầu; tin PVT/PVN/BSR/Nghi Sơn (cafef, vietstock, petrotimes). Fearnleys Weekly PDF trên hellenicshippingnews.com (thứ Tư/Năm).
@@ -89,11 +89,16 @@ Phần này dành cho phiên làm việc có người dùng (không phải lần
    - regulation[], vietnam[]: thẻ {tag,title,text,impact,src}. Việt Nam: nguồn dầu thô Nghi Sơn/BSR, lịch bảo dưỡng, LPG nhập khẩu, bão Biển Đông, tin PVT/VOS/VTO/GSP/PVP.
    - peers[]: {company,seg,data,read,src} — tỷ lệ ngày đã ký và giá của Scorpio, Hafnia, Torm, Frontline, Teekay, Odfjell, Stolt, BW LPG, Star Bulk...
    Tần suất gợi ý: tin nóng + scoreManual + calendar hằng ngày; routes/period/snp/lpg thứ Hai–thứ Sáu khi có báo cáo tuần mới; supply/flows/regulation/peers khi có tin mới.
+4d. MỨC TỐI THIỂU BẮT BUỘC trước khi viết (áp dụng mọi ngày, kể cả cuối tuần, ngày nghỉ và khi cập nhật lại bản tin đã có):
+   - Đã chạy ít nhất 1 truy vấn WebSearch cho MỖI nhóm trong 8 nhóm của mục 4b; tổng cộng ít nhất 12 truy vấn.
+   - Đã MỞ (WebFetch) ít nhất 8 trang nguồn để lấy số liệu và ngày đăng; không viết từ đoạn trích kết quả tìm kiếm.
+   - Đã làm bước 3 (đối chiếu BDI).
+   - Chưa đạt thì nghiên cứu tiếp, không kết thúc sớm. "Hai truy vấn đầu không ra tin mới" không phải lý do dừng. Chỉ được dừng dưới mức này khi công cụ web bị lỗi; khi đó ghi nguyên văn lỗi vào "gaps" và vào thông báo cuối.
 5. Thêm 1 object mới vào ĐẦU mảng window.REPORTS trong reports.js (cùng schema: date, dataAsOf, headlines[], headline, summary[], pvt[{seg,signal:up|down|flat|na,text}], news[{tag,title,text,impact,src[{t,u}]}], watch[], gaps[]). Giữ tối đa 90 bản tin. Chỉ đưa số liệu có nguồn; tin chưa kiểm chứng ghi rõ. Viết tiếng Việt, ngắn gọn, trực diện, không văn vẻ; mục "Với PVT" ngắn gọn, nói tác động lên phân khúc tàu nào của PVT.
 6. Đẩy lên GitHub (trang tự cập nhật sau 1–2 phút):
    - Kiểm tra cú pháp trước: `node --check reports.js && node --check data.js` (hoặc tương đương). Lỗi cú pháp thì sửa trước, không push file hỏng.
    - `git add reports.js data.js` (kèm index.html, build.py, RUNBOOK.md chỉ khi lần chạy này có sửa chúng theo yêu cầu người dùng; lần chạy tự động hằng ngày KHÔNG sửa ba file đó).
    - `git commit -m "Bản tin YYYY-MM-DD"` rồi `git push origin HEAD:main`.
-   - Chỉ đẩy lên `main`. Không mở pull request. Nếu hệ thống buộc phải đẩy cả nhánh làm việc `claude/...`, đẩy xong thì xóa nhánh đó trên remote (`git push origin --delete <tên nhánh>`) để repo không tích tụ nhánh rác.
+   - Bản tin phải nằm trên `main`. Không mở pull request. Nếu hệ thống buộc phải đẩy cả nhánh làm việc `claude/...` của lần chạy này thì đẩy và để nguyên; lần chạy sau sẽ dọn (bước 1).
    - Xác nhận: `git fetch origin main && git log origin/main -1 --oneline` phải là commit vừa tạo.
-7. Kết thúc bằng thông báo 3–5 dòng: điểm chính hôm nay, kết quả push (thành công hay lỗi gì), và link https://staff1900.github.io/PVT/
+7. Kết thúc bằng thông báo ngắn: điểm chính hôm nay (3–5 dòng); số truy vấn đã chạy, số trang đã mở, số tin nóng; kết quả push (thành công hay lỗi gì); và link https://staff1900.github.io/PVT/
