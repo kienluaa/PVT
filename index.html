@@ -124,9 +124,8 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
 .sc .val{font-family:var(--font-m);font-size:17px;font-weight:600;overflow-wrap:anywhere;line-height:1.3}
 .sc .val.txt{font-family:var(--font-b);font-size:14.5px;line-height:1.4}
 .srcs br{display:none}
-/* bang diem: xep the kieu cot, moi the cao vua noi dung */
-.score{display:block;columns:4 250px;column-gap:10px}
-.score .sc{break-inside:avoid;margin:0 0 10px}
+/* bang diem: luoi deu, nguon nam sat day the */
+.sc .srcs{margin-top:auto;padding-top:2px}
 .sc .rule{font-size:11.5px;color:var(--muted)}
 .sc .why{font-size:12.5px;color:var(--ink2);margin:0}
 .st{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;border-radius:999px;padding:1px 8px}
@@ -344,6 +343,8 @@ function cards(id, rows){
   const el=$(id); if(!el) return;
   el.innerHTML = (rows||[]).map(n=>`<article class="item">${n.tag?`<span class="tag">${esc(n.tag)}</span>`:""}<h3>${esc(n.title)}</h3><p>${esc(n.text)}</p>${n.impact?`<p class="impact"><strong>Với PVT:</strong> ${esc(n.impact)}</p>`:""}${(n.src||[]).length?`<div class="srcs">${srcCell(n)}</div>`:""}</article>`).join("") || `<p class="upd">Chưa có dữ liệu</p>`;
 }
+/* do dai uoc tinh cua mot the bang diem: the dai xep canh the dai de hang khong bi thua */
+function scLen(x){ return String(x.why||"").length + String(x.rule||"").length*0.8 + String(x.name||"").length + (typeof x.value==="string"?x.value.length*1.3:0) + (x.src||[]).length*45; }
 function renderExtras(i){
   const r=R[i];
   // scorecard
@@ -352,7 +353,7 @@ function renderExtras(i){
   const cnt={green:0,yellow:0,red:0}; items.forEach(x=>cnt[x.status]=(cnt[x.status]||0)+1);
   $("scoreSum").innerHTML = `<span class="st green">${cnt.green} xanh</span><span class="st yellow">${cnt.yellow} vàng</span><span class="st red">${cnt.red} đỏ</span><span>trên ${items.length} chỉ báo · chỉ báo số liệu tự tính hằng ngày, chỉ báo định tính cập nhật theo tin tức</span>`;
   const order={red:0,yellow:1,green:2};
-  $("score").innerHTML = items.slice().sort((a,b)=>order[a.status]-order[b.status]).map(x=>{
+  $("score").innerHTML = items.slice().sort((a,b)=>order[a.status]-order[b.status] || scLen(b)-scLen(a)).map(x=>{
     const v = typeof x.value==="number" ? `${x.unit==="%"&&x.value>0&&!/phân vị/.test(x.name)?"+":""}${fmt(x.value, Math.abs(x.value)<100&&x.value%1?1:0)}${x.unit==="%"?"%":" "+esc(x.unit||"")}` : esc(x.value);
     return `<div class="sc ${x.status}"><div class="top"><div class="nm">${esc(x.name)}</div><span class="st ${x.status}">${stLabel[x.status]}</span></div><div class="val${typeof x.value==="string"&&x.value.length>18?" txt":""}">${v}</div><div class="rule">${esc(x.rule||"")}${x.asof?` · ${x.auto?"số liệu":"cập nhật"} ${dvn(x.asof)}`:""}</div><p class="why">${esc(x.why||"")}</p>${x.src?`<div class="srcs">${srcCell(x)}</div>`:""}</div>`;}).join("");
   // calendar
