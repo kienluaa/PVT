@@ -377,6 +377,7 @@ window.REPORTS = [
    "PVP họp ngày 23/10: giá và tuổi tàu Aframax số 3. BCTC quý 3 của PVT trước 30/10: biên gộp mảng hóa chất."
   ],
   "gaps": [
+   "Cập nhật 03/10 (thứ Bảy): build.py chạy lại, không có số Baltic mới sau phiên 2/10. Quét tin nóng ngày 3/10 không tìm thấy diễn biến mới có nguồn mở được ngoài những gì đã nêu; OPEC+ họp 4/10, thị trường kỳ vọng giữ nguyên mục tiêu tháng 11 (chưa có kết quả).",
    "Báo cáo tuần 40 của Baltic Exchange (ra tối 2/10) chưa truy cập được: đường dẫn trả lỗi 404 và bản đăng lại trên The Edge chưa có. Mục cước theo tuyến dùng số Fearnleys 30/9 cho vài tuyến, phần còn lại giữ số Baltic 25/9.",
    "Hai bài trên Hellenic Shipping News ngày 2/10 không mở được do trang giới hạn truy cập (Trump cân nhắc cấm xuất khẩu diesel; Mỹ thúc châu Âu xả dự trữ). Nội dung được lấy từ BNN Bloomberg và EnergyNow.",
    "Nguyên nhân BDTI tăng 11,7% trong phiên 2/10 theo từng tuyến chưa có nguồn mở. Bài Lloyd's List về cước Aframax trên 100.000 $/ngày không hiển thị ngày đăng nên không dùng.",
