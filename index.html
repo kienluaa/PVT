@@ -134,6 +134,14 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
 .cal .w{font-size:13px;color:var(--ink2);margin:2px 0 0}
 .upd{font-size:12px;color:var(--muted)}
 td.wrap,th.wrap{white-space:normal;min-width:220px;text-align:left}
+/* bang co cot ghi chu: cho cac cot chu xuong dong de bang vua khung, cot ghi chu du rong */
+.tbl-wrap table:has(.wrap) td.l,.tbl-wrap table:has(.wrap) th.l,.tbl-wrap table:has(.wrap) td:first-child,.tbl-wrap table:has(.wrap) th:first-child{white-space:normal}
+.tbl-wrap table:has(.wrap) td:first-child{min-width:190px}
+.tbl-wrap table:has(.wrap) td.l:not(:first-child){min-width:104px}
+.tbl-wrap table:has(.wrap) td.l:last-child:not(:first-child){min-width:150px;font-size:12.5px}
+.tbl-wrap table:has(.wrap) td.wrap,.tbl-wrap table:has(.wrap) th.wrap{min-width:240px}
+/* .wrap cung la ten khung trang (padding-block:20px 48px): khong de no ap vao o bang */
+td.wrap,th.wrap{padding:8px 12px;max-width:none;margin:0}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
