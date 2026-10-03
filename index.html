@@ -1,1 +1,498 @@
-test
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Bản tin hằng ngày về thị trường vận tải biển: cước tàu dầu, hóa chất, LPG, hàng rời và các yếu tố tác động.">
+<title>Bản tin Vận tải biển PVT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: chart-room ledger. One column of sections; summary first, then rate panels as small multiples, then news. */
+:root{
+  --bg:#f3f6f7; --panel:#ffffff; --ink:#0f1c25; --ink2:#4a5a66; --muted:#7a8893; --line:#dbe2e6; --grid:#e8edf0;
+  --accent:#0b6e86; --accent-soft:#e1eff2;
+  --up:#18794e; --up-soft:#e2f3ea; --down:#b42318; --down-soft:#fbe7e5; --flat:#8a6d00; --flat-soft:#f8f0d6;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a;
+  --font-d:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-b:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-m:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1419; --panel:#121d24; --ink:#e7eef2; --ink2:#a9b8c2; --muted:#7f909b; --line:#22323c; --grid:#1b2830;
+  --accent:#4cb3cc; --accent-soft:#16303a;
+  --up:#4cc38a; --up-soft:#133126; --down:#f07167; --down-soft:#3a1a18; --flat:#e0b84a; --flat-soft:#33290f;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1419; --panel:#121d24; --ink:#e7eef2; --ink2:#a9b8c2; --muted:#7f909b; --line:#22323c; --grid:#1b2830;
+  --accent:#4cb3cc; --accent-soft:#16303a;
+  --up:#4cc38a; --up-soft:#133126; --down:#f07167; --down-soft:#3a1a18; --flat:#e0b84a; --flat-soft:#33290f;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-b);font-size:15px;line-height:1.55}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+h1,h2,h3{font-family:var(--font-d);text-wrap:balance;margin:0}
+h1{font-size:clamp(22px,3.2vw,30px);font-weight:700;letter-spacing:-.01em}
+h2{font-size:19px;font-weight:700}
+h3{font-size:15px;font-weight:600}
+a{color:var(--accent)}
+.num{font-family:var(--font-m);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+header.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;padding-bottom:16px;border-bottom:2px solid var(--ink)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;color:var(--ink2);font-size:13px}
+select,button{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:5px 10px;cursor:pointer}
+button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{margin-top:32px;display:flex;flex-direction:column;gap:14px}
+.sec-head{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.sec-head p{margin:0;color:var(--ink2);font-size:13px}
+.headline{font-size:clamp(17px,2.2vw,20px);font-weight:600;line-height:1.35;margin:0;max-width:62ch}
+.hl{list-style:none;margin:0;padding:0;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.hl li{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:4px 14px;padding:12px 16px;border-bottom:1px solid var(--grid);align-items:start}
+.hl li:last-child{border-bottom:0}
+.hl .when{font-family:var(--font-m);font-size:12.5px;color:var(--muted);padding-top:2px}
+.hl .body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.hl .t{font-weight:600;font-size:15px;line-height:1.4}
+.hl .t .k{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-right:8px}
+.hl .why{font-size:13.5px;color:var(--ink2);margin:0}
+.hl .foot{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12px;align-items:center}
+.hl .seg-chip{background:var(--grid);color:var(--ink2);border-radius:4px;padding:1px 7px}
+.hl .dir{font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.dir.up{background:var(--up-soft);color:var(--up)} .dir.down{background:var(--down-soft);color:var(--down)} .dir.mixed{background:var(--flat-soft);color:var(--flat)}
+@media (max-width:560px){.hl li{grid-template-columns:minmax(0,1fr) auto}.hl .when{grid-column:1/-1;padding:0}}
+.summary{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;max-width:80ch}
+.segs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:10px}
+.seg{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.seg .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 8px;align-items:flex-start}
+.seg .row h3{min-width:0;flex:1 1 140px}
+.seg .pill{flex-shrink:0}
+.seg p{margin:0;font-size:13.5px;color:var(--ink2)}
+.pill{font-size:11.5px;font-weight:600;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.pill.up{background:var(--up-soft);color:var(--up)} .pill.down{background:var(--down-soft);color:var(--down)}
+.pill.flat{background:var(--flat-soft);color:var(--flat)} .pill.na{background:var(--grid);color:var(--muted)}
+.tbl-wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 12px;text-align:right;border-bottom:1px solid var(--grid);white-space:nowrap}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--panel)}
+th:first-child,td:first-child,th.l,td.l{text-align:left}
+tr:last-child td{border-bottom:0}
+td .sub{display:block;color:var(--muted);font-size:12px;font-family:var(--font-b)}
+.pos{color:var(--up)} .neg{color:var(--down)}
+.pbar{display:inline-flex;align-items:center;gap:6px}
+.pbar i{display:inline-block;width:64px;height:6px;border-radius:3px;background:var(--grid);position:relative;overflow:hidden}
+.pbar i b{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:3px}
+.ranges{display:flex;gap:4px;flex-wrap:wrap}
+.ranges button{padding:4px 10px;font-size:13px}
+.ranges button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:12px}
+#valCharts,#idxCharts2{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px 8px;min-width:0;overflow:hidden;display:flex;flex-direction:column;gap:4px}
+.card .ttl{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.card .big{font-size:20px;font-weight:600}
+.card .note{font-size:12px;color:var(--muted)}
+.chart{width:100%;min-width:0;min-height:200px;overflow:hidden}
+.secondary summary{cursor:pointer;color:var(--ink2);font-size:14px;font-weight:600;padding:4px 0}
+.secondary .grid{margin-top:10px}
+.news{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.item p{margin:0;font-size:14px}
+.tag{align-self:flex-start;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);padding:2px 8px;border-radius:4px}
+.impact{border-top:1px dashed var(--line);padding-top:8px;color:var(--ink2)}
+.impact strong{color:var(--ink)}
+.srcs{font-size:12.5px;display:flex;flex-wrap:wrap;gap:4px 12px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.box ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink2);display:flex;flex-direction:column;gap:6px}
+.warn{background:var(--down-soft);color:var(--down);padding:8px 12px;border-radius:6px;font-size:13px}
+/* uPlot (inlined) */
+.uplot,.uplot *,.uplot *::before,.uplot *::after{box-sizing:border-box}.uplot{font-family:var(--font-b);line-height:1.5;width:min-content}.u-wrap{position:relative;user-select:none}.u-over,.u-under{position:absolute}.u-under{overflow:hidden}.uplot canvas{display:block;position:relative;width:100%;height:100%}.u-axis{position:absolute}.u-legend{font-size:12.5px;margin:2px 0 0;text-align:left;color:var(--ink2)}.u-inline{display:block}.u-inline *{display:inline-block}.u-inline tr{margin-right:12px}.u-legend th{font-weight:500}.u-legend th>*{vertical-align:middle;display:inline-block}.u-legend .u-marker{width:10px;height:3px;margin-right:5px;background-clip:padding-box!important}.u-inline.u-live th::after{content:":";vertical-align:middle}.u-inline:not(.u-live) .u-value{display:none}.u-series>*{padding:2px}.u-series th{cursor:pointer}.u-legend .u-off>*{opacity:.35}.u-legend .u-value{font-family:var(--font-m);color:var(--ink)}.u-select{background:rgba(120,140,150,.12);position:absolute;pointer-events:none}.u-cursor-x,.u-cursor-y{position:absolute;left:0;top:0;pointer-events:none;will-change:transform}.u-hz .u-cursor-x{height:100%;border-right:1px dashed var(--muted)}.u-hz .u-cursor-y{width:100%;border-bottom:0}.u-cursor-pt{position:absolute;top:0;left:0;border-radius:50%;border:0 solid;pointer-events:none;will-change:transform;background-clip:padding-box!important}.u-axis.u-off,.u-select.u-off,.u-cursor-x.u-off,.u-cursor-y.u-off,.u-cursor-pt.u-off{display:none}
+
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin-inline:-16px;padding:8px 16px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin}
+.nav a{flex:0 0 auto;font-size:13px;color:var(--ink2);text-decoration:none;padding:4px 10px;border-radius:999px;border:1px solid transparent}
+.nav a:hover{border-color:var(--line);color:var(--ink)}
+.score-sum{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13.5px;color:var(--ink2)}
+.score-sum b{font-family:var(--font-m)}
+.score{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:10px}
+.sc{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0;border-left-width:4px}
+.sc.green{border-left-color:var(--up)} .sc.yellow{border-left-color:var(--flat)} .sc.red{border-left-color:var(--down)}
+.sc .top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.sc .nm{font-size:13.5px;font-weight:600;line-height:1.35;min-width:0}
+.sc .val{font-family:var(--font-m);font-size:17px;font-weight:600;overflow-wrap:anywhere;line-height:1.3}
+.sc .rule{font-size:11.5px;color:var(--muted)}
+.sc .why{font-size:12.5px;color:var(--ink2);margin:0}
+.st{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;border-radius:999px;padding:1px 8px}
+.st.green{background:var(--up-soft);color:var(--up)} .st.yellow{background:var(--flat-soft);color:var(--flat)} .st.red{background:var(--down-soft);color:var(--down)}
+.cal{list-style:none;margin:0;padding:0;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.cal li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:4px 14px;padding:10px 16px;border-bottom:1px solid var(--grid)}
+.cal li:last-child{border-bottom:0}
+.cal .d{font-family:var(--font-m);font-size:13px;font-weight:600}
+.cal .d small{display:block;font-weight:400;color:var(--muted);font-family:var(--font-b)}
+.cal .e{font-weight:600;font-size:14px}
+.cal .w{font-size:13px;color:var(--ink2);margin:2px 0 0}
+.upd{font-size:12px;color:var(--muted)}
+td.wrap,th.wrap{white-space:normal;min-width:220px;text-align:left}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:12px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">PVTrans · Theo dõi thị trường vận tải biển</div>
+      <h1>Bản tin Vận tải biển PVT</h1>
+    </div>
+    <div class="meta">
+      <label for="day">Bản tin ngày</label>
+      <select id="day"></select>
+      <span id="asof"></span>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Mục lục">
+    <a href="#tinnong">Tin nóng</a><a href="#diemthesis">Bảng điểm thesis</a><a href="#lich">Lịch sự kiện</a><a href="#tomtat">Tóm tắt</a><a href="#chiso">Chỉ số Baltic</a><a href="#tuyen">Cước theo tuyến</a><a href="#dinhhan">Định hạn</a><a href="#kyhan">Kỳ hạn FFA</a><a href="#lpg">LPG</a><a href="#nhienlieu">Nhiên liệu</a><a href="#muaban">Mua bán tàu</a><a href="#cungtau">Cung tàu</a><a href="#donghang">Dòng hàng</a><a href="#quydinh">Quy định</a><a href="#vietnam">Việt Nam</a><a href="#nganh">Cùng ngành</a><a href="#tintuc">Phân tích</a>
+  </nav>
+  <div id="err" class="warn" hidden></div>
+
+  <section id="tinnong">
+    <div class="sec-head"><h2>Tin nóng</h2><p id="hlNote">Xếp theo mức tác động lên giá cước. Mũi tên: hướng tác động lên cước của phân khúc liên quan</p></div>
+    <ol class="hl" id="hl"></ol>
+  </section>
+
+
+  <section id="diemthesis">
+    <div class="sec-head"><h2>Bảng điểm thesis</h2><p>Xanh: củng cố luận điểm đầu tư PVT · Vàng: cần theo dõi · Đỏ: bào mòn luận điểm</p></div>
+    <div class="score-sum" id="scoreSum"></div>
+    <div class="score" id="score"></div>
+  </section>
+
+  <section id="lich">
+    <div class="sec-head"><h2>Lịch sự kiện</h2><p>7 ngày tới và các mốc lớn phía trước</p></div>
+    <ul class="cal" id="cal"></ul>
+  </section>
+
+  <section id="tomtat">
+    <div class="sec-head"><h2>Tóm tắt thị trường</h2></div>
+    <p class="headline" id="headline"></p>
+    <ul class="summary" id="summary"></ul>
+    <div class="sec-head"><h2>Tác động theo phân khúc đội tàu PVT</h2></div>
+    <div class="segs" id="segs"></div>
+  </section>
+
+  <section id="chiso">
+    <div class="sec-head">
+      <h2>Chỉ số cước Baltic</h2>
+      <p>Phân vị 5N: giá trị hiện tại cao hơn bao nhiêu % số phiên trong 5 năm qua</p>
+    </div>
+    <div class="tbl-wrap"><table id="idxTable"></table></div>
+    <div class="sec-head">
+      <h3>Biểu đồ theo ngày (đường đứt: trung bình 5 năm)</h3>
+      <div class="ranges" id="ranges" role="group" aria-label="Khoảng thời gian"></div>
+    </div>
+    <div class="grid" id="idxCharts"></div>
+    <details class="secondary"><summary>Capesize, Panamax và BDI tổng (tham khảo)</summary><div class="grid" id="idxCharts2"></div></details>
+  </section>
+
+
+  <section id="tuyen">
+    <div class="sec-head"><h2>Cước theo tuyến</h2><p class="upd" id="routesUpd"></p></div>
+    <div class="tbl-wrap"><table id="routes"></table></div>
+  </section>
+
+  <section id="dinhhan">
+    <div class="sec-head"><h2>Cước thuê định hạn (time charter, $/ngày)</h2><p>Ước tính hằng tuần của môi giới. PVT cho thuê định hạn khoảng 80% đội tàu</p></div>
+    <div class="tbl-wrap"><table id="tcTable"></table></div>
+    <div class="grid" id="tcCharts"></div>
+    <div class="sec-head"><h3>Hợp đồng định hạn thực tế được công bố</h3><p class="upd" id="periodUpd"></p></div>
+    <div class="tbl-wrap"><table id="period"></table></div>
+  </section>
+
+  <section id="kyhan">
+    <div class="sec-head"><h2>Đường cong cước kỳ hạn (FFA)</h2><p>Giá thị trường đang đặt cược cho từng tháng tới, $/ngày. Đường nhạt: ảnh chụp kỳ trước</p></div>
+    <div class="tbl-wrap"><table id="fwdTable"></table></div>
+    <div class="grid" id="fwdCharts"></div>
+  </section>
+
+  <section id="lpg">
+    <div class="sec-head"><h2>LPG</h2><p>PVT có 22 tàu LPG: 2 VLGC và 20 tàu cỡ nhỏ. Không có chỉ số công khai cho tàu dưới 10.000 cbm; Handy 22k cbm là cỡ gần nhất</p></div>
+    <div class="grid" id="lpgCharts"></div>
+    <div class="tbl-wrap" id="lpgNotesWrap"><table id="lpgNotes"></table></div>
+  </section>
+
+  <section id="nhienlieu">
+    <div class="sec-head"><h2>Nhiên liệu và chi phí</h2><p>USD/tấn. Với tàu cho thuê định hạn, người thuê trả nhiên liệu; với tàu chạy chuyến, nhiên liệu trừ thẳng vào lãi</p></div>
+    <div class="tbl-wrap"><table id="bunkerTable"></table></div>
+    <div class="grid" id="bunkerCharts"></div>
+  </section>
+
+  <section id="muaban">
+    <div class="sec-head"><h2>Mua bán tàu</h2><p>Giao dịch tàu cũ gần nhất ở các cỡ PVT khai thác: so sánh trực tiếp với giá PVT mua tàu</p></div>
+    <p class="upd" id="snpUpd"></p>
+    <div class="tbl-wrap"><table id="snp"></table></div>
+    <div class="sec-head"><h3>Chỉ số giá tàu cũ và đóng mới (triệu USD)</h3><p>Nguồn cập nhật thưa, cần đối chiếu với giao dịch thực tế ở bảng trên</p></div>
+    <div class="grid" id="valCharts"></div>
+    <div class="sec-head"><h3>Giá phá dỡ ($/LDT)</h3><p>Mức sàn giá trị cho tàu già. Đội tàu PVT bình quân khoảng 17 tuổi</p></div>
+    <div class="grid" id="scrapCharts"></div>
+  </section>
+
+  <section id="cungtau">
+    <div class="sec-head"><h2>Cung tàu: orderbook, giao tàu, phá dỡ</h2><p class="upd" id="supplyUpd"></p></div>
+    <div class="tbl-wrap"><table id="supply"></table></div>
+  </section>
+
+  <section id="donghang">
+    <div class="sec-head"><h2>Dòng hàng, biên lọc dầu và hiệu suất đội tàu</h2><p class="upd" id="flowsUpd"></p></div>
+    <div class="tbl-wrap"><table id="flows"></table></div>
+    <div class="sec-head"><h3>Điểm nghẽn hàng hải: lượt tàu dầu/ngày</h3><p>Trung bình 7 ngày, IMF PortWatch (dữ liệu AIS, trễ vài ngày)</p></div>
+    <div class="tbl-wrap"><table id="chTable"></table></div>
+    <div class="grid" id="chCharts"></div>
+    <div class="sec-head"><h3>Lượt tàu dầu ghé cảng xuất khẩu chính</h3><p>Trung bình 30 ngày so với năm 2023, IMF PortWatch (trễ khoảng 1 tháng)</p></div>
+    <div class="tbl-wrap"><table id="ports"></table></div>
+    <div class="grid" id="flowCharts"></div>
+  </section>
+
+  <section id="quydinh">
+    <div class="sec-head"><h2>Quy định và môi trường</h2></div>
+    <div class="cards" id="reg"></div>
+  </section>
+
+  <section id="vietnam">
+    <div class="sec-head"><h2>Việt Nam</h2><p>Nguồn hàng nội địa, nhà máy lọc dầu, thời tiết, cổ phiếu cùng ngành</p></div>
+    <div class="cards" id="vn"></div>
+  </section>
+
+  <section id="nganh">
+    <div class="sec-head"><h2>Tín hiệu từ doanh nghiệp cùng ngành</h2><p>Tỷ lệ ngày tàu đã ký trước và giá: cách sớm nhất để biết cước quý tới</p></div>
+    <div class="tbl-wrap"><table id="peers"></table></div>
+  </section>
+
+  <section id="tintuc">
+    <div class="sec-head"><h2>Phân tích chi tiết</h2><p>Các chủ đề lớn ảnh hưởng trung hạn đến thesis PVT</p></div>
+    <div class="news" id="news"></div>
+    <div class="two">
+      <div class="box"><h3>Cần theo dõi</h3><ul id="watch"></ul></div>
+      <div class="box"><h3>Giới hạn dữ liệu</h3><ul id="gaps"></ul></div>
+    </div>
+  </section>
+
+  <footer>
+    <div><strong>Nguồn số liệu:</strong> chỉ số Baltic, giá định hạn (Fearnleys/Alibra), giá tàu và lượt tàu qua điểm nghẽn (IMF PortWatch) lấy từ kho dữ liệu công khai <a href="https://github.com/yieldchaser/Shipping" target="_blank" rel="noopener">yieldchaser/Shipping</a>, cập nhật hằng ngày; đã đối chiếu với <a href="https://en.stockq.org/market/global.php" target="_blank" rel="noopener">StockQ</a> và <a href="https://tradingeconomics.com/commodity/baltic" target="_blank" rel="noopener">Trading Economics</a>. Tin tức: Baltic Exchange, Hellenic Shipping News, Splash247, Teekay, ICIS, NOAA, BIMCO, Reuters và báo chí ngành.</div>
+    <div id="built"></div>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/uplot@1.6.30/dist/uPlot.iife.min.js"></script>
+<script src="data.js"></script>
+<script src="reports.js"></script>
+<script>
+(function(){
+const S = window.SHIP, R = (window.REPORTS||[]).slice().sort((a,b)=>b.date.localeCompare(a.date));
+const $ = id => document.getElementById(id);
+const fmt = (v,d=0) => v==null||isNaN(v) ? "—" : Number(v).toLocaleString("vi-VN",{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct = v => v==null ? '<span class="sub">—</span>' : `<span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${fmt(v,1)}%</span>`;
+const dvn = s => { if(!s) return "—"; const [y,m,d]=s.split("-"); return `${d}/${m}/${y}`; };
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+if(!S || !window.uPlot){ $("err").hidden=false; $("err").textContent = !S ? "Không tải được dữ liệu (data.js)." : "Không tải được thư viện biểu đồ. Bảng số liệu vẫn hiển thị."; }
+
+/* ---------- report ---------- */
+const sigLabel = {up:"Tích cực",down:"Tiêu cực",flat:"Đi ngang",na:"Thiếu dữ liệu"};
+function renderReport(i){
+  const r = R[i]; if(!r) return;
+  const dirLabel={up:"▲ Cước tăng",down:"▼ Cước giảm",mixed:"◆ Hai chiều"};
+  const hl=r.headlines||[];
+  $("tinnong").hidden=!hl.length;
+  $("hl").innerHTML = hl.map(h=>`<li><div class="when">${esc(h.when||"")}</div><div class="body"><div class="t"><span class="k">${esc(h.tag)}</span>${esc(h.title)}</div><p class="why">${esc(h.impact)}</p><div class="foot">${(h.segs||[]).map(s=>`<span class="seg-chip">${esc(s)}</span>`).join("")}${(h.src||[]).map(s=>`<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`).join("")}</div></div><span class="dir ${esc(h.dir)}">${dirLabel[h.dir]||""}</span></li>`).join("");
+  $("headline").textContent = r.headline;
+  $("summary").innerHTML = r.summary.map(s=>`<li>${esc(s)}</li>`).join("");
+  $("segs").innerHTML = r.pvt.map(p=>`<div class="seg"><div class="row"><h3>${esc(p.seg)}</h3><span class="pill ${p.signal}">${sigLabel[p.signal]||p.signal}</span></div><p>${esc(p.text)}</p></div>`).join("");
+  $("news").innerHTML = r.news.map(n=>`<article class="item"><span class="tag">${esc(n.tag)}</span><h3>${esc(n.title)}</h3><p>${esc(n.text)}</p><p class="impact"><strong>Với PVT:</strong> ${esc(n.impact)}</p><div class="srcs">${(n.src||[]).map(s=>`<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`).join("")}</div></article>`).join("");
+  $("watch").innerHTML = (r.watch||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  $("gaps").innerHTML = (r.gaps||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  try{ renderExtras(i); }catch(e){ console.error(e); }
+  $("asof").innerHTML = `Số liệu chốt phiên <span class="num">${dvn(r.dataAsOf)}</span>`;
+}
+
+const stLabel={green:"Xanh",yellow:"Vàng",red:"Đỏ"};
+function pickFrom(i,key){ for(let j=i;j<R.length;j++){ const v=R[j][key]; if(v && (Array.isArray(v)?v.length:Object.keys(v).length)) return {v, date:R[j].date, carried:j!==i}; } return null; }
+function updNote(id,p,label){ const el=$(id); if(!el) return; el.textContent = p? `${label||"Cập nhật trong bản tin"} ${dvn(p.date)}${p.carried?" · chưa có số mới, giữ từ bản tin trước":""}` : "Chưa có dữ liệu"; }
+const srcCell = r => (r.src||[]).map(s=>`<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`).join("<br>") || "—";
+function tbl(id, cols, rows){
+  const el=$(id); if(!el) return;
+  if(!rows||!rows.length){ el.innerHTML=`<tbody><tr><td class="l">Chưa có dữ liệu</td></tr></tbody>`; return; }
+  el.innerHTML = `<thead><tr>${cols.map(c=>`<th class="${c.cls||''}">${c.h}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${cols.map(c=>`<td class="${c.cls||''}">${c.f?c.f(r):esc(r[c.k]??"—")}</td>`).join("")}</tr>`).join("")}</tbody>`;
+}
+function cards(id, rows){
+  const el=$(id); if(!el) return;
+  el.innerHTML = (rows||[]).map(n=>`<article class="item">${n.tag?`<span class="tag">${esc(n.tag)}</span>`:""}<h3>${esc(n.title)}</h3><p>${esc(n.text)}</p>${n.impact?`<p class="impact"><strong>Với PVT:</strong> ${esc(n.impact)}</p>`:""}${(n.src||[]).length?`<div class="srcs">${srcCell(n)}</div>`:""}</article>`).join("") || `<p class="upd">Chưa có dữ liệu</p>`;
+}
+function renderExtras(i){
+  const r=R[i];
+  // scorecard
+  const man=pickFrom(i,"scoreManual");
+  const items=(S&&S.score?S.score:[]).concat(man?man.v:[]);
+  const cnt={green:0,yellow:0,red:0}; items.forEach(x=>cnt[x.status]=(cnt[x.status]||0)+1);
+  $("scoreSum").innerHTML = `<span class="st green">${cnt.green} xanh</span><span class="st yellow">${cnt.yellow} vàng</span><span class="st red">${cnt.red} đỏ</span><span>trên ${items.length} chỉ báo · chỉ báo số liệu tự tính hằng ngày, chỉ báo định tính cập nhật theo tin tức</span>`;
+  const order={red:0,yellow:1,green:2};
+  $("score").innerHTML = items.slice().sort((a,b)=>order[a.status]-order[b.status]).map(x=>{
+    const v = typeof x.value==="number" ? `${x.unit==="%"&&x.value>0&&!/phân vị/.test(x.name)?"+":""}${fmt(x.value, Math.abs(x.value)<100&&x.value%1?1:0)}${x.unit==="%"?"%":" "+esc(x.unit||"")}` : esc(x.value);
+    return `<div class="sc ${x.status}"><div class="top"><div class="nm">${esc(x.name)}</div><span class="st ${x.status}">${stLabel[x.status]}</span></div><div class="val">${v}</div><div class="rule">${esc(x.rule||"")}${x.asof?` · ${x.auto?"số liệu":"cập nhật"} ${dvn(x.asof)}`:""}</div><p class="why">${esc(x.why||"")}</p>${x.src?`<div class="srcs">${srcCell(x)}</div>`:""}</div>`;}).join("");
+  // calendar
+  const cal=pickFrom(i,"calendar");
+  const today=r.date;
+  const evs=(cal?cal.v:[]).filter(e=>(e.end||e.date)>=today).sort((a,b)=>a.date.localeCompare(b.date));
+  const wd=["CN","T2","T3","T4","T5","T6","T7"];
+  $("cal").innerHTML = evs.map(e=>{const dt=new Date(e.date+"T00:00:00"); return `<li><div class="d">${dvn(e.date).slice(0,5)}${e.end?"–"+dvn(e.end).slice(0,5):""}<small>${e.tentative?"dự kiến":wd[dt.getDay()]}</small></div><div><div class="e">${esc(e.event)}</div><p class="w">${esc(e.why||"")}</p></div></li>`;}).join("") || `<li><div></div><div class="w">Chưa có sự kiện</div></li>`;
+  // routes
+  const rt=pickFrom(i,"routes"); updNote("routesUpd",rt);
+  tbl("routes",[{h:"Tuyến",cls:"l",f:x=>`<strong>${esc(x.route)}</strong><span class="sub">${esc(x.desc||"")}</span>`},{h:"Cỡ tàu",cls:"l",k:"seg"},{h:"WS / giá",cls:"num",k:"ws"},{h:"TCE $/ngày",cls:"num",f:x=>`<strong>${fmt(x.tce)}</strong>`},{h:"Ngày",cls:"num",f:x=>dvn(x.date).slice(0,5)},{h:"Liên quan PVT",cls:"wrap",k:"note"},{h:"Nguồn",cls:"l",f:srcCell}], rt?rt.v:[]);
+  // period fixtures
+  const pf=pickFrom(i,"period"); updNote("periodUpd",pf);
+  tbl("period",[{h:"Tàu / cỡ",cls:"l",f:x=>`<strong>${esc(x.vessel)}</strong><span class="sub">${esc(x.type||"")}</span>`},{h:"Giá $/ngày",cls:"num",f:x=>`<strong>${esc(x.rate)}</strong>`},{h:"Kỳ hạn",cls:"l",k:"period"},{h:"Bắt đầu / ngày tin",cls:"l",k:"when"},{h:"Ghi chú",cls:"wrap",k:"note"},{h:"Nguồn",cls:"l",f:srcCell}], pf?pf.v:[]);
+  // S&P
+  const sp=pickFrom(i,"snp"); updNote("snpUpd",sp);
+  tbl("snp",[{h:"Tàu",cls:"l",f:x=>`<strong>${esc(x.vessel)}</strong><span class="sub">${esc(x.type)}</span>`},{h:"DWT",cls:"num",f:x=>fmt(x.dwt)},{h:"Năm đóng / nơi đóng",cls:"l",f:x=>`${esc(x.built)}<span class="sub">${esc(x.yard||"")}</span>`},{h:"Tuổi",cls:"num",f:x=>x.built?String(2026-parseInt(x.built)):"—"},{h:"Giá (tr. USD)",cls:"num",f:x=>`<strong>${esc(x.price)}</strong>`},{h:"Người mua",cls:"l",k:"buyer"},{h:"Ý nghĩa với PVT",cls:"wrap",k:"note"},{h:"Nguồn",cls:"l",f:srcCell}], sp?sp.v:[]);
+  // supply
+  const su=pickFrom(i,"supply"); updNote("supplyUpd",su);
+  tbl("supply",[{h:"Phân khúc / chỉ số",cls:"l",f:x=>`<strong>${esc(x.topic)}</strong>`},{h:"Số liệu",cls:"wrap",k:"value"},{h:"Ý nghĩa với PVT",cls:"wrap",k:"note"},{h:"Nguồn",cls:"l",f:srcCell}], su?su.v:[]);
+  // flows
+  const fl=pickFrom(i,"flows"); updNote("flowsUpd",fl);
+  tbl("flows",[{h:"Chủ đề",cls:"l",f:x=>`<strong>${esc(x.topic)}</strong>`},{h:"Số liệu",cls:"wrap",k:"value"},{h:"Ý nghĩa với PVT",cls:"wrap",k:"note"},{h:"Nguồn",cls:"l",f:srcCell}], fl?fl.v:[]);
+  const ln=pickFrom(i,"lpg");
+  tbl("lpgNotes",[{h:"Chủ đề",cls:"l",f:x=>`<strong>${esc(x.topic)}</strong>`},{h:"Số liệu",cls:"wrap",k:"value"},{h:"Ý nghĩa với PVT",cls:"wrap",k:"note"},{h:"Nguồn",cls:"l",f:srcCell}], ln?ln.v:[]);
+  const rg=pickFrom(i,"regulation"); cards("reg", rg?rg.v:[]);
+  const vn=pickFrom(i,"vietnam"); cards("vn", vn?vn.v:[]);
+  const pe=pickFrom(i,"peers");
+  tbl("peers",[{h:"Doanh nghiệp",cls:"l",f:x=>`<strong>${esc(x.company)}</strong><span class="sub">${esc(x.seg||"")}</span>`},{h:"Số liệu công bố",cls:"wrap",k:"data"},{h:"Đọc tín hiệu",cls:"wrap",k:"read"},{h:"Nguồn",cls:"l",f:srcCell}], pe?pe.v:[]);
+}
+$("day").innerHTML = R.map((r,i)=>`<option value="${i}">${dvn(r.date)}</option>`).join("");
+$("day").addEventListener("change", e=>renderReport(+e.target.value));
+renderReport(0);
+if(S) $("built").textContent = `Dữ liệu dựng lúc ${S.built.replace("T"," ").replace("Z"," UTC")}.`;
+if(!S) return;
+
+/* ---------- tables ---------- */
+const PRIMARY=["BSI","BHSI","BDTI","BCTI"], SECOND=["BDI","BCI","BPI"];
+const I=S.indices;
+$("idxTable").innerHTML = `<thead><tr><th>Chỉ số</th><th class="l">Liên quan PVT</th><th>Phiên</th><th>Giá trị</th><th>1 ngày</th><th>1 tuần</th><th>1 tháng</th><th>Từ đầu năm</th><th>1 năm</th><th>Phân vị 5N</th><th>TB 5N</th></tr></thead><tbody>`+
+  PRIMARY.concat(SECOND).filter(k=>I[k]).map(k=>{const s=I[k].stats; return `<tr><td><strong>${k}</strong><span class="sub">${esc(I[k].name)}</span></td><td class="l">${esc(I[k].rel)}</td><td class="num">${dvn(s.date).slice(0,5)}</td><td class="num"><strong>${fmt(s.last)}</strong></td><td class="num">${pct(s.d1)}</td><td class="num">${pct(s.w1)}</td><td class="num">${pct(s.m1)}</td><td class="num">${pct(s.ytd)}</td><td class="num">${pct(s.y1)}</td><td class="num"><span class="pbar"><i><b style="width:${s.pctl5y}%"></b></i>${fmt(s.pctl5y,0)}%</span></td><td class="num">${fmt(s.avg5y)}</td></tr>`}).join("")+"</tbody>";
+
+const TCK=[["aframax_1y","aframax_3y"],["mr_1y","mr_3y"],["lr2_1y"],["handytanker_1y"],["supramax_1y_avg","supramax_2y_avg"],["handysize_1y_avg","handysize_2y_avg"]].flat().filter(k=>S.tc[k]);
+const tcAvg5 = k=>{const t=S.tc[k]; const cut=new Date(t.d[t.d.length-1]); cut.setFullYear(cut.getFullYear()-5); let s=0,n=0; t.d.forEach((d,i)=>{if(new Date(d)>=cut){s+=t.v[i];n++;}}); return n?s/n:null;};
+$("tcTable").innerHTML = `<thead><tr><th>Loại / kỳ hạn</th><th>Ngày</th><th>$/ngày</th><th>1 tháng</th><th>1 năm</th><th>TB 5N</th><th>Phân vị 5N</th></tr></thead><tbody>`+
+  TCK.map(k=>{const t=S.tc[k], s=t.stats; return `<tr><td>${esc(t.name)}</td><td class="num">${dvn(s.date)}</td><td class="num"><strong>${fmt(s.last)}</strong></td><td class="num">${pct(s.m1)}</td><td class="num">${pct(s.y1)}</td><td class="num">${fmt(s.avg5y)}</td><td class="num"><span class="pbar"><i><b style="width:${s.pctl5y}%"></b></i>${fmt(s.pctl5y,0)}%</span></td></tr>`}).join("")+"</tbody>";
+
+const CHN=["Strait of Hormuz","Bab el-Mandeb Strait","Suez Canal","Cape of Good Hope","Malacca Strait","Panama Canal"];
+const CHVN={"Strait of Hormuz":"Eo Hormuz","Bab el-Mandeb Strait":"Bab el-Mandeb","Suez Canal":"Kênh Suez","Cape of Good Hope":"Mũi Hảo Vọng","Malacca Strait":"Eo Malacca","Panama Canal":"Kênh Panama"};
+$("chTable").innerHTML = `<thead><tr><th>Tuyến</th><th>Đến ngày</th><th>Tàu dầu/ngày (TB7)</th><th>TB năm 2023</th><th>So với 2023</th><th>Tổng tàu/ngày (TB7)</th></tr></thead><tbody>`+
+  CHN.filter(p=>S.choke[p]).map(p=>{const c=S.choke[p], t=c.tanker; const ch=t.avg2023? (t.last7/t.avg2023-1)*100:null; return `<tr><td>${CHVN[p]}</td><td class="num">${dvn(t.date)}</td><td class="num"><strong>${fmt(t.last7,1)}</strong></td><td class="num">${fmt(t.avg2023,1)}</td><td class="num">${pct(ch)}</td><td class="num">${fmt(c.total.last7,1)}</td></tr>`}).join("")+"</tbody>";
+
+
+/* ---------- data tables: FFA, bunker, ports ---------- */
+const F=S.fwd||{};
+const nextM = c => c.v.length>1 ? c.v[1] : c.v[0];
+tbl("fwdTable",[{h:"Hợp đồng",cls:"l",f:x=>`<strong>${esc(x.k)}</strong><span class="sub">ảnh chụp ${dvn(x.f.cur.asof)}</span>`},
+  {h:"Tháng tới",cls:"num",f:x=>`<strong>${fmt(nextM(x.f.cur))}</strong><span class="sub">${x.f.cur.m[1]||x.f.cur.m[0]}</span>`},
+  {h:"Bình quân 2027",cls:"num",f:x=>`<strong>${fmt(x.f.cal["2027"])}</strong>`},
+  {h:"2027 so với tháng tới",cls:"num",f:x=>x.f.cal["2027"]?pct((x.f.cal["2027"]/nextM(x.f.cur)-1)*100):"—"},
+  {h:"Kỳ trước: tháng tới",cls:"num",f:x=>x.f.prev?`${fmt(nextM(x.f.prev))}<span class="sub">${dvn(x.f.prev.asof)}</span>`:"—"},
+  {h:"Tháng xa nhất",cls:"num",f:x=>`${fmt(x.f.cur.v[x.f.cur.v.length-1])}<span class="sub">${x.f.cur.m[x.f.cur.m.length-1]}</span>`}],
+  Object.keys(F).map(k=>({k,f:F[k]})));
+const B=S.bunker||{}, M=S.misc||{};
+const bRows=Object.keys(B).map(k=>({k,unit:"USD/tấn",s:B[k].stats})).concat(M.EUA?[{k:"Tín chỉ carbon EU (EUA)",unit:"EUR/tấn CO₂",s:M.EUA.stats}]:[]).concat(M["Hi5 Singapore"]?[{k:"Chênh HSFO–VLSFO (Hi5) Singapore",unit:"USD/tấn",s:M["Hi5 Singapore"].stats}]:[]);
+tbl("bunkerTable",[{h:"Loại",cls:"l",f:x=>`<strong>${esc(x.k)}</strong><span class="sub">${esc(x.unit)}</span>`},{h:"Ngày",cls:"num",f:x=>dvn(x.s.date)},{h:"Giá",cls:"num",f:x=>`<strong>${fmt(x.s.last,1)}</strong>`},{h:"1 tuần",cls:"num",f:x=>pct(x.s.w1)},{h:"1 tháng",cls:"num",f:x=>pct(x.s.m1)},{h:"1 năm",cls:"num",f:x=>pct(x.s.y1)}], bRows);
+const P=S.ports||{};
+tbl("ports",[{h:"Cảng",cls:"l",f:x=>`<strong>${esc(x.k)}</strong>`},{h:"Đến ngày",cls:"num",f:x=>dvn(x.p.date)},{h:"Lượt tàu dầu/ngày (TB30)",cls:"num",f:x=>`<strong>${fmt(x.p.calls30,1)}</strong>`},{h:"TB năm 2023",cls:"num",f:x=>fmt(x.p.calls2023,1)},{h:"So với 2023",cls:"num",f:x=>x.p.calls2023?pct((x.p.calls30/x.p.calls2023-1)*100):"—"}],
+  Object.keys(P).map(k=>({k,p:P[k]})));
+const IM=(S.misc||{}).intermodal;
+if(IM){ const tr=document.createElement("p"); tr.className="upd"; tr.textContent=`Đối chiếu Intermodal (${dvn(IM.date)}): Aframax 1 năm ${fmt(IM.aframax_1y_tc)} · MR 1 năm ${fmt(IM.mr_1y_tc)} · MR 3 năm ${fmt(IM.mr_3y_tc)} · Handy tanker 1 năm ${fmt(IM.handy_tanker_1y_tc)} · Supramax 1 năm ${fmt(IM.supramax_1y_tc)} · Handysize 1 năm ${fmt(IM.handysize_1y_tc)} $/ngày.`; $("tcTable").closest(".tbl-wrap").after(tr); }
+
+/* ---------- charts ---------- */
+if(!window.uPlot) return;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const toTs = d => Date.parse(d+"T00:00:00Z")/1000;
+const RANGES=[["3T",92],["1N",365],["3N",1096],["5N",1827],["Tất cả",0]];
+let range=1827; try{const raw=localStorage.getItem("pvt_range"); const r=raw===null?-1:+raw; if(r>=0 && RANGES.some(x=>x[1]===r)) range=r;}catch(e){}
+$("ranges").innerHTML = RANGES.map(([l,d])=>`<button type="button" data-d="${d}" aria-pressed="${d===range}">${l}</button>`).join("");
+$("ranges").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b) return; range=+b.dataset.d; try{localStorage.setItem("pvt_range",range)}catch(e){} $("ranges").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b)); drawAll();});
+
+const charts=[]; let jobs=[];
+function build(el, specs, opt={}){ jobs.push(()=>make(el,specs,opt)); }
+function showLast(u){ const n=u.data[0].length; if(n) try{u.setLegend({idx:n-1});}catch(e){} }
+function widthOf(el){ const w=el.clientWidth; if(w>0) return w; const ref=$("idxCharts").querySelector(".chart"); return ref&&ref.clientWidth>0?ref.clientWidth:320; }
+function make(el, specs, opt){
+  const xsSet=new Set(); specs.forEach(s=>s.d.forEach(d=>xsSet.add(d)));
+  let xs=[...xsSet].sort();
+  if(opt.range){ const last=xs[xs.length-1]; const cut=new Date(last); cut.setDate(cut.getDate()-opt.range); const c=cut.toISOString().slice(0,10); xs=xs.filter(d=>d>=c); }
+  const ys=specs.map(s=>{const m=new Map(s.d.map((d,i)=>[d,s.v[i]])); return xs.map(d=>m.has(d)?m.get(d):null);});
+  if(opt.avg!=null){ ys.push(xs.map(()=>opt.avg)); }
+  const data=[xs.map(toTs), ...ys];
+  const ink2=css("--ink2"), grid=css("--grid"), muted=css("--muted");
+  const dec=opt.dec||0;
+  const series=[{label:"Ngày",value:(u,v)=>v==null?"":dvn(new Date(v*1000).toISOString().slice(0,10))}].concat(specs.map(s=>({label:s.label,stroke:css(s.color||"--s1"),width:s.w||2,dash:s.dash,spanGaps:true,points:{show:!!s.pts,size:5},value:(u,v)=>v==null?"—":fmt(v,dec)})));
+  if(opt.avg!=null) series.push({label:"TB 5 năm",stroke:muted,width:1,dash:[5,4],points:{show:false},value:()=>fmt(opt.avg,0)});
+  const u=new uPlot({width:widthOf(el),height:opt.h||210,series,
+    legend:{live:true},
+    cursor:{y:false,points:{size:7}},
+    hooks:{ready:[showLast],setCursor:[u=>{if(u.cursor.idx==null) showLast(u);}]},
+    scales:{x:{time:true}},
+    axes:[{stroke:ink2,grid:{show:false},ticks:{stroke:grid},font:"11px "+css("--font-m"),space:70},
+          {stroke:ink2,grid:{stroke:grid,width:1},ticks:{show:false},size:56,font:"11px "+css("--font-m"),values:(u,vals)=>vals.map(v=>Math.abs(v)>=10000?fmt(v/1000,0)+"k":fmt(v,Math.abs(v)<100&&v%1?1:0))}]
+  }, data, el);
+  charts.push({u,el});
+}
+function card(container, title, sub, big, note){
+  const c=document.createElement("div"); c.className="card";
+  c.innerHTML=`<div class="ttl"><div><h3>${esc(title)}</h3><div class="note">${esc(sub)}</div></div>${big?`<div class="big num">${big}</div>`:""}</div><div class="chart"></div>${note?`<div class="note">${note}</div>`:""}`;
+  container.appendChild(c); return c.querySelector(".chart");
+}
+const ro=new ResizeObserver(entries=>{ for(const e of entries){ const c=charts.find(x=>x.el===e.target); const w=Math.floor(e.contentRect.width); if(c && w>0 && Math.abs(w-c.u.width)>1) c.u.setSize({width:w,height:c.u.height}); } });
+function drawAll(){
+  charts.forEach(c=>{ro.unobserve(c.el); c.u.destroy();}); charts.length=0; jobs=[];
+  ["idxCharts","idxCharts2","tcCharts","chCharts","valCharts","fwdCharts","lpgCharts","bunkerCharts","scrapCharts","flowCharts"].forEach(id=>$(id).innerHTML="");
+  const one=(cont,k)=>{const x=I[k]; if(!x) return; const s=x.stats;
+    const el=card(cont,`${k} · ${x.name}`,x.rel,fmt(s.last),`${pct(s.d1)} ngày · ${pct(s.w1)} tuần · phiên ${dvn(s.date)}`);
+    build(el,[{label:k,d:x.d,v:x.v,color:"--s1"}],{range,avg:s.avg5y});};
+  PRIMARY.forEach(k=>one($("idxCharts"),k)); SECOND.forEach(k=>one($("idxCharts2"),k));
+  const tcCh=(title,keys)=>{const ks=keys.filter(k=>S.tc[k]); if(!ks.length) return; const el=card($("tcCharts"),title,"Ước tính định hạn, $/ngày");
+    build(el,ks.map((k,i)=>({label:S.tc[k].name,d:S.tc[k].d,v:S.tc[k].v,color:["--s1","--s2","--s3"][i]})),{range:range||0});};
+  tcCh("Tàu dầu",["aframax_1y","mr_1y","mr_3y"]);
+  tcCh("Hàng rời",["supramax_1y_avg","handysize_1y_avg","supramax_2y_avg"]);
+  const chCh=(title,ps)=>{const el=card($("chCharts"),title,"Lượt tàu dầu/ngày, trung bình 7 ngày");
+    build(el,ps.filter(p=>S.choke[p]).map((p,i)=>({label:CHVN[p],d:S.choke[p].tanker.d,v:S.choke[p].tanker.v,color:["--s1","--s2","--s3"][i]})),{range:range||0,dec:1});};
+  chCh("Trung Đông và tuyến vòng",["Strait of Hormuz","Bab el-Mandeb Strait","Cape of Good Hope"]);
+  chCh("Suez, Panama và Malacca",["Suez Canal","Panama Canal","Malacca Strait"]);
+  const valCh=(title,ks)=>{const k2=ks.filter(k=>S.val[k]); if(!k2.length) return; const el=card($("valCharts"),title,"Triệu USD");
+    build(el,k2.map((k,i)=>({label:k,d:S.val[k].d,v:S.val[k].v,color:["--s1","--s2","--s3"][i]})),{range:range||0,dec:1});};
+  valCh("Tàu dầu cũ",["Aframax/LR2 10 tuổi","MR 10 tuổi","MR 5 tuổi"]);
+  valCh("Hàng rời cũ 15 tuổi (đóng tại Nhật)",["Ultramax 15 tuổi (Nhật)","Handysize 15 tuổi (Nhật)"]);
+  valCh("Giá đóng mới",["Đóng mới Aframax","Đóng mới MR","Đóng mới Ultramax"]);
+
+  ["fwdCharts","lpgCharts","bunkerCharts","scrapCharts","flowCharts"].forEach(id=>$(id).innerHTML="");
+  const mts = m => m.length===7? m+"-01" : m;
+  Object.keys(F).forEach(k=>{ const f=F[k]; const el=card($("fwdCharts"),k,`Đường cong kỳ hạn, $/ngày · bình quân 2027: ${fmt(f.cal["2027"])}${(f.cur.dropped||[]).length?` · đã bỏ điểm dữ liệu lỗi: ${f.cur.dropped.join(", ")}`:""}`);
+    const specs=[{label:`Ngày ${dvn(f.cur.asof).slice(0,5)}`,d:f.cur.m.map(mts),v:f.cur.v,color:"--s1",pts:true}];
+    if(f.prev) specs.push({label:`Ngày ${dvn(f.prev.asof).slice(0,5)}`,d:f.prev.m.map(mts),v:f.prev.v,color:"--muted",dash:[5,4],w:1.5});
+    build(el,specs,{}); });
+  const L=S.lpg||{};
+  if(L.BLPG){ const el=card($("lpgCharts"),"Baltic LPG (VLGC)","Chỉ số, theo ngày",fmt(L.BLPG.stats.last),`${pct(L.BLPG.stats.d1)} ngày · ${pct(L.BLPG.stats.w1)} tuần · phiên ${dvn(L.BLPG.stats.date)}`); build(el,[{label:"BLPG",d:L.BLPG.d,v:L.BLPG.v,color:"--s1"}],{range:range||0}); }
+  const lk=["VLGC 84k cbm, 1 năm","MGC 38k cbm, 1 năm","Handy LPG 22k cbm, 1 năm"].filter(k=>L[k]);
+  if(lk.length){ const el=card($("lpgCharts"),"Giá thuê định hạn tàu LPG","Nghìn USD/tháng, theo tuần"); build(el,lk.map((k,j)=>({label:k.replace(", 1 năm",""),d:L[k].d,v:L[k].v,color:["--s1","--s2","--s3"][j]})),{range:range||0}); }
+  const bk=["VLSFO Singapore","HSFO 380 Singapore","MGO Singapore"].filter(k=>B[k]);
+  if(bk.length){ const el=card($("bunkerCharts"),"Giá nhiên liệu tại Singapore","USD/tấn"); build(el,bk.map((k,j)=>({label:k.replace(" Singapore",""),d:B[k].d,v:B[k].v,color:["--s1","--s2","--s3"][j]})),{range:range||0}); }
+  if(M.EUA){ const el=card($("bunkerCharts"),"Tín chỉ carbon EU (EUA)","EUR/tấn CO₂ · áp cho tàu ghé cảng EU",fmt(M.EUA.stats.last,1)); build(el,[{label:"EUA",d:M.EUA.d,v:M.EUA.v,color:"--s1"}],{range:range||0,dec:1}); }
+  const SC=S.scrap||{}; const sk=["Tàu dầu – Bangladesh","Tàu dầu – Ấn Độ","Hàng rời – Bangladesh"].filter(k=>SC[k]);
+  if(sk.length){ const el=card($("scrapCharts"),"Giá phá dỡ theo nước","$/LDT"); build(el,sk.map((k,j)=>({label:k,d:SC[k].d,v:SC[k].v,color:["--s1","--s2","--s3"][j]})),{range:range||0}); }
+  const pk=["Mina Al Ahmadi (Kuwait)","Ras Tanura (Ả Rập Xê Út)","Fujairah (UAE)"].filter(k=>P[k]);
+  if(pk.length){ const el=card($("flowCharts"),"Lượt tàu dầu ghé cảng vùng Vịnh","Trung bình 30 ngày"); build(el,pk.map((k,j)=>({label:k,d:P[k].d,v:P[k].v,color:["--s1","--s2","--s3"][j]})),{range:range||0,dec:1}); }
+  if(M["US crude exports"]){ const u=M["US crude exports"]; const el=card($("flowCharts"),"Xuất khẩu dầu thô Mỹ","Nghìn thùng/ngày, TB 4 tuần (EIA)",fmt(u.stats.last)); build(el,[{label:"Xuất khẩu",d:u.d,v:u.v,color:"--s1"}],{range:range||0}); }
+  // all cards are in the DOM now, so every chart reads its own final width
+  jobs.forEach(f=>f()); jobs=[];
+  charts.forEach(c=>ro.observe(c.el));
+}
+drawAll();
+const mq=matchMedia("(prefers-color-scheme: dark)"); mq.addEventListener&&mq.addEventListener("change",drawAll);
+new MutationObserver(drawAll).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+})();
+</script>
+</body>
+</html>
