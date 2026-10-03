@@ -6,6 +6,7 @@ window.REPORTS = [
   "summary": [
    "Phiên thứ Sáu 2/10: BDTI 6.586 (+11,7% d/d, +22,7% w/w, kỷ lục mới), BCTI 2.414 (+0,1%). Fearnleys (30/9): Aframax tuyến Caribe → US Gulf WS 645, tăng 155 điểm trong tuần; định hạn 1 năm Aframax đời mới 79.000 $/ngày (đi ngang), VLCC 185.000 (−15.000), môi giới ghi nhận 'chốt lời' ở VLCC.",
    "Tin bất lợi cho luận điểm cước cao kéo dài: Kpler (qua CNBC) tính dầu thô qua Hormuz bình quân 7 ngày đạt 13,5 triệu thùng/ngày, bằng mức trước chiến tranh. Dầu sản phẩm chỉ 677.000 thùng/ngày so với 3,6 triệu trước chiến tranh. Dầu thô ra được nhờ tàu con thoi, chuyển tải ở vịnh Oman có hải quân Mỹ bảo vệ, và đường ống (khoảng 40% lượng dầu thô của vùng).",
+   "Cập nhật 03/10: hai tàu dầu nữa trúng đạn (một cách Oman 4 hải lý, một cháy nhỏ khi ra khỏi Hormuz); Trump bác đề xuất ngừng bắn 7 ngày của Iran. Brent 2/10: 103,37 USD lúc 9:15 ET (Fortune), chốt tuần 102,25 (EnergyNow); OPEC+ họp 4/10.",
    "Hệ thống thay thế này vẫn bị bắn: VLCC Kazimah III (Kuwait) trúng đạn và cháy ở Hormuz tối 1/10; cảng dầu Yanbu North (Ả Rập Xê Út) trúng đạn cùng ngày, tạm ngừng bốc hàng chỉ 3 ngày sau khi mở lại. Reuters: Ả Rập Xê Út chuẩn bị chiến dịch trên bộ đánh Houthi để lấy lại Bab el-Mandeb, từ nay đến đầu tháng 11.",
    "Dầu: Brent chốt tuần 102,25 USD (−0,06%), WTI 91,11 (−1,9%). G7 xả 100 triệu thùng dự trữ, ưu tiên diesel trong 20 ngày đầu; Trump tuyên bố không cấm xuất khẩu diesel. Mỹ–Iran: nguồn tin mâu thuẫn. ABC 33/40 (30/9–1/10) nói Mỹ gửi phản đề xuất ngừng bắn 7 ngày qua Qatar; GlobalSecurity (ngày 217, 2/10) và EA WorldView ghi Trump bác đề xuất 7 ngày của Iran là 'không thể chấp nhận' và yêu cầu phái đoàn Iran rời New York. Qatar vẫn trung gian; chưa có thỏa thuận.",
    "Hàng rời đi ngang: BDI 3.148 (+0,25%), BSI 1.789 (−5 điểm), BHSI 1.007 (−1 điểm). Hóa chất: Stolt Tankers báo TCE quý 3 là 24.121 $/ngày (−2,9% so với cùng kỳ), hợp đồng COA tái ký thấp hơn bình quân 8,3%, dự báo quý 4 yếu hơn một chút."
@@ -56,6 +57,28 @@ window.REPORTS = [
      {
       "t": "Fearnleys Weekly tuần 40, 30/09",
       "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/09/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     }
+    ]
+   },
+   {
+    "when": "03/10",
+    "tag": "Hormuz – an ninh",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "MR",
+     "LPG"
+    ],
+    "title": "Hai tàu dầu trúng đạn không rõ nguồn: một tàu dầu thô cách Oman 4 hải lý về phía đông, một tàu khác bị cháy nhỏ và mất điện khi ra khỏi Hormuz; Iran bị ghi nhận khoảng 30 máy bay không người lái và 10 tên lửa chống hạm mỗi tuần vào tàu thương mại từ đầu tháng 8",
+    "impact": "Hai nguồn (GlobalSecurity ngày 218, Iran International 2–3/10) khớp nhau về hai vụ trúng đạn; thủy thủ đoàn an toàn, không ghi nhận tràn dầu. Số vụ mỗi tuần là thống kê của Iran International, chưa đối chiếu độc lập. Tuần này vẫn chưa có thỏa thuận: Trump bác đề xuất 7 ngày của Iran và nói chiến sự có thể kết thúc \"ngay sau bầu cử giữa kỳ\" (3/11). Với PVT: duy trì phí rủi ro và cước cao cho Aframax/MR, nhưng đây là loại cước sẽ mất khi eo mở thật. Các nguồn lệch nhau về lưu lượng: CBS ước xuất khẩu dầu vùng Vịnh theo các tuyến thay thế 21,8 triệu thùng/ngày so với 23,3 trước chiến tranh, trong khi kết quả tìm kiếm khác nhắc Hormuz chỉ bằng 3% lưu lượng tàu trước chiến tranh (chưa mở được nguồn).",
+    "src": [
+     {
+      "t": "GlobalSecurity, Iran War Day 218, 03/10",
+      "u": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+     },
+     {
+      "t": "Iran International liveblog, 02–03/10",
+      "u": "https://www.iranintl.com/en/liveblog/202609269384"
      }
     ]
    },
@@ -199,7 +222,7 @@ window.REPORTS = [
      "Hóa chất"
     ],
     "title": "Stolt Tankers quý 3: TCE 24.121 $/ngày (−2,9% so với cùng kỳ); COA tái ký thấp hơn bình quân 8,3%; dự báo quý 4 yếu hơn một chút",
-    "impact": "Lợi nhuận hoạt động mảng tàu 52,1 triệu USD (cùng kỳ 57,2 triệu). Tỷ trọng COA tăng lên 60% (trước 50%). Ban lãnh đạo: cước hóa chất thường đi sau cước dầu, 'có dấu hiệu sớm' tăng lại vào quý 4; orderbook khoảng 17% đội tàu, 13% đội tàu đến tuổi loại bỏ trước 2028. Với PVT: hóa chất là mảng đóng góp lãi gộp lớn nhất (31% năm 2025) và 47% tàu nằm trong pool; đây là tin xấu rõ nhất hôm nay.",
+    "impact": "Giá spot của Stolt tăng 40,5% so với cùng kỳ nhưng chưa chuyển thành hợp đồng mới (slide quý 3, 01/10). Lợi nhuận hoạt động mảng tàu 52,1 triệu USD (cùng kỳ 57,2 triệu). Tỷ trọng COA tăng lên 60% (trước 50%). Ban lãnh đạo: cước hóa chất thường đi sau cước dầu, 'có dấu hiệu sớm' tăng lại vào quý 4; orderbook khoảng 17% đội tàu, 13% đội tàu đến tuổi loại bỏ trước 2028. Với PVT: hóa chất là mảng đóng góp lãi gộp lớn nhất (31% năm 2025) và 47% tàu nằm trong pool; đây là tin xấu rõ nhất hôm nay.",
     "src": [
      {
       "t": "Stolt-Nielsen qua Hellenic Shipping News, 02/10",
@@ -236,7 +259,7 @@ window.REPORTS = [
      "Handysize"
     ],
     "title": "BDI 3.148 (+0,25%); BSI 1.789 (−0,3%), BHSI 1.007 (−0,1%). Fearnleys hạ ước tính định hạn 1 năm: Supramax 18.000, Handysize 15.000 $/ngày",
-    "impact": "Capesize hồi nhẹ (BCI 5.042) nhưng BDI vẫn giảm 8,1% trong tuần. Supramax: US Gulf mạnh (US Gulf → Trung Quốc 32.906 $/ngày), Địa Trung Hải yếu. Ước tính định hạn 1 năm của Fearnleys giảm 500–1.000 $/ngày trong tuần, vẫn cao hơn mức PVT thu năm 2025 (Supramax 11.000–13.000; Handysize 9.000–12.000).",
+    "impact": "Capesize hồi nhẹ (BCI 5.042, thu nhập 42.228 $/ngày nhưng −12,8% trong tuần; Panamax 2.372, 21.349 $/ngày, −1,5% tuần; Investing.com 02/10) nhưng BDI vẫn giảm 8,1% trong tuần. Supramax: US Gulf mạnh (US Gulf → Trung Quốc 32.906 $/ngày), Địa Trung Hải yếu. Ước tính định hạn 1 năm của Fearnleys giảm 500–1.000 $/ngày trong tuần, vẫn cao hơn mức PVT thu năm 2025 (Supramax 11.000–13.000; Handysize 9.000–12.000).",
     "src": [
      {
       "t": "Baltic Exchange qua yieldchaser/Shipping, 02/10",
@@ -249,6 +272,10 @@ window.REPORTS = [
      {
       "t": "Fearnleys Weekly tuần 40, 30/09",
       "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/09/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     },
+     {
+      "t": "Investing.com (Reuters), 02/10",
+      "u": "https://www.investing.com/news/commodities-news/baltic-dry-bulk-freight-index-edges-up-on-capesize-gains-93CH-4930064"
      }
     ]
    },
@@ -422,6 +449,8 @@ window.REPORTS = [
    "PVP họp ngày 23/10: giá và tuổi tàu Aframax số 3. BCTC quý 3 của PVT trước 30/10: biên gộp mảng hóa chất."
   ],
   "gaps": [
+   "Lần chạy 03/10 (thứ Bảy, viết lại toàn bộ): 14 truy vấn, 8 trang mở thành công (Trading Economics, GlobalSecurity, Fortune, Iran International, Investing.com x2, OilPrice.com, gCaptain); CNBC trả 403. BDI 3.148 khớp Trading Economics; không có số Baltic mới sau phiên 2/10. Tin ngày 3/10 về hai tàu trúng đạn có 2 nguồn nhưng không nguồn nào nêu tên tàu.",
+   "Truy vấn Ukraine tấn công cảng/lọc dầu Nga chỉ ra tin tháng 3–8/2026, không có tin trong 48 giờ. Truy vấn Splash247 Weekly Broker không ra bài tháng 10/2026; truy vấn VLGC chỉ ra dữ liệu cũ (tồn kho propane Mỹ 31/10 là năm trước). Không có giao dịch mua bán tàu mới trong lần chạy này, mục snp giữ số cũ. El Niño: trang gCaptain mở được chỉ là bản tháng 6 (63% rất mạnh); con số >90% và 75% (Q4) lấy từ kết quả tìm kiếm, chưa mở nguồn NOAA tháng 10. Bài OilPrice.com về Trung Quốc có đoạn bối cảnh nhắc số tháng 8/2024, không dùng đoạn đó. Scorpio Tankers Q3 (LR2 64.900, MR 30.000 $/ngày) chỉ có trong đoạn trích tìm kiếm, chưa mở.",
    "Lần chạy lại thứ hai 03/10: 13 truy vấn, 9 trang mở thành công (Trading Economics, Fortune, Hellenic Shipping News x2, IBTimes, CAFEF, và vài bài cũ tháng 4–7 chỉ dùng để kiểm tra bối cảnh). Lloyd's List, The Hill, Modern Diplomacy, Seatrade trả 403; một truy vấn bị giới hạn tốc độ. BDI 3.148 (+8, +0,25%) khớp Trading Economics; không có số Baltic mới sau phiên 2/10. Tàu dầu thô trúng đạn ngày 3/10 chỉ có trong đoạn trích tìm kiếm, chưa kiểm chứng.",
    "Lần chạy lại 03/10: 14 truy vấn, 10 trang đã mở. Tin Ukraine tấn công cảng/nhà máy lọc dầu Nga: kết quả chỉ có tháng 4–8/2026, không có tin trong 48 giờ. G7 ra tuyên bố ngày 3/10 lên án Iran (chỉ thấy trong đoạn trích tìm kiếm, chưa mở được nguồn). Brent 2/10 có ba số: 99,68 (Trading Economics, qua tìm kiếm), 102,25 (chốt phiên, EnergyNow) và 103,37 (Fortune, 9:15 ET), khác giờ lấy số. AGBI trả lỗi 403.",
    "Cập nhật 03/10 (thứ Bảy): build.py chạy lại, không có số Baltic mới sau phiên 2/10. Quét tin nóng ngày 3/10 không tìm thấy diễn biến mới có nguồn mở được ngoài những gì đã nêu; OPEC+ họp 4/10, thị trường kỳ vọng giữ nguyên mục tiêu tháng 11 (chưa có kết quả).",
