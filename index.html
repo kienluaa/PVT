@@ -122,6 +122,11 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
 .sc .top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
 .sc .nm{font-size:13.5px;font-weight:600;line-height:1.35;min-width:0}
 .sc .val{font-family:var(--font-m);font-size:17px;font-weight:600;overflow-wrap:anywhere;line-height:1.3}
+.sc .val.txt{font-family:var(--font-b);font-size:14.5px;line-height:1.4}
+.srcs br{display:none}
+/* bang diem: xep the kieu cot, moi the cao vua noi dung */
+.score{display:block;columns:4 250px;column-gap:10px}
+.score .sc{break-inside:avoid;margin:0 0 10px}
 .sc .rule{font-size:11.5px;color:var(--muted)}
 .sc .why{font-size:12.5px;color:var(--ink2);margin:0}
 .st{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;border-radius:999px;padding:1px 8px}
@@ -349,7 +354,7 @@ function renderExtras(i){
   const order={red:0,yellow:1,green:2};
   $("score").innerHTML = items.slice().sort((a,b)=>order[a.status]-order[b.status]).map(x=>{
     const v = typeof x.value==="number" ? `${x.unit==="%"&&x.value>0&&!/phân vị/.test(x.name)?"+":""}${fmt(x.value, Math.abs(x.value)<100&&x.value%1?1:0)}${x.unit==="%"?"%":" "+esc(x.unit||"")}` : esc(x.value);
-    return `<div class="sc ${x.status}"><div class="top"><div class="nm">${esc(x.name)}</div><span class="st ${x.status}">${stLabel[x.status]}</span></div><div class="val">${v}</div><div class="rule">${esc(x.rule||"")}${x.asof?` · ${x.auto?"số liệu":"cập nhật"} ${dvn(x.asof)}`:""}</div><p class="why">${esc(x.why||"")}</p>${x.src?`<div class="srcs">${srcCell(x)}</div>`:""}</div>`;}).join("");
+    return `<div class="sc ${x.status}"><div class="top"><div class="nm">${esc(x.name)}</div><span class="st ${x.status}">${stLabel[x.status]}</span></div><div class="val${typeof x.value==="string"&&x.value.length>18?" txt":""}">${v}</div><div class="rule">${esc(x.rule||"")}${x.asof?` · ${x.auto?"số liệu":"cập nhật"} ${dvn(x.asof)}`:""}</div><p class="why">${esc(x.why||"")}</p>${x.src?`<div class="srcs">${srcCell(x)}</div>`:""}</div>`;}).join("");
   // calendar
   const cal=pickFrom(i,"calendar");
   const today=r.date;
