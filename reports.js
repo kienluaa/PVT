@@ -7,7 +7,7 @@ window.REPORTS = [
    "Phiên thứ Sáu 2/10: BDTI 6.586 (+11,7% d/d, +22,7% w/w, kỷ lục mới), BCTI 2.414 (+0,1%). Fearnleys (30/9): Aframax tuyến Caribe → US Gulf WS 645, tăng 155 điểm trong tuần; định hạn 1 năm Aframax đời mới 79.000 $/ngày (đi ngang), VLCC 185.000 (−15.000), môi giới ghi nhận 'chốt lời' ở VLCC.",
    "Tin bất lợi cho luận điểm cước cao kéo dài: Kpler (qua CNBC) tính dầu thô qua Hormuz bình quân 7 ngày đạt 13,5 triệu thùng/ngày, bằng mức trước chiến tranh. Dầu sản phẩm chỉ 677.000 thùng/ngày so với 3,6 triệu trước chiến tranh. Dầu thô ra được nhờ tàu con thoi, chuyển tải ở vịnh Oman có hải quân Mỹ bảo vệ, và đường ống (khoảng 40% lượng dầu thô của vùng).",
    "Hệ thống thay thế này vẫn bị bắn: VLCC Kazimah III (Kuwait) trúng đạn và cháy ở Hormuz tối 1/10; cảng dầu Yanbu North (Ả Rập Xê Út) trúng đạn cùng ngày, tạm ngừng bốc hàng chỉ 3 ngày sau khi mở lại. Reuters: Ả Rập Xê Út chuẩn bị chiến dịch trên bộ đánh Houthi để lấy lại Bab el-Mandeb, từ nay đến đầu tháng 11.",
-   "Dầu: Brent chốt tuần 102,25 USD (−0,06%), WTI 91,11 (−1,9%). G7 xả 100 triệu thùng dự trữ, ưu tiên diesel trong 20 ngày đầu; Trump tuyên bố không cấm xuất khẩu diesel. Mỹ đã gửi phản đề xuất ngừng bắn 7 ngày cho Iran qua Qatar, Iran chưa trả lời.",
+   "Dầu: Brent chốt tuần 102,25 USD (−0,06%), WTI 91,11 (−1,9%). G7 xả 100 triệu thùng dự trữ, ưu tiên diesel trong 20 ngày đầu; Trump tuyên bố không cấm xuất khẩu diesel. Mỹ–Iran: nguồn tin mâu thuẫn. ABC 33/40 (30/9–1/10) nói Mỹ gửi phản đề xuất ngừng bắn 7 ngày qua Qatar; GlobalSecurity (ngày 217, 2/10) và EA WorldView ghi Trump bác đề xuất 7 ngày của Iran là 'không thể chấp nhận' và yêu cầu phái đoàn Iran rời New York. Qatar vẫn trung gian; chưa có thỏa thuận.",
    "Hàng rời đi ngang: BDI 3.148 (+0,25%), BSI 1.789 (−5 điểm), BHSI 1.007 (−1 điểm). Hóa chất: Stolt Tankers báo TCE quý 3 là 24.121 $/ngày (−2,9% so với cùng kỳ), hợp đồng COA tái ký thấp hơn bình quân 8,3%, dự báo quý 4 yếu hơn một chút."
   ],
   "pvt": [
@@ -82,6 +82,10 @@ window.REPORTS = [
      {
       "t": "The Maritime Executive, 01/10",
       "u": "https://maritime-executive.com/article/explosion-and-fire-reported-at-yanbu"
+     },
+     {
+      "t": "Arab News (UKMTO), 02/10",
+      "u": "https://www.arabnews.com/middle-east/tanker-attacked-in-strait-of-hormuz-uk-maritime-agency-3004164"
      }
     ]
    },
@@ -134,8 +138,8 @@ window.REPORTS = [
      "toàn ngành tàu dầu",
      "LPG"
     ],
-    "title": "Mỹ gửi phản đề xuất ngừng bắn 7 ngày cho Iran qua Qatar; Iran đang xem xét, chưa trả lời",
-    "impact": "Ngoại trưởng Araghchi trình phản đề xuất lên Tổng thống Pezeshkian ngày 30/9; điều khoản về Hormuz chưa rõ. Vài giờ sau, 3 tàu (có tàu dầu và tàu LNG) trúng đạn ở eo. Iran vẫn đòi nới trừng phạt dầu, giải tỏa tài sản và dỡ phong tỏa cảng. Đính chính bản tin 2/10: kênh trung gian Qatar chưa đứt. Xác suất thỏa thuận sớm vẫn thấp nhưng không bằng 0; đây là biến số lớn nhất với cước tàu dầu 2027.",
+    "title": "Mỹ–Iran bế tắc: Trump bác đề xuất ngừng bắn 7 ngày của Iran (theo GlobalSecurity, 2/10); nguồn khác nói Mỹ gửi phản đề xuất qua Qatar",
+    "impact": "Hai nguồn mô tả khác nhau, chưa kiểm chứng được văn bản. Điểm chung: chưa có thỏa thuận và Qatar còn làm trung gian. GlobalSecurity ghi Iran không có tấn công tên lửa/UAV vào các nước trong khu vực suốt 23–27 ngày, nhưng tàu dầu vẫn bị bắn (3 tàu ngày 30/9), và Mỹ đang đưa tới 3 nhóm tàu sân bay. Hormuz chưa mở thật nên cước tàu dầu giữ cao; thỏa thuận là kịch bản làm cước đảo chiều nhanh nhất.",
     "src": [
      {
       "t": "ABC 33/40 (The National Desk), 30/09–01/10",
@@ -144,6 +148,10 @@ window.REPORTS = [
      {
       "t": "EA WorldView, 01–02/10",
       "u": "https://eaworldview.com/2026/10/us-war-on-iran-trump-rejects-tehran-proposal-to-reopen-talks-and-strait-of-hormuz/"
+     },
+     {
+      "t": "GlobalSecurity, Iran War Day 217, 02/10",
+      "u": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
      }
     ]
    },
@@ -270,6 +278,41 @@ window.REPORTS = [
     ]
    },
    {
+    "when": "02/10",
+    "tag": "Trong nước",
+    "dir": "mixed",
+    "segs": [
+     "Dầu thô Aframax",
+     "Dầu SP"
+    ],
+    "title": "Lọc hóa dầu Nghi Sơn nối lại nhập dầu Kuwait từ tháng 9; đã chạy thêm 10 loại dầu khác; 9T/2026 chế biến 8,38 triệu tấn",
+    "impact": "Nghi Sơn đa dạng hóa nguồn dầu thô (Iraq Basrah, Kuwait, loại khác) nên tuyến dầu thô vùng Vịnh → Việt Nam vẫn có hàng, nhưng phần hàng chạy tuyến Trung Đông không còn tập trung vào một nguồn. Với PVT: Aframax nhận hàng dài ngày ổn định; cước các chuyến này gắn với thị trường quốc tế đang rất cao. Số liệu 9T do Nghi Sơn công bố, chưa có kiểm chứng độc lập.",
+    "src": [
+     {
+      "t": "Vietstock qua Investing.com, 02/10",
+      "u": "https://vn.investing.com/news/commodities-news/loc-hoa-dau-nghi-son-noi-lai-nhap-khau-dau-tu-kuwait-2726004"
+     }
+    ]
+   },
+   {
+    "when": "09/2026–08/10",
+    "tag": "Thời tiết – El Niño",
+    "dir": "mixed",
+    "segs": [
+     "Supramax",
+     "Handysize",
+     "LPG"
+    ],
+    "title": "NOAA: El Niño đã xuất hiện, xác suất trên 90% thành sự kiện rất mạnh trong thu–đông 2026–27; cập nhật ENSO kế tiếp 8/10",
+    "impact": "El Niño mạnh làm kênh Panama thiếu nước (đã hạ mớn nước 0,5 ft xuống 49,5 ft từ 1/7), ảnh hưởng ngũ cốc/than từ Mỹ và LPG US Gulf → châu Á; đồng thời thường kéo giảm sản lượng nông sản châu Á, tăng nhập khẩu. Tác động lên hàng rời PVT hai chiều, chưa định lượng được. Số liệu xác suất lấy từ kết quả tìm kiếm tổng hợp gCaptain/NOAA, chưa mở bản gốc.",
+    "src": [
+     {
+      "t": "gCaptain, NOAA El Niño advisory",
+      "u": "https://gcaptain.com/el-nino-has-arrived-noaa-warns-it-could-become-one-of-the-strongest-on-record/"
+     }
+    ]
+   },
+   {
     "when": "04/10",
     "tag": "Lịch sự kiện",
     "dir": "mixed",
@@ -377,6 +420,7 @@ window.REPORTS = [
    "PVP họp ngày 23/10: giá và tuổi tàu Aframax số 3. BCTC quý 3 của PVT trước 30/10: biên gộp mảng hóa chất."
   ],
   "gaps": [
+   "Lần chạy lại 03/10: 14 truy vấn, 10 trang đã mở. Tin Ukraine tấn công cảng/nhà máy lọc dầu Nga: kết quả chỉ có tháng 4–8/2026, không có tin trong 48 giờ. G7 ra tuyên bố ngày 3/10 lên án Iran (chỉ thấy trong đoạn trích tìm kiếm, chưa mở được nguồn). Brent 2/10 có ba số: 99,68 (Trading Economics, qua tìm kiếm), 102,25 (chốt phiên, EnergyNow) và 103,37 (Fortune, 9:15 ET), khác giờ lấy số. AGBI trả lỗi 403.",
    "Cập nhật 03/10 (thứ Bảy): build.py chạy lại, không có số Baltic mới sau phiên 2/10. Quét tin nóng ngày 3/10 không tìm thấy diễn biến mới có nguồn mở được ngoài những gì đã nêu; OPEC+ họp 4/10, thị trường kỳ vọng giữ nguyên mục tiêu tháng 11 (chưa có kết quả).",
    "Báo cáo tuần 40 của Baltic Exchange (ra tối 2/10) chưa truy cập được: đường dẫn trả lỗi 404 và bản đăng lại trên The Edge chưa có. Mục cước theo tuyến dùng số Fearnleys 30/9 cho vài tuyến, phần còn lại giữ số Baltic 25/9.",
    "Hai bài trên Hellenic Shipping News ngày 2/10 không mở được do trang giới hạn truy cập (Trump cân nhắc cấm xuất khẩu diesel; Mỹ thúc châu Âu xả dự trữ). Nội dung được lấy từ BNN Bloomberg và EnergyNow.",
@@ -445,11 +489,11 @@ window.REPORTS = [
    {
     "key": "orderbook",
     "name": "Orderbook tàu dầu / đội tàu (DWT)",
-    "value": "17,9%",
-    "asof": "2026-01-15",
-    "status": "yellow",
+    "value": "~25% đội tàu dầu (toàn bộ tàu dầu; Vantage 17/08)",
+    "asof": "2026-08-17",
+    "status": "red",
     "rule": "Xanh <10% · Vàng 10–20% · Đỏ >20%",
-    "why": "Đơn đặt tàu tập trung giao 2028–2029, chỉ khoảng 20 tàu giao năm 2027. Tỷ lệ riêng cho MR chưa có nguồn công khai mới.",
+    "why": "Vantage: orderbook tàu dầu khoảng một phần tư đội tàu hiện có; khoảng 199 tàu giao 2028 và 193 tàu giao 2029, chỉ 20 tàu 2027. Vượt ngưỡng đỏ 20%. Rủi ro dồn vào 2028–2029, sau cửa sổ tái ký 2027; tỷ lệ riêng MR chưa có nguồn mở mới (14,4% hồi 2/2026).",
     "src": [
      {
       "t": "Affinity, 01/2026",
@@ -527,7 +571,7 @@ window.REPORTS = [
    {
     "date": "2026-10-04",
     "event": "OPEC+ họp về sản lượng tháng 11",
-    "why": "Dự kiến giữ nguyên. Tăng sản lượng bất ngờ thì tốt cho tàu dầu thô."
+    "why": "Dự kiến giữ nguyên mục tiêu (AGBI, OGJ, 09/2026; họp trực tuyến 7 thành viên cốt lõi, khung chính sách đến 31/12/2026, đang chuẩn bị hạn ngạch 2027). Tăng sản lượng bất ngờ thì tốt cho tàu dầu thô."
    },
    {
     "date": "2026-10-05",
@@ -542,7 +586,7 @@ window.REPORTS = [
    {
     "date": "2026-10-08",
     "event": "NOAA cập nhật ENSO (El Niño)",
-    "why": "Xác nhận cường độ El Niño: ảnh hưởng than, ngũ cốc và mớn nước kênh Panama."
+    "why": "Xác nhận cường độ El Niño (xác suất rất mạnh >90%): ảnh hưởng than, ngũ cốc và mớn nước kênh Panama."
    },
    {
     "date": "2026-10-09",
@@ -1382,6 +1426,17 @@ window.REPORTS = [
       "u": "https://splash247.com/premier-alliance-joins-accelerating-return-to-suez/"
      }
     ]
+   },
+   {
+    "topic": "Hàng rời: cầu Mỹ–Trung",
+    "value": "Hàng rời Mỹ → Trung Quốc +104% so cùng kỳ (Q3/2026); ngũ cốc +176%",
+    "note": "Theo Hellenic Shipping News 2–3/10, sau giảm thuế tháng 11/2025. Cùng nguồn: thép Trung Quốc yếu, dòng quặng đi ngang; Capesize 5.042 điểm mạnh nhất, Supramax/Panamax yếu hơn; Panamax 21.349 $/ngày (2/10). Số tăng trưởng lấy từ bài tổng hợp, chưa đối chiếu nguồn gốc.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News Dry Bulk, 02–03/10",
+      "u": "https://www.hellenicshippingnews.com/category/dry-bulk-market/"
+     }
+    ]
    }
   ],
   "peers": [
@@ -1470,6 +1525,20 @@ window.REPORTS = [
      {
       "t": "Teekay, 29/09",
       "u": "https://www.teekay.com/blog/2026/09/29/teekay-tankers-market-update-september-2026/"
+     }
+    ]
+   }
+  ],
+  "vietnam": [
+   {
+    "tag": "Nghi Sơn",
+    "title": "Nghi Sơn nối lại nhập dầu Kuwait, chạy 10 loại dầu khác",
+    "text": "9T/2026: chế biến 8,38 triệu tấn, cung ứng 6,54 triệu tấn sản phẩm; cả năm dự kiến trên 9,2 triệu tấn; đáp ứng khoảng 35–40% nhu cầu xăng dầu nội địa (Vietstock, 02/10).",
+    "impact": "Nguồn hàng nội địa và Trung Đông cho Aframax/MR của PVT ổn định; không có tin mới về PVT/BSR trong 48 giờ.",
+    "src": [
+     {
+      "t": "Vietstock qua Investing.com, 02/10",
+      "u": "https://vn.investing.com/news/commodities-news/loc-hoa-dau-nghi-son-noi-lai-nhap-khau-dau-tu-kuwait-2726004"
      }
     ]
    }
