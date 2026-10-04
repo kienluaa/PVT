@@ -66,6 +66,19 @@ Phần này dành cho phiên làm việc có người dùng (không phải lần
 ## Nhật ký chạy (logs/YYYY-MM-DD.md)
 Mục đích: để người dùng kiểm tra từng lần chạy đã tìm gì, mở trang nào, lấy được gì, lỗi ở đâu. Repo công khai nên log cũng công khai: không ghi thông tin cá nhân, token, hay nội dung ngoài công việc bản tin.
 Cách ghi: tạo file ở bước 1 và GHI DẦN trong lúc làm (sau mỗi truy vấn, mỗi lần mở trang). Mục 3 phải là BẢNG, mỗi trang một dòng, có đủ cột "Lấy được gì" và "Dùng ở mục nào"; không gộp thành danh sách tên trang. Không dựng lại từ trí nhớ ở cuối. Một ngày chạy nhiều lần thì thêm phần "# Lần chạy N" vào cuối cùng file, không xóa phần trước. Mọi lần chạy đều phải commit và push log, kể cả khi không viết được bản tin. Xóa file log cũ hơn 60 ngày.
+PHÂN LOẠI KẾT QUẢ (bắt buộc, dùng đúng 4 nhãn sau cho mỗi nguồn định kỳ và mỗi nhóm tin; không được gộp hay viết chung chung "không có số mới"):
+- `CÓ MỚI`: nguồn có bài/số mới hơn bản tin trước và đã lấy được. Ghi ngày của bài.
+- `KHÔNG CÓ MỚI (đã xác minh)`: ĐÃ MỞ ĐƯỢC trang liệt kê bài mới nhất của chính nguồn đó và thấy bài mới nhất không mới hơn bản tin trước. Bắt buộc ghi ngày và tiêu đề bài mới nhất nhìn thấy. Nếu hôm nay chưa tới kỳ phát hành (ví dụ Chủ nhật không có phiên Baltic) thì ghi "chưa tới kỳ, kỳ tới: ngày ...".
+- `KHÔNG TRUY CẬP ĐƯỢC`: trang trả lỗi hoặc trả trang trống. Ghi URL, mã lỗi nguyên văn, và đã thử nguồn thay thế nào. KHÔNG được suy ra là "không có số mới".
+- `CHƯA XÁC MINH`: chỉ dựa trên kết quả tìm kiếm không ra tin, chưa mở được trang liệt kê của nguồn. Đây là thiếu sót của lần chạy, không phải kết luận về thị trường.
+Trong "gaps" của bản tin cũng phải tách ba trường hợp: nguồn chưa phát hành số mới / không truy cập được / chưa xác minh.
+
+SỔ NGUỒN (`logs/nguon.md`): file do tác vụ tự duy trì, cập nhật mỗi lần chạy, để lần sau không phải dò lại. Mỗi nguồn một dòng: tên | URL trang liệt kê bài mới đã mở được | nhịp phát hành | ngày bài mới nhất đã thấy | lần mở thành công gần nhất | lần lỗi gần nhất + mã lỗi | nguồn thay thế dùng được. Nếu file chưa có thì tạo với các nguồn định kỳ dưới đây, tự tìm URL liệt kê đúng (không đoán URL: URL trả 404 phải được thay bằng URL lấy từ trang chủ của nguồn).
+Nguồn định kỳ phải kiểm tra và ghi nhãn mỗi lần chạy:
+- Hằng ngày (ngày làm việc): Baltic Exchange – chỉ số (qua build.py); Hellenic Shipping News; Splash247 (trang chủ và các mục Tankers, Dry Cargo, Gas); gCaptain; UKMTO/JMIC; tin PVT/PVN (pvtrans.com, cafef, vietstock); giá Brent.
+- Hằng tuần: báo cáo tuần Baltic theo tuyến – tanker, dry, gas (thứ Sáu); Fearnleys Weekly (thứ Tư); Xclusiv và các báo cáo mua bán tàu của môi giới (thứ Hai–Ba); EIA tồn kho (thứ Tư); ICIS cước tàu hóa chất (thứ Sáu); Splash "Wrap" (thứ Sáu).
+- Hằng tháng/quý: NOAA ENSO (thứ Năm thứ 2 của tháng); OPEC MOMR; BIMCO; kết quả kinh doanh của doanh nghiệp cùng ngành; BCTC PVT.
+
 Khuôn file:
 ```
 # Nhật ký chạy YYYY-MM-DD — lần N
@@ -87,14 +100,18 @@ Kết quả chạy, mảng errors, phiên mới nhất của từng chỉ số, 
 ## 5. Tin đã cân nhắc nhưng loại
 | Tin | Nguồn | Lý do loại (cũ, trùng, không kiểm chứng được, ít tác động) |
 
-## 6. Tổng kết theo 15 nhóm
-| Nhóm | Số truy vấn | Trang OK | Trang lỗi | Có tin mới trong 72h? | Ghi chú |
+## 6. Nguồn định kỳ (theo sổ nguồn)
+| Nguồn | Nhịp | Nhãn (1 trong 4) | Bài/số mới nhất thấy ở nguồn (ngày, tiêu đề) | URL đã mở hoặc mã lỗi | Nguồn thay thế đã thử |
+
+## 6b. Tổng kết theo 15 nhóm
+| Nhóm | Số truy vấn | Trang OK | Trang lỗi | Nhãn (1 trong 4) | Căn cứ của nhãn |
 
 ## 7. So với bản tin trước
 - Tin nóng: N tin, trong đó M tin mới hoàn toàn, K tin là diễn biến mới của chuyện cũ (liệt kê), 0 tin chép lại.
 - Mục chuyên sâu đã cập nhật: ... · Mục bỏ qua vì không có số mới: ...
 
 ## 8. Tự kiểm mức tối thiểu (4d)
+Nhãn nguồn định kỳ: CÓ MỚI x · KHÔNG CÓ MỚI (đã xác minh) x · KHÔNG TRUY CẬP ĐƯỢC x · CHƯA XÁC MINH x
 Truy vấn: x/24 · Trang mở thành công: x/15 · Trang trong 72h: x/10 · Nhóm có trang OK: x/15 · Đối chiếu BDI: có/không · Tin nóng trùng tiêu đề bản trước: x (phải là 0)
 Mục nào chưa đạt: nêu lý do.
 ```
@@ -162,7 +179,7 @@ Mục nào chưa đạt: nêu lý do.
 5. Thêm 1 object mới vào ĐẦU mảng window.REPORTS trong reports.js (cùng schema: date, dataAsOf, headlines[], headline, summary[], pvt[{seg,signal:up|down|flat|na,text}], news[{tag,title,text,impact,src[{t,u}]}], watch[], gaps[]). Giữ tối đa 90 bản tin. Chỉ đưa số liệu có nguồn; tin chưa kiểm chứng ghi rõ. Viết tiếng Việt, ngắn gọn, trực diện, không văn vẻ; mục "Với PVT" ngắn gọn, nói tác động lên phân khúc tàu nào của PVT.
 6. Đẩy lên GitHub (trang tự cập nhật sau 1–2 phút):
    - Kiểm tra cú pháp trước: `node --check reports.js && node --check data.js` (hoặc tương đương). Lỗi cú pháp thì sửa trước, không push file hỏng.
-   - `git add reports.js data.js logs/` (kèm index.html, build.py, RUNBOOK.md chỉ khi lần chạy này có sửa chúng theo yêu cầu người dùng; lần chạy tự động hằng ngày KHÔNG sửa ba file đó).
+   - Cập nhật `logs/nguon.md`. `git add reports.js data.js logs/` (kèm index.html, build.py, RUNBOOK.md chỉ khi lần chạy này có sửa chúng theo yêu cầu người dùng; lần chạy tự động hằng ngày KHÔNG sửa ba file đó).
    - `git commit -m "Bản tin YYYY-MM-DD"` rồi `git push origin HEAD:main`.
    - Bản tin phải nằm trên `main`. Không mở pull request. Nếu hệ thống buộc phải đẩy cả nhánh làm việc `claude/...` của lần chạy này thì đẩy và để nguyên; KHÔNG thử xóa nhánh `claude/...` nào trên remote (hệ thống không cho phép; người dùng tự dọn).
    - Xác nhận: `git fetch origin main && git log origin/main -1 --oneline` phải là commit vừa tạo.
