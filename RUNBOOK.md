@@ -171,6 +171,13 @@ Mục nào chưa đạt: nêu lý do.
    - Nguồn bắt buộc thử mỗi ngày: trang chủ/chuyên mục mới nhất của hellenicshippingnews.com; gcaptain.com; báo cáo tuần Baltic (xem routes ở 4c); thứ Tư/Năm thêm Fearnleys Weekly.
    - Đã làm bước 3 (đối chiếu BDI).
    - Chỉ được dừng dưới mức này khi công cụ web lỗi hàng loạt; khi đó ghi nguyên văn lỗi vào log, vào "gaps" và vào thông báo cuối.
+4d2. GHI CHÚ TRUY CẬP THEO NGUỒN (kết quả chẩn đoán 04/10/2026 từ chính môi trường này; cập nhật vào `logs/nguon.md` khi thực tế thay đổi):
+   - Splash247: trang chủ và `https://splash247.com/feed/` mở được (HTTP 200). Mỗi lần chạy mở feed TRƯỚC để lấy danh sách bài mới kèm ngày, rồi mở từng bài cần đọc. Nếu một bài cụ thể trả 403: thử lại 1 lần, sau đó dùng nội dung của bài trong feed hoặc trang mục (`/category/sector/tankers/`, `/dry-cargo/`, `/gas/`), và ghi rõ vào log là lỗi ở URL bài, không phải ở cả trang. Không được ghi "Splash247 bị chặn".
+   - Hellenic Shipping News, gCaptain: trang chủ mở được. Thử thêm `/feed/` của từng trang để lấy danh sách bài kèm ngày. Không tự đoán URL chuyên mục (đã từng đoán sai, trả 404): lấy URL từ trang chủ hoặc feed.
+   - balticexchange.com: trả trang thử thách ("Challenge Validation") hoặc trang trống. Không coi là mở thành công. Báo cáo tuần Baltic phải lấy qua nơi đăng lại.
+   - The Edge Malaysia: trang chủ không hiện tiêu đề bài. Tìm bài "Baltic Exchange shipping updates" bằng WebSearch (kèm ngày thứ Sáu gần nhất) rồi mở thẳng URL bài dạng `theedgemalaysia.com/node/<số>`.
+   - seatrade-maritime.com và agbi.com: trả 403 cho cả WebFetch lẫn curl (chặn thật). Bỏ qua, dùng nguồn khác cho cùng tin.
+   - Khi WebFetch báo thành công nhưng nội dung là trang thử thách, trang trống hoặc không có bài: ghi là `KHÔNG TRUY CẬP ĐƯỢC`, không tính là trang mở thành công.
 4e. KHI MỘT TRANG LỖI (403, 402, 404, timeout, tường phí, EGRESS_BLOCKED):
    - Ghi ngay vào log: URL, mã lỗi nguyên văn.
    - Tìm bản khác của CÙNG tin: WebSearch bằng tiêu đề bài hoặc cụm số liệu đặc trưng, rồi mở bản đăng lại/bản tin tương đương ở nguồn khác (Hellenic Shipping News, gCaptain, The Maritime Executive, MarineLink, Safety4Sea, Offshore Energy, Reuters/AP/AFP qua các báo đăng lại, The Edge, báo trong nước). Thử tối đa 2 nguồn thay thế cho mỗi tin quan trọng, ghi từng lần thử vào log.
