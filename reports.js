@@ -2,8 +2,10 @@ window.REPORTS = [
  {
   "date": "2026-10-04",
   "dataAsOf": "2026-10-02",
-  "headline": "Chủ nhật 4/10, chưa có số Baltic mới: BDI tuần giảm 8,1% còn 3.148, BDTI vẫn kỷ lục 6.586; Trung Quốc dừng xuất xăng dầu tháng 10 đẩy crack diesel châu Á lên trên 70 USD/thùng, OPEC+ họp hôm nay dự kiến giữ nguyên hạn ngạch",
+  "headline": "Chủ nhật 4/10, chưa có số Baltic mới (BDI 3.148, BDTI 6.586 kỷ lục là số phiên 2/10): Mỹ đưa thêm tàu sân bay thứ ba và 10.000 quân tới Trung Đông, Trump nói có thể đánh Iran sau bầu cử 3/11; chỉ số tàu sản phẩm sạch Platts 121.198 $/ngày; Nga bắn tàu hàng tại Odesa; OPEC+ họp hôm nay",
   "summary": [
+   "Tin mới nhất so với đầu ngày: (1) gCaptain 2/10: Mỹ điều thêm tàu sân bay USS Theodore Roosevelt và 10.000 thủy thủ, lính thủy đánh bộ tới vùng Vịnh; lộ trình 7 ngày của Iran (mở Hormuz đổi lấy dỡ phong tỏa hải quân, nới trừng phạt, ngừng bắn Liban/Yemen) bị Trump bác, đàm phán vẫn bế tắc, sáu tàu bị bắn ở Hormuz từ Chủ nhật 27/9. (2) Hellenic Shipping News 3/10: chỉ số tàu sản phẩm sạch Platts đạt 121.198 $/ngày (30/9, tàu không scrubber), diesel NW Âu 78,86 USD/thùng. (3) Nga bắn tàu hàng cờ Liberia tại cảng Odesa ngày 3/10, một người chết (gCaptain).",
+   "Tin bất lợi cho luận điểm cước cao, cần đọc cùng: OilPrice.com dẫn Bộ trưởng Dầu khí Ấn Độ nói 'hỗn loạn vận tải, không phải thiếu cung, đẩy giá dầu'. Tức là phần cước tăng nhờ chuyển tải, đi vòng và chờ đợi sẽ mất khi Hormuz mở thật. Xeneta (HSN 3/10) cũng cho rằng cước container Viễn Đông–Mỹ đã qua đỉnh hậu Hormuz (8.346 USD/FEU bờ Tây, 1/10), dù không có dấu hiệu sập.",
    "Không có phiên Baltic nào sau thứ Sáu 2/10. BDI 3.148 (+0,25%, khớp Trading Economics và Hellenic Shipping News), giảm 8,1% trong tuần; Capesize 5.042 (+0,6%) dẫn dắt, còn BSI 1.789 và BHSI 1.007 đi ngang. BDTI 6.586 và BCTI 2.414 là số phiên 2/10 (nguồn dữ liệu của trang).",
    "Tin mới so với bản 03/10 là phía sản phẩm dầu: Trung Quốc dừng xuất khẩu xăng dầu tháng 10 (trừ Hồng Kông, Ma Cao). Theo OilPrice.com dẫn Kpler/S&P, tồn kho diesel thương mại Trung Quốc thấp hơn trước chiến tranh khoảng 20 triệu thùng, xăng thấp hơn ngưỡng Bắc Kinh yêu cầu khoảng 9 triệu thùng. Biên lọc dầu châu Á ngày 1/10: xăng trên 50 USD/thùng so với Brent, diesel trên 70–75 (nguồn thứ cấp qua tìm kiếm, chưa kiểm chứng bằng trang gốc). Xuất khẩu sản phẩm của Trung Quốc tháng 8 là 6,01 triệu tấn (+12,7% so với cùng kỳ) nên việc dừng là mất một nguồn hàng ngắn hạn của MR nội Á.",
    "OPEC+ họp hôm nay 4/10 về hạn ngạch tháng 11. Hai đại biểu nói với Bloomberg (29/9) là nhóm 7 nước cốt lõi nhiều khả năng giữ nguyên; kết quả cuộc họp chưa kiểm chứng bằng nguồn gốc. Hạn ngạch chỉ có tính danh nghĩa vì sản lượng thực bị chặn bởi Hormuz; Trung Đông xuất khoảng 16 triệu thùng/ngày trong tháng 9, cao nhất từ khi chiến sự bắt đầu. Brent khoảng 102–103 USD.",
@@ -21,7 +23,7 @@ window.REPORTS = [
    {
     "seg": "Dầu SP / MR (8 tàu)",
     "signal": "flat",
-    "text": "BCTI 2.414, gần như không đổi sau khi tăng 11,8% trong tuần. Dầu sản phẩm qua Hormuz mới bằng 19% trước chiến tranh nên hàng phải đi từ nguồn xa hơn. Trump bỏ ý định cấm xuất khẩu diesel: gỡ một rủi ro cho MR bốc hàng ở US Gulf. Trung Quốc ngừng xuất khẩu xăng dầu tháng 10 làm giảm hàng cho MR nội Á."
+    "text": "BCTI 2.414, gần như không đổi sau khi tăng 11,8% trong tuần. Dầu sản phẩm qua Hormuz mới bằng 19% trước chiến tranh nên hàng phải đi từ nguồn xa hơn. Trump bỏ ý định cấm xuất khẩu diesel: gỡ một rủi ro cho MR bốc hàng ở US Gulf. Trung Quốc ngừng xuất khẩu xăng dầu tháng 10 làm giảm hàng cho MR nội Á. Platts clean tanker index 121.198 $/ngày (30/9, HSN 3/10): mặt bằng rất cao, nhưng Trump đã bỏ ý định cấm xuất khẩu diesel; nếu cấm vẫn xảy ra, MR2 mất khoảng 1,35 triệu thùng/ngày hàng từ US Gulf (HSN ước tính), MR2 chở hơn 90% lượng này."
    },
    {
     "seg": "Hàng rời Supramax/Handysize (13 tàu)",
@@ -41,109 +43,56 @@ window.REPORTS = [
   ],
   "headlines": [
    {
-    "when": "02/10",
-    "tag": "Cước tàu dầu",
+    "when": "02–03/10",
+    "tag": "Hormuz – quân sự",
     "dir": "up",
     "segs": [
      "Aframax",
-     "MR"
+     "MR",
+     "LPG"
     ],
-    "title": "BDTI tăng 11,7% trong một phiên lên 6.586, kỷ lục mới; BCTI 2.414 (+0,1%)",
-    "impact": "BDTI tăng 22,7% trong tuần và 144% trong một tháng. Aframax dẫn đầu: Fearnleys (30/9) ghi Caribe → US Gulf WS 645 (+155 điểm), Anh/Bắc Âu WS 415 (+15). Ở VLCC môi giới thấy giao dịch chậm lại và 'chốt lời'; định hạn 1 năm VLCC giảm 15.000 xuống 185.000 $/ngày, Aframax giữ 79.000. Với PVT: mặt bằng tái ký cho 4 tàu Aframax rất cao, nhưng tín hiệu chững đã xuất hiện ở cỡ tàu lớn nhất.",
+    "title": "Mỹ điều thêm tàu sân bay USS Theodore Roosevelt và 10.000 quân tới Trung Đông; Trump bác lộ trình 7 ngày của Iran và nói tấn công 'có thể' sau bầu cử giữa kỳ 3/11; sáu tàu bị bắn ở Hormuz từ 27/9",
+    "impact": "gCaptain (2/10): hiện đang lắng xuống về đòn đánh lớn, nhưng nhóm tàu sân bay thứ ba (như cuối tháng 4) có nghĩa Mỹ chuẩn bị leo thang sau bầu cử, không phải mở Hormuz. Chưa có quyết định giữ ba nhóm tàu. Với PVT: kéo dài cước cao và phí rủi ro cho Aframax/MR; 2 VLGC chạy Trung Đông chịu rủi ro an ninh và bảo hiểm cao hơn. Kịch bản thỏa thuận bất ngờ vẫn là rủi ro giảm cước.",
     "src": [
      {
-      "t": "Baltic Exchange qua yieldchaser/Shipping, 02/10",
-      "u": "https://github.com/yieldchaser/Shipping"
-     },
-     {
-      "t": "Fearnleys Weekly tuần 40, 30/09",
-      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/09/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
-     }
-    ]
-   },
-   {
-    "when": "01/10",
-    "tag": "Dầu sản phẩm / Trung Quốc",
-    "dir": "up",
-    "segs": [
-     "MR"
-    ],
-    "title": "Trung Quốc dừng xuất khẩu xăng dầu tháng 10; tồn kho diesel thấp hơn trước chiến tranh khoảng 20 triệu thùng (Kpler), biên diesel châu Á trên 70 USD/thùng so với Brent (chưa kiểm chứng gốc)",
-    "impact": "Hàng của MR nội Á giảm trong tháng 10, nhưng thiếu diesel kéo hàng từ Mỹ và Trung Đông sang châu Á, tuyến dài có lợi cho MR/LR. Xuất khẩu tháng 8 của Trung Quốc 6,01 triệu tấn (+12,7%) cho thấy lượng hàng có thể quay lại nhanh nếu Bắc Kinh cấp phép sau 7/10. Với PVT: 8 tàu dầu sản phẩm/MR, tác động hai chiều, ngắn hạn.",
-    "src": [
-     {
-      "t": "OilPrice.com, 01–03/10",
-      "u": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html"
+      "t": "gCaptain, 02/10",
+      "u": "https://gcaptain.com/us-adds-carrier-and-10000-troops-to-middle-east/"
      }
     ]
    },
    {
     "when": "03/10",
-    "tag": "Hormuz – an ninh",
-    "dir": "up",
+    "tag": "Dầu sản phẩm",
+    "dir": "mixed",
     "segs": [
-     "Aframax",
-     "MR",
-     "LPG"
+     "MR"
     ],
-    "title": "Hai tàu dầu trúng đạn không rõ nguồn: một tàu dầu thô cách Oman 4 hải lý về phía đông, một tàu khác bị cháy nhỏ và mất điện khi ra khỏi Hormuz; Iran bị ghi nhận khoảng 30 máy bay không người lái và 10 tên lửa chống hạm mỗi tuần vào tàu thương mại từ đầu tháng 8",
-    "impact": "Hai nguồn (GlobalSecurity ngày 218, Iran International 2–3/10) khớp nhau về hai vụ trúng đạn; thủy thủ đoàn an toàn, không ghi nhận tràn dầu. Số vụ mỗi tuần là thống kê của Iran International, chưa đối chiếu độc lập. Tuần này vẫn chưa có thỏa thuận: Trump bác đề xuất 7 ngày của Iran và nói chiến sự có thể kết thúc \"ngay sau bầu cử giữa kỳ\" (3/11). Với PVT: duy trì phí rủi ro và cước cao cho Aframax/MR, nhưng đây là loại cước sẽ mất khi eo mở thật. Các nguồn lệch nhau về lưu lượng: CBS ước xuất khẩu dầu vùng Vịnh theo các tuyến thay thế 21,8 triệu thùng/ngày so với 23,3 trước chiến tranh, trong khi kết quả tìm kiếm khác nhắc Hormuz chỉ bằng 3% lưu lượng tàu trước chiến tranh (chưa mở được nguồn).",
+    "title": "Platts clean tanker index 121.198 $/ngày (30/9); diesel NW Âu 78,86 USD/thùng (+151% từ cuối tháng 2); cấm xuất khẩu diesel Mỹ, nếu có, bỏ khoảng 1,35 triệu thùng/ngày hàng US Gulf của MR2",
+    "impact": "Bài của HSN nói về kịch bản 'có thể cấm'. Gỡ bỏ ý định cấm đã được xác nhận ở bản trước (Trump 2/10), nên đây là rủi ro đã giảm. Nếu cấm: mất hàng xuyên Đại Tây Dương của MR2 (hơn 90% lượng diesel này), nhưng LR có thể được lợi khi diesel châu Á chạy về phía Tây. Nguồn cung diesel: Nga −79% còn 143.000 thùng/ngày, Trung Đông −55% còn 540.900 thùng/ngày (số của bài). Với PVT: 8 tàu MR/dầu sản phẩm thuộc nhóm bị ảnh hưởng hai chiều.",
     "src": [
      {
-      "t": "GlobalSecurity, Iran War Day 218, 03/10",
-      "u": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
-     },
-     {
-      "t": "Iran International liveblog, 02–03/10",
-      "u": "https://www.iranintl.com/en/liveblog/202609269384"
+      "t": "Hellenic Shipping News / BRS, 03/10",
+      "u": "https://www.hellenicshippingnews.com/clean-tanker-markets-size-up-impact-of-potential-us-diesel-export-curbs/"
      }
     ]
    },
    {
-    "when": "01–02/10",
-    "tag": "Hormuz – Yanbu",
+    "when": "01–03/10",
+    "tag": "Dầu sản phẩm / Trung Quốc",
     "dir": "up",
     "segs": [
-     "Aframax",
-     "LPG",
-     "toàn ngành tàu dầu"
+     "MR"
     ],
-    "title": "VLCC Kazimah III (Kuwait, 317.250 DWT) trúng đạn và cháy ở Hormuz; cảng dầu Yanbu North trúng đạn, tạm ngừng bốc hàng",
-    "impact": "UKMTO báo vụ Kazimah III lúc 17:50 UTC ngày 1/10, thủy thủ an toàn. Trước đó 4 tàu dầu trúng đạn trong 24 giờ ngày 28–29/9. Yanbu vừa bốc hàng lại hôm 28/9 sau 17 ngày đóng cửa, đang phục vụ 11 tàu thì bị bắn; Pháp cam kết đưa phòng không tới. Cả hai đường ra của dầu Ả Rập Xê Út đều bị đe dọa nên phí rủi ro và cước được giữ cao. Với PVT: 2 tàu VLGC chạy Trung Đông chịu rủi ro trực tiếp; tàu chở dầu Kuwait cho Nghi Sơn đi cùng tuyến.",
+    "title": "Trung Quốc dừng xuất khẩu xăng dầu tháng 10 (trừ Hồng Kông, Ma Cao); G7 xả 100 triệu thùng trong 4 tháng, 20 ngày đầu dồn vào diesel",
+    "impact": "OilPrice.com (mục tin mới, 3/10): thiếu diesel trên toàn cầu đang sâu hơn. Hai lực ngược nhau: Trung Quốc ngừng xuất làm MR nội Á mất hàng ngắn hạn; G7 xả kho ở châu Âu làm giảm nhu cầu chở diesel xuyên Đại Tây Dương. Xuất khẩu tháng 8 của Trung Quốc 6,01 triệu tấn có thể quay lại nhanh nếu Bắc Kinh cấp phép sau 7/10. Với PVT: MR nội Á chịu nhiều nhất.",
     "src": [
      {
-      "t": "Splash247, 02/10",
-      "u": "https://splash247.com/fresh-attacks-hit-hormuz-tanker-and-saudi-oil-gateway/"
+      "t": "OilPrice.com, 03/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/"
      },
      {
-      "t": "Seatrade Maritime, 01/10",
-      "u": "https://www.seatrade-maritime.com/security/tanker-catches-fire-after-first-hormuz-attack-in-october"
-     },
-     {
-      "t": "The Maritime Executive, 01/10",
-      "u": "https://maritime-executive.com/article/explosion-and-fire-reported-at-yanbu"
-     },
-     {
-      "t": "Arab News (UKMTO), 02/10",
-      "u": "https://www.arabnews.com/middle-east/tanker-attacked-in-strait-of-hormuz-uk-maritime-agency-3004164"
-     }
-    ]
-   },
-   {
-    "when": "30/09",
-    "tag": "Hormuz – an ninh",
-    "dir": "up",
-    "segs": [
-     "Aframax",
-     "MR",
-     "LPG"
-    ],
-    "title": "UKMTO: 3 tàu (tàu dầu, tàu LNG, 1 tàu khác) trúng đạn không rõ nguồn ở Hormuz ngay sau khi Iran nhận phản đề xuất ngừng bắn 7 ngày của Mỹ; Mỹ dự kiến chiến sự có thể tái diễn sau bầu cử giữa kỳ",
-    "impact": "Đàm phán không ngăn được tấn công tàu, nên phí rủi ro và cách vận chuyển kém hiệu quả (con thoi, chuyển tải) còn kéo dài, giữ cước tàu dầu cao cho Aframax và MR của PVT. Ngược lại, nếu Iran chấp nhận khung ngừng bắn thì cước chịu áp lực giảm nhanh. Tin chưa kiểm chứng: kết quả tìm kiếm ngày 3/10 nhắc một tàu dầu thô trúng đạn ở Hormuz ngày 3/10 (chưa mở được nguồn gốc).",
-    "src": [
-     {
-      "t": "IBTimes, 30/09",
-      "u": "https://ibtimes.com/iran-received-uss-latest-ceasefire-counterproposal-tankers-were-reportedly-hit-hormuz-shortly-3808040"
+      "t": "OilPrice.com, 01–03/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html"
      }
     ]
    },
@@ -152,235 +101,101 @@ window.REPORTS = [
     "tag": "OPEC+",
     "dir": "mixed",
     "segs": [
-     "Aframax",
-     "MR"
+     "Aframax"
     ],
-    "title": "OPEC+ họp hôm nay về hạn ngạch tháng 11; Bloomberg (29/9) dẫn hai đại biểu: nhiều khả năng giữ nguyên. Kết quả chưa kiểm chứng",
-    "impact": "Hạn ngạch ít ý nghĩa khi Hormuz chặn sản lượng thực; điểm cần theo dõi là rà soát năng lực 2027. Giữ nguyên là trung tính cho cước tàu dầu thô; tăng ngoài dự kiến sẽ tốt cho Aframax.",
+    "title": "OPEC+ họp trực tuyến hôm nay về hạn ngạch tháng 11; dự kiến giữ nguyên (chưa kiểm chứng kết quả)",
+    "impact": "Hạn ngạch chỉ mang tính danh nghĩa vì sản lượng thực bị chặn bởi Hormuz; các nước còn chuẩn bị mốc cơ sở 2027. Kết quả cuộc họp chưa có nguồn gốc. Tăng bất ngờ tốt cho tàu dầu thô, giữ nguyên trung tính. Với PVT: tác động trực tiếp nhỏ lên 4 tàu Aframax.",
     "src": [
      {
-      "t": "InvestingLive / Bloomberg, 29/09",
-      "u": "https://investinglive.com/commodities/oil-opec-seen-holding-november-quotas-steady-at-sunday-meeting-delegates-say/"
+      "t": "Tìm kiếm: AGBI/The National, 09/2026 (bài AGBI trả 403, chưa mở được)",
+      "u": "https://www.agbi.com/oil-and-gas/2026/09/opec-likely-to-keep-output-targets-steady-at-sunday-meeting/"
      }
     ]
    },
    {
-    "when": "30/09–02/10",
-    "tag": "Dầu – Hormuz",
+    "when": "03–04/10",
+    "tag": "Giá dầu",
     "dir": "down",
     "segs": [
      "Aframax",
-     "toàn ngành tàu dầu"
-    ],
-    "title": "Kpler: dầu thô qua Hormuz đạt 13,5 triệu thùng/ngày (bình quân 7 ngày), bằng mức trước chiến tranh; dầu sản phẩm chỉ 677.000 thùng/ngày so với 3,6 triệu",
-    "impact": "Tính cả dầu thô và sản phẩm: 14,2 triệu thùng/ngày, khoảng 80% mức cũ. Hơn 70% dầu thô được chuyển tải ngoài khơi UAE/Oman, có hải quân Mỹ bảo vệ; đường ống chở khoảng 40% dầu thô của vùng (trước chiến tranh 17%). Bất lợi trung hạn cho cước dầu thô: lượng hàng không còn thiếu, phần cước cộng thêm chỉ còn dựa vào rủi ro và cách vận chuyển kém hiệu quả. Với PVT: Aframax hưởng lợi ngắn hạn từ chặng chuyển tải; phần này biến mất khi eo mở lại bình thường.",
-    "src": [
-     {
-      "t": "CNBC / Kpler qua Hellenic Shipping News, 02/10",
-      "u": "https://www.hellenicshippingnews.com/crude-oil-exports-through-the-strait-of-hormuz-hit-prewar-levels-but-fuel-shipments-remain-constrained/"
-     },
-     {
-      "t": "Briefs.co / Kpler, 30/09",
-      "u": "https://www.briefs.co/news/hormuz-exports-near-prewar-levels-after-u-s-escorts-and-pipe/"
-     }
-    ]
-   },
-   {
-    "when": "02/10",
-    "tag": "Dầu sản phẩm",
-    "dir": "mixed",
-    "segs": [
      "MR"
     ],
-    "title": "G7 xả 100 triệu thùng dự trữ, ưu tiên diesel trong 20 ngày; Trump: 'sẽ không cấm xuất khẩu' diesel. Brent chốt 102,25 USD, WTI 91,11 USD",
-    "impact": "Châu Âu xả 50 triệu thùng diesel. Diesel Mỹ 6,37 USD/gallon (đỉnh 6,52 ngày 22/9). Lệnh cấm xuất khẩu, nếu có, sẽ cắt nguồn hàng của MR ở US Gulf; rủi ro này đã được gỡ. Chiều ngược lại, diesel dự trữ bán ngay tại châu Âu làm giảm nhu cầu chở diesel xuyên Đại Tây Dương trong vài tuần. Với PVT: tác động gián tiếp qua các tàu MR trong pool chạy quốc tế.",
+    "title": "Ấn Độ: 'hỗn loạn vận tải, không phải thiếu cung, đẩy giá dầu'; Mỹ thêm Patriot cho Ả Rập Xê Út, Qatar; WTI giảm gần 4% khi EU cân nhắc xả kho, Brent trên 102 USD",
+    "impact": "Nhận định của một nước nhập khẩu lớn rằng giá cao do logistics, không do thiếu dầu, ủng hộ luận điểm cước tàu dầu giảm khi hành lang mở. Số Kpler (13,5 triệu thùng/ngày dầu thô qua Hormuz) cũng khớp hướng này. Với PVT: tin xấu cho giả định cước Aframax 2027–2028 nếu thỏa thuận xảy ra.",
     "src": [
      {
-      "t": "BNN Bloomberg, 02/10",
-      "u": "https://www.bnnbloomberg.ca/markets/oil/2026/10/02/g7-nations-will-release-100-million-barrels-of-oil-and-diesel-fuel-after-prices-soar/"
-     },
-     {
-      "t": "EnergyNow, 02/10",
-      "u": "https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/"
+      "t": "OilPrice.com, 03–04/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/"
      }
     ]
    },
    {
-    "when": "30/09–02/10",
-    "tag": "Mỹ – Iran",
-    "dir": "mixed",
-    "segs": [
-     "toàn ngành tàu dầu",
-     "LPG"
-    ],
-    "title": "Mỹ–Iran bế tắc: Trump bác đề xuất ngừng bắn 7 ngày của Iran (theo GlobalSecurity, 2/10); nguồn khác nói Mỹ gửi phản đề xuất qua Qatar",
-    "impact": "Hai nguồn mô tả khác nhau, chưa kiểm chứng được văn bản. Điểm chung: chưa có thỏa thuận và Qatar còn làm trung gian. GlobalSecurity ghi Iran không có tấn công tên lửa/UAV vào các nước trong khu vực suốt 23–27 ngày, nhưng tàu dầu vẫn bị bắn (3 tàu ngày 30/9), và Mỹ đang đưa tới 3 nhóm tàu sân bay. Hormuz chưa mở thật nên cước tàu dầu giữ cao; thỏa thuận là kịch bản làm cước đảo chiều nhanh nhất.",
-    "src": [
-     {
-      "t": "ABC 33/40 (The National Desk), 30/09–01/10",
-      "u": "https://abc3340.com/news/nation-world/iran-reviews-us-ceasefire-counterproposal-as-strait-of-hormuz-terms-remain-unclear"
-     },
-     {
-      "t": "EA WorldView, 01–02/10",
-      "u": "https://eaworldview.com/2026/10/us-war-on-iran-trump-rejects-tehran-proposal-to-reopen-talks-and-strait-of-hormuz/"
-     },
-     {
-      "t": "GlobalSecurity, Iran War Day 217, 02/10",
-      "u": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
-     }
-    ]
-   },
-   {
-    "when": "02/10",
-    "tag": "Biển Đỏ",
-    "dir": "mixed",
-    "segs": [
-     "Aframax",
-     "MR",
-     "Supramax"
-    ],
-    "title": "Reuters: Ả Rập Xê Út chuẩn bị chiến dịch trên bộ đánh Houthi để lấy lại Bab el-Mandeb, có thể huy động hơn 100.000 quân Yemen, từ nay đến đầu tháng 11",
-    "impact": "Mỹ cung cấp tình báo; Pakistan đã đưa 30.000–40.000 quân tới Ả Rập Xê Út. Ngắn hạn: giao tranh ở bờ Biển Đỏ làm tăng rủi ro cho tàu qua Bab el-Mandeb và cho Yanbu, đẩy thêm tàu đi vòng Mũi Hảo Vọng (tốt cho cước). Nếu chiến dịch thành công: Biển Đỏ mở lại, quãng đường co lại, bất lợi cho cước mọi loại tàu trong 2027.",
-    "src": [
-     {
-      "t": "Reuters qua The Spokesman-Review, 02/10",
-      "u": "https://www.spokesman.com/stories/2026/oct/02/saudis-plan-assault-on-houthis-to-break-red-sea-ch/"
-     }
-    ]
-   },
-   {
-    "when": "01/10",
-    "tag": "Hóa chất",
-    "dir": "down",
-    "segs": [
-     "Hóa chất"
-    ],
-    "title": "Stolt Tankers quý 3: TCE 24.121 $/ngày (−2,9% so với cùng kỳ); COA tái ký thấp hơn bình quân 8,3%; dự báo quý 4 yếu hơn một chút",
-    "impact": "Giá spot của Stolt tăng 40,5% so với cùng kỳ nhưng chưa chuyển thành hợp đồng mới (slide quý 3, 01/10). Lợi nhuận hoạt động mảng tàu 52,1 triệu USD (cùng kỳ 57,2 triệu). Tỷ trọng COA tăng lên 60% (trước 50%). Ban lãnh đạo: cước hóa chất thường đi sau cước dầu, 'có dấu hiệu sớm' tăng lại vào quý 4; orderbook khoảng 17% đội tàu, 13% đội tàu đến tuổi loại bỏ trước 2028. Với PVT: hóa chất là mảng đóng góp lãi gộp lớn nhất (31% năm 2025) và 47% tàu nằm trong pool; đây là tin xấu rõ nhất hôm nay.",
-    "src": [
-     {
-      "t": "Stolt-Nielsen qua Hellenic Shipping News, 02/10",
-      "u": "https://www.hellenicshippingnews.com/stolt-nielsen-limited-reports-third-quarter-net-profit-of-84-4-million/"
-     },
-     {
-      "t": "Investing.com (slide quý 3 của Stolt-Nielsen), 01/10",
-      "u": "https://www.investing.com/news/company-news/stoltnielsen-q3-2026-slides-profit-rises-but-tanker-outlook-softens-93CH-4927697"
-     }
-    ]
-   },
-   {
-    "when": "01–03/10",
-    "tag": "Hàng rời",
+    "when": "03/10",
+    "tag": "Biển Đen",
     "dir": "mixed",
     "segs": [
      "Supramax",
      "Handysize"
     ],
-    "title": "BDI 3.148, giảm 8,1% trong tuần; Capesize 5.042; vận chuyển hàng rời Mỹ sang Trung Quốc 9T/2026 tăng 104%, ngũ cốc +176%",
-    "impact": "Capesize dẫn dắt, nhóm nhỏ đi ngang. Hàng Mỹ sang Trung Quốc kéo dài quãng đường, hỗ trợ Supramax/Handysize có cẩu, nhưng định hạn 1 năm theo Fearnleys vẫn bị hạ.",
+    "title": "Nga bắn tàu hàng cờ Liberia ở cảng Odesa: 1 chết, 3 bị thương, 13 thủy thủ sơ tán; phong tỏa cảng Ukraine được nối lại từ mùa hè",
+    "impact": "gCaptain (3/10). Bài dẫn rằng đợt phong tỏa làm giảm xuất khẩu ngũ cốc và thép của Ukraine; con số mất khoảng một phần ba năng lực xuất ngũ cốc chỉ thấy trong đoạn trích tìm kiếm, chưa kiểm chứng. Ngũ cốc chuyển sang Mỹ/Brazil/Úc là tuyến dài, tốt cho tấn-hải lý Supramax/Handysize; nhưng rủi ro bảo hiểm tăng với tàu vào Biển Đen. Với PVT: 13 tàu hàng rời, tác động tích cực nhỏ.",
     "src": [
      {
-      "t": "Hellenic Shipping News, 01–03/10",
-      "u": "https://www.hellenicshippingnews.com/category/dry-bulk-market/"
-     },
-     {
-      "t": "Trading Economics, 02/10",
-      "u": "https://tradingeconomics.com/commodity/baltic"
+      "t": "gCaptain, 03/10",
+      "u": "https://gcaptain.com/russia-hits-liberian-flagged-ship-in-ukraines-odesa-port-kills-one/"
      }
     ]
    },
    {
-    "when": "02/10",
-    "tag": "Cung tàu",
-    "dir": "down",
-    "segs": [
-     "Aframax",
-     "Supramax"
-    ],
-    "title": "Đặt đóng mới tiếp tục: Carlova đặt 2 Aframax 114.000 DWT tại Imabari (giao Q4/2029–Q1/2030); Precious Shipping đặt 4 Ultramax 64.500 DWT, 35,45 triệu USD/tàu",
-    "impact": "Slot Aframax ở Nhật đã sang 2029–2030: không thêm cung cho 2027, nhưng nối dài làn sóng giao tàu sau 2028. Ultramax đóng mới 35,45 triệu USD tại Trung Quốc so với Ultramax 10 tuổi khoảng 30 triệu (Fearnleys): tàu cũ đang đắt so với tàu mới. Orderbook Ultramax vốn đã cao nhất trong hàng rời.",
-    "src": [
-     {
-      "t": "Splash247, 02/10",
-      "u": "https://splash247.com/carlova-returns-to-japan-with-imabari-aframax-pair/"
-     },
-     {
-      "t": "Precious Shipping qua Hellenic Shipping News, 02/10",
-      "u": "https://www.hellenicshippingnews.com/preciouus-shipping-announces-the-signing-of-4-shipbuilding-contracts-for-4-new-ultramax-bulk-carriers/"
-     }
-    ]
-   },
-   {
-    "when": "09/2026",
-    "tag": "Giá tàu cũ",
+    "when": "29/09–03/10",
+    "tag": "An ninh – Somalia",
     "dir": "up",
     "segs": [
-     "Aframax",
      "MR"
     ],
-    "title": "Tàu dầu cũ ở đỉnh: Aframax 10 tuổi khoảng 74 triệu USD, MR 10 tuổi khoảng 42 triệu USD; Aframax 5 tuổi vượt giá đóng mới (IndexBox, không rõ ngày)",
-    "impact": "Giá mua tàu 10–17 tuổi của PVT cao nhất chu kỳ trong khi cước định hạn tái ký có thể thấp hơn từ 2027. Bất lợi cho kế hoạch mua tàu; tàu PVT đang có tăng giá trị sổ sách ngầm.",
+    "title": "Giải cứu HONOUR 25 ở vùng Somalia/Vịnh Aden ngày 29/9: 5 thủy thủ chết; 44 người từ 3 tàu bị cướp (HONOUR 25, SEAMULL, EUREKA) được thả; tàu ASANA còn 22 người bị giữ",
+    "impact": "HSN dẫn IMO (3/10): ba tàu bị bắt từ tháng 4 đến tháng 8/2026. Bài không nêu loại tàu; đoạn trích tìm kiếm (Marine Insight/Safety4Sea) nói HONOUR 25 là tàu chở sản phẩm dầu, chưa kiểm chứng bằng trang gốc. Rủi ro cướp biển Somalia tăng song song với Houthi: phụ phí an ninh tuyến Vịnh Aden. Với PVT: ít tác động trực tiếp, vì đội tàu PVT chạy Aframax châu Âu, MR và hóa chất liên Á; cần theo dõi bảo hiểm và tuyến.",
     "src": [
      {
-      "t": "IndexBox",
-      "u": "https://www.indexbox.io/blog/secondhand-tanker-prices-hit-record-highs-amid-geopolitical-turmoil/"
+      "t": "Hellenic Shipping News / IMO, 03/10",
+      "u": "https://www.hellenicshippingnews.com/imo-secretary-general-mourns-seafarers-killed-during-rescue-of-hijacked-ship/"
      }
     ]
    },
    {
-    "when": "15/10",
-    "tag": "Kênh Panama",
-    "dir": "down",
+    "when": "01–03/10",
+    "tag": "Trừng phạt",
+    "dir": "mixed",
     "segs": [
-     "LPG",
-     "MR",
-     "Supramax"
+     "Aframax"
     ],
-    "title": "Kênh Panama tăng lên 33 lượt tàu/ngày và nâng mớn nước lên 49 feet (14,94 m) từ 15/10 nhờ mưa tháng 9",
-    "impact": "Trái với kỳ vọng El Niño làm kênh bị hạn chế trong ngắn hạn. Kênh thông hơn thì VLGC và tàu sản phẩm từ US Gulf đi châu Á ít phải vòng, quãng đường ngắn lại. Tác động nhỏ; theo dõi lại khi mùa khô bắt đầu (từ tháng 1).",
+    "title": "Anh trừng phạt 8 tàu Nga ngày 1/10 (5 tàu LNG, trong đó 3 tàu băng Arc7, 2 tàu bunker); Hellenic Shipping News: ước tính đội tàu bóng tối từ 600 đến 1.400 tàu, quý 2/2026 khoảng 87% trong ~430 tàu chở hàng Iran đã bị trừng phạt, 62% gắn cờ giả",
+    "impact": "Tác động lên tàu dầu thô nhỏ: lần này mục tiêu là tàu LNG của Nga, không phải tàu dầu. Số 87% và 62% là thống kê của bài tổng quan, không phải số của cơ quan chính thức. Hoạt động trừng phạt không đổi cán cân cung tàu dầu trong ngắn hạn. Với PVT: tác động nhỏ, nhưng đội tàu bóng tối bị khóa khỏi thị trường chính thống hỗ trợ cung hẹp cho Aframax.",
     "src": [
      {
-      "t": "Newsroom Panama, 28/09",
-      "u": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/"
+      "t": "gCaptain, 01/10",
+      "u": "https://gcaptain.com/uk-hits-eight-russian-ships-in-new-sanctions-package/"
      },
      {
-      "t": "Splash247 (Splash Wrap), 02/10",
-      "u": "https://splash247.com/splash-wrap-when-normal-becomes-the-risk/"
+      "t": "Hellenic Shipping News, 03/10",
+      "u": "https://www.hellenicshippingnews.com/what-is-the-shadow-fleet-and-why-is-it-so-hard-to-count/"
      }
     ]
    },
    {
-    "when": "02/10",
-    "tag": "Trong nước",
-    "dir": "mixed",
+    "when": "03/10",
+    "tag": "Hàng rời / ngũ cốc",
+    "dir": "up",
     "segs": [
-     "Dầu thô Aframax",
-     "Dầu SP"
+     "Panamax",
+     "Supramax"
     ],
-    "title": "Lọc hóa dầu Nghi Sơn nối lại nhập dầu Kuwait từ tháng 9; đã chạy thêm 10 loại dầu khác; 9T/2026 chế biến 8,38 triệu tấn",
-    "impact": "Nghi Sơn đa dạng hóa nguồn dầu thô (Iraq Basrah, Kuwait, loại khác) nên tuyến dầu thô vùng Vịnh → Việt Nam vẫn có hàng, nhưng phần hàng chạy tuyến Trung Đông không còn tập trung vào một nguồn. Với PVT: Aframax nhận hàng dài ngày ổn định; cước các chuyến này gắn với thị trường quốc tế đang rất cao. Số liệu 9T do Nghi Sơn công bố, chưa có kiểm chứng độc lập.",
+    "title": "Trung Quốc nhập đậu tương 8 tháng 2026 đạt 75,5 triệu tấn (+4,0%); 93,1% lượng nhập năm 2025 do Panamax chở; xuất khẩu Mỹ thường tăng mạnh quý 4",
+    "impact": "Banchero Costa (HSN 3/10): Brazil đã qua đỉnh mùa vụ (75,5% nguồn của Trung Quốc), nên quý 4 chuyển sang US Gulf/PNW, tuyến dài hơn. Lợi chính cho Panamax, Supramax hưởng gián tiếp. Với PVT: hỗ trợ nhỏ cho 13 tàu hàng rời; cung Supramax 2027 vẫn là rủi ro lớn hơn.",
     "src": [
      {
-      "t": "Vietstock qua Investing.com, 02/10",
-      "u": "https://vn.investing.com/news/commodities-news/loc-hoa-dau-nghi-son-noi-lai-nhap-khau-dau-tu-kuwait-2726004"
-     }
-    ]
-   },
-   {
-    "when": "09/2026–08/10",
-    "tag": "Thời tiết – El Niño",
-    "dir": "mixed",
-    "segs": [
-     "Supramax",
-     "Handysize",
-     "LPG"
-    ],
-    "title": "NOAA: El Niño đã xuất hiện, xác suất trên 90% thành sự kiện rất mạnh trong thu–đông 2026–27; cập nhật ENSO kế tiếp 8/10",
-    "impact": "El Niño mạnh làm kênh Panama thiếu nước (đã hạ mớn nước 0,5 ft xuống 49,5 ft từ 1/7), ảnh hưởng ngũ cốc/than từ Mỹ và LPG US Gulf → châu Á; đồng thời thường kéo giảm sản lượng nông sản châu Á, tăng nhập khẩu. Tác động lên hàng rời PVT hai chiều, chưa định lượng được. Số liệu xác suất lấy từ kết quả tìm kiếm tổng hợp gCaptain/NOAA, chưa mở bản gốc.",
-    "src": [
-     {
-      "t": "gCaptain, NOAA El Niño advisory",
-      "u": "https://gcaptain.com/el-nino-has-arrived-noaa-warns-it-could-become-one-of-the-strongest-on-record/"
+      "t": "Hellenic Shipping News / Banchero Costa, 03/10",
+      "u": "https://www.hellenicshippingnews.com/dry-bulk-shipping-china-soybean-imports-on-the-rise/"
      }
     ]
    }
@@ -468,17 +283,17 @@ window.REPORTS = [
    }
   ],
   "watch": [
-   "OPEC+ hôm nay 4/10: xác nhận giữ nguyên hay tăng; phiên Baltic thứ Hai 5/10: BDTI có giữ trên 6.000 không.",
-   "Iran trả lời phản đề xuất ngừng bắn 7 ngày; Trump nói chiến sự có thể tái diễn sau bầu cử giữa kỳ 3/11.",
-   "Trung Quốc có cấp phép xuất khẩu xăng dầu sau Tuần lễ Vàng (7/10) không; tốc độ G7 xả diesel.",
-   "Xclusiv 5/10, Fearnleys và EIA 7/10, NOAA ENSO 8/10.",
-   "Yanbu bốc hàng trở lại; chiến dịch của Ả Rập Xê Út ở Yemen.",
+   "OPEC+ hôm nay 4/10: kết quả thực tế (giữ nguyên hay tăng); phiên Baltic thứ Hai 5/10: BDTI có giữ trên 6.000 không.",
+   "Mỹ–Iran: nhóm tàu sân bay thứ ba tới nơi, Iran trả lời gì sau khi lộ trình 7 ngày bị bác; mốc bầu cử 3/11.",
+   "Trung Quốc có cấp phép xuất khẩu xăng dầu sau Tuần lễ Vàng (7/10) không; tốc độ G7 xả diesel; có cấm xuất khẩu diesel Mỹ trở lại không.",
+   "Xclusiv 5/10, Fearnleys và EIA 7/10, NOAA ENSO 8/10, Baltic tuần 41 ngày 9/10.",
+   "Yanbu bốc hàng trở lại; chiến dịch của Ả Rập Xê Út ở Yemen; tàu ASANA bị cướp ở Somalia.",
    "PVP họp 23/10 (Aframax số 3); BCTC quý 3 của PVT trước 30/10: biên gộp hóa chất."
   ],
   "gaps": [
-   "Lần chạy 04/10 (Chủ nhật, thay bản mới): 19 truy vấn, 8 trang mở thành công (Trading Economics, Baltic Exchange bulk report tuần 38 qua Dry Bulk Magazine, CBS, IndexBox, OilPrice.com, NOAA CPC, Al Jazeera, Hellenic Shipping News, InvestingLive). GlobalSecurity trả 402; RBN Energy và Splash247 trả 403. Không có số Baltic mới sau phiên 2/10; BDI 3.148 khớp Trading Economics.",
-   "Kết quả cuộc họp OPEC+ 4/10 chưa có nguồn gốc (chỉ có dự kiến của Bloomberg ngày 29/9 và đoạn trích tìm kiếm). Biên lọc dầu châu Á (xăng trên 50, diesel trên 70–75 USD/thùng) chỉ có trong đoạn trích tìm kiếm, bài OilPrice.com mở được không nêu số này. Trang CBS mở được là bản tin 8/9, không dùng. Bài IndexBox về giá tàu cũ không ghi ngày; bảng giá Aframax/MR trong đoạn trích tìm kiếm chưa kiểm chứng, dùng Fearnleys 30/09 ở mục supply làm số chính.",
-   "Truy vấn Ukraine tấn công cảng/lọc dầu Nga chỉ ra tin tháng 3–8/2026, không có tin trong 48 giờ. Truy vấn hóa chất (Odfjell/ICIS), VLGC, Việt Nam không ra số mới hơn bản 03/10. Số Baltic tuần 40, giao dịch mua bán tàu mới: chưa có; mục snp không đổi. NOAA mở được là bản 10/9 (kế tiếp 8/10). Bản tin giữ các mục chuyên sâu của 03/10 do không có số mới."
+   "Lần chạy 04/10 lần 2 (Chủ nhật, viết lại bản): 27 truy vấn WebSearch, 21 trang mở thành công. Không có số Baltic mới sau phiên 2/10; BDI 3.148 khớp Trading Economics. build.py: errors rỗng, data.js không đổi so với bản trước.",
+   "Trang lỗi: seatrade-maritime.com (403), agbi.com (403), envirotech-online.com (403), splash247.com (403), npr.org (503), hellenicshippingnews.com mục tanker-market và lpg-lng-market (404), trang báo cáo tuần Baltic tuần 40 (trang trống, chỉ có tiêu đề). Kết quả cuộc họp OPEC+ 4/10 chưa có nguồn gốc. Vụ Odesa: số mất một phần ba năng lực ngũ cốc và loại tàu HONOUR 25 chỉ có trong đoạn trích tìm kiếm.",
+   "Không đủ nguồn mở được cho: giao dịch mua bán tàu mới (Xclusiv tuần 5/10 chưa ra; bài Splash247 về Precious Shipping bán Kanchana Naree 2011 ~14,6 triệu USD trả 403, không rõ ngày nên không dùng); cước tàu hóa chất và LPG nhỏ (không có số mới hơn bản 03/10); tin PVT mới (bài tìm được là tháng 4/2025 nên loại). Ngày bỏ phiếu IMO khung Net-Zero: đoạn trích tìm kiếm nói 'tháng 10/2026', bản tin giữ mốc 4/12 theo nguồn trước đó; chưa kiểm chứng."
   ],
   "scoreManual": [
    {
@@ -499,7 +314,7 @@ window.REPORTS = [
    {
     "key": "talks",
     "name": "Đàm phán Mỹ–Iran",
-    "value": "Mỹ gửi phản đề xuất ngừng bắn 7 ngày qua Qatar; Iran chưa trả lời, tàu vẫn bị bắn",
+    "value": "Iran đề xuất lộ trình 7 ngày (mở Hormuz, đổi lấy dỡ phong tỏa, nới trừng phạt, ngừng bắn Liban/Yemen), Trump bác; Mỹ điều thêm tàu sân bay thứ ba; tàu vẫn bị bắn",
     "asof": "2026-10-02",
     "status": "green",
     "rule": "Xanh: bế tắc · Vàng: có lộ trình · Đỏ: thỏa thuận mở Hormuz",
@@ -1494,6 +1309,43 @@ window.REPORTS = [
      {
       "t": "Hellenic Shipping News Dry Bulk, 02–03/10",
       "u": "https://www.hellenicshippingnews.com/category/dry-bulk-market/"
+     }
+    ]
+   },
+   {
+    "topic": "Thép Trung Quốc (tham chiếu cầu hàng rời)",
+    "value": "SMM, tuần đến 24/9: sản lượng 5 sản phẩm thép chính 7,7968 triệu tấn (−144.600 tấn so với tuần trước); tồn kho 14,82 triệu tấn (−3,6%); tiêu thụ biểu kiến 8,35 triệu tấn, thép xây dựng +8,1%.",
+    "note": "Sản lượng giảm nhưng tồn kho giảm nhanh, tín hiệu cầu thép xây dựng tốt lên. Số cũ 10 ngày, chưa có số tuần 1/10 do Tuần lễ Vàng.",
+    "src": [
+     {
+      "t": "Shanghai Metals Market, 24/09",
+      "u": "https://news.metal.com/newscontent/104134565-china-weekly-steel-output-drops-144600-tonnes-as-total-inventory-decreases-36"
+     }
+    ]
+   },
+   {
+    "topic": "Đội tàu bóng tối: quy mô đếm được",
+    "value": "Ước tính EU: 600–1.400 tàu; hơn 650 tàu dính danh sách trừng phạt liên quan Nga; quý 2/2026 khoảng 87% trong ~430 tàu chở hàng Iran bị trừng phạt.",
+    "note": "Thống kê của bài tổng quan HSN, khác nhau theo phương pháp, không phải số chính thức.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 03/10",
+      "u": "https://www.hellenicshippingnews.com/what-is-the-shadow-fleet-and-why-is-it-so-hard-to-count/"
+     }
+    ]
+   },
+   {
+    "topic": "Tắc cảng container",
+    "value": "C.H. Robinson: khoảng 12% công suất tàu container toàn cầu bị tắc cảng, cao nhất 4 năm (Đông Á, Bắc Âu, tiểu lục địa Ấn Độ). Xeneta: cước Viễn Đông–Mỹ đã qua đỉnh hậu Hormuz.",
+    "note": "Bài chỉ nói về tàu container, không phải tàu dầu hay hàng rời; chỉ dùng làm bối cảnh tắc nghẽn chuỗi cung ứng.",
+    "src": [
+     {
+      "t": "gCaptain, 02/10",
+      "u": "https://gcaptain.com/port-congestion-ties-up-12-of-global-global-container-shipping-capacity/"
+     },
+     {
+      "t": "Hellenic Shipping News / Xeneta, 03/10",
+      "u": "https://www.hellenicshippingnews.com/freight-rates-into-us-reach-post-hormuz-crisis-peak-but-no-collapse-is-in-sight/"
      }
     ]
    }
