@@ -1,5 +1,1086 @@
 window.REPORTS = [
  {
+  "date": "2026-10-08",
+  "dataAsOf": "2026-10-07",
+  "headline": "BDTI 7.678 (+3,1%, +39,6% trong tuần) và BLPG 23.122 cùng lập đỉnh 5 năm mới phiên 7/10; định hạn Aframax 1 năm hồi lên 90.000–94.000 (+9%), MR 1 năm 39.000 (−2,5%). Hormuz: Reuters đếm ít nhất 12 vụ tấn công tàu tuần 28/9–5/10, cao nhất từ đầu chiến tranh; tối 7/10 một tàu dầu trúng nhiều đạn giữa vùng Vịnh, bắc Qatar, có thương vong. Dầu qua Hormuz chỉ 10,3 triệu thùng/ngày (−23% trước chiến tranh, Kpler). Bão Isaias đe dọa lọc dầu Vịnh Mexico",
+  "summary": [
+   "Baltic phiên 7/10: BDTI 7.678 (+3,1%; +39,6% tuần, cao nhất 5 năm), BCTI 2.371 (−0,6%), BLPG 23.122 (+2,1%; +9,0% tuần, cao nhất 5 năm). Hàng rời: BDI 2.994 (−0,3%, phiên giảm thứ 3, thấp nhất từ cuối tháng 8), BCI −0,9%; BSI 1.800 (+0,3%), BHSI 1.003 (−0,2%). BDI khớp Trading Economics. Brent 101,14 USD (8/10).",
+   "Định hạn 1 năm ngày 7/10: Aframax 90.000 (+9,1% tuần, nguồn dữ liệu trang) và 94.000 (Fearnleys), đảo chiều sau mức giảm 6,2% Intermodal ghi tuần trước; Suezmax 165.000–170.000, VLCC 220.000–230.000. MR 1 năm 39.000 (−2,5%). Hàng rời Fearnleys: Supramax 17.250 (−750), Handysize 15.750 (+750).",
+   "Hợp đồng thực trong ngày (Splash, thông cáo): MR Pyxis Lamda (2017) 2 năm 31.000 $/ngày cho CITGO; Handysize UBC Houston (2015) 9–11 tháng 17.250; Top Ships nhận 4 MR đóng mới có hợp đồng 7 năm với một hãng dầu lớn. Trafigura mua 4 LR2 đóng 2014–2015 và 3 Suezmax của SFL, SFL lãi sổ sách khoảng 175 triệu USD.",
+   "LPG (Fearnleys 7/10): VLGC spot 6,6 triệu USD/tháng (+0,4 triệu), khoảng 217.000 $/ngày; MGC 2,0 triệu (+0,2). Cỡ nhỏ đi ngang: Handy 20–22k cbm 0,98 triệu, 6.500 cbm 0,56 triệu, tàu ven biển châu Âu 3.500–5.000 cbm 0,44 triệu (−10.000).",
+   "Hormuz và vùng Vịnh: Reuters ghi ít nhất 12 vụ tấn công tuần 28/9–5/10; UKMTO ghi 9 vụ từ đầu tháng 10. Kpler: dầu thô qua Hormuz 10,3 triệu thùng/ngày tuần đến 3/10, thấp hơn 23% so với trước chiến tranh. Chi phí chở dầu vùng Vịnh–Trung Quốc khoảng 1 triệu USD/ngày/tàu. Kpler nghi nước vùng Vịnh trả phí qua eo cho Iran (chưa kiểm chứng).",
+   "Dầu sản phẩm: biên lọc dầu quý 3 của Shell 42 USD/thùng (quý 2: 24), nhưng crack gasoil ICE đã giảm còn khoảng 73 USD (tháng 9 trên 90). Bão Isaias có thể lên cấp 2 và vào bờ Louisiana–Florida cuối tuần; Trading Economics ghi trên 510.000 thùng/ngày dầu khai thác ở Vịnh Mexico đã tạm dừng. Không có tin PVT/PVN mới (CafeF, bài mới nhất 27/9)."
+  ],
+  "pvt": [
+   {
+    "seg": "Dầu thô Aframax (4 tàu)",
+    "signal": "up",
+    "text": "BDTI 7.678 ngày 7/10, cao nhất 5 năm. Định hạn Aframax 1 năm hồi lên 90.000 (nguồn dữ liệu trang) và 94.000 (Fearnleys), gần 3 lần mức 30.000–40.000 PVT thu năm 2025, dù tuần trước Intermodal ghi giảm. Rủi ro: tàu bị đánh cả ở giữa vùng Vịnh (bắc Qatar, 7/10), tuyến Hera/Mercury/Apollo chở dầu thô về Dung Quất phụ thuộc nguồn hàng từ khu vực này."
+   },
+   {
+    "seg": "Dầu SP / MR (8 tàu)",
+    "signal": "up",
+    "text": "MR 1 năm 39.000 (−2,5% tuần) vẫn khoảng 2 lần mức 17.500–22.000 năm 2025. Hợp đồng 2 năm thực tế thấp hơn: Pyxis Lamda (2017) 31.000 cho CITGO, nghĩa là người thuê định giá cước sẽ giảm sau năm đầu. Biên lọc dầu cao (Shell 42 USD/thùng) giữ hàng chạy, nhưng crack gasoil đã giảm từ trên 90 xuống 73 USD."
+   },
+   {
+    "seg": "Hóa chất (19 tàu)",
+    "signal": "na",
+    "text": "Không có số cước mới (ICIS kỳ tới 9/10). Phân tích báo cáo quý 3 của Stolt-Nielsen: cước spot hóa chất cao hơn 40,5% năm nhưng khối lượng spot −22,1%, nhiên liệu 718 USD/tấn; Stolt dự báo quý 4 yếu hơn một chút và đội tàu hóa chất tăng ròng 4%/năm 2026–2028. Hóa chất không theo kịp tàu dầu."
+   },
+   {
+    "seg": "LPG (22 tàu, trong đó 2 VLGC)",
+    "signal": "up",
+    "text": "BLPG 23.122 (+9% tuần); Fearnleys: VLGC spot khoảng 217.000 $/ngày, gấp hơn 5 lần mức 36.000–41.000 PVT thu năm 2025. Tàu LPG nhỏ: không có chỉ số công khai châu Á; đại diện là tàu ven biển châu Âu 3.500–5.000 cbm 0,44 triệu USD/tháng (~14.500 $/ngày), đi ngang, cao hơn mức 6.000–10.000 của PVT. Rủi ro: 2 VLGC chạy Trung Đông, nơi tấn công đã lan vào giữa vùng Vịnh."
+   },
+   {
+    "seg": "Hàng rời Supramax/Handysize (13 tàu)",
+    "signal": "flat",
+    "text": "BSI 1.800 và BHSI 1.003 đi ngang trong khi BDI giảm phiên thứ 3. Định hạn 1 năm Fearnleys: Supramax 17.250 (−750), Handysize 15.750 (+750); hợp đồng thực Handysize 39.000 DWT (2015) 9–11 tháng 17.250. Mức tái ký cao hơn khoảng 30–75% so với 11.000–13.000 (Supramax) và 9.000–12.000 (Handysize) PVT thu năm 2025, nhưng FFA Supramax 2027 chỉ 16.086."
+   }
+  ],
+  "headlines": [
+   {
+    "when": "07/10",
+    "tag": "Cước – tàu dầu, định hạn",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "MR",
+     "Suezmax",
+     "VLCC"
+    ],
+    "title": "BDTI 7.678 (+3,1%; +39,6% trong tuần), cao nhất 5 năm; định hạn Aframax 1 năm hồi lên 90.000 $/ngày (+9,1%, Hellenic/Intermodal) và 94.000 (Fearnleys), Suezmax 165.000–170.000 (+26%), VLCC 220.000–230.000; MR 1 năm giảm 2,5% còn 39.000, BCTI −0,6%",
+    "impact": "Fearnleys: chủ tàu 'không có chỗ trốn' cho người thuê; Aframax Địa Trung Hải/Biển Đen ở mức cao nhất mọi thời, Bắc Hải gần như không còn tàu sẵn sàng; Suezmax Đại Tây Dương bị hút hết vì VLCC đã chạy sang phía Đông. Tuần trước Intermodal ghi Aframax 1 năm giảm 6,2%: tín hiệu định hạn giữa các môi giới chưa thống nhất. Tàu sản phẩm chững lại (MR −2,5%, BCTI −0,6%). Với PVT: mức tái ký Aframax 6–12 tháng hiện gần 3 lần năm 2025; MR khoảng 2 lần.",
+    "src": [
+     {
+      "t": "Baltic Exchange, Hellenic/Intermodal qua build.py (yieldchaser/Shipping), 07/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     },
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     },
+     {
+      "t": "Hellenic Shipping News (Fearnleys tuần 41), 07/10",
+      "u": "https://www.hellenicshippingnews.com/fearnleys-week-41-2026/"
+     }
+    ]
+   },
+   {
+    "when": "07/10",
+    "tag": "Hợp đồng thuê thực tế",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "Handysize"
+    ],
+    "title": "MR Pyxis Lamda (50.145 DWT, đóng 2017) cho CITGO thuê 2 năm giá 31.000 $/ngày; Handysize UBC Houston (39.000 DWT, 2015) cho một nhà buôn hàng hóa thuê 9–11 tháng giá 17.250; Top Ships nhận 4 MR đóng mới giao 6/2029–3/2030, mỗi tàu có hợp đồng 7 năm (+3 năm quyền chọn) với một hãng dầu lớn",
+    "impact": "Hợp đồng 2 năm của MR thấp hơn khoảng 20–28% so với mức ước tính 1 năm (39.000–43.000): người thuê sẵn sàng khóa giá cao nhưng chiết khấu cho năm thứ hai. Handysize 17.250 cao hơn mức Fearnleys 15.750, sát mức Supramax. Hợp đồng 7 năm của Top Ships cho tàu giao 2029–2030 cho thấy hãng dầu đang khóa đội tàu MR dài hạn. Với PVT: mốc so sánh trực tiếp cho tái ký MR (tàu PVT già hơn, sẽ nhận giá thấp hơn tàu 2017) và cho 5 Handysize.",
+    "src": [
+     {
+      "t": "Splash247 (mô tả bài trong feed chuyên mục Tankers; bài lẻ 403), 07/10",
+      "u": "https://splash247.com/category/sector/tankers/"
+     },
+     {
+      "t": "Splash247 (mô tả bài trong feed chuyên mục Dry Cargo; bài lẻ 403), 07/10",
+      "u": "https://splash247.com/category/sector/dry-cargo/"
+     },
+     {
+      "t": "Hellenic Shipping News (thông cáo Top Ships), 07/10",
+      "u": "https://www.hellenicshippingnews.com/top-ships-inc-announces-acquisition-of-four-high-specification-ice-class-1a-newbuilding-mr-tankers-and-gross-revenue-backlog-of-about-1-24-billion/"
+     }
+    ]
+   },
+   {
+    "when": "07/10",
+    "tag": "LPG – VLGC",
+    "dir": "up",
+    "segs": [
+     "VLGC",
+     "LPG nhỏ"
+    ],
+    "title": "BLPG 23.122 (+2,1%; +9,0% trong tuần), cao nhất 5 năm; Fearnleys: VLGC spot 6,6 triệu USD/tháng (+400.000, khoảng 217.000 $/ngày), MGC 2,0 triệu (+200.000); cỡ nhỏ đi ngang: Handy 20–22k cbm 0,98 triệu, 6.500 cbm 0,56 triệu, tàu ven biển châu Âu 3.500–5.000 cbm 0,44 triệu (−10.000)",
+    "impact": "Fearnleys: giao dịch gần nhất khoảng 345 USD/tấn Houston–Chiba; mới có 13 chuyến cho tháng 11 (trung bình 33–34 chuyến/tháng trong 3 tháng qua) và chỉ hơn 10 tàu trống đến 20/11 ở Mỹ, nên mức hiện tại có thể giữ trong cửa sổ đang chốt. Cước tăng ở tàu lớn, không lan xuống tàu nhỏ. Với PVT: có lợi cho 2 VLGC nếu tái ký; 20 tàu LPG nhỏ không có tín hiệu tăng (số châu Âu là đại diện, châu Á không có chỉ số công khai).",
+    "src": [
+     {
+      "t": "Baltic Exchange, Hellenic/Intermodal qua build.py (yieldchaser/Shipping), 07/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     },
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     }
+    ]
+   },
+   {
+    "when": "05–07/10",
+    "tag": "Hormuz – vùng Vịnh, tấn công lan rộng",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "VLGC",
+     "LR2",
+     "VLCC"
+    ],
+    "title": "Tối 7/10 một tàu dầu trúng nhiều đạn cách Madinat ash Shamal (Qatar) khoảng 51 hải lý, giữa vùng Vịnh, có thương vong; Reuters: ít nhất 12 vụ tấn công tàu dầu, LNG, LPG quanh Hormuz tuần 28/9–5/10, cao nhất kể từ khi chiến tranh bắt đầu 28/2",
+    "impact": "Đây là vụ đầu tiên ở nửa phía tây vùng Vịnh sau nhiều tuần; MarEx: Mỹ không có tàu chiến mặt nước nào ở phía tây Hormuz, nên tàu ra vào Iraq, Kuwait, Saudi, Qatar ít được bảo vệ. IMO ghi 9 vụ cùng tuần; JMIC gần 20 tàu bị đánh trong một tháng; Windward: khoảng 2 tàu bị đánh trên 100 lượt qua eo trong quý 3. Với PVT: rủi ro trực tiếp với 2 VLGC chạy Trung Đông; phí bảo hiểm và tàu hỏng tiếp tục giữ cước Aframax/LR cao.",
+    "src": [
+     {
+      "t": "The Maritime Executive, 07/10",
+      "u": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz"
+     },
+     {
+      "t": "Anadolu (UKMTO), 07/10",
+      "u": "https://aa.com.tr/en/middle-east/tanker-struck-by-multiple-projectiles-north-of-qatar-casualties-reported-uk-maritime-agency/4081500"
+     },
+     {
+      "t": "Yahoo/dpa (UKMTO), 07/10",
+      "u": "https://yahoo.com/news/world/articles/tanker-hit-several-projectiles-gulf-230329900.html"
+     },
+     {
+      "t": "gCaptain (Reuters), 07/10",
+      "u": "https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/"
+     },
+     {
+      "t": "Hellenic Shipping News (JMIC, Kpler, Windward), 08/10",
+      "u": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/"
+     }
+    ]
+   },
+   {
+    "when": "06–08/10",
+    "tag": "Hormuz – chi phí trung chuyển",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "LR2",
+     "VLCC",
+     "MR"
+    ],
+    "title": "Kpler: dầu thô qua Hormuz 10,3 triệu thùng/ngày tuần đến 3/10, thấp hơn 23% so với 13,5 trước chiến tranh (Windward ước 9–10 so với 14,5); chở dầu vùng Vịnh–Trung Quốc tốn khoảng 1 triệu USD/ngày/tàu; một chuyến trung chuyển qua eo khoảng 40 triệu USD (WSJ)",
+    "impact": "Dầu ra được nhờ tàu chạy sát bờ Oman có Mỹ hộ tống rồi chuyển tải sang tàu khác ở vịnh Oman: cần nhiều tàu hơn cho cùng lượng dầu. Vitol: 7–10 ngày qua vùng Trung Đông xuất khoảng 12 triệu thùng/ngày dầu thô và 2 triệu sản phẩm. Kpler nghi một số nước vùng Vịnh trả Iran 10–20% hàng để qua eo (chưa kiểm chứng). Ít nhất 12 tàu LNG rỗng của Qatar chờ trong vùng Vịnh. Với PVT: mô hình tốn tàu này đỡ cước tàu dầu chừng nào eo chưa mở bình thường; nếu có thỏa thuận, số tàu cần dùng giảm nhanh.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (JMIC, Kpler, Windward), 08/10",
+      "u": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/"
+     },
+     {
+      "t": "Hellenic Shipping News (Vitol), 07/10",
+      "u": "https://www.hellenicshippingnews.com/vitol-ceo-says-current-middle-east-flows-enough-to-prevent-200-barrel-scenario/"
+     },
+     {
+      "t": "OilPrice.com (Kpler), 07/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html"
+     },
+     {
+      "t": "The Maritime Executive (FT, WSJ), 06/10",
+      "u": "https://maritime-executive.com/article/seafarers-now-command-huge-bonuses-for-hormuz-transits"
+     },
+     {
+      "t": "gCaptain (Bloomberg), 07/10",
+      "u": "https://gcaptain.com/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost/"
+     }
+    ]
+   },
+   {
+    "when": "07/10",
+    "tag": "Mua bán tàu – nhà buôn mua tàu",
+    "dir": "mixed",
+    "segs": [
+     "LR2",
+     "Suezmax",
+     "Aframax"
+    ],
+    "title": "Trafigura mua 4 LR2 đóng 2014–2015 và 3 Suezmax đóng 2019 đang thuê từ SFL, giao quý 4/2026–quý 1/2027; SFL thu ròng khoảng 275 triệu USD, lãi sổ sách 175 triệu; Clarksons định giá Aframax/LR2 10 tuổi 72,5 triệu, Fearnleys 75,5 triệu",
+    "impact": "Nhà buôn hàng hóa và công ty năng lượng nhà nước đang mua tàu thay vì thuê vì cước thuê quá cao (Bloomberg). LR2 11–12 tuổi đúng độ tuổi PVT thường mua; giá không công bố. Với PVT: giá Aframax 10 tuổi quanh 72–76 triệu USD, cao hơn mức 58–63,5 triệu cho Aframax 15 tuổi mà PVP đang cân nhắc (họp 23/10); tàu cũ đang được định giá theo cước hiện tại.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg), 07/10",
+      "u": "https://gcaptain.com/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise/"
+     },
+     {
+      "t": "Hellenic Shipping News (thông cáo SFL), 07/10",
+      "u": "https://www.hellenicshippingnews.com/sfl-sale-of-four-lr2-and-three-suezmax-tankers-and-termination-of-charters/"
+     },
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     }
+    ]
+   },
+   {
+    "when": "07/10",
+    "tag": "Dầu sản phẩm – lọc dầu",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "LR1",
+     "LR2"
+    ],
+    "title": "Shell: biên lọc dầu quý 3 lên 42 USD/thùng (quý 2: 24); thị trường thiếu khoảng 7–8 triệu thùng/ngày sản phẩm; nhưng crack gasoil ICE giảm còn khoảng 73 USD/thùng (tháng 9 trên 90) khi châu Âu xả dự trữ; EIA: tồn distillate Mỹ thấp hơn trung bình 5 năm 12%",
+    "impact": "ING: chỉ đầu đường cong gasoil giảm, kỳ hạn xa vẫn cao vì thiếu hụt chưa được giải quyết. Hàn Quốc đủ dầu thô cho tháng 10, quý 4 ít nhất 90% cùng kỳ, còn dư khoảng 1 triệu thùng/ngày công suất lọc để xuất sang châu Á–Thái Bình Dương. EU xem lại chiến lược lọc dầu; một nửa diesel EU nhập tháng 8 đến từ Mỹ. Với PVT: hàng sản phẩm dồi dào giữ tàu MR có việc; crack giảm là rủi ro cho cước MR Đại Tây Dương trong ngắn hạn.",
+    "src": [
+     {
+      "t": "OilPrice.com (Shell), 07/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.html"
+     },
+     {
+      "t": "Hellenic Shipping News / ING, 07/10",
+      "u": "https://www.hellenicshippingnews.com/the-commodities-feed-oil-stuck-between-improving-supply-and-persian-gulf-risks/"
+     },
+     {
+      "t": "OilPrice.com (EIA), 07/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html"
+     },
+     {
+      "t": "Hellenic Shipping News / Platts (Hàn Quốc), 07/10",
+      "u": "https://www.hellenicshippingnews.com/south-korea-sustains-ample-apac-clean-product-exports-on-stable-feedstock-supply-2/"
+     },
+     {
+      "t": "Hellenic Shipping News (EU), 07/10",
+      "u": "https://www.hellenicshippingnews.com/eu-to-delay-methane-law-assess-refining-strategy-to-combat-fuel-costs/"
+     }
+    ]
+   },
+   {
+    "when": "07–08/10",
+    "tag": "Bão – Vịnh Mexico",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "VLGC",
+     "Aframax"
+    ],
+    "title": "Bão nhiệt đới Isaias dự kiến mạnh lên cấp 2 và vào bờ Louisiana–Alabama–Mississippi–Florida cuối tuần; Chevron, Shell, BP sơ tán giàn khoan; Trading Economics ghi trên 510.000 thùng/ngày khai thác ở Vịnh Mexico đã tạm dừng; tới 6 nhà máy lọc ven Vịnh có thể bị ảnh hưởng",
+    "impact": "Vùng bờ Vịnh chiếm một nửa công suất lọc dầu Mỹ (14,1 triệu thùng/ngày); nhà máy Pascagoula (369.000 thùng/ngày) nằm trong vùng dự báo. Tháng 9 vừa qua không có cơn bão nào lần đầu sau 32 năm (El Niño). Nếu nhà máy và cảng đóng vài ngày, xuất xăng dầu và LPG từ Mỹ gián đoạn ngắn: tàu dồn chờ, sau đó cước thường tăng khi cảng mở lại. Với PVT: tác động gián tiếp qua mặt bằng cước MR và VLGC.",
+    "src": [
+     {
+      "t": "OilPrice.com (bão Isaias), 07/10",
+      "u": "https://oilprice.com/Energy/Energy-General/US-Gulf-Energy-Hub-Braces-for-Category-2-Hurricane.html"
+     },
+     {
+      "t": "OilPrice.com (Chevron, Shell, BP sơ tán), 07/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Shell-and-BP-Pull-Workers-From-the-Gulf-Ahead-of-Hurricane.html"
+     },
+     {
+      "t": "Trading Economics (Brent), 08/10",
+      "u": "https://tradingeconomics.com/commodity/brent-crude-oil"
+     }
+    ]
+   },
+   {
+    "when": "06–07/10",
+    "tag": "Yemen – Biển Đỏ",
+    "dir": "mixed",
+    "segs": [
+     "Aframax",
+     "Suezmax",
+     "MR",
+     "LR2"
+    ],
+    "title": "Houthi đánh sân bay Abha và King Khalid (Riyadh): 3 người chết, 36 bị thương; tên lửa rơi gần đường băng sân bay Aden; xuồng nhỏ bắn vào tàu container CUL Klang phía bắc Bab el-Mandeb sáng 7/10; giao tranh ở Dhubab sát eo, hai bên cùng nói kiểm soát bờ biển",
+    "impact": "Một sân bay bị đánh là Jazan, nơi có nhà máy lọc dầu Aramco 400.000 thùng/ngày; Brent quay lại trên 100 USD. Tin chính phủ Yemen chiếm Mocha (5/10) là quá sớm theo nguồn quân sự (Reuters). Tàu chở dầu Hàn Quốc lấy hàng ở Yanbu đã chuyển sang đi qua Suez thay vì Bab el-Mandeb (chiếc thứ 3 qua Suez, 5/10). Với PVT: tuyến Biển Đỏ khó mở lại sớm, quãng đường dài tiếp tục đỡ cước Aframax/MR; rủi ro cho hàng ra Yanbu (ống Đông–Tây).",
+    "src": [
+     {
+      "t": "Al Jazeera, 07/10",
+      "u": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports"
+     },
+     {
+      "t": "The National, 07/10",
+      "u": "https://www.thenationalnews.com/news/gulf/2026/10/07/houthis-claim-dawn-drone-and-missile-strikes-on-saudi-and-yemeni-airports/"
+     },
+     {
+      "t": "gCaptain (Reuters), 07/10",
+      "u": "https://gcaptain.com/houthis-attack-aden-airport-as-fighting-intensifies-in-yemen/"
+     },
+     {
+      "t": "The Maritime Executive, 07/10",
+      "u": "https://maritime-executive.com/article/shots-fired-at-chinese-containership-in-the-red-sea"
+     },
+     {
+      "t": "OilPrice.com, 07/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html"
+     },
+     {
+      "t": "Hellenic Shipping News / Business Korea, 07/10",
+      "u": "https://www.hellenicshippingnews.com/korean-tanker-uses-suez-route-for-crude-oil/"
+     }
+    ]
+   },
+   {
+    "when": "06–07/10",
+    "tag": "Nga – Biển Đen, lọc dầu",
+    "dir": "mixed",
+    "segs": [
+     "Aframax",
+     "MR",
+     "Supramax",
+     "Handysize"
+    ],
+    "title": "Nga xác nhận Aframax Rio (cờ Liberia) bị xuồng không người lái đánh gần Sochi khi chở 95.000–100.000 tấn dầu từ Novorossiysk đi Ấn Độ; Bulgaria dừng tìm 10–12 thuyền viên tàu Alfa Watan; cháy lớn ở trạm bơm, kho dầu Samara sau khi Ukraine xác nhận 14 bồn bị hỏng từ vụ 2/10",
+    "impact": "Tàu Able (7.400 DWT) bị bỏ lại, khả năng chìm 90%; Erdogan nêu an toàn hàng hải Biển Đen trong cuộc gọi với Putin. Rio chở dầu Nga sang Ấn Độ, nên rủi ro mới nằm ở chính tuyến xuất dầu của Nga qua Biển Đen. Guardian: 7 tàu Nga (3 tàu bị Anh/EU trừng phạt) chở hơn 176.000 tấn nhiên liệu từ cảng Hàn Quốc trong tháng 7–8; Seoul bác. Với PVT: dầu sản phẩm Nga tiếp tục thiếu, đỡ cước MR; Biển Đen rủi ro với tàu hàng rời nhỏ.",
+    "src": [
+     {
+      "t": "The Moscow Times, 07/10",
+      "u": "https://www.themoscowtimes.com/2026/10/07/sochi-closes-beaches-after-drone-attack-sets-oil-tanker-ablaze-a93900"
+     },
+     {
+      "t": "The Maritime Executive, 07/10",
+      "u": "https://maritime-executive.com/article/bulgaria-suspends-search-for-missing-crew-as-russia-denies-attack"
+     },
+     {
+      "t": "Kyiv Independent (Samara), 07/10",
+      "u": "https://kyivindependent.com/huge-blaze-breaks-out-at-russian-oil-facility-in-samara-oblast/"
+     },
+     {
+      "t": "Kyiv Independent (Biển Đen), 07/10",
+      "u": "https://kyivindependent.com/erdogan-raises-black-sea-safety-in-call-with-putin/"
+     },
+     {
+      "t": "gCaptain (Reuters), 07/10",
+      "u": "https://gcaptain.com/south-korea-denies-ukrainian-report-that-it-eased-russias-fuel-crisis/"
+     }
+    ]
+   },
+   {
+    "when": "07/10",
+    "tag": "Hàng rời",
+    "dir": "mixed",
+    "segs": [
+     "Supramax",
+     "Handysize"
+    ],
+    "title": "BDI 2.994 (−0,3%), phiên giảm thứ 3, thấp nhất từ cuối tháng 8; Capesize thấp nhất từ 21/8; BSI 1.800 (+0,3%), BHSI 1.003; Fearnleys định hạn 1 năm Supramax 17.250 (−750), Ultramax 19.750 (−250), Handysize 15.750 (+750); than Newcastle trên 150 USD/tấn, cao nhất từ 9/2023",
+    "impact": "Fearnleys: Handysize mạnh ở cả hai bờ đại dương, chủ tàu Supra/Ultramax giữ giá, chạy chuyến thay vì nhận định hạn thấp hơn; Supramax Nam Trung Quốc–Indonesia 16.769 $/ngày. Quặng về Trung Quốc giảm tuần thứ 2 (29,09 triệu tấn), MMi 61% còn 91,25 USD. Tòa án Úc chặn mở rộng mỏ than của Mach Energy; IEA dự báo cầu than kỷ lục 2026 vì LNG đắt. Với PVT: cỡ tàu nhỏ giữ được giá trong khi Capesize giảm; than đắt và nguồn Úc hạn chế có thể kéo thêm hàng than Indonesia cho Supramax châu Á.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Trading Economics, 07/10",
+      "u": "https://www.hellenicshippingnews.com/baltic-index-falls-for-3rd-session/"
+     },
+     {
+      "t": "Trading Economics (BDI), 07/10",
+      "u": "https://tradingeconomics.com/commodity/baltic"
+     },
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     },
+     {
+      "t": "Hellenic Shipping News / MMI, 07/10",
+      "u": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-october-7-2026/"
+     },
+     {
+      "t": "Hellenic Shipping News / Trading Economics (than), 07/10",
+      "u": "https://www.hellenicshippingnews.com/coal-hits-three-year-high/"
+     }
+    ]
+   }
+  ],
+  "news": [
+   {
+    "tag": "Hormuz",
+    "title": "Dầu ra nhiều hơn nhưng tốn tàu hơn: vì sao lượng dầu hồi phục chưa kéo cước xuống",
+    "text": "Kpler: dầu thô và condensate Trung Đông tháng 9 bình quân khoảng 16,5 triệu thùng/ngày, có ngày vượt 18 triệu trước chiến tranh; trung bình 7 ngày đến 30/9 là 18,3 triệu (gồm cả Biển Đỏ). Nhưng riêng qua Hormuz chỉ 10,3 triệu tuần đến 3/10 (−23%). Dầu đi theo chuỗi: tàu chạy sát bờ Oman có hộ tống, chuyển tải sang tàu khác ở vịnh Oman, rồi mới đi châu Á. Chi phí chở dầu vùng Vịnh–Trung Quốc khoảng 1 triệu USD/ngày/tàu; thuyền trưởng nhận tới 100.000 USD/tháng cộng 50.000 USD/chuyến. Vitol gọi đây là 'khủng hoảng vận tải'.",
+    "impact": "Cùng một thùng dầu cần nhiều ngày tàu hơn, nên cước giữ cao dù sản lượng hồi phục. Cơ chế này đảo chiều nhanh nếu có thỏa thuận Mỹ–Iran hoặc nếu Mỹ rút hộ tống ('không ai ở Washington nghĩ việc này bền vững về tài chính', Rapidan). Tấn công lan sang giữa vùng Vịnh (7/10) làm tăng số tàu phải hộ tống. Với PVT: cước Aframax hiện phụ thuộc vào sự kém hiệu quả của chuỗi vận tải, không phải vào nhu cầu dầu tăng.",
+    "src": [
+     {
+      "t": "OilPrice.com (Kpler), 07/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html"
+     },
+     {
+      "t": "Hellenic Shipping News (JMIC, Kpler, Windward), 08/10",
+      "u": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/"
+     },
+     {
+      "t": "The National, 07/10",
+      "u": "https://www.thenationalnews.com/news/mena/2026/10/07/under-pressure-araghchi-defends-irans-war-diplomacy/"
+     },
+     {
+      "t": "The Maritime Executive (FT, WSJ), 06/10",
+      "u": "https://maritime-executive.com/article/seafarers-now-command-huge-bonuses-for-hormuz-transits"
+     },
+     {
+      "t": "Hellenic Shipping News (Vitol), 07/10",
+      "u": "https://www.hellenicshippingnews.com/vitol-ceo-says-current-middle-east-flows-enough-to-prevent-200-barrel-scenario/"
+     }
+    ]
+   },
+   {
+    "tag": "Hóa chất",
+    "title": "Tàu hóa chất không theo kịp tàu dầu: chi tiết thêm từ quý 3 của Stolt",
+    "text": "Phân tích đăng trên HSN 7/10 về báo cáo quý 3 của Stolt-Nielsen: cước spot tàu hóa chất cao hơn 40,5% so với cùng kỳ nhưng khối lượng spot giảm 22,1% và giá nhiên liệu 718 USD/tấn (cùng kỳ 500), nên TCE bình quân 24.121 $/ngày, thấp hơn cùng kỳ 2,9%. Stolt dự báo quý 4 yếu hơn quý 3 một chút; đội tàu hóa chất tăng ròng khoảng 4%/năm giai đoạn 2026–2028. Thiếu nguyên liệu hóa dầu và giá năng lượng cao là rủi ro cho nhu cầu.",
+    "impact": "Tàu MR chạy dầu sản phẩm đang hút bớt tàu khỏi thị trường hóa chất, nhưng cầu hàng hóa chất yếu. Với PVT: hóa chất là nguồn lãi gộp lớn nhất (31% năm 2025); khoảng cách giữa cước tàu dầu và tàu hóa chất cho thấy phân khúc này không hưởng đầy đủ chu kỳ hiện tại.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (phân tích Stolt-Nielsen quý 3), 07/10",
+      "u": "https://www.hellenicshippingnews.com/stolt-nielsen-bunker-costs-dent-tankers-softer-4q-ahead/"
+     }
+    ]
+   }
+  ],
+  "watch": [
+   "NOAA cập nhật ENSO tối 8/10 giờ VN; Baltic tuần 41 và ICIS 9/10 (số theo tuyến TC7, BLPG1/3, Supramax châu Á).",
+   "Bão Isaias: nhà máy lọc và cảng Louisiana–Mississippi có đóng không (cuối tuần 10–11/10); ảnh hưởng xuất xăng dầu, LPG Mỹ.",
+   "Tàu dầu bị đánh ở bắc Qatar ngày 7/10: tên tàu, số thương vong, thủ phạm (UKMTO chưa công bố).",
+   "Trading Economics (8/10) nêu tin chính quyền Trump yêu cầu Lầu Năm Góc soạn phương án đánh Iran trước bầu cử giữa kỳ: chưa có bài gốc để kiểm chứng.",
+   "Kpler nghi nước vùng Vịnh trả phí qua Hormuz cho Iran (10–20% hàng): chưa kiểm chứng; nếu đúng, rủi ro trừng phạt với chủ hàng.",
+   "Trung Quốc có cấp hạn ngạch xuất xăng dầu sau Tuần lễ Vàng không; EU phê chuẩn gói trừng phạt 22 ngày 12/10.",
+   "PVP họp 23/10 về Aframax số 3; BCTC quý 3 PVT trước 30/10."
+  ],
+  "gaps": [
+   "Lần chạy 08/10 (thứ Năm, 07:01 giờ VN): 27 truy vấn WebSearch; 60 trang mở thành công có nội dung (không tính feed, trang chủ đề), trong đó 58 trang đăng trong 72 giờ; 5 lần lỗi (3 bài lẻ Splash247 trả 403, ukmto.org 403, 1 trang bảng định hạn HSN không có chữ). Hellenic Shipping News chiếm 21/60 = 35% số trang. build.py: errors rỗng, phiên mới nhất 7/10. BDI 2.994 khớp Trading Economics.",
+   "Nguồn chưa phát hành số mới: báo cáo tuần Baltic theo tuyến (kỳ tới 9/10; mục routes giữ số tuần 40); ICIS cước tàu hóa chất (9/10); NOAA ENSO (phát hành tối 8/10 giờ VN, sau giờ chạy); Xclusiv (12/10); báo cáo Intermodal/Banchero tuần 41 (13/10). Tin PVT/PVN: CafeF chủ đề PVTrans bài mới nhất 27/9.",
+   "Không truy cập được: bài lẻ splash247.com (403: Pyxis–CITGO, Top Ships, Pelagic; đã dùng mô tả trong feed chuyên mục và thông cáo Top Ships trên HSN); ukmto.org/recent-incidents (403; dùng Anadolu, dpa, MarEx); bảng 'Weekly Tanker Time Charter Estimates' trên HSN không có chữ (dùng build.py).",
+   "Chưa xác minh: hợp đồng Pyxis Lamda 31.000 và UBC Houston 17.250 chỉ có trong mô tả feed Splash (không tìm được thông cáo gốc); tên tàu và thương vong vụ bắc Qatar; Kpler nghi trả phí qua eo; tin Lầu Năm Góc soạn phương án đánh Iran (chỉ thấy ở Trading Economics). Không có tin 48 giờ cho: cước tàu hóa chất châu Á (2 truy vấn + Stolt), tàu LPG nhỏ châu Á (dùng Fearnleys châu Âu làm đại diện), IMO (1 truy vấn), cướp biển châu Á (1 truy vấn), số nhập than/quặng tháng 9 của Trung Quốc (chưa công bố)."
+  ],
+  "scoreManual": [
+   {
+    "key": "warrisk",
+    "name": "Phí bảo hiểm rủi ro chiến tranh qua Hormuz",
+    "value": "7,5–12,5% giá trị thân tàu/lượt (9/2026); Platts: AWRP Hormuz tăng hơn 40 lần từ cuối 2/2026",
+    "asof": "2026-10-07",
+    "status": "green",
+    "rule": "Xanh: vẫn cao (gián đoạn kéo dài) · Đỏ: giảm về dưới 1%",
+    "why": "Chưa có báo giá mới, nhưng rủi ro tăng: ít nhất 12 vụ tấn công tuần 28/9–5/10 (cao nhất từ đầu chiến tranh, Reuters); 7/10 tàu dầu bị đánh giữa vùng Vịnh, bắc Qatar, ngoài vùng Mỹ hộ tống. Phạm vi rủi ro mở rộng sang cảng Iraq, Kuwait, Saudi, Qatar.",
+    "src": [
+     {
+      "t": "gCaptain (Reuters), 07/10",
+      "u": "https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/"
+     },
+     {
+      "t": "The Maritime Executive, 07/10",
+      "u": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz"
+     },
+     {
+      "t": "Anadolu (UKMTO), 07/10",
+      "u": "https://aa.com.tr/en/middle-east/tanker-struck-by-multiple-projectiles-north-of-qatar-casualties-reported-uk-maritime-agency/4081500"
+     }
+    ]
+   },
+   {
+    "key": "talks",
+    "name": "Đàm phán Mỹ–Iran",
+    "value": "Không có đàm phán; Araghchi bị Quốc hội Iran chất vấn, có đơn luận tội vì gặp quan chức Mỹ ở New York; Iran giữ đề xuất 'mở eo trong 7 ngày' (Mỹ bác); Rubio: Iran 'mất kiểm soát hoàn toàn' eo",
+    "asof": "2026-10-07",
+    "status": "green",
+    "rule": "Xanh: bế tắc · Vàng: có lộ trình · Đỏ: thỏa thuận mở Hormuz",
+    "why": "Bế tắc, phe cứng rắn ở Tehran gây sức ép lên kênh ngoại giao. Rủi ro hai chiều: Trading Economics nêu tin Mỹ soạn phương án tấn công trước bầu cử (chưa kiểm chứng); Kpler nghi có thỏa thuận ngầm trả phí qua eo (chưa kiểm chứng).",
+    "src": [
+     {
+      "t": "The National, 07/10",
+      "u": "https://www.thenationalnews.com/news/mena/2026/10/07/under-pressure-araghchi-defends-irans-war-diplomacy/"
+     },
+     {
+      "t": "OilPrice.com (Kpler), 07/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html"
+     },
+     {
+      "t": "Trading Economics (Brent), 08/10",
+      "u": "https://tradingeconomics.com/commodity/brent-crude-oil"
+     }
+    ]
+   },
+   {
+    "key": "gulfflows",
+    "name": "Xuất khẩu dầu vùng Vịnh so với trước chiến tranh",
+    "value": "Dầu thô Trung Đông TB 7 ngày 18,3 triệu thùng/ngày (30/9, Kpler, gồm Biển Đỏ) so với 18 trước chiến tranh; riêng qua Hormuz 10,3 triệu (tuần đến 3/10, −23%); Vitol: 12 triệu dầu thô + 2 triệu sản phẩm",
+    "asof": "2026-10-07",
+    "status": "yellow",
+    "rule": "Xanh <60% · Vàng 60–90% · Đỏ >90% kèm lượt tàu qua Hormuz tăng",
+    "why": "Tổng dầu thô đã ngang trước chiến tranh nhưng một phần đi vòng qua Yanbu và chuyển tải; lượng qua Hormuz mới 77% (Kpler) và tấn công tăng. Chưa đủ điều kiện chuyển đỏ (lượt tàu qua Hormuz chưa về bình thường); sản phẩm và LPG vẫn khoảng 60% (tháng 9).",
+    "src": [
+     {
+      "t": "The National, 07/10",
+      "u": "https://www.thenationalnews.com/news/mena/2026/10/07/under-pressure-araghchi-defends-irans-war-diplomacy/"
+     },
+     {
+      "t": "Hellenic Shipping News (JMIC, Kpler, Windward), 08/10",
+      "u": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/"
+     },
+     {
+      "t": "Hellenic Shipping News (Vitol), 07/10",
+      "u": "https://www.hellenicshippingnews.com/vitol-ceo-says-current-middle-east-flows-enough-to-prevent-200-barrel-scenario/"
+     }
+    ]
+   },
+   {
+    "key": "orderbook",
+    "name": "Orderbook tàu dầu / đội tàu (DWT)",
+    "value": "Toàn ngành 23% đội tàu theo CGT (~225 triệu CGT, Clarksons 7/10); VLCC 37% (Veson); thêm 4 MR của Top Ships (tổng 14 MR đóng mới), giao 2029–2030",
+    "asof": "2026-10-07",
+    "status": "red",
+    "rule": "Xanh <10% · Vàng 10–20% · Đỏ >20%",
+    "why": "Đơn MR mới tiếp tục, có hợp đồng 7 năm đi kèm. Chưa có tỷ lệ MR2 mới (hồ sơ: 14,4% tháng 2, ngưỡng cảnh báo 18%).",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (thông cáo Top Ships), 07/10",
+      "u": "https://www.hellenicshippingnews.com/top-ships-inc-announces-acquisition-of-four-high-specification-ice-class-1a-newbuilding-mr-tankers-and-gross-revenue-backlog-of-about-1-24-billion/"
+     },
+     {
+      "t": "Hellenic Shipping News / Clarksons, 07/10",
+      "u": "https://www.hellenicshippingnews.com/clarksons-clarksea-index-at-all-time-high-surpassing-2008-record/"
+     }
+    ]
+   },
+   {
+    "key": "drysupply",
+    "name": "Cung – cầu hàng rời 2027",
+    "value": "Giao tàu 2027: 4,9% đội tàu, thương mại +1,7% (Xclusiv); Veson: cung +3,8%/năm, cầu +2,6%/năm đến 2029; FFA Supramax 2027 16.086 $/ngày",
+    "asof": "2026-10-07",
+    "status": "red",
+    "rule": "Xanh: cầu > cung · Vàng: cân bằng · Đỏ: cung > cầu",
+    "why": "Không có số cung–cầu mới. Định hạn Supramax 1 năm giảm 750 còn 17.250 (Fearnleys), Fearnleys nói đường FFA Panamax 'chiết khấu sang năm sau': thị trường không trả giá cao cho 2027.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     },
+     {
+      "t": "Xclusiv Shipbrokers tuần 40, 05/10",
+      "u": "https://www.hellenicshippingnews.com/xclusiv-shipbrokers-weekly-05th-october-2026/"
+     }
+    ]
+   },
+   {
+    "key": "peers",
+    "name": "Ngày tàu đã ký trước của doanh nghiệp cùng ngành",
+    "value": "Hafnia: 53% ngày H2 ở 28.917 $/ngày · Pyxis: MR 2017 ký 2 năm 31.000 (7/10) · Stolt: TCE quý 3 24.121 (−2,9% năm)",
+    "asof": "2026-10-07",
+    "status": "green",
+    "rule": "Xanh: giá ký trước > TB 5 năm · Đỏ: thấp hơn",
+    "why": "Hợp đồng 2 năm MR ở 31.000 cao hơn nhiều mức trung bình 5 năm của MR 1 năm (~23.800). NORDEN nâng dự báo lợi nhuận 2026 nhờ tàu dầu. Ngoại lệ: tàu hóa chất (Stolt) đi lùi.",
+    "src": [
+     {
+      "t": "Splash247 (mô tả bài trong feed chuyên mục Tankers; bài lẻ 403), 07/10",
+      "u": "https://splash247.com/category/sector/tankers/"
+     },
+     {
+      "t": "Hellenic Shipping News (thông cáo NORDEN), 07/10",
+      "u": "https://www.hellenicshippingnews.com/norden-raises-full-year-guidance-3/"
+     },
+     {
+      "t": "Hellenic Shipping News (phân tích Stolt-Nielsen quý 3), 07/10",
+      "u": "https://www.hellenicshippingnews.com/stolt-nielsen-bunker-costs-dent-tankers-softer-4q-ahead/"
+     }
+    ]
+   },
+   {
+    "key": "dark",
+    "name": "Đội tàu bóng tối / tàu dầu toàn cầu",
+    "value": "~12% (6/2026); ≥50 tàu chở dầu Iran kẹt gần bờ (UANI 6/10); Bellona: 50 tàu bóng tối trên Tuyến biển phương Bắc mùa 2026 (2025: 38), 33 tàu ≥15 tuổi",
+    "asof": "2026-10-07",
+    "status": "green",
+    "rule": "Xanh: ổn định hoặc tăng · Đỏ: giảm nhanh do gỡ trừng phạt",
+    "why": "Không có dấu hiệu gỡ trừng phạt; EU thông qua gói 22 (1.600 cá nhân, tổ chức, chủ yếu quốc phòng). Đội tàu bóng tối mở rộng tuyến Bắc Cực; tàu chở dầu Nga bị tấn công ở Biển Đen (Rio).",
+    "src": [
+     {
+      "t": "gCaptain (Bellona), 07/10",
+      "u": "https://gcaptain.com/sanctioned-22-year-old-non-ice-class-tanker-makes-rare-late-season-arctic-voyage/"
+     },
+     {
+      "t": "The Moscow Times, 07/10",
+      "u": "https://www.themoscowtimes.com/2026/10/07/eu-approves-record-sanctions-expansion-targeting-16k-russian-citizens-and-entities-a93913"
+     },
+     {
+      "t": "The Moscow Times, 07/10",
+      "u": "https://www.themoscowtimes.com/2026/10/07/sochi-closes-beaches-after-drone-attack-sets-oil-tanker-ablaze-a93900"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "date": "2026-10-02",
+    "end": "2026-10-22",
+    "event": "G7 xả diesel dự trữ đợt đầu (20 ngày)",
+    "why": "Đã kéo crack gasoil từ trên 90 xuống khoảng 73 USD/thùng; kỳ hạn xa vẫn cao."
+   },
+   {
+    "date": "2026-10-08",
+    "event": "NOAA cập nhật ENSO (El Niño), tối giờ VN",
+    "why": "Bản 10/9: >90% El Niño rất mạnh, 75% vượt kỷ lục: ảnh hưởng than, ngũ cốc, mớn nước kênh Panama 2027."
+   },
+   {
+    "date": "2026-10-09",
+    "event": "Baltic Exchange tổng kết tuần 41; ICIS cước tàu hóa chất",
+    "why": "Kiểm tra TC7 MR châu Á, BLPG1/3 và Supramax châu Á sau kỳ nghỉ ở Trung Quốc."
+   },
+   {
+    "date": "2026-10-09",
+    "end": "2026-12-07",
+    "event": "Sinopec Shanghai bảo dưỡng CDU 320.000 thùng/ngày",
+    "why": "Giảm thêm nguồn xăng dầu Trung Quốc có thể xuất khẩu trong quý 4."
+   },
+   {
+    "date": "2026-10-09",
+    "end": "2026-10-11",
+    "tentative": true,
+    "event": "Bão Isaias vào bờ Vịnh Mexico (Louisiana–Florida Panhandle)",
+    "why": "Tới 6 nhà máy lọc ven Vịnh có thể bị ảnh hưởng; trên 510.000 thùng/ngày khai thác đã dừng."
+   },
+   {
+    "date": "2026-10-12",
+    "event": "EU phê chuẩn chính thức gói trừng phạt 22 (Luxembourg)",
+    "why": "Hơn 1.600 cá nhân, tổ chức; kiểm tra có thêm tàu đội tàu bóng tối không."
+   },
+   {
+    "date": "2026-10-15",
+    "event": "Kênh Panama tăng lên 33 lượt tàu/ngày",
+    "why": "Mớn Neopanamax 49 feet; lưu lượng qua eo Magellan đã tăng hơn 70% tháng 8–9 do Panama hạn chế."
+   },
+   {
+    "date": "2026-10-17",
+    "event": "Premier Alliance bắt đầu đưa tàu container qua Suez trở lại",
+    "why": "Thước đo an toàn Biển Đỏ khi giao tranh ở Dhubab sát Bab el-Mandeb."
+   },
+   {
+    "date": "2026-10-20",
+    "end": "2026-10-30",
+    "tentative": true,
+    "event": "PVT công bố BCTC quý 3/2026",
+    "why": "Kiểm tra biên gộp theo phân khúc, nhất là hóa chất, và chi phí xây dựng cơ bản dở dang."
+   },
+   {
+    "date": "2026-10-22",
+    "end": "2026-11-10",
+    "tentative": true,
+    "event": "Kết quả quý 3 của doanh nghiệp cùng ngành (Scorpio, Hafnia, Frontline, Odfjell, BW LPG, Star Bulk)",
+    "why": "Tỷ lệ ngày tàu đã ký trước cho quý 4 kèm giá. NORDEN 29/10, Shell 29/10."
+   },
+   {
+    "date": "2026-10-23",
+    "event": "PVP họp ĐHĐCĐ bất thường: dự án tàu Aframax số 3",
+    "why": "Aframax 10 tuổi 72,5–75,5 triệu USD (Clarksons, Fearnleys); 15 tuổi 58–63,5 triệu tùy môi giới."
+   },
+   {
+    "date": "2026-10-31",
+    "event": "Hết hạn lệnh cấm xuất diesel của Nga",
+    "why": "Novak nói có thể mở một phần khi dư cung: rủi ro giảm cho MR Đại Tây Dương."
+   },
+   {
+    "date": "2026-11-01",
+    "event": "OPEC+ (7 nước cốt lõi) họp về sản lượng tháng 12; hết hạn chuyển tiếp trừng phạt tàu của Nhật",
+    "why": "Tháng 10 và 11 đã tạm dừng tăng. Aramco giảm giá bán dầu tháng 11 cho châu Á 3 USD."
+   },
+   {
+    "date": "2026-11-03",
+    "event": "Bầu cử giữa kỳ Mỹ",
+    "why": "Trump nói có thể đánh Iran trở lại sau bầu cử."
+   },
+   {
+    "date": "2026-11-17",
+    "end": "2026-11-24",
+    "event": "Kênh Panama đấu slot dài hạn mùa khô 2027 (Neopanamax 17/11, Panamax 24/11)",
+    "why": "270 + 288 slot cho 3/1–3/4/2027: chỉ báo kỳ vọng hạn chế mùa khô do El Niño."
+   },
+   {
+    "date": "2026-11-23",
+    "end": "2026-11-27",
+    "tentative": true,
+    "event": "Họp liên kỳ IMO về khung Net-Zero",
+    "why": "Chuẩn bị cho phiên quyết định ngày 4/12."
+   },
+   {
+    "date": "2026-11-30",
+    "end": "2026-12-03",
+    "event": "IMO MEPC 85",
+    "why": "Phiên thường kỳ trước phiên bất thường ngày 4/12 về khung Net-Zero."
+   },
+   {
+    "date": "2026-12-04",
+    "event": "IMO MEPC phiên bất thường 2: quyết định khung Net-Zero",
+    "why": "Nếu thông qua, tàu già tốn kém hơn. Rủi ro trực tiếp cho đội tàu PVT bình quân khoảng 17 tuổi."
+   }
+  ],
+  "period": [
+   {
+    "vessel": "Pyxis Lamda (50.145 DWT, 2017)",
+    "type": "MR",
+    "rate": "31.000",
+    "period": "2 năm (±30 ngày)",
+    "when": "Pyxis Tankers, 07/10",
+    "note": "Người thuê CITGO; doanh thu ròng khoảng 21,8 triệu USD. Hợp đồng thực, thấp hơn ước tính MR 1 năm 39.000–43.000 khoảng 20–28%. PVT thu 17.500–22.000 năm 2025.",
+    "src": [
+     {
+      "t": "Splash247 (mô tả bài trong feed chuyên mục Tankers; bài lẻ 403), 07/10",
+      "u": "https://splash247.com/category/sector/tankers/"
+     }
+    ]
+   },
+   {
+    "vessel": "UBC Houston (39.000 DWT, 2015)",
+    "type": "Handysize",
+    "rate": "17.250",
+    "period": "9–11 tháng",
+    "when": "Pelagic Partners, 07/10",
+    "note": "Người thuê là một nhà buôn hàng hóa lớn. Tàu 11 tuổi, đóng tại Chengxi. Cao hơn Fearnleys Handysize 1 năm (15.750). PVT thu 9.000–12.000 năm 2025.",
+    "src": [
+     {
+      "t": "Splash247 (mô tả bài trong feed chuyên mục Dry Cargo; bài lẻ 403), 07/10",
+      "u": "https://splash247.com/category/sector/dry-cargo/"
+     }
+    ]
+   },
+   {
+    "vessel": "4 MR đóng mới 50.000 DWT, Ice 1A (Top Ships)",
+    "type": "MR",
+    "rate": "không công bố",
+    "period": "7 năm + 3 năm quyền chọn",
+    "when": "Top Ships, 07/10",
+    "note": "Giao 6/2029–3/2030 cho một hãng dầu lớn; doanh thu tiềm năng 316,9 triệu USD cho 4 tàu nếu dùng hết quyền chọn (~21.700 $/ngày/tàu bình quân 10 năm, ước tính thô).",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (thông cáo Top Ships), 07/10",
+      "u": "https://www.hellenicshippingnews.com/top-ships-inc-announces-acquisition-of-four-high-specification-ice-class-1a-newbuilding-mr-tankers-and-gross-revenue-backlog-of-about-1-24-billion/"
+     }
+    ]
+   },
+   {
+    "vessel": "Aframax / Suezmax / VLCC (ước tính môi giới)",
+    "type": "Dầu thô",
+    "rate": "94.000 / 165.000 / 230.000",
+    "period": "1 năm",
+    "when": "Fearnleys, 07/10",
+    "note": "Nguồn dữ liệu trang (Hellenic/Intermodal, 7/10): Aframax 90.000 (+9,1%), Suezmax 170.000, VLCC 220.000; Aframax 3 năm 57.500. PVT thu 30.000–40.000 năm 2025.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     },
+     {
+      "t": "Baltic Exchange, Hellenic/Intermodal qua build.py (yieldchaser/Shipping), 07/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     }
+    ]
+   },
+   {
+    "vessel": "MR / LR2 / tàu sản phẩm handy (ước tính môi giới)",
+    "type": "MR",
+    "rate": "39.000 / 87.500 / 34.000",
+    "period": "1 năm",
+    "when": "Hellenic/Intermodal qua build.py, 07/10",
+    "note": "MR −2,5% tuần; MR 3 năm 27.500 (+3,8%); LR2 +6,1%; handy +4,6%.",
+    "src": [
+     {
+      "t": "Baltic Exchange, Hellenic/Intermodal qua build.py (yieldchaser/Shipping), 07/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     }
+    ]
+   },
+   {
+    "vessel": "Supramax / Ultramax / Handysize (ước tính môi giới)",
+    "type": "Hàng rời",
+    "rate": "17.250 / 19.750 / 15.750",
+    "period": "1 năm",
+    "when": "Fearnleys, 07/10",
+    "note": "Supramax −750, Ultramax −250, Handysize +750 trong tuần. Nguồn dữ liệu trang: Supramax 22.750, Handysize 20.125.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     },
+     {
+      "t": "Baltic Exchange, Hellenic/Intermodal qua build.py (yieldchaser/Shipping), 07/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     }
+    ]
+   }
+  ],
+  "snp": [
+   {
+    "vessel": "4 LR2 (SFL → Trafigura)",
+    "type": "LR2",
+    "dwt": null,
+    "built": "2014",
+    "yard": "—",
+    "price": "không công bố",
+    "buyer": "Trafigura",
+    "note": "Đóng 2014–2015, 11–12 tuổi: đúng độ tuổi PVT hay mua. Bán kèm 3 Suezmax 2019; SFL thu ròng ~275 triệu, lãi sổ sách ~175 triệu. Mốc định giá Aframax/LR2 10 tuổi: 72,5 (Clarksons) – 75,5 (Fearnleys).",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (thông cáo SFL), 07/10",
+      "u": "https://www.hellenicshippingnews.com/sfl-sale-of-four-lr2-and-three-suezmax-tankers-and-termination-of-charters/"
+     },
+     {
+      "t": "gCaptain (Bloomberg), 07/10",
+      "u": "https://gcaptain.com/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise/"
+     }
+    ]
+   },
+   {
+    "vessel": "3 Suezmax (SFL → Trafigura)",
+    "type": "Suezmax",
+    "dwt": null,
+    "built": "2019",
+    "yard": "—",
+    "price": "không công bố",
+    "buyer": "Trafigura",
+    "note": "Suezmax 10 tuổi định giá ~110 triệu (Clarksons). Không thuộc cỡ PVT; nêu vì cùng giao dịch.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg), 07/10",
+      "u": "https://gcaptain.com/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise/"
+     }
+    ]
+   }
+  ],
+  "lpg": [
+   {
+    "topic": "Baltic LPG (BLPG)",
+    "value": "23.122 ngày 7/10 (+2,1% so với 6/10, +9,0% tuần), cao nhất 5 năm.",
+    "note": "Số theo tuyến BLPG1/3 có ở báo cáo tuần 9/10.",
+    "src": [
+     {
+      "t": "Baltic Exchange, Hellenic/Intermodal qua build.py (yieldchaser/Shipping), 07/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     }
+    ]
+   },
+   {
+    "topic": "Fearnleys – spot theo tháng (7/10)",
+    "value": "VLGC 84k 6,6 triệu USD (+0,4); LGC 60k 3,7 (+0,2); MGC 38k 2,0 (+0,2); Handy 20–22k 0,98 (0); Handy ethylene 1,4 (0); 6.500 cbm 0,56 (0); tàu ven biển châu Âu 3.500–5.000 cbm 0,44 (−0,01).",
+    "note": "Tàu ven biển châu Âu là đại diện cho tàu LPG nhỏ của PVT (châu Á không có chỉ số công khai): ~14.500 $/ngày, so với 6.000–10.000 PVT thu năm 2025.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     }
+    ]
+   },
+   {
+    "topic": "VLGC Mỹ (Fearnleys)",
+    "value": "Giao dịch gần nhất ~345 USD/tấn Houston–Chiba; 13 chuyến cho tháng 11 (7/6/0 theo kỳ 10 ngày), TB 33–34 chuyến/tháng; hơn 10 tàu trống đến 20/11.",
+    "note": "Propane Mont Belvieu 459,78 USD/t, Saudi CP 680: chênh Mỹ–Trung Đông khoảng 220 USD/t, hỗ trợ hàng Mỹ đi châu Á (đường dài).",
+    "src": [
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     }
+    ]
+   }
+  ],
+  "supply": [
+   {
+    "topic": "Đóng mới MR (Top Ships)",
+    "value": "Thêm 4 MR 50.000 DWT Ice 1A tại Guangzhou Shipyard International, giao 6/2029–3/2030; tổng 14 MR đóng mới; 85% vốn đóng tàu do công ty cho thuê tài chính Trung Quốc tài trợ.",
+    "note": "Đơn MR tiếp tục dồn vào 2029–2030, trùng cửa sổ tái ký của PVT.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (thông cáo Top Ships), 07/10",
+      "u": "https://www.hellenicshippingnews.com/top-ships-inc-announces-acquisition-of-four-high-specification-ice-class-1a-newbuilding-mr-tankers-and-gross-revenue-backlog-of-about-1-24-billion/"
+     }
+    ]
+   },
+   {
+    "topic": "Giá đóng mới và tàu cũ (Fearnleys, 7/10)",
+    "value": "Đóng mới: VLCC 130, Suezmax 86, Aframax 74, tàu sản phẩm 50k 49,5, Ultramax 36 (không đổi). Tàu 10 tuổi: Aframax/LR2 75,5, Ultramax 30, Handysize 24; 5 tuổi: Aframax/LR2 86.",
+    "note": "Aframax 10 tuổi bằng khoảng 100% giá đóng mới. Fearnleys: hoạt động đặt đóng tàu dầu 'mạnh', hàng rời 'tăng', LPG 'mạnh'.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 41 (PDF), 07/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse.pdf"
+     }
+    ]
+   },
+   {
+    "topic": "Phá dỡ",
+    "value": "Ấn Độ, Pakistan, Bangladesh thiếu tàu đưa vào phá dỡ; giá ở Pakistan giảm; một tàu dầu ~17.000 tấn bị UAV đánh đã về Gadani.",
+    "note": "GMS (quý 3): khoảng 550 tàu chờ rời vùng Vịnh đầu tháng 7 nhưng làn sóng phá dỡ không xảy ra; cước cao giữ tàu già trong đội, cung tàu không giảm qua phá dỡ.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Best Oasis, Intermodal), 07/10",
+      "u": "https://www.hellenicshippingnews.com/ship-recycling-markets-remain-active/"
+     },
+     {
+      "t": "gCaptain (GMS), 05/10",
+      "u": "https://gcaptain.com/strong-freight-markets-keep-aging-ships-out-of-recycling-yards/"
+     }
+    ]
+   }
+  ],
+  "flows": [
+   {
+    "topic": "Dầu qua Hormuz (Kpler, Windward)",
+    "value": "10,3 triệu thùng/ngày tuần đến 3/10 (trước chiến tranh 13,5, −23%); Windward 9–10 so với 14,5. Toàn Trung Đông TB 7 ngày 18,3 triệu (30/9, gồm Biển Đỏ).",
+    "note": "Chi phí chở vùng Vịnh–Trung Quốc ~1 triệu USD/ngày/tàu.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (JMIC, Kpler, Windward), 08/10",
+      "u": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/"
+     },
+     {
+      "t": "The National, 07/10",
+      "u": "https://www.thenationalnews.com/news/mena/2026/10/07/under-pressure-araghchi-defends-irans-war-diplomacy/"
+     }
+    ]
+   },
+   {
+    "topic": "Biên lọc dầu, crack",
+    "value": "Shell quý 3: 42 USD/thùng (quý 2: 24). Crack gasoil ICE ~73 USD/thùng (tháng 9 >90).",
+    "note": "Thiếu ~7–8 triệu thùng/ngày sản phẩm do Trung Đông và Nga (Shell).",
+    "src": [
+     {
+      "t": "OilPrice.com (Shell), 07/10",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.html"
+     },
+     {
+      "t": "Hellenic Shipping News / ING, 07/10",
+      "u": "https://www.hellenicshippingnews.com/the-commodities-feed-oil-stuck-between-improving-supply-and-persian-gulf-risks/"
+     }
+    ]
+   },
+   {
+    "topic": "Tồn kho dầu Mỹ (EIA)",
+    "value": "Tuần đến 2/10: dầu thô −3,2 triệu thùng (424,1, +1% TB 5 năm); xăng +0,4; distillate đi ngang, thấp hơn TB 5 năm 12%.",
+    "note": "",
+    "src": [
+     {
+      "t": "OilPrice.com (EIA), 07/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html"
+     }
+    ]
+   },
+   {
+    "topic": "Hàn Quốc xuất sản phẩm",
+    "value": "Đủ dầu thô tháng 10, quý 4 ≥90% cùng kỳ; dư ~1 triệu thùng/ngày công suất lọc để xuất (3,4 triệu công suất, 2,3 triệu tiêu thụ).",
+    "note": "Nguồn hàng TC11/MR nội Á ổn định.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Platts (Hàn Quốc), 07/10",
+      "u": "https://www.hellenicshippingnews.com/south-korea-sustains-ample-apac-clean-product-exports-on-stable-feedstock-supply-2/"
+     }
+    ]
+   },
+   {
+    "topic": "Aramco giá bán tháng 11",
+    "value": "Arab Light châu Á −3 USD còn −5 USD so Oman/Dubai (thấp nhất từ 6/2020); Tây Bắc Âu +3 USD.",
+    "note": "Bù cước kỷ lục cho người mua châu Á.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Aramco OSP), 07/10",
+      "u": "https://www.hellenicshippingnews.com/fuel-relief-indias-major-crude-supplier-unexpectedly-cuts-oil-prices-to-asia/"
+     }
+    ]
+   },
+   {
+    "topic": "Eo Magellan",
+    "value": "Lưu lượng +70% tháng 8 và 9 so với cùng kỳ (Hải quân Chile).",
+    "note": "Do Panama hạn chế (El Niño) và tránh Trung Đông: quãng đường dài hơn.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg), 07/10",
+      "u": "https://gcaptain.com/ships-take-long-way-around-as-drought-snarls-panama-canal/"
+     }
+    ]
+   },
+   {
+    "topic": "Than, quặng sắt",
+    "value": "Than Newcastle >150 USD/tấn (cao nhất từ 9/2023). MMi 61% 91,25 USD/dmt (7/10); quặng về Trung Quốc 29,09 triệu tấn tuần đến 2/10.",
+    "note": "",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Trading Economics (than), 07/10",
+      "u": "https://www.hellenicshippingnews.com/coal-hits-three-year-high/"
+     },
+     {
+      "t": "Hellenic Shipping News / MMI, 07/10",
+      "u": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-october-7-2026/"
+     }
+    ]
+   }
+  ],
+  "regulation": [
+   {
+    "tag": "EU",
+    "title": "EU hoãn 1 năm quy định methane với hàng nhập khẩu, mở đối thoại chiến lược về lọc dầu",
+    "text": "Chủ tịch Ủy ban châu Âu von der Leyen (7/10): gia hạn thêm một năm hạn tháng 1/2027 để nhà nhập khẩu dầu, khí, than chứng minh tuân thủ đo đạc–báo cáo methane; lập đối thoại chiến lược về nhà máy lọc dầu châu Âu và nhóm mua chung năng lượng. Giá diesel ở EU gấp đôi trước chiến tranh; chi phí nhập nhiên liệu tăng thêm khoảng 100 tỷ euro.",
+    "impact": "Giảm rào cản cho hàng dầu khí nhập vào EU trong năm 2027; nếu EU giữ hoặc mở lại nhà máy lọc, nhu cầu nhập sản phẩm đường dài (MR/LR) giảm dần về trung hạn.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (EU), 07/10",
+      "u": "https://www.hellenicshippingnews.com/eu-to-delay-methane-law-assess-refining-strategy-to-combat-fuel-costs/"
+     }
+    ]
+   },
+   {
+    "tag": "Trừng phạt",
+    "title": "EU thống nhất gói trừng phạt 22 với Nga, lớn nhất từ 2022",
+    "text": "Hơn 1.600 cá nhân và tổ chức (743 + 826), chủ yếu công nghiệp quốc phòng, tên lửa; phê chuẩn chính thức ngày 12/10 tại Luxembourg. EU cân nhắc chuyển sang bỏ phiếu đa số có điều kiện cho các gói sau.",
+    "impact": "Chưa thấy nội dung mới về tàu dầu; đội tàu bóng tối không bị thu hẹp.",
+    "src": [
+     {
+      "t": "The Moscow Times, 07/10",
+      "u": "https://www.themoscowtimes.com/2026/10/07/eu-approves-record-sanctions-expansion-targeting-16k-russian-citizens-and-entities-a93913"
+     }
+    ]
+   }
+  ],
+  "vietnam": [
+   {
+    "tag": "Nguồn dầu thô",
+    "title": "Kuwait khai thác 75% mức trước chiến tranh; Aramco giảm giá dầu tháng 11 cho châu Á",
+    "text": "KPC (5/10): Kuwait khai thác khoảng 2 triệu thùng/ngày (trước chiến tranh 2,6), tăng khi nhiều tàu chấp nhận qua Hormuz. Aramco giảm giá bán Arab Light tháng 11 cho châu Á 3 USD/thùng. Tối 7/10 một tàu dầu bị đánh giữa vùng Vịnh, bắc Qatar, trên tuyến từ Kuwait/Iraq ra Hormuz. Không có tin PVT/PVN/BSR mới (CafeF chủ đề PVTrans, bài mới nhất 27/9).",
+    "impact": "Nghi Sơn dùng dầu Kuwait: nguồn cung cải thiện nhưng tuyến từ Kuwait đã trở thành vùng bị tấn công. Giá Aramco thấp hơn có thể kéo thêm dầu Trung Đông về châu Á, có lợi cho hàng của tàu dầu thô.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg, KPC), 05/10",
+      "u": "https://gcaptain.com/kuwait-oil-output-at-75-of-prewar-as-hormuz-transits-rise/"
+     },
+     {
+      "t": "Hellenic Shipping News (Aramco OSP), 07/10",
+      "u": "https://www.hellenicshippingnews.com/fuel-relief-indias-major-crude-supplier-unexpectedly-cuts-oil-prices-to-asia/"
+     },
+     {
+      "t": "The Maritime Executive, 07/10",
+      "u": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz"
+     },
+     {
+      "t": "CafeF chủ đề PVTrans (bài mới nhất 27/09), 08/10",
+      "u": "https://cafef.vn/pvtrans.html"
+     }
+    ]
+   }
+  ],
+  "peers": [
+   {
+    "company": "Pyxis Tankers",
+    "seg": "MR",
+    "data": "Pyxis Lamda (2017, 50.145 DWT) cho CITGO thuê 2 năm 31.000 $/ngày, doanh thu ròng ~21,8 triệu USD.",
+    "read": "Chủ tàu MR chấp nhận giá thấp hơn mức 1 năm để khóa 2 năm: kỳ vọng cước giảm sau 2027.",
+    "src": [
+     {
+      "t": "Splash247 (mô tả bài trong feed chuyên mục Tankers; bài lẻ 403), 07/10",
+      "u": "https://splash247.com/category/sector/tankers/"
+     }
+    ]
+   },
+   {
+    "company": "NORDEN",
+    "seg": "Tàu dầu sản phẩm + hàng khô",
+    "data": "Nâng dự báo lợi nhuận ròng 2026 lên 180–230 triệu USD (trước 140–190), chủ yếu nhờ tàu dầu; báo cáo quý 3 ngày 29/10.",
+    "read": "Tàu dầu sản phẩm đang mang lại lợi nhuận vượt kế hoạch dù NORDEN đã chuyển vốn sang hàng khô.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (thông cáo NORDEN), 07/10",
+      "u": "https://www.hellenicshippingnews.com/norden-raises-full-year-guidance-3/"
+     }
+    ]
+   },
+   {
+    "company": "Stolt-Nielsen (Stolt Tankers)",
+    "seg": "Tàu hóa chất",
+    "data": "Quý 3: TCE 24.121 $/ngày (−2,9% năm, +3,2% quý); cước spot +40,5% năm nhưng khối lượng spot −22,1%, nhiên liệu 718 USD/t (cùng kỳ 500); quý 4 yếu hơn một chút; đội tàu hóa chất tăng ròng ~4%/năm 2026–2028.",
+    "read": "Chi tiết bổ sung so với bản 3/10: chi phí nhiên liệu và khối lượng giảm ăn hết phần tăng cước. Tín hiệu thận trọng cho 19 tàu hóa chất của PVT.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (phân tích Stolt-Nielsen quý 3), 07/10",
+      "u": "https://www.hellenicshippingnews.com/stolt-nielsen-bunker-costs-dent-tankers-softer-4q-ahead/"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-10-07",
   "dataAsOf": "2026-10-06",
   "headline": "ClarkSea quý 3 lập kỷ lục 46.384 $/ngày, vượt đỉnh 2008; BDTI 7.444 (+3,6%) và BLPG 22.657 (+4,1%) cùng lên mức cao nhất 5 năm phiên 6/10. Định hạn MR2 1 năm lên 42.000–43.000 (+13–16% trong tuần) nhưng Aframax 1 năm giảm 6,2% còn 98.500. Dầu thô vùng Vịnh về 91% trước chiến tranh, dầu sản phẩm và LPG chỉ 60%. Hormuz: 9 vụ từ đầu tháng 10, Aframax On Peace 12 người bị thương. Biển Đen: UAV đánh chìm tàu trong vùng biển Bulgaria",
