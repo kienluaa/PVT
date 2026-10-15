@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-14 lần 1)
+# Sổ nguồn (cập nhật 2026-10-15 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 14/10 | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -62,3 +62,16 @@ brecorder.com, benzinga.com | | | | | 403 (12/10) | JPost, Gulf News
 
 OPEC MOMR | HSN đăng lại tóm tắt ("OPEC raises 2027 oil demand outlook…"); OilPrice | hằng tháng (~13 hằng tháng) | tháng 10 (13/10) | 14/10 | không | —
 tinnhanhchungkhoan.vn | trang tag PVT https://www.tinnhanhchungkhoan.vn/pvtrans-pvt-tag120180.html | | | | curl (35) Connection reset (14/10) | cafef
+Cập nhật 2026-10-15:
+Alibra Weekly Tanker/Dry TC Estimates | HSN "weekly-tanker-time-charter-estimates-<ngày>" (bảng là ảnh PNG/JPG trong bài: 1410tanker.png, 1410dry.png) | thứ Tư (HSN chiều thứ Tư) | 14/10 | 15/10 | không | Intermodal, Fearnleys
+Fearnleys Weekly | tuần 42 PDF: wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-1.pdf (tên file đổi hậu tố -1); KHÔNG có mục tàu dầu SP và tàu hóa chất; "market brief" Brent lệch (83,97) – không dùng | thứ Tư | tuần 42 (14/10) | 15/10 | không | —
+VesselsValue | bản 13/10 đăng HSN 14/10 17:00 UTC (có ở lần chạy sáng thứ Năm, không có ở sáng thứ Tư) | thứ Ba | 13/10 | 15/10 | không | —
+IEA OMR | iea.org 403 (Cloudflare); HSN đăng lại văn bản ("Escalation of attacks threatens…" 15/10), TBS/AFP | hằng tháng (~14) | 14/10 | 15/10 | iea.org 403 (15/10) | HSN, tbsnews.net
+A News (Anadolu) | bài lẻ anews.com.tr/middle-east/2026/10/DD/<slug> mở được (lượt tàu Hormuz, Kpler) | hằng ngày | 14/10 | 15/10 | không | —
+Insurance Business (phí bảo hiểm chiến tranh) | bài lẻ insurancebusinessmag.com/us/news/breaking-news/<slug>.aspx | theo sự kiện | 14/10 (6–10% thân tàu) | 15/10 | không | straits.live/strait-of-hormuz-war-risk-insurance-rate
+straits.live | /briefs/YYYY-MM-DD (bản ngày D chưa có lúc 07:00 giờ VN ngày D+1 → dùng D−1) ; /peace-talks ; /strait-of-hormuz-war-risk-insurance-rate | hằng ngày | 14/10 | 15/10 | /briefs/2026-10-15 404; /insurance 404 | —
+PetroTimes (petrovietnam.petrotimes.vn) | trang chủ (curl, lấy link -7465xx.html); bài lẻ mở được | hằng ngày | 14/10 PVTrans giải chuyển đổi số; 12/10 Dung Quất mở rộng | 15/10 | root 404 nhưng lấy được link | VietNamNet, Tiền Phong
+Federal Register API | https://www.federalregister.gov/api/v1/documents/<số>.json ; trang HTML chuyển sang unblock.federalregister.gov | theo sự kiện | USTR phí cảng: tạm dừng đến 9/11/2026, chưa có văn bản gia hạn (15/10) | 15/10 | trang HTML chặn | Riviera
+SMM (news.metal.com) | bài lẻ (WebFetch; curl có bài trả JS rỗng) | hằng ngày | 14/10 hải quan Trung Quốc tháng 9 | 15/10 | 104156085 trống | TokenPost, OilPrice
+iea.org, cnbc.com, washingtontimes.com, english.alarabiya.net, easternherald.com, spglobal.com, north-standard.com, state.gov, brownfieldagnews.com, wikifarmer.com | | | | | 403 (15/10) | HSN, TBS, yourNEWS, Kyiv Independent, Federal Register
+bernama.com (connection reset), usnews.com (timeout/HTTP2 lỗi) | | | | | 15/10 | TBS, NBC
