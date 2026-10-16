@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-15 lần 1)
+# Sổ nguồn (cập nhật 2026-10-16 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 14/10 | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -75,3 +75,23 @@ Federal Register API | https://www.federalregister.gov/api/v1/documents/<số>.j
 SMM (news.metal.com) | bài lẻ (WebFetch; curl có bài trả JS rỗng) | hằng ngày | 14/10 hải quan Trung Quốc tháng 9 | 15/10 | 104156085 trống | TokenPost, OilPrice
 iea.org, cnbc.com, washingtontimes.com, english.alarabiya.net, easternherald.com, spglobal.com, north-standard.com, state.gov, brownfieldagnews.com, wikifarmer.com | | | | | 403 (15/10) | HSN, TBS, yourNEWS, Kyiv Independent, Federal Register
 bernama.com (connection reset), usnews.com (timeout/HTTP2 lỗi) | | | | | 15/10 | TBS, NBC
+Cập nhật 2026-10-16:
+Báo cáo tuần Baltic theo tuyến | The Edge "Baltic Exchange shipping updates: Oct 9, 2026" = theedgemalaysia.com/node/821285 (đăng chủ nhật 11/10, curl OK, không có TD8/TD14/TC7/TC11) | thứ Sáu | tuần 41 (09/10) | 16/10 (kiểm tra) | tuần 42 chưa ra lúc 07:00 thứ Sáu | Affinity trên HSN (tối thứ Sáu)
+EIA WPSR | https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf ; table2.pdf ; https://ir.eia.gov/wpsr/psw00.csv (bản tóm tắt wpsrsummary.pdf đã ngừng từ 23/9/2026; trang HTML nạp số bằng JS) | thứ Tư (lễ: thứ Năm) | 15/10 (tuần đến 9/10) | 16/10 | không | OilPrice
+JMIC (lượt qua Hormuz) | qua gCaptain "By the Numbers…" | theo khuyến cáo | 15/10 (121 lượt 11–14/10) | 16/10 | ukmto.org bỏ qua | straits.live, hormuz.now/oil
+Newsquawk | https://www.newsquawk.com/headlines/<slug> (tiêu đề có giờ UTC) | hằng ngày | 14/10 Oman | 16/10 | không | — (thay Tehran Times/Borna/AVA: connection reset/503)
+The National | feed https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml ; liveblog chỉ có tiêu đề | hằng ngày | 15/10 | 16/10 | không | —
+Iran International | feed https://www.iranintl.com/en/feed | hằng ngày | 14/10 | 16/10 | không | —
+Kyiv Independent | https://kyivindependent.com/news-archive/rss/ (15 mục) ; /tag/energy/ ; /tag/black-sea/ | hằng ngày | 15/10 22:06 GMT | 16/10 | không | Moscow Times
+Baird Maritime | trang mục /shipping/dry-cargo/bulkers (curl; JSON-LD có datePublished); /feed và /stories.rss rỗng | hằng ngày | 15/10 BDI | 16/10 | RSS rỗng | TE
+JTWC, NHC | https://www.metoc.navy.mil/jtwc/rss/jtwc.rss ; /jtwc/products/wpNN26web.txt, prog.txt ; https://www.nhc.noaa.gov/index-at.xml | theo bão | 15/10 21Z (29W Champi) | 16/10 | nhc gtwo_atl.xml 404 | NCHMF
+NCHMF | https://www.nchmf.gov.vn/kttv/vi-VN/1/tin-du-bao-gio-manh-song-lon-va-mua-dong-tren-bien-post<số>.html | hằng ngày | 16/10 04h | 16/10 | không | —
+Kênh Panama | https://pancanal.com/en/maritime-services/advisory-to-shipping/ (/en/category/advisories/ 404) | theo thông báo | A-38-2026 | 16/10 | không | —
+Lịch tài chính doanh nghiệp cùng ngành | Inderes (inderes.fi/.se/releases/...), Hafnia PDF s201.q4cdn.com, odfjell.com/investors/ | — | TORM 4/11, Odfjell 4/11, Hafnia 18/11 | 16/10 | globenewswire, stocktitan 403 | —
+Federal Register | /api/v1/public-inspection-documents/current.json (gọi 1 lần; /documents.json bị chặn IP) | hằng ngày | 16/10: không có văn bản USTR | 16/10 | 403 IP blocked (documents.json) | —
+VTV (giá xăng dầu) | bài lẻ vtv.vn (moit.gov.vn connection reset/404) | thứ Năm hằng tuần | 15/10 | 16/10 | moit.gov.vn | baotintuc
+Clarksons ClarkSea/phá dỡ (nguồn thứ hai) | shipuniverse.com, indiashippingnews.com, marineinsight.com, indexbox.io | hằng tuần | ClarkSea 84.951 (tuần đến 9/10); 273 tàu 9 tháng | 16/10 | en.portnews.ru connection reset | —
+france24.com, consilium.europa.eu, fas.usda.gov, lloydslist.com, globenewswire.com | | | | | 403 (16/10) | gCaptain, MarEx, AgBull
+tehrantimes.com, borna.news, avapress.com, aa.com.tr RSS | | | | | connection reset/503 (16/10) | Newsquawk, The National
+pvtrans.com | | | | | SSL lỗi 60 (16/10) | cafef
+brsshipbrokers.com/market-reports | | | | | 404 (16/10) | —
