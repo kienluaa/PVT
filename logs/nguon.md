@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-16 lần 1)
+# Sổ nguồn (cập nhật 2026-10-17 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 14/10 | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -95,3 +95,11 @@ france24.com, consilium.europa.eu, fas.usda.gov, lloydslist.com, globenewswire.c
 tehrantimes.com, borna.news, avapress.com, aa.com.tr RSS | | | | | connection reset/503 (16/10) | Newsquawk, The National
 pvtrans.com | | | | | SSL lỗi 60 (16/10) | cafef
 brsshipbrokers.com/market-reports | | | | | 404 (16/10) | —
+Optima Shipbroking (Baltic tanker theo tuyến, ngày) | https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-DD-month-2026/ và clean-tanker-index-summary-… (bản ghi ngày D chứa số Baltic ngày D−1) | ngày làm việc | 16/10 (số 15/10) | 17/10 | trang danh mục /market-report/ và bản 17/10: 404 (17/10) | Affinity, The Edge
+FreightX (bảng chỉ số dry theo tuyến + FFA FIS) | https://freightx.gr/reports/ | ngày làm việc | 16/10 | 17/10 | không | The Edge
+The Edge "Baltic Exchange shipping updates" | WebSearch thường chỉ ra bản tuần trước; dùng ô tìm kiếm của The Edge để ra node mới (16/10: node/822176). Bài đăng ~13:00 UTC thứ Sáu, trước giờ chốt tanker, nên số tanker và khí là của thứ Năm, số dry là của thứ Sáu | thứ Sáu | 16/10 | 17/10 | không | Affinity
+Allied Weekly Market Review | Cyprus Shipping News "allied-weekly-market-review-week-NN" + PDF wp-content/uploads/2026/10/ALLIED-Weekly-Market-Report-Week-NN.pdf (http bị connection reset, dùng https) | thứ Hai (Cyprus SN đăng thứ Sáu) | tuần 41 (16/10) | 17/10 | curl (35) với http | Advanced
+Best Oasis (phá dỡ) | HSN "best-oasis-weekly-recycling-market-report-<ngày>" | thứ Sáu | 16/10 | 17/10 | không | GMS
+Sofia Globe, Insurance Journal (Biển Đen, Hội đồng châu Âu) | bài lẻ mở được | theo sự kiện | 16/10 | 17/10 | consilium.europa.eu 403 (16–17/10) | Kyiv Independent
+DefenceWeb, SWZ Maritime | bài lẻ mở được | hằng ngày | 16/10 | 17/10 | không | —
+mezha.net, spglobal.com, euromaidanpress | | | | | 403 (17/10) | Moscow Times, Kyiv Independent
