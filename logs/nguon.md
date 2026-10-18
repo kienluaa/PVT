@@ -1,6 +1,6 @@
-# Sổ nguồn (cập nhật 2026-10-17 lần 1)
+# Sổ nguồn (cập nhật 2026-10-18 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
-Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 14/10 | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
+Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
 gCaptain | https://gcaptain.com/feed/ (?paged=2..3) | hằng ngày | 13/10 20:26 Port of LA record; 18:48 Saudi strikes Houthi | 14/10 | không | HSN, MarEx
 OilPrice.com | https://oilprice.com/rss/main (curl); bài lẻ đọc bằng WebFetch (curl chỉ ra thanh giá) | hằng ngày | 12/10 19:00 | 13/10 | không | —
@@ -36,11 +36,9 @@ The Moscow Times | https://www.themoscowtimes.com/rss/news (curl; lấy URL đ�
 Kyiv Independent | https://kyivindependent.com/ (curl, lấy href="https://kyivindependent.com/<slug>/") | hằng ngày | 13/10 (Trump không cáo buộc Nga; tình báo Mỹ chưa cắt) | 14/10 | không | Moscow Times
 Safety4Sea | bài lẻ mở được (tìm bằng WebSearch allowed_domains) | hằng ngày | 06/10 | 07/10 | không | MarEx
 reuters.com, apnews.com | không dùng được trong allowed_domains của WebSearch (API Error 400) | | | | 07/10 | Kyiv Independent, MarEx, The National
-
 UKMTO | ukmto.org/recent-incidents: HTTP 403 (08/10) | hằng ngày | WARNING 158-26 (07/10) | — | 403 (08/10) | Anadolu (aa.com.tr), Middle East Eye live blog, dpa/Yahoo, MarEx
 Anadolu Agency | bài lẻ aa.com.tr/en/... mở được (curl) | hằng ngày | 07/10 | 08/10 | không | dpa/Yahoo
 Doanh nghiệp cùng ngành (thông cáo) | HSN đăng lại thông cáo/phân tích (SFL, Top Ships, NORDEN, Stolt) | theo sự kiện | 07/10 | 08/10 | không | Splash feed
-
 BIMCO (phân tích thị trường) | HSN đăng lại (tiêu đề phân tích, ví dụ "LR2 demand grows...") | hằng tuần | 09/10 LR2 (Niels Rasmussen) | 09/10 | không | HSN
 Signal Group Weekly Market Monitor (dòng than, hàng) | HSN đăng lại | hằng tuần | 09/10 than tháng 9 | 09/10 | không | —
 FreightWaves | bài lẻ freightwaves.com/?p=<id> mở được | hằng ngày | 28/09 phí cảng USTR | 09/10 | không | —
@@ -59,7 +57,6 @@ Energy Intelligence | bài lẻ energyintel.com/<id> mở được phần tóm t
 Signal Group (Tanker Market Monitor), PVM, Platts, Norne | HSN đăng lại (tiêu đề phân tích) | hằng tuần | 12/10 | 12/10 | không | —
 Baird Maritime (tin tàu dầu, hàng rời, khí; Reuters đăng lại) | https://www.bairdmaritime.com/shipping/tankers ; /shipping/dry-cargo ; /shipping/tankers/gas (curl, lấy link bài) ; bài lẻ mở được | hằng ngày | 13/10 Vortexa Iran exports zero, LPG −48%; Urals freight India | 14/10 | không | —
 brecorder.com, benzinga.com | | | | | 403 (12/10) | JPost, Gulf News
-
 OPEC MOMR | HSN đăng lại tóm tắt ("OPEC raises 2027 oil demand outlook…"); OilPrice | hằng tháng (~13 hằng tháng) | tháng 10 (13/10) | 14/10 | không | —
 tinnhanhchungkhoan.vn | trang tag PVT https://www.tinnhanhchungkhoan.vn/pvtrans-pvt-tag120180.html | | | | curl (35) Connection reset (14/10) | cafef
 Cập nhật 2026-10-15:
@@ -103,3 +100,14 @@ Best Oasis (phá dỡ) | HSN "best-oasis-weekly-recycling-market-report-<ngày>"
 Sofia Globe, Insurance Journal (Biển Đen, Hội đồng châu Âu) | bài lẻ mở được | theo sự kiện | 16/10 | 17/10 | consilium.europa.eu 403 (16–17/10) | Kyiv Independent
 DefenceWeb, SWZ Maritime | bài lẻ mở được | hằng ngày | 16/10 | 17/10 | không | —
 mezha.net, spglobal.com, euromaidanpress | | | | | 403 (17/10) | Moscow Times, Kyiv Independent
+OFAC Recent Actions (quyết định trừng phạt chính thức) | https://ofac.treasury.gov/recent-actions ; /recent-actions/YYYYMMDD | theo sự kiện | 16/10 GL 60A Venezuela (không có quyết định tàu bóng tối) | 18/10 | không | —
+JTWC / JMA (bão Tây Thái Bình Dương) | https://www.metoc.navy.mil/jtwc/products/wp<số><năm>web.txt và ...prog.txt ; https://www.jma.go.jp/bosai/typhoon/data/TC<năm><số>/specifications.json | 6 giờ/lần khi có bão | Champi 29W cảnh báo 14 (17/10 21Z); JMA 18/10 06:45 JST | 18/10 | không | NCHMF, PAGASA
+NCHMF (bão Biển Đông) | https://nchmf.gov.vn | hằng ngày | 18/10 04h không có ATNĐ/bão | 18/10 | không | —
+ReCAAP ISC (cướp biển châu Á, báo cáo tuần PDF) | https://www.recaap.org/reports (lấy link PDF từ trang này, không đoán URL) | hằng tuần | tuần 06–12/10 | 18/10 | URL đoán 404 (18/10) | IMB qua MarEx
+China-Global South Project (lọc dầu, xuất khẩu nhiên liệu TQ) | bài lẻ chinaglobalsouth.com/YYYY/MM/DD/<slug> mở được | hằng ngày | 17/10 crack xăng châu Á | 18/10 | không | —
+Breakwave Advisors (phân tích hàng rời của BRS) | https://www.breakwaveadvisors.com/insights | hằng tuần | 16/10 bauxite Guinea | 18/10 | không | —
+Optima Shipbroking (Clean Tanker Index, có TC12/TC22, rổ MR Atlantic) | optimashipbroking.com/market-report/... ; wp-json/wp/v2 | ngày làm việc | 16/10 (số 15/10); bản 17/10 404 | 18/10 | 404 bản 17/10 | Affinity
+Shafaq News (an ninh Yemen/Vịnh Aden, dẫn UKMTO) | bài lẻ shafaq.com/en/... mở được | hằng ngày | 17/10 tàu LNG bị bắn (UKMTO 176-26) | 18/10 | không | gCaptain
+icis.com | | | | | Incapsula 212 byte (18/10) | HSN đăng lại
+Tanker Operator, bimco.org/news, comprerural, canalrural, benzinga | | | | | 403 (18/10) | HSN, MarEx
+tinnhanhchungkhoan.vn | | | | | curl 35 connection reset (18/10) | cafef, petrotimes
