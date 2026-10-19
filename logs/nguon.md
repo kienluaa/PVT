@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-18 lần 1)
+# Sổ nguồn (cập nhật 2026-10-19 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -111,3 +111,50 @@ Shafaq News (an ninh Yemen/Vịnh Aden, dẫn UKMTO) | bài lẻ shafaq.com/en/.
 icis.com | | | | | Incapsula 212 byte (18/10) | HSN đăng lại
 Tanker Operator, bimco.org/news, comprerural, canalrural, benzinga | | | | | 403 (18/10) | HSN, MarEx
 tinnhanhchungkhoan.vn | | | | | curl 35 connection reset (18/10) | cafef, petrotimes
+Cập nhật 2026-10-19:
+UKMTO | PDF cảnh báo https://www.ukmto.org/-/media/ukmto/products/YYYYMMDD-ukmto_warning_NNN-26.pdf (thấy qua WebSearch) | hằng ngày | WARNING 177-26 (18/10) | — | 403 cả PDF (19/10, curl + WebFetch) | anews.com.tr, Arab News (Reuters), CBS live updates
+straits.live | /briefs/YYYY-MM-DD | hằng ngày | 18/10 (đóng dấu 19/10 00:05Z, mở được lúc 00:15 UTC 19/10) | 19/10 | không | — ; ghi chú: bản 18/10 KHÔNG có số tàu chờ
+Arab News (Reuters đăng lại) | bài lẻ arabnews.com/saudi-arabia/<slug>-<id> mở được (WebFetch) | hằng ngày | 17/10 tàu dầu trúng vật thể ngoài khơi Jubail | 19/10 | không | Emirates 24/7, SANA
+CBS News live updates (tổng hợp có giờ) | https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/ (WebFetch) | hằng ngày | 18/10 15:02 EDT | 19/10 | không | Fox live
+anews.com.tr (Anadolu, dẫn UKMTO) | bài lẻ /world/YYYY/MM/DD/<slug> mở được | hằng ngày | 18/10 tàu kéo Khor Fakkan | 19/10 | không | Shafaq, aninews
+Iran International | feed https://www.iranintl.com/en/feed (curl 200) + bài /en/<id> (WebFetch) | hằng ngày | 18/10 19:36 | 19/10 | không | —
+OFAC Recent Actions | https://ofac.treasury.gov/recent-actions (curl 200) | theo sự kiện | 16/10 | 19/10 | không | —
+ReCAAP ISC | https://www.recaap.org/reports ; /alerts (curl 200) | hằng tuần | weekly 06–12/10 | 19/10 | không | —
+Kpler blog | KHÔNG đoán URL tracker theo ngày (6 URL đoán 404, 19/10); tìm qua WebSearch | không đều | 1/10 | — | 404 (URL đoán) | Safety4Sea, Reuters đăng lại
+tankermap.com | /analytics/straits/hormuz mở được nhưng số tự mâu thuẫn → chỉ tham khảo | — | 18/10 | 19/10 | không | —
+Kyiv Independent | https://kyivindependent.com/news-archive/rss/ ; /tag/black-sea/ (curl, grep 'kyivindependent.com/<slug>') | hằng ngày | 18/10 22:34 GMT | 19/10 | không | Moscow Times
+The Moscow Times | https://www.themoscowtimes.com/rss/news | hằng ngày | 18/10 12:53 St. Petersburg | 19/10 | không | KI
+AP qua ABC News/NBC News | bài lẻ abcnews.com/International/wireStory/<slug>-<id> ; nbcnews.com/world/... (WebFetch) | hằng ngày | 18/10 St. Petersburg | 19/10 | không | —
+OilPrice.com | https://oilprice.com/rss/main (curl -L) | hằng ngày | 18/10 18:00 | 19/10 | không | —
+Trading Economics Brent | /commodity/brent-crude-oil (WebFetch) | ngày | 19/10 108,10 | 19/10 | không | FX Leaders
+EIA WPSR | table1.pdf (curl 200) | thứ Tư | tuần đến 09/10 | 19/10 (kiểm tra) | không | —
+OPEC MOMR | opec.org, momr.opec.org: curl 403 (19/10); dùng The Star/HSN đăng lại | tháng | 13/10 | 19/10 | 403 | The Star (thestar.com.my)
+Hellenic Shipping News | /feed/?paged=1..4 (curl -L) | hằng ngày | 36 bài ghi 18/10 21:00 UTC | 19/10 | không | —
+ENGINE (engine.online) | /news 301 khi curl; đọc qua HSN đăng lại (tồn kho Singapore, Mỹ) | hằng ngày | 19/10 | 19/10 | 301 | HSN
+FX Leaders, The Peninsula Qatar | bài lẻ mở được (WebFetch) | hằng ngày | 18/10 giá dầu | 19/10 | không | —
+Swarajya, noinotizie.it | bài lẻ mở được | theo sự kiện | 18/10, 16/10 | 19/10 | không | —
+chinaglobalsouth.com | /feed/ HTTP 410 (19/10); bài lẻ vẫn mở được (18/10) | | 17/10 | 18/10 | 410 feed | —
+russiamatters.org, deccanherald.com, agenzianova.com, opec.org | | | | | 403 (19/10) | ABC/AP, Swarajya, noinotizie, The Star
+Xclusiv | HSN "xclusiv-shipbrokers-weekly-<ngày>" | thứ Hai | 12/10 | 19/10 (kiểm tra) | bản 19/10 chưa đăng lúc 00:14 UTC 19/10 (lần chạy 07:00 giờ VN thứ Hai thường chưa có) | Lion, Advanced
+Clarksons Hellas SnP | HSN "clarksons-hellas-snp-weekly-13" = Weekly-Sales-9th-October-2026.pdf | thứ Sáu (đăng HSN trễ, có thể sau thứ Hai) | 09/10 | 19/10 | không | Advanced
+Lion, Star Asia | HSN | thứ Sáu | W41 | 19/10 | W42 chưa lên HSN lúc 00:14 UTC 19/10; starasiashipbroking.com, starasia-sg.com: curl (56) CONNECT tunnel failed 502; lionshipbrokers.gr không có trang báo cáo | Advanced
+ICIS cước tàu hóa chất | HSN đăng lại, tiêu đề kiểu "Asia-US container rates mixed…; tanker rates stable" (mục LIQUID CHEMICAL TANKERS) | thứ Sáu (HSN thứ Hai) | 16/10 | 19/10 | không | —
+Baltic khí: BLPG1 công bố thứ Ba và thứ Năm (Circular 16/26 từ 7/4/2026) | balticexchange.com/en/data-services/WeeklyRoundup/Gas/News/2026/gas-report-week-NN.html → "Challenge Validation" (19/10) | — | — | — | challenge | The Edge, HSN
+Splash "Weekly Broker" | không tìm thấy mục; /tag/weekly-broker/feed/ trả Cloudflare "Just a moment..." (19/10) | — | — | — | Cloudflare | feed chính
+Cyprus Shipping News | https://cyprusshippingnews.com/feed/ (curl) | hằng ngày (không đăng cuối tuần) | 16/10 02:40 UTC | 19/10 | không | —
+Baltic tuần theo tuyến | HSN đăng lại bản tuần Baltic tanker + dry vào tối Chủ nhật UTC (HSN ghi thứ Hai): slug kiểu "vlcc-tanker-rates-retreated-last-week", "dry-bulk-market-capesizes-declined-slightly-last-week" (tìm qua feed, tiêu đề đổi theo tuần; cuối bài "Source: Baltic Exchange"); số tanker là số thứ Năm như The Edge, có thêm TD33, TD28, TD29, TC15, TC23 | thứ Sáu | tuần 42 (19/10) | 19/10 | — | The Edge, Affinity
+Xclusiv | slug HSN dạng "xclusiv-shipbrokers-weekly-12th-october-2026" (số thứ tự có đuôi th/st/rd) ; 19th chưa có lúc 00:15 UTC thứ Hai | thứ Hai | 12/10 | 19/10 (kiểm tra) | 404 (19/10, chưa đăng) | —
+MarineLink | https://www.marinelink.com/news (200, link /news/<slug>-<id>) | hằng ngày | 18/10 | 19/10 | /rss/news 404 (19/10) | gCaptain
+Dry Bulk Magazine | trang chủ https://www.drybulkmagazine.com/ (link /<mục>/<ddmmyyyy>/<slug>/) | hằng ngày | 15/10 | 19/10 | /rss/ trả "Article Not Found" | —
+SMM (news.metal.com) Iron Ore Weekly Brief | bài lẻ newscontent/<id> (WebFetch OK) | thứ Sáu | 16/10 | 19/10 | — | Mysteel
+NBS Trung Quốc | https://www.stats.gov.cn/english/PressRelease/ (curl 200) | theo lịch | 15/10 CPI/PPI | 19/10 | — | —
+PAGASA | https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin (WebFetch OK) | theo bão | 19/10 không có bão trong PAR | 19/10 | — | JMA
+miningweekly.com | | | | | 403 (19/10) | Mysteel
+bimco.org | | | | | 403 / Azure WAF (19/10) | HSN ?s=BIMCO
+Everstream port congestion | https://www.everstream.ai/risk-centers/port-congestion-report-DD-month-2026/ | hằng tuần | 14/10 | 19/10 | — | —
+Tin PVT | https://cafef.vn/pvtrans.html (curl -A Mozilla); CBTT: https://cafef.vn/du-lieu/Ajax/Events_RelatedNews_New.aspx?symbol=<MÃ>&floorID=0&configID=0&PageIndex=1&PageSize=6&Type=2 (PVT, PVP, PDV, VOS, VTO, GSP, BSR, PVS); PDF CBTT ở cafefnew.mediacdn.vn/download/<ddmmyy>/... (scan, đọc bằng pdftoppm) | hằng ngày | PVT 27/09; PDV 16/10 NQ 38 | 19/10 | pvtrans.com bỏ qua (lỗi lặp lại) | petrotimes, baoxaydung
+PetroTimes (petrovietnam.petrotimes.vn) | trang chủ (curl, link -7468xx.html); bài lẻ WebFetch OK | hằng ngày | 18/10 22:37 ĐBQH Lê Ngọc Sơn (746838) | 19/10 | không | VietNamNet, Tiền Phong
+Vietstock | https://vietstock.vn/rss/doanh-nghiep.rss trả HTML (không phải RSS); dùng WebSearch allowed_domains vietstock.vn | hằng ngày | 05/10 PVT Logistics xin ý kiến cổ đông | 19/10 (tìm kiếm) | RSS không dùng được (19/10) | cafef CBTT
+Federal Register | /api/v1/public-inspection-documents/current.json qua WebFetch (3 đoạn offset); curl bị chặn IP | hằng ngày | 19/10–20/10 (nộp 16/10): không có văn bản USTR | 19/10 | curl HTTP 403 "address has been blocked" (19/10) | —
+SEC EDGAR (DN cùng ngành niêm yết Mỹ) | https://data.sec.gov/submissions/CIK<10 số>.json (curl, UA có email liên hệ chung) → lọc filingDate; tài liệu https://www.sec.gov/Archives/edgar/data/<cik>/<accession>/<file> | theo sự kiện | INSW 8-K 16/10; Hafnia, TORM 6-K 13/10; DHT 6-K 13/10 | 19/10 | không | globenewswire/stocktitan (403)
+Pacific Basin | bản chép lời investing.com (OK); gurufocus (tường phí sau mở đầu) | quý (trading update giữa tháng 1/4/7/10) | Q3 15/10 | 19/10 | không | pacificbasin.com chưa thử

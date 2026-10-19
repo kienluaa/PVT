@@ -1,5 +1,2289 @@
 window.REPORTS = [
  {
+  "date": "2026-10-19",
+  "dataAsOf": "2026-10-16",
+  "headline": "Thứ Hai, phiên Baltic 19/10 chưa chốt (số liệu vẫn của 16/10). Tấn công tàu lan vào trong Vịnh: tàu dầu trúng RPG ngoài khơi Jubail (16/10), tàu kéo trúng đạn gần Khor Fakkan (18/10); UKMTO ghi kỷ lục ít nhất 10 vụ/tuần. Iran nhắc lại đề xuất mở Hormuz trong 7 ngày, Mỹ vẫn đòi bàn hạt nhân trước; Brent mở tuần giảm về khoảng 108 USD. Gibson: nếu Mỹ nới trừng phạt, Aframax/MR được thêm rất ít, nhưng giá tàu cũ có thể bị đè. ICIS (16/10): cước tàu hóa chất đứng yên, chịu áp lực giảm. PVT Logistics duyệt mua thêm 1 tàu hóa chất hoặc hàng rời.",
+  "summary": [
+   "Không có số Baltic mới (phiên 19/10 chốt chiều nay giờ châu Âu). Phiên 16/10 giữ nguyên: BDTI 7.556, BCTI 2.538, BDI 2.511 (khớp Trading Economics), BSI 1.865, BHSI 1.011. Bản tuần Baltic tanker (HSN 19/10, số chốt 15/10) thêm 5 tuyến vào bảng: TC15 LR2 Địa Trung Hải–Viễn Đông 175.000 USD/ngày (+22,5% trong tuần), TD28 Aframax Vancouver–Trung Quốc 334.000, TC23 Handy nội Tây Bắc Âu 47.500 (−9,9%).",
+   "Vùng Vịnh: tàu dầu trúng vật thể/RPG cách Jubail 68–78 hải lý (16/10), tàu kéo trúng 2 vật thể gần Khor Fakkan (18/10, UKMTO 177-26), Saudi chặn tên lửa nhắm Yanbu (16/10). UKMTO đếm ít nhất 10 vụ/tuần và 23 vụ từ đầu tháng 10. Vụ thủy lôi 17/10 vẫn chỉ là tuyên bố của IRGC.",
+   "Mỹ–Iran: Araghchi (18/10) nói đề xuất 7 ngày (eo mở ngày thứ 6 nếu Mỹ dỡ phong tỏa, gỡ trừng phạt dầu) vẫn trên bàn; Vance đòi hạt nhân trước, Trump nói 'sẽ sớm kết thúc công việc'. Brent sáng 19/10 khoảng 108,10 USD (−1,6%), WTI khoảng 98,50.",
+   "Trừng phạt: Gibson ước 878 tàu dầu (15% đội) bị trừng phạt, Aframax/LR2 là 25%; nếu Mỹ nới, chỉ 42 Aframax/LR2 và khoảng 40 MR có thể quay lại, 70% từ 20 tuổi trở lên. Bessent: luật trừng phạt Nga chỉ tạm dừng 60 ngày. OFAC không có hành động mới 17–19/10.",
+   "Hàng sạch: Kpler (19/10) ghi arb diesel Mỹ Gulf–châu Âu mở lại (+6,75 USD/t) nhưng MR TC14 giảm từ WS375 xuống WS310; Ấn Độ đưa khoảng 165.000 thùng/ngày diesel vào châu Âu trong tháng 10. Tồn sản phẩm trung Singapore +17% lên 9,88 triệu thùng. Ukraine phóng hơn 1.000 drone, đánh cháy cảng dầu St. Petersburg (18/10).",
+   "Hóa chất: ICIS (16/10) ghi cước ex-USG đứng yên, nhiều tuyến chịu áp lực giảm, tuyến USG–châu Á gần như chỉ còn hàng COA; xuất khẩu hóa dầu Singapore tháng 9 −8,3% (tháng giảm thứ 19). Clarksons (qua tờ trình PVT Logistics): định hạn 1 năm tàu inox <20.000 DWT 18.000 USD/ngày, ngang TB 5 năm.",
+   "Trong nước: PVT Logistics (NQ 38, 15/10) duyệt mua 1 tàu hóa chất 19.000–26.000 DWT hoặc 1 tàu hàng rời có cẩu, tối đa 29 triệu USD; hạn phiếu cổ đông 17h 19/10 cho dự án tàu hóa chất ~1 tuổi tối đa 45 triệu USD. PVN: Dung Quất và Nghi Sơn chạy 120–125% công suất. Bão Champi: JMA dự báo vào Đài Loan khoảng 24/10."
+  ],
+  "pvt": [
+   {
+    "seg": "Dầu thô Aframax (4 tàu)",
+    "signal": "up",
+    "text": "Không có số Baltic mới; TD14 châu Á vẫn 271.465 USD/ngày (15/10), TD28 Aframax Vancouver–Trung Quốc 334.000. Đỡ cước: tấn công lan vào vùng xếp hàng của Saudi/UAE, phí bảo hiểm chiến tranh 6–10% thân tàu. Bất lợi: Iran nhắc lại đề xuất mở eo trong 7 ngày, Brent giảm khi mở tuần; cước giao dầu tới Trung Quốc chiếm khoảng 1/4 giá dầu nên người mua chuyển sang nguồn gần."
+   },
+   {
+    "seg": "Dầu SP / MR (8 tàu)",
+    "signal": "flat",
+    "text": "Hai chiều. Đại Tây Dương: arb diesel Mỹ–châu Âu mở lại, nhưng TC14 giảm khoảng 17% vì Mỹ Gulf dư tàu. Châu Á: tồn sản phẩm trung Singapore +17%, Trung Quốc xuất 116.000 thùng/ngày sản phẩm sạch sang Đông Nam Á (chặng ngắn). Nếu Mỹ nới trừng phạt, chỉ khoảng 40 MR có thể quay lại."
+   },
+   {
+    "seg": "Hóa chất (19 tàu)",
+    "signal": "down",
+    "text": "ICIS 16/10 (bản đầu tiên sau 2/10): cước ex-USG đứng yên, chịu áp lực giảm; xuất khẩu hóa dầu Singapore tháng 9 −8,3%. Clarksons: định hạn 1 năm tàu inox <20.000 DWT 18.000 USD/ngày, ngang TB 5 năm. Orderbook cỡ 25.000 DWT bằng 52% đội, cỡ 20.000 DWT (gần cỡ tàu PVT) chỉ 5%. PVT Logistics định mua thêm 1 tàu hóa chất."
+   },
+   {
+    "seg": "LPG (22 tàu, trong đó 2 VLGC)",
+    "signal": "flat",
+    "text": "Không có số Baltic khí mới; BLPG1 255.539 USD/ngày (15/10). Rủi ro cho 2 VLGC chạy Trung Đông tăng (tấn công ở Jubail, Khor Fakkan). Rủi ro ngược: nếu eo mở theo đề xuất của Iran, LPG vùng Vịnh quay về chặng ngắn và kéo cước VLGC xuống. Không có số cước LPG nhỏ châu Á."
+   },
+   {
+    "seg": "Hàng rời Supramax/Handysize (13 tàu)",
+    "signal": "flat",
+    "text": "Baltic tuần 42: Supramax nội Á 16.000–25.000 USD/ngày, Handysize Thái Bình Dương mạnh lên, vẫn trên cước TC 2025 của PVT. Pacific Basin đã ký 2027 ở 13.180 (Handysize) và 15.590 (Supramax), thấp hơn quý 4 khoảng 20%. Tồn quặng cảng Trung Quốc tăng, giá Handysize 15 tuổi +4% (Advanced). GDP quý 3 Trung Quốc công bố 09:00 hôm nay."
+   }
+  ],
+  "headlines": [
+   {
+    "when": "16–18/10",
+    "tag": "Vùng Vịnh – tấn công lan vào trong Vịnh",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "VLCC",
+     "MR",
+     "VLGC"
+    ],
+    "title": "Tấn công tàu lan vào sâu trong Vịnh: một tàu dầu trúng vật thể lạ cách Jubail (bờ đông Saudi) 68 hải lý ngày 16/10, báo cáo thứ hai của UKMTO ghi trúng RPG bắn từ xuồng nhỏ ở 78 hải lý, hỏng mạn trái phía lái. Ngày 18/10 một tàu kéo trúng 2 vật thể ở phía đông bắc Khor Fakkan (UKMTO 177-26). UKMTO đếm ít nhất 10 tàu bị tấn công trong tuần, mức cao nhất kể từ tháng 2, và 23 vụ từ đầu tháng 10. Saudi chặn 1 tên lửa đạn đạo nhắm vào Yanbu ngày 16/10",
+    "impact": "Trước đây các vụ tấn công tập trung ở Hormuz và ngoài khơi Oman. Nay tàu đã bị đánh ở vùng xếp hàng phía Saudi trong Vịnh và ở UAE, và có tên lửa nhắm vào Yanbu, cửa xuất khẩu tránh Hormuz. Phí bảo hiểm và thời gian chờ khó giảm, cung tàu hiệu dụng Aframax, MR và VLGC tiếp tục bị khóa, trong đó có 2 VLGC của PVT chạy Trung Đông. Vụ thủy lôi 17/10 vẫn chỉ là tuyên bố của IRGC: chưa có tên tàu và chưa cơ quan hàng hải nào xác nhận.",
+    "src": [
+     {
+      "t": "Arab News (Reuters), 17/10",
+      "u": "https://www.arabnews.com/saudi-arabia/tanker-struck-by-unknown-projectile-off-saudi-arabia-on-friday-ukmto-says-3006831"
+     },
+     {
+      "t": "Anews (UKMTO), 18/10",
+      "u": "https://www.anews.com.tr/world/2026/10/18/tugboat-struck-by-2-unknown-projectiles-off-uae-1-injured-uk-maritime-agency"
+     },
+     {
+      "t": "CBS News live, 16–18/10",
+      "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+     },
+     {
+      "t": "Outspoken Digest (UKMTO), 18/10",
+      "u": "https://www.outspokendigest.com/article/hormuz-ship-attacks-weekly-record-ukmto-supertanker-mine-claim-october-2026"
+     }
+    ]
+   },
+   {
+    "when": "18/10",
+    "tag": "Mỹ–Iran – đề xuất mở Hormuz",
+    "dir": "mixed",
+    "segs": [
+     "Aframax",
+     "VLCC",
+     "MR",
+     "VLGC"
+    ],
+    "title": "Ngoại trưởng Araghchi nói ở Baghdad ngày 18/10 rằng đề xuất mở Hormuz trong 7 ngày 'vẫn trên bàn': eo mở vào ngày thứ 6 nếu Mỹ dỡ phong tỏa cảng, gỡ trừng phạt dầu và ngừng bắn trên mọi mặt trận, đàm phán bắt đầu ngày thứ 7. Iran đang xem 'ý kiến' của Mỹ. Cùng ngày Trump viết rằng Mỹ 'sẽ sớm kết thúc công việc' nếu Iran không đổi cách, và Vance đòi Iran cam kết về hạt nhân trước",
+    "impact": "Hai bên vẫn bất đồng về thứ tự: Iran muốn mở eo trước, Mỹ muốn bàn hạt nhân trước. Vì vậy chưa có lộ trình, và cước tàu dầu, tàu khí vẫn giữ phần bù rủi ro. Nếu đề xuất được chấp nhận, eo có thể mở trong khoảng 1 tuần, đây là rủi ro giảm cước nhanh nhất cho Aframax/MR của PVT. Trump đã hứa không đánh Iran trước bầu cử giữa kỳ 3/11; Israel bầu cử 27/10.",
+    "src": [
+     {
+      "t": "gCaptain (Reuters), 18/10",
+      "u": "https://gcaptain.com/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz/"
+     },
+     {
+      "t": "Iran International, 18/10",
+      "u": "https://www.iranintl.com/en/202610182359"
+     },
+     {
+      "t": "Iran International, 18/10",
+      "u": "https://www.iranintl.com/en/202610180983"
+     },
+     {
+      "t": "straits.live, 18/10",
+      "u": "https://straits.live/briefs/2026-10-18"
+     }
+    ]
+   },
+   {
+    "when": "19/10",
+    "tag": "Cung tàu – miễn trừng phạt tàu dầu",
+    "dir": "down",
+    "segs": [
+     "Aframax",
+     "LR2",
+     "MR",
+     "VLCC"
+    ],
+    "title": "Gibson (19/10): 878 tàu dầu, 15% đội tàu đang chạy, bị trừng phạt; riêng Aframax/LR2 là 25%. Nếu Mỹ cấp miễn trừ, nhóm có thể quay lại là 325 tàu chỉ bị OFAC trừng phạt: 153 VLCC nhưng chỉ 28/116 Suezmax, 42/322 Aframax/LR2 và khoảng 40 MR; 84% ở phía Đông Suez, 70% từ 20 tuổi trở lên. Braemar (16/10) ước nguồn VLCC thực sự tăng chỉ khoảng 19 chiếc",
+    "impact": "Aframax và MR được thêm rất ít vì phần lớn tàu cỡ này còn bị EU/Anh trừng phạt; phần cung tăng chủ yếu là VLCC già ở châu Á. Rủi ro chính với PVT là giá tàu cũ: Gibson nói người mua chính thống có thể được mua lại các tàu này, đè giá đúng nhóm tuổi PVT hay mua. FFA TD34 tháng 11 đã giảm từ WS680 xuống 595 (Braemar), một phần vì tin nới trừng phạt.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Gibson), 19/10",
+      "u": "https://www.hellenicshippingnews.com/tankers-is-a-clean-slate-coming-for-15-of-the-tanker-fleet/"
+     },
+     {
+      "t": "Breakwave Advisors (Braemar), 16/10",
+      "u": "https://www.breakwaveadvisors.com/insights/2026/10/16/would-ofac-sanctions-relief-cool-freight-costs"
+     }
+    ]
+   },
+   {
+    "when": "16–19/10",
+    "tag": "Hóa chất – ICIS, châu Á",
+    "dir": "down",
+    "segs": [
+     "Hóa chất"
+    ],
+    "title": "ICIS (16/10): cước tàu hóa chất từ Vịnh Mỹ đứng yên trong tuần nhưng nhiều tuyến chịu áp lực giảm. Tuyến USG–châu Á gần như chỉ còn hàng hợp đồng COA vì chủ hàng chờ vụ phí cảng Mỹ–Trung; tuyến USG–Ấn Độ ít hỏi hàng. Cùng lúc, xuất khẩu hóa dầu Singapore tháng 9 giảm 8,3% so cùng kỳ, còn 808,7 triệu SGD, là tháng giảm thứ 19 liên tiếp",
+    "impact": "Đây là số ICIS đầu tiên sau 2/10, và nó cho thấy cước tàu hóa chất chưa đi theo BCTI. Hàng giao ngay đường dài đi châu Á đang yếu. BMI lùi mốc dự kiến giải quyết chiến sự Mỹ–Iran sang quý 1/2027, nên nguồn nguyên liệu cho cụm hóa dầu Singapore (Jurong) còn bị gián đoạn. Cầu tàu hóa chất nội Á sẽ kém, đây là vùng 19 tàu hóa chất của PVT khai thác.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (ICIS), 19/10",
+      "u": "https://www.hellenicshippingnews.com/asia-us-container-rates-mixed-as-extended-peak-season-demand-wanes-tanker-rates-stable/"
+     },
+     {
+      "t": "Hellenic Shipping News (ICIS), 19/10",
+      "u": "https://www.hellenicshippingnews.com/singapore-sept-petrochemical-exports-fall-anew-feedstock-risks-weigh-on-outlook/"
+     }
+    ]
+   },
+   {
+    "when": "18/10",
+    "tag": "Cước dầu thô – giá giao tới châu Á",
+    "dir": "up",
+    "segs": [
+     "VLCC",
+     "Aframax"
+    ],
+    "title": "OilPrice (18/10) tổng hợp cước dầu thô: VLCC vùng Vịnh–Trung Quốc lên khoảng 33 USD/thùng cuối tháng 9 (trước chiến tranh khoảng 4), Yanbu–Trung Quốc 28 USD giữa tháng 10, Brazil–Trung Quốc khoảng 36, Tây Phi–Trung Quốc khoảng 34 (đi Ấn Độ khoảng 25). Aframax chở dầu Canada qua TMX tới 30 USD/thùng; bảo hiểm chiến tranh 7–8% giá trị thân tàu (4–5 USD/thùng với một VLCC). Saudi hạ OSP Arab Light tháng 11 xuống thấp hơn Oman/Dubai 5 USD; dầu Djeno (Tây Phi) bán FOB thấp hơn ICE Brent khoảng 10 USD",
+    "impact": "Cước chiếm khoảng 1/4 giá dầu giao tới Trung Quốc (khoảng 140 USD/thùng), nên người bán phải giảm giá và người mua chuyển sang nguồn gần hơn: Ấn Độ nhập dầu Angola tăng từ 35.000 thùng/ngày (tháng 9) lên 315.000 (tháng 10). Cước cao có lợi cho Aframax PVT, nhưng nó đang làm giảm cầu chở dầu đường dài, nên khó tăng thêm nhiều.",
+    "src": [
+     {
+      "t": "OilPrice.com, 18/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Record-Shipping-Costs-Force-Oil-Producers-to-Slash-Prices.html"
+     }
+    ]
+   },
+   {
+    "when": "19/10",
+    "tag": "Diesel – arb Mỹ–châu Âu, hàng Ấn Độ và Trung Quốc",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "LR1",
+     "LR2"
+    ],
+    "title": "Kpler (19/10): arb diesel Mỹ Gulf–châu Âu giao giữa tháng 11 mở lại, từ −18 lên +6,75 USD/t, nhưng cước MR USGC–UKC giảm từ WS375 xuống WS310. Bờ Tây Ấn Độ dự kiến đưa khoảng 165.000 thùng/ngày gasoil/diesel vào EU và Anh trong tháng 10, cao nhất từ 12/2025. Trung Quốc xuất sản phẩm sạch sang Đông Nam Á 116.000 thùng/ngày tháng 9, cao hơn TB 5 năm, và đã cấp đợt 3 hạn ngạch xuất khẩu sản phẩm sạch (chưa rõ khối lượng)",
+    "impact": "Có thêm hàng MR qua Đại Tây Dương, nhưng cước TC14 giảm khoảng 17% cho thấy Mỹ Gulf đang dư tàu. Hàng Ấn Độ đi châu Âu giữ tàu LR/MR lâu. Hàng Trung Quốc đi Đông Nam Á là chặng MR ngắn ở vùng 8 tàu sản phẩm của PVT khai thác: thêm chuyến nhưng ít tấn-dặm, và làm crack châu Á yếu đi.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Kpler), 19/10",
+      "u": "https://www.hellenicshippingnews.com/us-to-nwe-reopens-eyes-fixed-on-new-supply/"
+     }
+    ]
+   },
+   {
+    "when": "15–19/10",
+    "tag": "PVT Logistics – mua tàu",
+    "dir": "mixed",
+    "segs": [
+     "Hóa chất",
+     "Supramax"
+    ],
+    "title": "PVT Logistics (PDV, công ty con của PVT) duyệt chủ trương mua 1 tàu dầu/hóa chất inox 19.000–26.000 DWT hoặc 1 tàu hàng rời có cẩu 55.000–75.000 DWT, tổng mức đầu tư tối đa 29 triệu USD, vay tối đa 70%, triển khai từ quý 4/2026 (NQ 38 ngày 15/10). Hạn chót 17h ngày 19/10 cổ đông gửi phiếu cho dự án thứ hai: tàu hóa chất ~19.000 DWT khoảng 1 tuổi, đóng tại Nhật/Hàn, tối đa 45 triệu USD",
+    "impact": "Tập đoàn PVT tiếp tục mở rộng đội tàu hóa chất. Dự án 45 triệu USD dựa trên tàu gần như mới, khác cách làm quen thuộc là mua tàu 10–16 tuổi. Tờ trình dẫn Clarksons tháng 9: định hạn 1 năm tàu inox dưới 20.000 DWT ở 18.000 USD/ngày, sát TB 5 năm (18.323). Cùng tài liệu ghi orderbook cỡ 25.000 DWT bằng 52% đội hiện có, là rủi ro cung cho cước tàu hóa chất cỡ lớn hơn 19 tàu ~17.500 DWT của PVT.",
+    "src": [
+     {
+      "t": "CafeF (CBTT PDV, NQ HĐQT 38), 16/10",
+      "u": "https://cafef.vn/du-lieu/PDV-2999760/pdv-nghi-quyet-hdqt-so-38-ngay-15102026.chn"
+     },
+     {
+      "t": "PVT Logistics, NQ 38/NQ-PĐV-HĐQT (PDF), 15/10",
+      "u": "https://cafefnew.mediacdn.vn/download/161026/pdv-nghi-quyet-h-qt-so-38-ngay-15-10-2026-0.pdf"
+     },
+     {
+      "t": "PVT Logistics, tài liệu lấy ý kiến cổ đông (PDF), 08/10",
+      "u": "https://cafefnew.mediacdn.vn/download/091026/pdv-tai-lieu-lay-y-kien-co-dong-bang-van-ban-0.pdf"
+     }
+    ]
+   },
+   {
+    "when": "18/10",
+    "tag": "Nga – cảng dầu St. Petersburg",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "LR1",
+     "Aframax"
+    ],
+    "title": "Đêm 18/10 Ukraine phóng hơn 1.000 drone vào Nga (Bộ QP Nga nói bắn hạ 1.015 chiếc trên 15 vùng); drone đánh cháy Cảng dầu St. Petersburg (Petersburg Oil Terminal, cảng xuất khẩu sản phẩm ở Baltic, công suất khoảng 12,5 triệu tấn/năm) và kho dầu Ruchyi, 1 người chết. Kyiv xác nhận đã đánh lại cơ sở dầu Nga từ 15/10, sau 3 ngày dừng theo 'ngừng bắn năng lượng' mà Trump công bố 11/10. Chưa có số về lượng xuất khẩu bị mất",
+    "impact": "Cảng này xếp xăng dầu sản phẩm lên tàu ở Baltic. Cộng với Ryazan (15/10) và Surgut (16/10), Nga khó giao đủ diesel theo thỏa thuận với Mỹ (300.000 t ngay, 500.000 t tháng 11; Kpler ước thế giới thiếu khoảng 4 triệu t diesel/tháng). Người mua phải lấy hàng từ xa hơn (Mỹ, Ấn Độ), làm tăng tấn-dặm của MR/LR. MR và Aframax của PVT ít chở hàng Nga nên không mất việc trực tiếp.",
+    "src": [
+     {
+      "t": "Kyiv Independent, 18/10",
+      "u": "https://kyivindependent.com/flames-explosions-reported-amid-large-ukrainian-drone-attack-on-st-petersburg/"
+     },
+     {
+      "t": "ABC News (AP), 18/10",
+      "u": "https://abcnews.com/International/wireStory/blaze-st-petersburg-oil-sites-kyiv-launches-1000-137358485"
+     },
+     {
+      "t": "The Moscow Times (Reuters), 18/10",
+      "u": "https://www.themoscowtimes.com/2026/10/18/one-killed-five-injured-in-ukrainian-drone-attack-on-st-petersburg-governor-says-a94015"
+     },
+     {
+      "t": "The Moscow Times, 16/10",
+      "u": "https://www.themoscowtimes.com/2026/10/16/russian-firms-stand-to-gain-most-from-trumps-diesel-deal-analysts-say-a94010"
+     }
+    ]
+   },
+   {
+    "when": "16–18/10",
+    "tag": "Trừng phạt Nga – 60 ngày, diesel",
+    "dir": "mixed",
+    "segs": [
+     "MR"
+    ],
+    "title": "Bộ trưởng Tài chính Bessent nói Mỹ dùng điều khoản tạm dừng 60 ngày của luật trừng phạt Nga 2026 'để xem tình hình', và chỉ gỡ lệnh cấm diesel. Thỏa thuận diesel Mỹ–Nga gồm 300.000 t ngay, 500.000 t trong tháng 11 và 1 triệu t 'ngay sau đó'; ngày 18/10 Thổ Nhĩ Kỳ cho biết sẽ nhận một phần. OFAC đến 19/10 chưa có văn bản nới trừng phạt nào cho tàu bóng tối",
+    "impact": "Diesel Nga đi Thổ Nhĩ Kỳ là chặng ngắn từ Biển Đen/Baltic, chủ yếu do MR/LR1 Âu chở. Nó thêm hàng cho MR Đại Tây Dương, không trực tiếp cho đội SP châu Á của PVT. Việc tạm dừng 60 ngày có nghĩa là thuế 500%/100% có thể quay lại vào khoảng giữa tháng 12, nên dòng dầu Nga đi Ấn Độ/Trung Quốc chưa ổn định.",
+    "src": [
+     {
+      "t": "The National, 18/10",
+      "u": "https://www.thenationalnews.com/news/us/2026/10/18/us-defends-russia-sanctions-waiver-as-zelenskyy-rift-deepens/"
+     },
+     {
+      "t": "gCaptain (Reuters), 18/10",
+      "u": "https://gcaptain.com/turkey-will-get-some-diesel-from-us-russia-supply-deal/"
+     },
+     {
+      "t": "OFAC Recent Actions, 19/10 (mới nhất 16/10)",
+      "u": "https://ofac.treasury.gov/recent-actions"
+     }
+    ]
+   },
+   {
+    "when": "18–19/10",
+    "tag": "Dầu – giá đầu tuần",
+    "dir": "mixed",
+    "segs": [
+     "Aframax",
+     "MR"
+    ],
+    "title": "Brent sáng 19/10 khoảng 108,10 USD/thùng (−1,6%, Trading Economics), WTI mở cửa giảm gần 3 USD về khoảng 98,50 sau khi Phó Tổng thống Vance nói Mỹ 'đã thắng dứt khoát' và phản ứng của Iran sẽ quyết định diễn biến. Tuần đến 16/10 Brent +4,9%, WTI +10,4% (The Peninsula); Kpler đo dầu qua Hormuz tuần đến 13/10 là 11,62 triệu thùng/ngày (trước chiến tranh 17,15)",
+    "impact": "Giá giảm vì thị trường kỳ vọng căng thẳng hạ nhiệt, không phải vì cung tăng. Nếu Mỹ–Iran giảm căng thẳng thật, cước Aframax/MR sẽ bị ép trước giá dầu, vì phần cước cộng thêm do tuyến dài và bảo hiểm sẽ mất dần. Cần chờ giá đóng cửa phiên 19/10.",
+    "src": [
+     {
+      "t": "Trading Economics, 19/10",
+      "u": "https://tradingeconomics.com/commodity/brent-crude-oil"
+     },
+     {
+      "t": "FX Leaders, 18/10",
+      "u": "https://www.fxleaders.com/news/2026/10/18/oil-prices-fall-with-wti-3-down-as-vance-signals-possible-de-escalation-in-iran-war/"
+     },
+     {
+      "t": "The Peninsula, 18/10",
+      "u": "https://thepeninsulaqatar.com/article/18/10/2026/oil-touches-110-a-barrel-for-first-time-since-may"
+     }
+    ]
+   }
+  ],
+  "news": [
+   {
+    "tag": "Hóa chất – cung theo cỡ tàu",
+    "title": "Rủi ro dư cung tàu hóa chất nằm ở cỡ 25.000 DWT, không phải cỡ ~17.500–20.000 DWT của PVT",
+    "text": "Tờ trình của PVT Logistics (8/10) dẫn MB Shipbrokers: cỡ 20.000 DWT có orderbook 20 tàu, bằng 5% đội 391 tàu, và 35% đội đã trên 20 tuổi; cỡ 25.000 DWT có 73 tàu đặt đóng, bằng 52% đội 141 tàu. Lịch giao toàn nhóm 19.000–26.000 DWT: 37 tàu (2026), 30 (2027), 17 (2028), 25 (2029). Fearnleys: tonne-mile hóa chất −5,5% năm 2026, +5,8% năm 2027. Clarksons 9/2026: định hạn 1 năm tàu inox <20.000 DWT 18.000 USD/ngày (TB 5 năm 18.323); giá tàu 5 tuổi 38,5 triệu USD, 1 tuổi 43,5. ICIS 16/10 cho thấy cước giao ngay đường dài đang chịu áp lực giảm.",
+    "impact": "Cỡ tàu của PVT ít bị đe dọa bởi tàu mới, nhưng tàu 25.000 DWT giao dồn trong 2026–2027 có thể cạnh tranh hàng lô nhỏ khi thị trường yếu. Cước định hạn đang ở mức trung bình, không còn phần cộng thêm như tàu dầu. Số liệu lấy gián tiếp qua tài liệu của PVT Logistics.",
+    "src": [
+     {
+      "t": "PVT Logistics, tài liệu lấy ý kiến cổ đông (PDF), 08/10",
+      "u": "https://cafefnew.mediacdn.vn/download/091026/pdv-tai-lieu-lay-y-kien-co-dong-bang-van-ban-0.pdf"
+     },
+     {
+      "t": "Hellenic Shipping News (ICIS), 19/10",
+      "u": "https://www.hellenicshippingnews.com/asia-us-container-rates-mixed-as-extended-peak-season-demand-wanes-tanker-rates-stable/"
+     }
+    ]
+   }
+  ],
+  "watch": [
+   "GDP quý 3 Trung Quốc cùng sản lượng thép và lọc dầu tháng 9 (NBS 09:00 giờ VN 19/10, sau giờ chạy; Reuters poll +4,4%).",
+   "Xclusiv tuần 42, Lion, Star Asia tuần 42, Clarksons Hellas 16/10 và bản tuần Baltic khí (BLPG số 16/10) chưa lên Hellenic Shipping News lúc 07:15 giờ VN; lần chạy sau cần lấy TC11, rổ MR Pacific, TD8/TD14 số 16/10 và giao dịch mua bán tàu tuần 42.",
+   "Bảng routes bản 17/10 có chỗ lẫn số thứ Năm và thứ Sáu: bản tuần Baltic (HSN 19/10) cho TD3C TCE 1.370.193 ngày 15/10, còn bảng ghi 1.387.683 (ngày 16/10, Affinity). Tương tự TD15, TD22, TD20, TD27, TC6. Khi viết lại routes cần ghi ngày từng con số.",
+   "IRGC nói thêm 1 siêu tàu dầu trúng thủy lôi (chinadailyhk qua straits.live 18/10); hải quân Iran nói 1 tàu dầu cháy trong 'vùng cấm' ở Vịnh Oman ngày 16/10 (CBS). Chưa có tên tàu, chưa cơ quan hàng hải nào xác nhận.",
+   "VLCC MT ST 3 (cờ Marshall, IMO 9220964) trúng vật thể lạ khi qua Hormuz ngày 16/10, 15 thuyền viên Ấn Độ an toàn (Bộ trưởng Sonowal qua Karmactive 18/10). UKMTO/JMIC chưa xác nhận.",
+   "TankerTrackers (X): Saudi xuất 8,165 triệu thùng/ngày trong 15 ngày đầu tháng 10 (tháng 9: 5,62). Chỉ thấy qua đoạn trích tìm kiếm, chưa kiểm chứng bằng trang gốc.",
+   "Tuần duyên Đài Loan xua 16 tàu Trung Quốc (hải cảnh, nghiên cứu, 4 tàu cá) quanh đảo chính và Đông Sa ngày 18/10, gọi là 'chiến tranh hỗn hợp'. Chưa ảnh hưởng tàu thương mại (Al Jazeera 18/10).",
+   "Bão Champi: JTWC 18/10 21Z hạ còn 120 kt (thay mắt bão), đỉnh dự báo 135 kt; JMA 19/10 dự báo vào Đài Loan khoảng 24/10, JTWC cho rằng có thể quay lên phía bắc sau 22/10. Tác động lên cước nhỏ, chủ yếu trễ lịch tàu nội Á qua eo Luzon/Đài Loan. Biển Đông chưa có bão (NCHMF 04h 19/10).",
+   "Bộ QP Nga (qua South Front, chỉ có đoạn trích tìm kiếm) nói đã đánh một tàu hàng rời chở hàng quân sự cách cảng Odesa 30 km ngày 18/10. Phía Ukraine chưa xác nhận; chưa kiểm chứng bằng trang gốc.",
+   "Trung Quốc cấp đợt 3 hạn ngạch xuất khẩu sản phẩm sạch 2026 (Kpler, 19/10): chưa có khối lượng. Brecorder đưa tin đợt 3 LSFO khoảng 1,07 triệu t, nhưng trang bị chặn (403 lặp lại), chưa kiểm chứng.",
+   "Ảnh hưởng của đòn 18/10 tới lượng xuất khẩu của Petersburg Oil Terminal: chưa có số của Reuters/Kpler.",
+   "Kết quả kiểm phiếu cổ đông PVT Logistics (hạn 17h 19/10): chào bán thêm cổ phiếu và dự án tàu hóa chất ~19.000 DWT tối đa 45 triệu USD.",
+   "Đình công cảng toàn quốc của CGT (Pháp) ngày 30/10 và công nhân cảng Chattogram (Bangladesh) tuyệt thực từ 19/10 phản đối hợp đồng DP World: chỉ thấy trong đoạn trích WebSearch, chưa mở được trang gốc (chưa kiểm chứng)."
+  ],
+  "gaps": [
+   "Lần chạy 19/10 (thứ Hai, 07:02 giờ VN): 5 agent nghiên cứu song song, 121 truy vấn WebSearch, cộng các lượt tải feed/trang liệt kê bằng curl. 114 trang bài mở thành công (không tính feed, trang mục, trang chủ), 82 trang đăng trong 72 giờ, 26 lượt lỗi. Tên miền lớn nhất là hellenicshippingnews.com, khoảng 27%. build.py không báo lỗi, không có phiên mới; BDI 2.511 khớp Trading Economics.",
+   "Nguồn chưa phát hành số mới: phiên Baltic 19/10 (chốt sau giờ chạy); Xclusiv 19/10, Lion, Star Asia tuần 42, Clarksons Hellas 16/10, bản tuần Baltic khí (chưa lên HSN lúc chạy); TC11, rổ MR Pacific và số thứ Sáu 16/10 của TD8/TD14/TC7 (không có ở bản tuần Baltic trên HSN, The Edge, Affinity); Intermodal, Banchero, VesselsValue (20/10); Fearnleys tuần 43, EIA (21/10); GDP quý 3 và số lọc dầu tháng 9 của Trung Quốc (09:00 giờ VN 19/10); BCTC quý 3 PVT (hạn riêng 20/10, hợp nhất 30/10); OPEC MOMR (~12/11); NOAA ENSO (12/11); báo giá phí bảo hiểm chiến tranh mới sau 14/10; PortWatch sau 11/10.",
+   "Không truy cập được: balticexchange.com ('Challenge Validation'), ukmto.org (PDF WARNING 177-26 trả 403; nội dung lấy qua Anews, Arab News, CBS), pvtrans.com, seatrade (lỗi lặp lại, bỏ qua); opec.org, bimco.org, russiamatters.org, deccanherald.com, miningweekly.com, brecorder.com (403); Optima Shipbroking bản 17/10 và 19/10 (404); MarineLink RSS (404); trang Star Asia (502); Federal Register qua curl (403, đã đọc qua WebFetch).",
+   "Chưa xác minh: tên 2 tàu 'trúng thủy lôi' 17/10 và phản hồi của CENTCOM; tỷ lệ công suất lọc dầu Nga đang hỏng (không có ước tính mới trong 72 giờ; số gần nhất Ukraine nói 51% ngày 5/10); cảng Novorossiysk, Tuapse, Primorsk, Ust-Luga trong 16–19/10 (không có tin tấn công mới); biên lọc Singapore và crack diesel châu Á tuần đến 16/10; cước tàu LPG nhỏ và tàu hóa chất châu Á (không có chỉ số công khai); Splash 'Weekly Broker'; thời gian chờ Bosphorus và tàu chờ ở cảng hàng rời; Biển Đông, Somalia, Vịnh Guinea (không có tin 16–19/10); tỷ lệ ngày tàu đã ký của Pacific Basin chỉ lấy từ bản chép lời cuộc gọi."
+  ],
+  "scoreManual": [
+   {
+    "key": "warrisk",
+    "name": "Phí bảo hiểm rủi ro chiến tranh qua Hormuz",
+    "value": "6–10% giá trị thân tàu mỗi chuyến, tới 20 triệu USD/chuyến VLCC (FT qua Insurance Business 14/10); trước chiến tranh 0,25%. Đến 19/10 không tìm thấy báo giá môi giới mới. Rủi ro tăng thêm: tàu dầu trúng vật thể/RPG ngoài khơi Jubail (16/10), tàu kéo trúng đạn gần Khor Fakkan (18/10), UKMTO ghi ≥10 vụ/tuần (kỷ lục) và 23 vụ từ đầu tháng 10",
+    "asof": "2026-10-18",
+    "status": "green",
+    "rule": "Xanh: vẫn cao (gián đoạn kéo dài) · Đỏ: giảm về dưới 1%",
+    "why": "Tấn công lan vào trong Vịnh và vùng xếp hàng của Saudi/UAE; không có cơ sở để phí giảm.",
+    "src": [
+     {
+      "t": "Insurance Business, 14/10",
+      "u": "https://www.insurancebusinessmag.com/us/news/marine/hormuz-sinking-hands-marine-war-underwriters-another-total-loss-as-attacks-surge-593549.aspx"
+     },
+     {
+      "t": "Arab News (Reuters), 17/10",
+      "u": "https://www.arabnews.com/saudi-arabia/tanker-struck-by-unknown-projectile-off-saudi-arabia-on-friday-ukmto-says-3006831"
+     },
+     {
+      "t": "Anews (UKMTO), 18/10",
+      "u": "https://www.anews.com.tr/world/2026/10/18/tugboat-struck-by-2-unknown-projectiles-off-uae-1-injured-uk-maritime-agency"
+     },
+     {
+      "t": "Outspoken Digest (UKMTO), 18/10",
+      "u": "https://www.outspokendigest.com/article/hormuz-ship-attacks-weekly-record-ukmto-supertanker-mine-claim-october-2026"
+     }
+    ]
+   },
+   {
+    "key": "talks",
+    "name": "Đàm phán Mỹ–Iran",
+    "value": "Bế tắc. Araghchi (18/10): đề xuất 7 ngày (mở eo ngày thứ 6, đàm phán ngày thứ 7) vẫn trên bàn, Iran đang xem ý kiến của Mỹ; Rezaei (11/10) gọi phản hồi của Mỹ qua Qatar là 'không đủ'. Mỹ đòi bàn hạt nhân trước (Vance 18/10). Trump (18/10): 'sẽ sớm kết thúc công việc' nhưng đã hứa không đánh trước 3/11. Netanyahu: Israel có thể hành động độc lập",
+    "asof": "2026-10-18",
+    "status": "green",
+    "rule": "Xanh: bế tắc · Vàng: có lộ trình · Đỏ: thỏa thuận mở Hormuz",
+    "why": "Có đề xuất nhưng hai bên bất đồng về thứ tự (Iran muốn eo trước, Mỹ muốn hạt nhân trước); không có vòng đàm phán nào được lên lịch.",
+    "src": [
+     {
+      "t": "gCaptain (Reuters), 18/10",
+      "u": "https://gcaptain.com/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz/"
+     },
+     {
+      "t": "Iran International, 18/10",
+      "u": "https://www.iranintl.com/en/202610182359"
+     },
+     {
+      "t": "Iran International, 18/10",
+      "u": "https://www.iranintl.com/en/202610180983"
+     },
+     {
+      "t": "House of Saud, 18/10",
+      "u": "https://houseofsaud.com/iran-six-day-hormuz-offer-washington"
+     }
+    ]
+   },
+   {
+    "key": "gulfflows",
+    "name": "Xuất khẩu dầu vùng Vịnh so với trước chiến tranh",
+    "value": "Kpler: ~12,6 triệu thùng/ngày qua Hormuz ngày 13/10, ~74% nền 17 triệu (Safety4Sea 16/10); Iraq ~2,6/3,5 triệu thùng/ngày (1–21/9, ~74%); ING (17/10) 70–75%; PortWatch vẫn chỉ có số 2 lượt ngày 11/10 (nền 85/ngày, straits.live 18/10)",
+    "asof": "2026-10-18",
+    "status": "yellow",
+    "rule": "Xanh <60% · Vàng 60–90% · Đỏ >90% kèm lượt tàu qua Hormuz tăng",
+    "why": "Các ước tính khối lượng hội tụ quanh 70–75%; lượt tàu qua eo theo AIS vẫn rất thấp.",
+    "src": [
+     {
+      "t": "Safety4Sea, 16/10",
+      "u": "https://safety4sea.com/strait-of-hormuz-attacks-reach-record-high-in-october/"
+     },
+     {
+      "t": "CBS News live, 16–18/10",
+      "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+     },
+     {
+      "t": "straits.live, 18/10",
+      "u": "https://straits.live/briefs/2026-10-18"
+     }
+    ]
+   },
+   {
+    "key": "orderbook",
+    "name": "Orderbook tàu dầu / đội tàu (DWT)",
+    "value": "MR2 19,7%, Aframax/LR2 20,7% đội tàu (Xclusiv 12/10). Đặt đóng tuần 42 (Advanced): 3 Suezmax cho Liquimar, 2 Suezmax tại Jinglu cho Chemnav, 2 VLAC 93.000 m³ cho SFL. Không có số orderbook mới trong 16–18/10",
+    "asof": "2026-10-16",
+    "status": "red",
+    "rule": "Xanh <10% · Vàng 10–20% · Đỏ >20%",
+    "why": "MR2 vẫn trên ngưỡng 18%; đơn đặt đóng tàu dầu vẫn tiếp tục hằng tuần.",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     }
+    ]
+   },
+   {
+    "key": "drysupply",
+    "name": "Cung – cầu hàng rời 2027",
+    "value": "Tồn quặng 35 cảng TQ 148,30 triệu t (16/10, +2,85 triệu t), hàng về giảm 3 tuần; SGX quặng 90,45 USD/t, dự báo 88–93; than TQ nhập tháng 9 43,37 triệu t (−5,7% n/n); IMF hạ GDP TQ 2027 còn 4,0%; Capesize 5TC −22% từ thứ Hai đến thứ Sáu 16/10 (37.618 → 29.464); FFA Supramax Q1/2027 16.075 (FIS 16/10)",
+    "asof": "2026-10-16",
+    "status": "red",
+    "rule": "Xanh: cầu > cung · Vàng: cân bằng · Đỏ: cung > cầu",
+    "why": "Phía cầu chưa có tín hiệu tăng: tồn quặng cảng cao và còn tăng, nhập than TQ thấp hơn cùng kỳ, IMF hạ dự báo tăng trưởng TQ 2027; thị trường kỳ hạn vẫn định giá cước Supramax 2027 thấp hơn hiện tại khoảng 30%. Supramax/Handysize châu Á đang tốt hơn Capesize nhưng chưa thấy cầu mới đủ để đổi trạng thái.",
+    "src": [
+     {
+      "t": "SMM Iron Ore Weekly Brief, 16/10",
+      "u": "https://news.metal.com/newscontent/104162816-smm-iron-ore-weekly-brief-iron-ores-decline-slows-as-hot-metal-steadies-and-port-stocks-build"
+     },
+     {
+      "t": "Mysteel, 14/10",
+      "u": "https://www.mysteel.net/news/5144382-gacc-chinas-sept-coal-imports-slip-6-as-import-prices-top-33-month-high"
+     },
+     {
+      "t": "Hellenic Shipping News, 19/10 (IMF)",
+      "u": "https://www.hellenicshippingnews.com/china-sept-exports-surge-36-as-trade-surplus-nears-1-trillion/"
+     },
+     {
+      "t": "Baltic Exchange dry tuần 42 (HSN), 19/10",
+      "u": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-declined-slightly-last-week/"
+     }
+    ]
+   },
+   {
+    "key": "peers",
+    "name": "Ngày tàu đã ký trước của doanh nghiệp cùng ngành",
+    "value": "Tàu dầu: INSW ký ~37% ngày quý 4 ở ~180.000 USD/ngày (16/10), DHT 78% ở 225.200 (12/10). Hàng rời: Pacific Basin (15/10) ký Handysize 65% phần còn lại 2026 ở 16.480, Supramax 76% ở 18.960; năm 2027 mới ký 7% ở 13.180 và 19% ở 15.590. Hóa chất: Stolt Q3 TCE 24.121 (−2,9% so cùng kỳ); Clarksons định hạn 1 năm tàu inox <20.000 DWT 18.000 (TB 5 năm 18.323). Không có công bố tàu dầu/LPG mới 16–19/10 (SEC EDGAR)",
+    "asof": "2026-10-16",
+    "status": "green",
+    "rule": "Xanh: giá ký trước > TB 5 năm · Đỏ: thấp hơn",
+    "why": "Giá ký quý 4 của tàu dầu và tàu hàng rời nhỏ vẫn trên TB 5 năm. Tuy vậy, giá ký 2027 của Pacific Basin thấp hơn quý 4 khoảng 20%, và tàu hóa chất chỉ quanh TB 5 năm.",
+    "src": [
+     {
+      "t": "gCaptain, 16/10",
+      "u": "https://gcaptain.com/international-seaways-adds-to-vlcc-fleet-with-370-million-bruton-deal/"
+     },
+     {
+      "t": "Investing.com (Pacific Basin Q3 call), 15/10",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-pacific-basin-posts-strong-q3-2026-operating-gains-93CH-4951098"
+     },
+     {
+      "t": "PVT Logistics, tài liệu lấy ý kiến cổ đông (PDF), 08/10",
+      "u": "https://cafefnew.mediacdn.vn/download/091026/pdv-tai-lieu-lay-y-kien-co-dong-bang-van-ban-0.pdf"
+     }
+    ]
+   },
+   {
+    "key": "dark",
+    "name": "Đội tàu bóng tối / tàu dầu toàn cầu",
+    "value": "OFAC: không có hành động nào ngày 17–19/10, chưa có văn bản nới trừng phạt tàu bóng tối. Bessent (18/10): luật trừng phạt Nga tạm dừng 60 ngày, chỉ gỡ lệnh cấm diesel. Ít nhất 8 tàu khí chở LPG Iran (6 chiếc bị trừng phạt) đi qua STS Oman–Malaysia từ tháng 7. Không có vụ bắt giữ tàu ở Baltic trong 16–19/10. Số nền giữ nguyên: Kpler ~160 VLCC bị Mỹ trừng phạt; Clarksons 1.010 tàu dầu (17% đội)",
+    "asof": "2026-10-19",
+    "status": "yellow",
+    "rule": "Xanh: ổn định hoặc tăng · Đỏ: giảm nhanh do gỡ trừng phạt",
+    "why": "Mỹ chưa nới với tàu, chỉ tạm dừng thuế; châu Âu chưa siết thêm trong tuần.",
+    "src": [
+     {
+      "t": "OFAC Recent Actions, 19/10 (mới nhất 16/10)",
+      "u": "https://ofac.treasury.gov/recent-actions"
+     },
+     {
+      "t": "The National, 18/10",
+      "u": "https://www.thenationalnews.com/news/us/2026/10/18/us-defends-russia-sanctions-waiver-as-zelenskyy-rift-deepens/"
+     },
+     {
+      "t": "Iran International (Reuters), 16/10",
+      "u": "https://www.iranintl.com/en/202610166333"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "date": "2026-10-02",
+    "end": "2026-10-22",
+    "event": "G7 xả diesel dự trữ đợt đầu (20 ngày)",
+    "why": "IEA đẩy nhanh xả hơn 20 triệu thùng diesel; Mỹ mời thầu thêm 17 triệu thùng SPR (16/10)."
+   },
+   {
+    "date": "2026-10-09",
+    "end": "2026-12-07",
+    "event": "Sinopec Shanghai bảo dưỡng CDU 320.000 thùng/ngày",
+    "why": "Giảm nguồn xăng dầu Trung Quốc có thể xuất trong quý 4."
+   },
+   {
+    "date": "2026-10-17",
+    "end": "2026-11-21",
+    "event": "Kỳ họp 2 Quốc hội khóa XVI (đợt 1 17/10–14/11, đợt 2 20–21/11): cho ý kiến Bộ luật Hàng hải và Đường thủy Việt Nam",
+    "why": "Bộ luật được thông qua ở kỳ họp 3; phát biểu của lãnh đạo PVN về nguồn dầu thô."
+   },
+   {
+    "date": "2026-10-19",
+    "event": "Trung Quốc công bố GDP quý 3 cùng sản lượng thép, lọc dầu, sản xuất công nghiệp tháng 9 (10:00 Bắc Kinh = 09:00 giờ VN; Reuters poll +4,4%)",
+    "why": "Chưa công bố lúc 07:15 giờ VN (NBS mới nhất: CPI/PPI 15/10). Cầu quặng, than, lượng xăng dầu có thể xuất."
+   },
+   {
+    "date": "2026-10-19",
+    "tentative": true,
+    "event": "Xclusiv tuần 42 và bản tuần Baltic khí (LPG) đăng trên HSN (thường tối thứ Hai giờ VN)",
+    "why": "Có thể có TD8, TD14, S3TC/S11TC/HS7TC, BLPG số 16/10 và giá tàu cũ; lúc 07:15 VN chưa đăng (404)."
+   },
+   {
+    "date": "2026-10-19",
+    "event": "17h: hạn nhận phiếu lấy ý kiến cổ đông PVT Logistics (PDV): chào bán thêm cổ phiếu, dự án tàu hóa chất ~19.000 DWT (≤45 triệu USD)",
+    "why": "Mở rộng đội tàu hóa chất của tập đoàn PVT; kết quả kiểm phiếu sẽ được công bố sau đó."
+   },
+   {
+    "date": "2026-10-20",
+    "end": "2026-10-24",
+    "event": "Bangladesh nghỉ ngân hàng dịp Durga Puja",
+    "why": "Thị trường phá dỡ Chittagong chững lại (GMS)."
+   },
+   {
+    "date": "2026-10-20",
+    "event": "Hạn BCTC riêng quý 3 của PVT (cùng các mã niêm yết PVP, VOS, VTO, GSP, PDV); đến 19/10 chưa công bố",
+    "why": "Hạn BCTC hợp nhất 30/10."
+   },
+   {
+    "date": "2026-10-21",
+    "event": "Fearnleys tuần 43; EIA tồn kho tuần đến 16/10 (10:30 ET)",
+    "why": "VLGC, Aframax, định hạn 1 năm giữa tuần; tồn kho thô Mỹ tuần trước −8,56 triệu thùng."
+   },
+   {
+    "date": "2026-10-21",
+    "end": "2026-10-24",
+    "event": "Bão Champi: đỉnh 135 kt 19–20/10, 21–22/10 qua phía đông eo Luzon, JMA dự báo vào Đài Loan khoảng 24/10",
+    "why": "Có thể làm chậm tàu qua eo Luzon/Bashi, eo Đài Loan, cảng Cao Hùng/Đài Trung; Biển Đông chưa bị ảnh hưởng."
+   },
+   {
+    "date": "2026-10-21",
+    "tentative": true,
+    "event": "ReCAAP báo cáo tuần 13–19/10",
+    "why": "Cướp biển eo Malacca/Singapore"
+   },
+   {
+    "date": "2026-10-22",
+    "end": "2026-11-10",
+    "tentative": true,
+    "event": "Kết quả quý 3 của doanh nghiệp cùng ngành (Scorpio, Star Bulk…)",
+    "why": "Tỷ lệ ngày tàu đã ký trước cho quý 4 kèm giá. NORDEN 29/10."
+   },
+   {
+    "date": "2026-10-22",
+    "event": "Kỳ điều hành giá xăng dầu trong nước (Bộ Công Thương – Bộ Tài chính); PVOIL giảm 350 đ/l đến 15h 22/10",
+    "why": "Giá diesel và mazut trong nước, chi phí nhiên liệu tàu nội địa."
+   },
+   {
+    "date": "2026-10-24",
+    "tentative": true,
+    "event": "Witkoff, Kushner có thể tới Moscow; họp ba bên Mỹ–Ukraine–Nga cuối tháng 10",
+    "why": "Sau lệnh miễn trừng phạt 16/10; hành lang Biển Đen."
+   },
+   {
+    "date": "2026-10-26",
+    "event": "Bộ trưởng nông nghiệp EU họp; hết bảo dưỡng đường sắt chở than Trung Quốc",
+    "why": "Ngũ cốc Nga (đề xuất của Latvia); nguồn than nội địa Trung Quốc hồi có thể hạ nhu cầu nhập."
+   },
+   {
+    "date": "2026-10-27",
+    "event": "Israel bầu cử; Klaveness Combination Carriers báo cáo quý 3",
+    "why": "Khả năng Israel tác chiến lại với Iran; CABU đại diện tàu hóa chất/xút."
+   },
+   {
+    "date": "2026-10-29",
+    "tentative": true,
+    "event": "Scorpio Tankers công bố kết quả quý 3 (chưa xác nhận; đến 19/10 chưa có thông báo trên SEC EDGAR, năm 2025 thông báo ngày 16/10)",
+    "why": "Số ngày MR/LR2 quý 4 đã ký và mức giá."
+   },
+   {
+    "date": "2026-10-30",
+    "event": "Hạn BCTC hợp nhất quý 3 của PVT",
+    "why": "Kết quả theo mảng sau quý cước tàu dầu tăng mạnh."
+   },
+   {
+    "date": "2026-10-31",
+    "event": "Hết hạn lệnh cấm xuất diesel của Nga",
+    "why": "Thỏa thuận diesel Mỹ–Nga: 500.000 t tháng 11, sau đó 1 triệu t/tháng."
+   },
+   {
+    "date": "2026-10-31",
+    "tentative": true,
+    "event": "Ấn Độ xét lại thuế xuất khẩu diesel/xăng (chu kỳ 2 tuần)",
+    "why": "Thuế diesel 8,5 rupee/lít từ 16/10 ảnh hưởng hàng MR/LR từ bờ Tây Ấn Độ."
+   },
+   {
+    "date": "2026-11-01",
+    "event": "OPEC+ (7 nước cốt lõi) họp về sản lượng tháng 12",
+    "why": "OPEC MOMR 13/10 hạ tăng trưởng cầu 2026 còn +0,2 triệu thùng/ngày."
+   },
+   {
+    "date": "2026-11-03",
+    "event": "Bầu cử giữa kỳ Mỹ",
+    "why": "Trump cam kết không tấn công Iran trước bầu cử; Quốc hội nghỉ đến sau bầu cử nên khó phản ứng với lệnh miễn trừng phạt Nga."
+   },
+   {
+    "date": "2026-11-04",
+    "event": "TORM và Odfjell công bố kết quả quý 3",
+    "why": "Số ngày tàu MR/LR và tàu hóa chất đã ký cho quý 4 và 2027."
+   },
+   {
+    "date": "2026-11-05",
+    "event": "International Seaways công bố kết quả quý 3 (trước giờ mở cửa); Genco công bố 4/11 sau giờ đóng cửa",
+    "why": "Cước quý 4 đã ký của tàu dầu và tàu hàng rời."
+   },
+   {
+    "date": "2026-11-09",
+    "event": "Hết hạn tạm dừng phí cảng USTR với tàu liên quan Trung Quốc (23:59 EST); Federal Register số 19–20/10 vẫn chưa có văn bản gia hạn",
+    "why": "Hơn 200 hiệp hội xin gia hạn (23/9); thuế đối ứng và miễn trừ thuế 301 cũng hết 9–10/11."
+   },
+   {
+    "date": "2026-11-12",
+    "event": "NOAA cập nhật ENSO",
+    "why": "Bản 8/10: Niño-3.4 +2,1°C, 83% khả năng sự kiện lịch sử mùa tháng 10–12."
+   },
+   {
+    "date": "2026-11-12",
+    "tentative": true,
+    "event": "OPEC MOMR tháng 11 (ngày dự kiến)",
+    "why": "Bản 13/10 hạ tăng trưởng cầu 2026 còn +0,2 triệu thùng/ngày, nâng 2027 lên +2,6."
+   },
+   {
+    "date": "2026-11-15",
+    "event": "Hạn chót PVP họp ĐHĐCĐ bất thường (dự án Aframax số 3); hạn nộp hạn mức khai thác RKAB 2027 của Indonesia",
+    "why": "PVP gia hạn họp đến không muộn hơn 15/11 (nghị quyết HĐQT 2/10), mốc 23/10 không còn chắc chắn. RKAB quyết định nguồn than cho Supramax 2027."
+   },
+   {
+    "date": "2026-11-17",
+    "end": "2026-11-24",
+    "event": "Kênh Panama đấu slot dài hạn mùa khô 2027",
+    "why": "Lần đầu đấu slot dài hạn cho âu Panamax cũ."
+   },
+   {
+    "date": "2026-11-18",
+    "event": "Hafnia công bố kết quả quý 3",
+    "why": "Tàu SP MR/LR, tỷ lệ ngày tàu đã ký."
+   },
+   {
+    "date": "2026-11-23",
+    "end": "2026-11-27",
+    "event": "Họp liên kỳ IMO về khung Net-Zero (ISWG-GHG 23)",
+    "why": "IMO: các nước ủng hộ biện pháp kỹ thuật, biện pháp kinh tế còn bỏ ngỏ."
+   },
+   {
+    "date": "2026-11-24",
+    "event": "BW LPG công bố kết quả quý 3",
+    "why": "Tham chiếu VLGC: số ngày quý 4 đã ký."
+   },
+   {
+    "date": "2026-11-30",
+    "end": "2026-12-03",
+    "event": "IMO MEPC 85",
+    "why": "Quyết định có nối lại phiên bất thường ngày 4/12."
+   },
+   {
+    "date": "2026-11-30",
+    "tentative": true,
+    "event": "Frontline công bố kết quả quý 3",
+    "why": "Tham chiếu VLCC/Suezmax/LR2."
+   },
+   {
+    "date": "2026-12-04",
+    "event": "IMO MEPC phiên bất thường 2: quyết định khung Net-Zero",
+    "why": "Nếu không thông qua, cơ hội tiếp theo là MEPC 86 (10/2027); đội tàu PVT bình quân ~17 tuổi."
+   },
+   {
+    "date": "2026-12-15",
+    "tentative": true,
+    "event": "Hết khoảng tạm dừng 60 ngày của luật trừng phạt Nga 2026 (ước tính từ 16/10)",
+    "why": "Thuế 500%/100% với hàng Nga và nước mua dầu Nga có thể quay lại; ảnh hưởng dòng dầu Nga đi Ấn Độ/Trung Quốc"
+   }
+  ],
+  "routes": [
+   {
+    "route": "TD3C",
+    "desc": "VLCC 270kt, Trung Đông → Trung Quốc",
+    "seg": "VLCC",
+    "ws": "WS1.281,25 (15/10)",
+    "tce": 1387683,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 1.412.243 → -24.560 (-1.7%) Affinity: tâm lý VLCC yếu dần, thiếu hàng mới; 1 chuyến nội AG lên subs WS1.423 chưa xác nhận. Gibson: FFA TD3C điều chỉnh giảm vì tin Mỹ có thể miễn trừ tàu bị trừng phạt.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TD6",
+    "desc": "Suezmax 135kt, Biển Đen (CPC) → Augusta",
+    "seg": "Suezmax",
+    "ws": "WS1.092,22 (15/10)",
+    "tce": 888410,
+    "date": "2026-10-15",
+    "note": "Không có số tuần trước để so. Tuần: +68 điểm WS (Edge). Tuyến duy nhất tăng trong nhóm Suezmax; kế hoạch CPC tháng 11 khoảng 1,45–1,55 triệu thùng/ngày; Gibson: đỉnh WS1.150 khó lặp lại.",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Optima Dirty Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-16-october-2026/"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TD7",
+    "desc": "Aframax 80kt, nội vùng Tây Bắc Âu",
+    "seg": "Aframax",
+    "ws": "WS580 (Affinity 16/10)",
+    "tce": 474585,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 525.034 → -50.449 (-9.6%) Thứ Năm 15/10: WS590, 486.393. Đã đỉnh, dự kiến giảm tiếp đầu tuần sau.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TD8",
+    "desc": "Aframax 80kt, Kuwait → Singapore",
+    "seg": "Aframax",
+    "ws": "WS1.457,5 (15/10)",
+    "tce": 464418,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 454.235 → +10.183 (+2.2%) Số 15/10 (14/10: WS1.467,33; 467.806). Gần như đi ngang, khác hẳn đà giảm mạnh ở Đại Tây Dương. Chưa thấy số thứ Sáu 16/10.",
+    "src": [
+     {
+      "t": "Optima Dirty Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "TD14",
+    "desc": "Aframax 80kt, Đông Nam Á → Bờ Đông Úc",
+    "seg": "Aframax",
+    "ws": "WS841,43 (15/10)",
+    "tce": 271465,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 252.356 → +19.109 (+7.6%) Số 15/10 (14/10: WS845; 272.788). Gibson: thị trường Aframax châu Á chậm lại, cước có vẻ đã đỉnh, TD14 chốt thấp hơn kỳ vọng; Indo/Up dự báo về 80 x WS820–825. Chưa có số 16/10.",
+    "src": [
+     {
+      "t": "Optima Dirty Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-16-october-2026/"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TD28",
+    "desc": "Aframax 80kt, Vancouver → Trung Quốc",
+    "seg": "Aframax",
+    "ws": "15,59 triệu USD/chuyến (−210.000)",
+    "tce": 334000,
+    "date": "2026-10-15",
+    "note": "Dòng mới. Baltic: chủ tàu ưu tiên chuyến dài hơn chuyến ngắn ở tuyến xuất khẩu Vancouver (TMX). Tuyến Aframax Thái Bình Dương; TCE cao hơn TD14 ĐNA–Úc (271.465 ngày 15/10).",
+    "src": [
+     {
+      "t": "Baltic Exchange tanker tuần 42, đăng lại trên Hellenic Shipping News, 19/10 (số chốt 15/10)",
+      "u": "https://www.hellenicshippingnews.com/vlcc-tanker-rates-retreated-last-week/"
+     }
+    ]
+   },
+   {
+    "route": "TD29",
+    "desc": "Aframax 80kt, Vancouver → điểm chuyển tải ngoài Bờ Tây Mỹ",
+    "seg": "Aframax",
+    "ws": "WS953 (15/10, +25 điểm)",
+    "tce": null,
+    "date": "2026-10-15",
+    "note": "Dòng mới. Baltic không nêu TCE cho tuyến này. Một trong số ít tuyến dầu thô tăng trong tuần.",
+    "src": [
+     {
+      "t": "Baltic Exchange tanker tuần 42, đăng lại trên Hellenic Shipping News, 19/10 (số chốt 15/10)",
+      "u": "https://www.hellenicshippingnews.com/vlcc-tanker-rates-retreated-last-week/"
+     }
+    ]
+   },
+   {
+    "route": "TD9",
+    "desc": "Aframax 70kt, Caribe → US Gulf",
+    "seg": "Aframax",
+    "ws": "WS830 (15/10)",
+    "tce": 272057,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 346.922 → -74.865 (-21.6%) Tuần: −198 điểm WS (Edge).",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Optima Dirty Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "TD19",
+    "desc": "Aframax 80kt, nội Địa Trung Hải",
+    "seg": "Aframax",
+    "ws": "WS715 (Affinity 16/10)",
+    "tce": 329935,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 368.066 → -38.131 (-10.4%) 15/10: WS720, 333.705; giảm 60 điểm trong tuần, dự kiến giảm tiếp.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TD20",
+    "desc": "Suezmax 130kt, Tây Phi → Tây Bắc Âu",
+    "seg": "Suezmax",
+    "ws": "WS920 (15/10)",
+    "tce": 511221,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 570.375 → -59.154 (-10.4%) Tuần: −76 điểm WS; Gibson: người thuê có thể ép TD20 xuống dưới WS900.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TD25",
+    "desc": "Aframax 70kt, US Gulf → Tây Bắc Âu",
+    "seg": "Aframax",
+    "ws": "WS755 (15/10)",
+    "tce": 198525,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 308.695 → -110.170 (-35.7%) Tuần: −203 điểm WS; 15/10 TCE 234.851.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TD26",
+    "desc": "Aframax 70kt, Đông Mexico → US Gulf",
+    "seg": "Aframax",
+    "ws": "WS842 (15/10)",
+    "tce": 247546,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 399.604 → -152.058 (-38.1%) Tuần: −224 điểm WS; 15/10 TCE 303.753.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TD15",
+    "desc": "VLCC 260kt, Tây Phi → Trung Quốc",
+    "seg": "VLCC",
+    "ws": "WS711,88 (15/10)",
+    "tce": 711081,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước để so. Tuần: −38 điểm WS.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TD22",
+    "desc": "VLCC 270kt, US Gulf → Trung Quốc",
+    "seg": "VLCC",
+    "ws": "80,58 triệu USD/chuyến (Edge, tuần); 70,58 triệu (Optima 15/10)",
+    "tce": 551352,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước để so. Tuần: −8,75 triệu USD (Edge).",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Optima Dirty Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "TD27",
+    "desc": "Suezmax 130kt, Guyana → ARA",
+    "seg": "Suezmax",
+    "ws": "WS952,22 (15/10)",
+    "tce": 530492,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước để so. Tuần: −33 điểm WS.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TD33",
+    "desc": "Suezmax 145kt, US Gulf → Tây Bắc Âu",
+    "seg": "Suezmax",
+    "ws": "WS828 (15/10, −40 điểm/tuần)",
+    "tce": 563600,
+    "date": "2026-10-15",
+    "note": "Dòng mới, bản trước không có. TCE 'hơn 563.600 USD/ngày'. Số chốt thứ Năm 15/10 (bản tuần Baltic đăng trước giờ chốt thứ Sáu). Cùng xu hướng giảm của Suezmax Đại Tây Dương (TD20 −76, TD27 −33 điểm).",
+    "src": [
+     {
+      "t": "Baltic Exchange tanker tuần 42, đăng lại trên Hellenic Shipping News, 19/10 (số chốt 15/10)",
+      "u": "https://www.hellenicshippingnews.com/vlcc-tanker-rates-retreated-last-week/"
+     }
+    ]
+   },
+   {
+    "route": "TD34",
+    "desc": "VLCC 270kt, Vịnh Oman → Trung Quốc",
+    "seg": "VLCC",
+    "ws": "WS776,43 (15/10)",
+    "tce": 837569,
+    "date": "2026-10-15",
+    "note": "Không có số tuần trước để so. Tuần: −64 điểm WS. Tuyến FFA mới, giao dịch tuần đầu vượt TD3C.",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Optima Dirty Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/dirty-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "TC1",
+    "desc": "LR2 75kt, Trung Đông → Nhật",
+    "seg": "LR2",
+    "ws": "WS986 (15/10, +47 điểm/tuần)",
+    "tce": 284616,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 270.681 → +13.935 (+5.1%) Gibson/Affinity: có hàng WCI–Nhật 75kt x WS725 lên subs (kỷ lục) nhưng sau đó thị trường đứng.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TC15",
+    "desc": "LR2 80kt, Địa Trung Hải → Viễn Đông",
+    "seg": "LR2",
+    "ws": "16,40 triệu USD/chuyến (+2,40 triệu)",
+    "tce": 175000,
+    "date": "2026-10-15",
+    "note": "Dòng mới. Tuần 41 (tính ngược theo Baltic): 142.900 → +32.100 (+22,5%). Cùng chiều tăng với TC1/TC20 (LR2 Trung Đông).",
+    "src": [
+     {
+      "t": "Baltic Exchange tanker tuần 42, đăng lại trên Hellenic Shipping News, 19/10 (số chốt 15/10)",
+      "u": "https://www.hellenicshippingnews.com/vlcc-tanker-rates-retreated-last-week/"
+     }
+    ]
+   },
+   {
+    "route": "TC20",
+    "desc": "LR2 90kt, Trung Đông → Tây Bắc Âu",
+    "seg": "LR2",
+    "ws": "21,24 triệu USD/chuyến (+2,73 triệu)",
+    "tce": 333985,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 283.128 → +50.857 (+18.0%)",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TC5",
+    "desc": "LR1 55kt, Trung Đông → Nhật",
+    "seg": "LR1",
+    "ws": "WS982 (15/10, +37 điểm)",
+    "tce": 202500,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 193.738 → +8.762 (+4.5%) Gibson: 55 x WS600 trên TC5 (thông tin chưa chắc chắn theo Affinity).",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TC8",
+    "desc": "LR1 65kt, Trung Đông → Tây Bắc Âu",
+    "seg": "LR1",
+    "ws": "15,76 triệu USD/chuyến (+3,14 triệu)",
+    "tce": 243945,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 184.976 → +58.969 (+31.9%)",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TC17",
+    "desc": "MR 35kt, Trung Đông → Đông Phi",
+    "seg": "MR",
+    "ws": "WS891 (15/10, −2 điểm)",
+    "tce": 113357,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 113.399 → -42 (-0.0%) Gibson: TC17 phần chuyến thực tế trượt từ WS605 xuống WS565.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Gibson \"Clean Slate?\" 16/10/2026",
+      "u": "https://www.gibsons.co.uk/report/clean-slate/"
+     }
+    ]
+   },
+   {
+    "route": "TC7",
+    "desc": "MR 30kt, Singapore → Bờ Đông Úc",
+    "seg": "MR",
+    "ws": "95,10 USD/tấn (15/10, TC7$)",
+    "tce": 70656,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 68.233 → +2.423 (+3.6%) Affinity xếp \"Firmer\". Tuyến MR châu Á gần PVT nhất.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "Optima Clean Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/clean-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "TC14",
+    "desc": "MR 38kt, US Gulf → Tây Bắc Âu",
+    "seg": "MR",
+    "ws": "WS386 (+104 điểm)",
+    "tce": 52836,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 31.560 → +21.276 (+67.4%)",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TC18",
+    "desc": "MR 38kt, US Gulf → Brazil",
+    "seg": "MR",
+    "ws": "WS460 (15/10)",
+    "tce": 60478,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 44.750 → +15.728 (+35.1%) Số 15/10.",
+    "src": [
+     {
+      "t": "Optima Clean Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/clean-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "TC21",
+    "desc": "MR 38kt, US Gulf → Caribe",
+    "seg": "MR",
+    "ws": "1,28 triệu USD/chuyến",
+    "tce": 47575,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 27.619 → +19.956 (+72.3%)",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TC6",
+    "desc": "Handymax 30kt, Algeria → Địa Trung Hải",
+    "seg": "Handy",
+    "ws": "WS431 (+73 điểm)",
+    "tce": 88913,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 61.356 → +27.557 (+44.9%) 15/10: 82.111.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "TC23",
+    "desc": "Handy 30kt, nội Tây Bắc Âu",
+    "seg": "Handy",
+    "ws": "WS321 (15/10, −16 điểm)",
+    "tce": 47500,
+    "date": "2026-10-15",
+    "note": "Dòng mới. Tuần 41 (tính ngược): 52.700 → −5.200 (−9,9%). Trái chiều với TC6 nội Địa Trung Hải (+73 điểm, 82.100). Cỡ gần tàu SP/hóa chất nhỏ.",
+    "src": [
+     {
+      "t": "Baltic Exchange tanker tuần 42, đăng lại trên Hellenic Shipping News, 19/10 (số chốt 15/10)",
+      "u": "https://www.hellenicshippingnews.com/vlcc-tanker-rates-retreated-last-week/"
+     }
+    ]
+   },
+   {
+    "route": "TC2",
+    "desc": "MR 37kt, ARA → US Atlantic",
+    "seg": "MR",
+    "ws": "WS198 (−3 điểm)",
+    "tce": 11053,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 12.700 → -1.647 (-13.0%) Vẫn là tuyến MR yếu nhất; chuyến tới dự kiến quanh WS195.",
+    "src": [
+     {
+      "t": "Affinity Tanker Weekly 16/10/2026 (bảng Baltic TCE 16/10)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-16.10.2026-HSN.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "MR Atlantic basket",
+    "desc": "Rổ MR Đại Tây Dương (TC2/TC14/TC18 tam giác)",
+    "seg": "MR",
+    "ws": "—",
+    "tce": 62741,
+    "date": "2026-10-15",
+    "note": "Edge: tăng từ 45.200 lên 62.700/ngày trong tuần. Optima 15/10: 62.741. Rổ MR Thái Bình Dương (TC11/TC12) KHÔNG tìm thấy số tuần 42 (CHƯA XÁC MINH).",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     },
+     {
+      "t": "Optima Clean Tanker Index Summary 16/10/2026 (dữ liệu Baltic 15/10)",
+      "u": "https://www.optimashipbroking.com/market-report/clean-tanker-index-summary-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "route": "BLPG1",
+    "desc": "VLGC Ras Tanura → Chiba",
+    "seg": "VLGC",
+    "ws": "263,20 USD/tấn",
+    "tce": 255539,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 258.182 → -2.643 (-1.0%) Thị trường LPG hạ nhiệt nhẹ sau tuần tăng mạnh; danh sách tàu vẫn chặt. Tuyến Trung Đông của 2 VLGC PVT.",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "BLPG2",
+    "desc": "VLGC Houston → Flushing",
+    "seg": "VLGC",
+    "ws": "182,33 USD/tấn (−7,50)",
+    "tce": 213443,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 227.905 → -14.462 (-6.3%) Edge: TCE −12.085 trong tuần.",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "BLPG3",
+    "desc": "VLGC Houston → Chiba",
+    "seg": "VLGC",
+    "ws": "333,43 USD/tấn (−9,14)",
+    "tce": 204369,
+    "date": "2026-10-15",
+    "note": "Tuần 41 (09/10): 214.030 → -9.661 (-4.5%) Edge: TCE −7.695 trong tuần.",
+    "src": [
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "BCI 5TC",
+    "desc": "Capesize 182k bình quân 5 tuyến",
+    "seg": "Capesize",
+    "ws": "BCI 3.249 (9/10: 4.340, −25,1%)",
+    "tce": 29464,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 39.363 → −9.899 (−25,1%). Edge: giảm từ 37.618 (thứ Hai) xuống 29.464; C5 Tây Úc–Thanh Đảo 11,70 USD/tấn; C3 Tubarao–Thanh Đảo 30,075. FreightX ghi \"C5TC\" 25.961 (khác chuẩn 182, chưa rõ cơ sở). FFA tháng 11: 33.250, tháng 12: 35.175.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     },
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "BPI P5TC",
+    "desc": "Panamax/Kamsarmax 82k bình quân",
+    "seg": "Panamax",
+    "ws": "BPI 2.314 (9/10: 2.424, −4,5%)",
+    "tce": 20827,
+    "date": "2026-10-16",
+    "note": "Tuần 41: 21.813 → −986 (−4,5%). P5 Nam Trung Quốc/Indonesia khứ hồi 21.250; P3A Thái Bình Dương 21.904. Định hạn 5–7 tháng 75k: 19.000.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     },
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "BSI S11TC",
+    "desc": "Supramax 63,5k bình quân 11 tuyến",
+    "seg": "Supramax",
+    "ws": "BSI 1.865 (9/10: 1.814, +2,8%)",
+    "tce": 23573,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 22.929 → +644 (+2,8%). Tăng nhờ châu Á; ít giao dịch định hạn. FFA Supramax 10TC tháng 11: 20.200, Q1/27: 16.075.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     },
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "S1B",
+    "desc": "Supramax 63,5k, Canakkale qua Địa Trung Hải/Biển Đen → Viễn Đông",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 26075,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S1C",
+    "desc": "Supramax 63,5k, US Gulf → Trung Quốc/Nam Nhật",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 31644,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S2",
+    "desc": "Supramax 63,5k, Bắc Trung Quốc qua Úc/Thái Bình Dương khứ hồi",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 24019,
+    "date": "2026-10-16",
+    "note": "Bản trước \"S3TC\" 22.161, ghi chú Bắc TQ–Úc/TBD 22.969 → S2 +1.050 (+4,6%) nếu so 22.969.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S3",
+    "desc": "Supramax 63,5k, Bắc Trung Quốc → Tây Phi",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 22117,
+    "date": "2026-10-16",
+    "note": "Bản trước ghi \"S3TC\" 22.161 (có thể là S2/S3, chưa rõ) → so S3: −44.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S4A",
+    "desc": "Supramax 63,5k, US Gulf → Skaw/Passero",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 31919,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S4B",
+    "desc": "Supramax 63,5k, Skaw/Passero → US Gulf",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 16581,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S5",
+    "desc": "Supramax 63,5k, Tây Phi qua ECSA → Bắc Trung Quốc",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 27706,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S8",
+    "desc": "Supramax 63,5k, Nam Trung Quốc qua Indonesia → Bờ Đông Ấn Độ",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 27307,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S9",
+    "desc": "Supramax 63,5k, Tây Phi qua ECSA → Skaw/Passero",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 24059,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S10",
+    "desc": "Supramax 63,5k, Nam Trung Quốc qua Indonesia → Nam Trung Quốc",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 17581,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 16.953 → +628 (+3.7%) Tuyến than Indonesia nội Á, gần hàng của PVT.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "S15",
+    "desc": "Supramax 63,5k, Ấn Độ Dương qua Nam Phi → Viễn Đông",
+    "seg": "Supramax",
+    "ws": "—",
+    "tce": 20357,
+    "date": "2026-10-16",
+    "note": "Thay đổi trong ngày 16/10 xem bảng FreightX; không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "BHSI HS7TC",
+    "desc": "Handysize 38k bình quân 7 tuyến",
+    "seg": "Handysize",
+    "ws": "BHSI 1.011 (9/10: 996, +1,5%)",
+    "tce": 18200,
+    "date": "2026-10-16",
+    "note": "Tuần 41 (09/10): 17.926 → +274 (+1.5%) Thái Bình Dương mạnh lên nhờ tàu khan và hàng Bắc TBD/Úc; US Gulf yếu. FFA Handysize tháng 11: 17.900, Q1/27: 13.850.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     },
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF)",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     },
+     {
+      "t": "The Edge Malaysia: Baltic Exchange shipping updates: Oct 16, 2026 (tanker = số đóng cửa 15/10)",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "route": "HS1",
+    "desc": "Handysize 38k, Skaw/Passero → Rio/Recalada",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 10700,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "HS2",
+    "desc": "Handysize 38k, Skaw/Passero → Boston/Galveston",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 14850,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "HS3",
+    "desc": "Handysize 38k, Rio/Recalada → Skaw/Passero",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 28472,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "HS4",
+    "desc": "Handysize 38k, US Gulf → Skaw/Passero",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 20429,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "HS5",
+    "desc": "Handysize 38k, Đông Nam Á → Singapore/Nhật",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 17625,
+    "date": "2026-10-16",
+    "note": "Bản trước: ĐNA–Singapore/Nhật 17.419 → +206 (+1,2%). Tuyến gần PVT.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "HS6",
+    "desc": "Handysize 38k, Bắc Trung Quốc/Hàn/Nhật khứ hồi",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 17706,
+    "date": "2026-10-16",
+    "note": "Bản trước: Trung/Hàn/Nhật khứ hồi 17.238 → +468 (+2,7%).",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   },
+   {
+    "route": "HS7",
+    "desc": "Handysize 38k, Bắc Á → Đông Nam Á",
+    "seg": "Handysize",
+    "ws": "—",
+    "tce": 18275,
+    "date": "2026-10-16",
+    "note": "Không có số tuần trước theo tuyến.",
+    "src": [
+     {
+      "t": "FreightX Dry Bulk Market Report 16/10/2026 (bảng chỉ số Baltic 16/10)",
+      "u": "https://freightx.gr/reports/"
+     }
+    ]
+   }
+  ],
+  "period": [
+   {
+    "vessel": "Đánh giá Clarksons (không phải hợp đồng cụ thể)",
+    "type": "Tàu hóa chất inox <20.000 DWT",
+    "rate": "18.000 USD/ngày (TB 5 năm 2022–2026: 18.323)",
+    "period": "1 năm",
+    "when": "09/2026",
+    "note": "Số do PVT Logistics dẫn trong tờ trình ĐHĐCĐ ngày 8/10. MB Shipbrokers dự báo ~18.000 cho 2027–2030; Womar dự báo TCE tàu 20.000 DWT ở 20.000 (2027–2028) và 21.000 (2029); tàu Eco cao hơn 7–10%. Dùng làm đại diện cho 19 tàu hóa chất PVT.",
+    "src": [
+     {
+      "t": "PVT Logistics, tài liệu lấy ý kiến cổ đông (PDF), 08/10",
+      "u": "https://cafefnew.mediacdn.vn/download/091026/pdv-tai-lieu-lay-y-kien-co-dong-bang-van-ban-0.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá VLCC (Alibra)",
+    "type": "VLCC",
+    "rate": "285.000 USD/ngày (+65.000)",
+    "period": "1 năm (2 năm 185.000; 3 năm eco 115.000)",
+    "when": "14/10",
+    "note": "Fearnleys 14/10: VLCC eco 1 năm 225.000 (−5.000). Tham chiếu.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Alibra (định hạn tàu dầu), 14/10",
+      "u": "https://www.hellenicshippingnews.com/weekly-tanker-time-charter-estimates-october-14-2026/"
+     },
+     {
+      "t": "Fearnleys tuần 42 (PDF), 14/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-1.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá Aframax 115.000 DWT (Alibra)",
+    "type": "Aframax",
+    "rate": "97.500 USD/ngày (+7.500)",
+    "period": "1 năm (2 năm 75.000; 3 năm eco 57.500)",
+    "when": "14/10",
+    "note": "Fearnleys: Aframax 1 năm 100.000 (+6.000). PVT thu 2025: 30.000–40.000.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Alibra (định hạn tàu dầu), 14/10",
+      "u": "https://www.hellenicshippingnews.com/weekly-tanker-time-charter-estimates-october-14-2026/"
+     },
+     {
+      "t": "Fearnleys tuần 42 (PDF), 14/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-1.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá LR2 (Alibra)",
+    "type": "LR2",
+    "rate": "95.000 USD/ngày (+7.500)",
+    "period": "1 năm (2 năm 75.000)",
+    "when": "14/10",
+    "note": "Đánh giá môi giới.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Alibra (định hạn tàu dầu), 14/10",
+      "u": "https://www.hellenicshippingnews.com/weekly-tanker-time-charter-estimates-october-14-2026/"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá LR1 (Alibra)",
+    "type": "LR1",
+    "rate": "60.000 USD/ngày (+12.500)",
+    "period": "1 năm (2 năm 45.000, +7.500)",
+    "when": "14/10",
+    "note": "Intermodal 9/10: 56.000.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Alibra (định hạn tàu dầu), 14/10",
+      "u": "https://www.hellenicshippingnews.com/weekly-tanker-time-charter-estimates-october-14-2026/"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá MR IMO3 (Alibra)",
+    "type": "MR",
+    "rate": "39.000 USD/ngày (không đổi)",
+    "period": "1 năm (2 năm 32.500; 3 năm eco 27.500)",
+    "when": "14/10",
+    "note": "PVT thu 2025: 17.500–22.000. Handy 1 năm 34.000.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Alibra (định hạn tàu dầu), 14/10",
+      "u": "https://www.hellenicshippingnews.com/weekly-tanker-time-charter-estimates-october-14-2026/"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá Ultramax 64k / Supramax 58k / Handysize 38k (Fearnleys)",
+    "type": "Ultramax/Supramax/Handysize",
+    "rate": "20.500 (+750) / 18.000 (+750) / 15.500 (−250) USD/ngày",
+    "period": "1 năm",
+    "when": "14/10",
+    "note": "Alibra 14/10 (Thái Bình Dương): Supramax 1 năm 21.000, Handy 16.500. PVT thu 2025: Supramax 11.000–13.000, Handysize 9.000–12.000.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 42 (PDF), 14/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-1.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Đánh giá VLGC 84k / LPG 3.500–5.000 cbm (Fearnleys)",
+    "type": "VLGC/LPG nhỏ",
+    "rate": "6,6 triệu USD/tháng (−300.000) / 440.000 USD/tháng (không đổi)",
+    "period": "quy đổi giao ngay sang định hạn",
+    "when": "14/10",
+    "note": "Tàu LPG nhỏ là số châu Âu, dùng làm đại diện; ~14.500 USD/ngày. PVT thu 2025 tàu 3.500–5.000 cbm 6.000–10.000.",
+    "src": [
+     {
+      "t": "Fearnleys tuần 42 (PDF), 14/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-1.pdf"
+     }
+    ]
+   }
+  ],
+  "snp": [
+   {
+    "vessel": "Stellar Isabela",
+    "type": "Handysize",
+    "dwt": 37993,
+    "built": "2017",
+    "yard": "Shimanami, Nhật",
+    "price": "trên 24 triệu USD",
+    "buyer": "Không công bố",
+    "note": "Tàu 9 tuổi, trẻ hơn nhiều so với độ tuổi PVT hay mua (10–17). Tham chiếu cùng báo cáo: Locomotion (2013) 19,8 triệu USD, Lima Strait (2012) 15,2 triệu USD. Advanced định giá Handysize 37k 10 tuổi 25 triệu USD (+6,4% trong tuần).",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Oak / Juniper",
+    "type": "Supramax",
+    "dwt": 57275,
+    "built": "2011",
+    "yard": "STX Dalian, Trung Quốc",
+    "price": "16,5 triệu USD/chiếc",
+    "buyer": "Người mua châu Á",
+    "note": "Cặp tàu 15 tuổi, đúng độ tuổi PVT hay mua; Allied cho biết cao hơn tàu cùng loại bán tháng 8 khoảng 1,9 triệu USD. Advanced tuần 42 định giá Supramax 15 tuổi 19,5 triệu.",
+    "src": [
+     {
+      "t": "Allied tuần 41 (PDF, qua Cyprus Shipping News), 16/10",
+      "u": "https://cyprusshippingnews.com/wp-content/uploads/2026/10/ALLIED-Weekly-Market-Report-Week-41.pdf"
+     },
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Asean Forwarder",
+    "type": "LR1",
+    "dwt": 74543,
+    "built": "2006",
+    "yard": "Sasebo, Nhật",
+    "price": "26,8 triệu USD",
+    "buyer": "Không công bố",
+    "note": "20 tuổi, đã qua kỳ kiểm định định kỳ (SS/DD), giao ngay, chạy dầu bẩn. Đắt hơn tàu cùng tuổi Asian Phoenix (20 triệu USD, SS/DD sắp đến hạn) 6,8 triệu USD.",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     },
+     {
+      "t": "Allied tuần 41 (PDF, qua Cyprus Shipping News), 16/10",
+      "u": "https://cyprusshippingnews.com/wp-content/uploads/2026/10/ALLIED-Weekly-Market-Report-Week-41.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Philippa Gladys",
+    "type": "Hóa chất/SP",
+    "dwt": 12729,
+    "built": "2009",
+    "yard": "Zhejiang Antai, Trung Quốc",
+    "price": "Không công bố",
+    "buyer": "Không công bố",
+    "note": "17 tuổi, cỡ tàu hóa chất nhỏ gần đội tàu PVT (~17.500 DWT); không có giá.",
+    "src": [
+     {
+      "t": "Allied tuần 41 (PDF, qua Cyprus Shipping News), 16/10",
+      "u": "https://cyprusshippingnews.com/wp-content/uploads/2026/10/ALLIED-Weekly-Market-Report-Week-41.pdf"
+     }
+    ]
+   },
+   {
+    "vessel": "Valle Azzurra",
+    "type": "MR",
+    "dwt": 49999,
+    "built": "2007",
+    "yard": "SPP, Hàn Quốc",
+    "price": "Không công bố",
+    "buyer": "Không công bố",
+    "note": "19 tuổi; tham chiếu: Atlantic Crown (2007) bán 20 triệu USD.",
+    "src": [
+     {
+      "t": "Allied tuần 41 (PDF, qua Cyprus Shipping News), 16/10",
+      "u": "https://cyprusshippingnews.com/wp-content/uploads/2026/10/ALLIED-Weekly-Market-Report-Week-41.pdf"
+     }
+    ]
+   }
+  ],
+  "lpg": [
+   {
+    "topic": "Đàm phán Hormuz và LPG vùng Vịnh",
+    "value": "Ngày 18/10, Ngoại trưởng Iran Araqchi nói đề xuất mở lại Hormuz trong 7 ngày vẫn còn hiệu lực, với 7 điều kiện, gồm gỡ phong tỏa cảng Iran và gỡ trừng phạt dầu. Mỹ vẫn đòi giải quyết vấn đề hạt nhân trước.",
+    "note": "Rủi ro hai chiều với VLGC: nếu eo mở lại, lượng LPG vùng Vịnh (tháng 9 mới 670.000 thùng/ngày so với khoảng 1,5 triệu trước chiến tranh) sẽ quay về chặng ngắn đi châu Á, kéo cước BLPG1 (255.539 USD/ngày ngày 15/10) xuống. Chưa có dấu hiệu Mỹ chấp nhận.",
+    "src": [
+     {
+      "t": "gCaptain (Reuters), 18/10",
+      "u": "https://gcaptain.com/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz/"
+     }
+    ]
+   },
+   {
+    "topic": "Baltic khí tuần 42 (số 15/10)",
+    "value": "BLPG1 Ras Tanura–Chiba 255.539 USD/ngày (−1,0% trong tuần; 263,20 USD/t); BLPG2 Houston–Flushing 213.443 (−6,3%); BLPG3 Houston–Chiba 204.369 (−4,5%). BLPG 22.524 ngày 16/10 (−2,9% tuần).",
+    "note": "Cước lùi từ đỉnh 5 năm (23.337 ngày 8/10) nhưng vẫn ở phân vị 95.",
+    "src": [
+     {
+      "t": "The Edge Malaysia – Baltic Exchange shipping updates: Oct 16, 2026",
+      "u": "https://theedgemalaysia.com/node/822176"
+     }
+    ]
+   },
+   {
+    "topic": "Xuất khẩu LPG Trung Đông (IEA)",
+    "value": "Tháng 9: 670.000 thùng/ngày (+90.000 so tháng 8), trước chiến tranh khoảng 1,5 triệu.",
+    "note": "Hàng LPG vùng Vịnh vẫn dưới một nửa bình thường; châu Á bù bằng LPG Mỹ chặng dài.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (IEA OMR), 15/10",
+      "u": "https://www.hellenicshippingnews.com/escalation-of-attacks-threatens-to-derail-recovery-in-middle-east-oil-exports/"
+     }
+    ]
+   },
+   {
+    "topic": "LPG Iran qua vòng phong tỏa (Reuters)",
+    "value": "Có ít nhất 8 tàu khí chở khoảng 4,1 triệu thùng LPG Iran ra ngoài từ giữa tháng 7, trong đó 6 tàu bị trừng phạt. Hàng được chuyển tải tàu-tàu (STS) ngoài khơi Shinas/Sohar và EOPL Malaysia.",
+    "note": "Khối lượng nhỏ, không đổi cán cân VLGC.",
+    "src": [
+     {
+      "t": "gCaptain (Reuters), 16/10",
+      "u": "https://gcaptain.com/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows/"
+     }
+    ]
+   },
+   {
+    "topic": "Đặt đóng và phá dỡ tàu khí",
+    "value": "SFL đặt 2 tàu VLAC 93.000 m³ tại Hengli, 108 triệu USD/chiếc, giao 2028 (Advanced tuần 42). Tàu LPG nhỏ Bai Hua Yuan (2.099 LDT) bán phá dỡ tại Trung Quốc, 372,3 USD/LDT (Best Oasis).",
+    "note": "Chưa có số cước tàu LPG nhỏ châu Á.",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     },
+     {
+      "t": "Best Oasis (qua HSN), 16/10",
+      "u": "https://www.hellenicshippingnews.com/best-oasis-weekly-recycling-market-report-16-october-2026/"
+     }
+    ]
+   }
+  ],
+  "supply": [
+   {
+    "topic": "Đội tàu dầu bị trừng phạt theo cỡ (Gibson)",
+    "value": "878 tàu (15% đội tàu đang chạy); Aframax/LR2 25%. Chỉ bị OFAC trừng phạt: 325 tàu (153/164 VLCC, 28/116 Suezmax, 42/322 Aframax/LR2, khoảng 40 MR hàng sạch). 84% ở phía Đông Suez, 70% từ 20 tuổi trở lên. Iran sở hữu trực tiếp 64 tàu (38 VLCC).",
+    "note": "Đây là quy mô cung tối đa có thể quay lại thị trường nếu Mỹ cấp miễn trừ. Phần dành cho Aframax và MR nhỏ. Gibson cảnh báo giá tàu cũ có thể bị đè nếu người mua chính thống được mua các tàu này. Thay số Clarksons/Kpler (1.010 tàu, 17% DWT) ở bản 17/10 bằng số chia theo cỡ.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Gibson), 19/10",
+      "u": "https://www.hellenicshippingnews.com/tankers-is-a-clean-slate-coming-for-15-of-the-tanker-fleet/"
+     }
+    ]
+   },
+   {
+    "topic": "Giá tàu cũ theo tuổi (Advanced tuần 42)",
+    "value": "Handysize 37k 10 tuổi 25 triệu USD (+6,4% tuần); 32k 15 tuổi 13 (+4,0%); 37k 5 tuổi 31,5 (+3,3%). Supramax 56k 15 tuổi 19,5 (đi ngang). MR 45k 15 tuổi 29,5, MR 47k 10 tuổi 41,5 (đi ngang). Aframax 105k 15 tuổi 69,5 (đi ngang).",
+    "note": "Giá Handysize tăng dù BHSI chỉ ở mức 1.011, trong khi giá tàu dầu 10–15 tuổi đứng yên. Mua thêm tàu hàng rời cũ đang đắt lên; giá tàu dầu cũ chưa giảm dù FFA đã giảm.",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     }
+    ]
+   },
+   {
+    "topic": "Tàu hóa chất inox 19.000–26.000 DWT (MB Shipbrokers 2026)",
+    "value": "Cỡ 20.000 DWT: orderbook 20 tàu = 5% đội (391 tàu), 35% đội >20 tuổi. Cỡ 25.000 DWT: 73 tàu đặt đóng = 52% đội (141 tàu). Lịch giao: 37 (2026), 30 (2027), 17 (2028), 25 (2029)",
+    "note": "Tờ trình PVT Logistics 8/10. Fearnleys: tonne-mile hóa chất −5,5% năm 2026 và +5,8% năm 2027. Giá tàu inox 19.999 DWT: 5 tuổi 38,5 triệu USD, 1 tuổi 43,5 (Clarksons 9/2026). Cỡ 25.000 DWT có rủi ro dư cung, còn cỡ 20.000 DWT (gần cỡ tàu PVT) thì ít.",
+    "src": [
+     {
+      "t": "PVT Logistics, tài liệu lấy ý kiến cổ đông (PDF), 08/10",
+      "u": "https://cafefnew.mediacdn.vn/download/091026/pdv-tai-lieu-lay-y-kien-co-dong-bang-van-ban-0.pdf"
+     }
+    ]
+   },
+   {
+    "topic": "Đặt đóng tàu dầu tuần 42 (Advanced)",
+    "value": "3 Suezmax 157.000 DWT cho Liquimar; 2 Suezmax 158.000 DWT tại Jinglu cho Chemnav; 2 VLAC 93.000 m³ cho SFL tại Hengli (108 triệu USD/chiếc).",
+    "note": "Đơn đặt đóng tàu dầu tiếp tục hằng tuần; cung tàu tăng từ 2028–2030.",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 42 (PDF), 16/10",
+      "u": "https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-42.pdf"
+     }
+    ]
+   },
+   {
+    "topic": "Phá dỡ tuần 42 (GMS, Best Oasis)",
+    "value": "Không có giao dịch phá dỡ mới. Giá tàu dầu: Bangladesh 510, Pakistan 485 (−1%), Ấn Độ 445, Thổ Nhĩ Kỳ 290 USD/LDT. Một tàu dầu trúng đòn ở Hormuz được chào bán phá dỡ sang Pakistan.",
+    "note": "Cước cao khiến tàu già tiếp tục chạy, không rời đội tàu.",
+    "src": [
+     {
+      "t": "GMS tuần 42 (qua HSN), 16/10",
+      "u": "https://www.hellenicshippingnews.com/gms-week-42-freight-finally-flinches/"
+     },
+     {
+      "t": "Best Oasis (qua HSN), 16/10",
+      "u": "https://www.hellenicshippingnews.com/best-oasis-weekly-recycling-market-report-16-october-2026/"
+     }
+    ]
+   },
+   {
+    "topic": "Tuổi đội VLCC",
+    "value": "42,6% đội VLCC từ 15 tuổi trở lên; IBK ước nhu cầu thay thế khoảng 130 tàu; ụ đóng tàu Hàn/Trung kín khoảng 4 năm.",
+    "note": "Hỗ trợ giá tàu cũ và giá đóng mới.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 15/10",
+      "u": "https://www.hellenicshippingnews.com/middle-east-war-lifts-vlcc-rates-spurs-global-replacement-orders/"
+     }
+    ]
+   },
+   {
+    "topic": "Nhà máy đóng tàu Việt Nam",
+    "value": "HD Hyundai Việt Nam (Khánh Hòa) đầu tư 100 triệu USD, nâng công suất lên 23 tàu/năm vào 2030 (sau đó 30); đã giao 207 tàu, trong đó 140 tàu SP.",
+    "note": "Thêm cung MR dài hạn.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 17/10",
+      "u": "https://www.hellenicshippingnews.com/hd-hyundai-vietnam-shipbuilding-expands-output/"
+     }
+    ]
+   }
+  ],
+  "flows": [
+   {
+    "topic": "Dầu qua Hormuz (Kpler)",
+    "value": "~12,6 triệu thùng/ngày ngày 13/10 (cuối tháng 9 ~15; trước chiến tranh ~17), tức khoảng 74%",
+    "note": "Theo JMIC, theo dõi độc lập chỉ thấy số lượt qua eo một chữ số mỗi chiều; NCAGS ghi ~30 lượt/ngày có Mỹ hỗ trợ. Hai cách đếm này không so trực tiếp được.",
+    "src": [
+     {
+      "t": "Safety4Sea, 16/10",
+      "u": "https://safety4sea.com/strait-of-hormuz-attacks-reach-record-high-in-october/"
+     }
+    ]
+   },
+   {
+    "topic": "Iraq xuất khẩu dầu",
+    "value": "~2,6 triệu thùng/ngày trong 1–21/9 so với ~3,5 trước chiến tranh (~74%); Iraq nói đã mất ~60 tỷ USD",
+    "note": "Số tháng 9, được CBS đưa tin ngày 16/10",
+    "src": [
+     {
+      "t": "CBS News live, 16–18/10",
+      "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+     }
+    ]
+   },
+   {
+    "topic": "LPG Iran qua đội tàu bóng tối",
+    "value": "Từ giữa tháng 7, ít nhất 8 tàu khí chở LPG Iran (~4,1 triệu thùng) rời Vịnh Oman; 6/8 tàu bị Mỹ trừng phạt",
+    "note": "Hàng được chuyển tải STS gần Shinas/Sohar, rồi chuyển tiếp ở EOPL Malaysia, đích có thể là Trung Quốc. Kpler: dầu thô Iran xuất khẩu bằng 0 trong tháng 9 (Reuters, 16/10)",
+    "src": [
+     {
+      "t": "Iran International (Reuters), 16/10",
+      "u": "https://www.iranintl.com/en/202610166333"
+     }
+    ]
+   },
+   {
+    "topic": "Singapore – tồn kho dầu nhiên liệu và sản phẩm trung (tháng 10 tính đến nay)",
+    "value": "Dầu nhiên liệu 18,36 triệu thùng (−1,39 triệu, −7%); sản phẩm trung 9,88 triệu thùng (+1,40 triệu, +17%); nhập ròng dầu nhiên liệu 3,68 triệu thùng (+12%). Thời gian đặt VLSFO 11–18 ngày, HSFO 11–17 ngày, LSMGO 6–9 ngày",
+    "note": "Sản phẩm trung (diesel/jet) tích kho mạnh, cùng với crack xăng giảm (bản 18/10), cho thấy châu Á bớt thiếu sản phẩm sạch. Đây là tín hiệu bất lợi cho cước MR nội Á. Thời gian chờ bunker dài làm tốn thêm ngày tàu.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (ENGINE, Enterprise Singapore), 19/10",
+      "u": "https://www.hellenicshippingnews.com/singapore-fuel-oil-stocks-fall-7-despite-rise-in-net-imports/"
+     }
+    ]
+   },
+   {
+    "topic": "Saudi – dầu thô qua Bab al-Mandeb",
+    "value": "Khoảng 1,5 triệu thùng/ngày tính đến 12/10, khoảng nửa mức trước chiến tranh (~3 triệu); ít nhất 6 tàu chở đầy rời Yanbu trong tuần",
+    "note": "Dòng dầu từ Yanbu đi châu Á phục hồi, thêm hàng VLCC/Suezmax. Rủi ro tên lửa và drone (Yanbu bị nhắm 16/10) vẫn giữ phí bảo hiểm cao. Nguồn gốc là Asharq Business qua Zawya, chưa có số Kpler đối chiếu.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Asharq/Zawya), 19/10",
+      "u": "https://www.hellenicshippingnews.com/saudi-crude-exports-via-bab-al-mandeb-recover-to-1-5mln-bpd-report/"
+     }
+    ]
+   },
+   {
+    "topic": "Bunker – giá và nguồn cung",
+    "value": "VLSFO TB tháng 9: Singapore 872 USD/t (+6% so tháng 8), Fujairah 939 USD/t (+15,9%). Vitol (16/10): HSFO qua Hormuz thiếu ít nhất 800.000 t/tháng so tháng 2; đòn vào nhà máy lọc dầu Nga lấy đi khoảng 1 triệu t/tháng",
+    "note": "Nhiên liệu đắt và khó mua làm tăng chi phí chuyến. Với tàu PVT chạy định hạn thì người thuê chịu, nhưng tàu chạy chuyến hoặc trong pool bị trừ vào TCE.",
+    "src": [
+     {
+      "t": "OilPrice.com, 18/10",
+      "u": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html"
+     }
+    ]
+   },
+   {
+    "topic": "Hàng rời Supramax/Handysize – giao dịch chuyến tuần 42 (Baltic)",
+    "value": "Supramax 63k: Kunsan–NoPac–Indonesia 25.000; Zhoushan–Địa Trung Hải 29.250; Bắc TQ–Tây Phi 24.000; US Gulf–TQ (petcoke) 34.000; Santos–Ain Sukhna 36.000. Handysize 37k: Port Kelang–Úc–TQ 16.000; 35k SW Pass–Trung Mỹ (ngũ cốc) 17.500; 39k ECSA–Lục địa 32.000",
+    "note": "Baltic: BSI tăng chậm nhờ châu Á, Đông Nam Á sôi động hơn, tuyến đi Ấn Độ tăng mạnh nhất nhưng rất ít định hạn; Handysize Thái Bình Dương mạnh lên vì tàu khan và hàng Bắc TBD/Úc; US Gulf dư tàu. Capesize 5TC 37.618 (thứ Hai) → 29.464 (thứ Sáu), C5 11,70 USD/t. Mức Supramax nội Á 16.000–25.000 vẫn cao hơn cước TC 2025 của PVT (Supramax 11.000–13.000, Handysize 9.000–12.000).",
+    "src": [
+     {
+      "t": "Baltic Exchange dry tuần 42, đăng lại trên Hellenic Shipping News, 19/10",
+      "u": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-declined-slightly-last-week/"
+     }
+    ]
+   },
+   {
+    "topic": "Quặng sắt Trung Quốc – tồn cảng, hàng về (SMM)",
+    "value": "Tồn 35 cảng 148,30 triệu t ngày 16/10 (+2,85 triệu t so 25/9); hàng về 27,91 triệu t tuần đến 9/10 (−1,18, tuần giảm thứ 3); xuất toàn cầu 34,14 triệu t (−1,80)",
+    "note": "Cước Úc–TQ 14,39 → 11,60 USD/t (−19,4%), Brazil–TQ 33,68 → 31,39 (−6,8%); gang lỏng 2,352 triệu t/ngày, lò cao chạy 87,03%; SGX 90,45 USD/t (−0,87%), dự báo 88–93 USD/t tuần tới. Tồn cao và nhà máy chỉ mua đủ dùng nên ít lực đỡ cho Capesize; Supramax/Handysize chịu ảnh hưởng gián tiếp.",
+    "src": [
+     {
+      "t": "SMM Iron Ore Weekly Brief, 16/10",
+      "u": "https://news.metal.com/newscontent/104162816-smm-iron-ore-weekly-brief-iron-ores-decline-slows-as-hot-metal-steadies-and-port-stocks-build"
+     }
+    ]
+   },
+   {
+    "topic": "Than Trung Quốc nhập tháng 9 (hải quan, 14/10)",
+    "value": "43,37 triệu t, +3% m/m (+1,28 triệu t, lần tăng đầu tiên từ tháng 6), −5,7% n/n",
+    "note": "Giá nhập bình quân cao nhất 33 tháng. Ấn Độ: tồn than nhà máy điện 18,932 → 18,205 triệu t (29/9–10/10), tốc độ rút tồn chậm lại khi cấp than nội địa tăng lên 2,49 triệu t/ngày; Kpler vẫn dự báo nhập than Ấn Độ tăng từ quý 4 (chưa có số tháng 9/10).",
+    "src": [
+     {
+      "t": "Mysteel, 14/10",
+      "u": "https://www.mysteel.net/news/5144382-gacc-chinas-sept-coal-imports-slip-6-as-import-prices-top-33-month-high"
+     },
+     {
+      "t": "HDFC Sky (PTI), sau 10/10",
+      "u": "https://hdfcsky.com/news/pace-of-coal-stock-depletion-at-domestic-thermal-power-plants-eases-in-oct-govt"
+     }
+    ]
+   },
+   {
+    "topic": "Kinh tế TQ – dự báo, nhập dầu",
+    "value": "IMF (13/10) hạ GDP TQ 2026 còn 4,5%, 2027 4,0%; nhập dầu thô tháng 9 37,1 triệu t (−21,5% n/n); xuất siêu tháng 9 133,53 tỷ USD",
+    "note": "PBoC cắt lãi PSL 1 năm 25 bp còn 1,5%, trợ cấp lãi vay mua nhà lần đầu (ING). Cầu nội địa yếu, không thấy kích thích lớn cho thép/xây dựng.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 19/10",
+      "u": "https://www.hellenicshippingnews.com/china-sept-exports-surge-36-as-trade-surplus-nears-1-trillion/"
+     },
+     {
+      "t": "Hellenic Shipping News (ING), 19/10",
+      "u": "https://www.hellenicshippingnews.com/china-steps-up-policy-support-amid-rising-uncertainty/"
+     }
+    ]
+   },
+   {
+    "topic": "Đậu tương Mỹ đi Trung Quốc",
+    "value": "Trong tuần, DN nhà nước Trung Quốc mua 18–23 cargo Panamax (1,2–1,5 triệu t), giao từ tháng 12 đến tháng 3; lũy kế khoảng 15/25 triệu t theo cam kết niên vụ 2026/27",
+    "note": "Đợt mua lớn thứ hai sau thượng đỉnh Trump–Tập tháng 9. Đây là hàng Panamax, chỉ hỗ trợ gián tiếp Supramax qua tuyến ngũ cốc.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Reuters), 19/10",
+      "u": "https://www.hellenicshippingnews.com/china-state-buyers-purchase-up-to-13-us-soybean-cargoes/"
+     }
+    ]
+   }
+  ],
+  "regulation": [
+   {
+    "tag": "Việt Nam – Bộ luật Hàng hải",
+    "title": "Quốc hội chỉ cho ý kiến Bộ luật Hàng hải và Đường thủy Việt Nam ở kỳ họp 2 (17/10–21/11), thông qua ở kỳ họp 3 (dự kiến 5/2027)",
+    "text": "Bộ luật hợp nhất Bộ luật Hàng hải 2015 và Luật Giao thông đường thủy nội địa 2004. Kỳ họp 2 Quốc hội khóa XVI họp từ 17/10 đến 14/11 và từ 20 đến 21/11, dự phòng bế mạc 23/11.",
+    "impact": "Chưa có thay đổi về đăng ký tàu hay tuổi tàu nhập khẩu trong năm 2026. Quy định mua tàu cũ vẫn theo NĐ 171/2016, sửa bởi NĐ 86/2020 và NĐ 247/2025.",
+    "src": [
+     {
+      "t": "Báo Xây dựng, 16/10",
+      "u": "https://baoxaydung.vn/quoc-hoi-se-xem-xet-luat-nha-o-sua-doi-cho-y-kien-bo-luat-hang-hai-va-duong-thuy-192261016162944392.htm"
+     }
+    ]
+   }
+  ],
+  "vietnam": [
+   {
+    "tag": "PVT Logistics – đầu tư tàu",
+    "title": "PDV duyệt mua tàu hóa chất 19.000–26.000 DWT hoặc tàu hàng rời 55.000–75.000 DWT (≤29 triệu USD); cổ đông bỏ phiếu đến 17h 19/10 cho dự án tàu hóa chất ~1 tuổi (≤45 triệu USD)",
+    "text": "NQ 38/NQ-PĐV-HĐQT ngày 15/10 (CBTT 16/10), mã dự án PDV-HC/HR-07/25: tàu đóng Nhật/Hàn (tàu rời có thể đóng ở nhà máy Nhật/Hàn đặt tại Trung Quốc hoặc Đông Nam Á), IRR tối thiểu 8,04% (tàu hóa chất) và 8,02% (tàu rời), vay tối đa 70%, triển khai từ quý 4/2026. Dự án thứ hai PDV-HC-08/26 do ĐHĐCĐ quyết bằng văn bản (hạn 17h 19/10), cùng phương án chào bán thêm cổ phiếu cho cổ đông hiện hữu: tàu IMO II Eco ~19.000 DWT, base case ~1 tuổi, tối đa 45 triệu USD. Tờ trình dẫn Clarksons 9/2026: tàu inox 19.999 DWT 5 tuổi 38,5 triệu USD, 1 tuổi 43,5 triệu USD.",
+    "impact": "Thêm 1–2 tàu cho mảng hóa chất (31% lãi gộp 2025 của PVT) hoặc hàng rời. Tàu trẻ có giá gấp nhiều lần tàu 15 tuổi nên khấu hao cao hơn, đổi lại đáp ứng yêu cầu khí thải và giới hạn tuổi tàu của khách thuê.",
+    "src": [
+     {
+      "t": "CafeF (CBTT PDV, NQ HĐQT 38), 16/10",
+      "u": "https://cafef.vn/du-lieu/PDV-2999760/pdv-nghi-quyet-hdqt-so-38-ngay-15102026.chn"
+     },
+     {
+      "t": "PVT Logistics, NQ 38/NQ-PĐV-HĐQT (PDF), 15/10",
+      "u": "https://cafefnew.mediacdn.vn/download/161026/pdv-nghi-quyet-h-qt-so-38-ngay-15-10-2026-0.pdf"
+     },
+     {
+      "t": "PVT Logistics, tài liệu lấy ý kiến cổ đông (PDF), 08/10",
+      "u": "https://cafefnew.mediacdn.vn/download/091026/pdv-tai-lieu-lay-y-kien-co-dong-bang-van-ban-0.pdf"
+     }
+    ]
+   },
+   {
+    "tag": "PVN – dầu thô cho lọc dầu",
+    "title": "9 tháng PVN cung 25 triệu thùng dầu thô cho 2 nhà máy lọc dầu (18 triệu từ nguồn bên ngoài); Dung Quất và Nghi Sơn chạy 120–125% công suất",
+    "text": "Phát biểu của Chủ tịch HĐTV PVN Lê Ngọc Sơn tại tổ Quốc hội ngày 18/10: sản lượng khai thác dầu trong nước +10%, ở nước ngoài +20%, sản lượng xăng dầu +10% so cùng kỳ; doanh thu PVN 9 tháng 1,2 triệu tỷ đồng. BSR (gặp nhà đầu tư 15/10, bài 16/10): 9 tháng sản xuất 6,15 triệu tấn, đã thu xếp dầu thô đến hết 2026, dầu Việt Nam dự kiến ~88%, mở rộng tìm nguồn ở Tây Phi, Địa Trung Hải, Mỹ, Nam Mỹ; bảo dưỡng tổng thể TA6 năm 2027; PVN dự kiến bán ~2,13% vốn BSR trước 11/3/2027.",
+    "impact": "Hàng dầu thô nội địa cho Aframax PVT và hàng sản phẩm cho tàu SP nội địa ổn định đến hết 2026. TA6 năm 2027 sẽ làm giảm hàng trong thời gian nhà máy dừng.",
+    "src": [
+     {
+      "t": "PetroTimes, 18/10",
+      "u": "https://petrovietnam.petrotimes.vn/dbqh-le-ngoc-son-bao-dam-nguon-nang-luong-tin-cay-cho-muc-tieu-tang-truong-hai-con-so-746838.html"
+     },
+     {
+      "t": "PetroTimes, 16/10",
+      "u": "https://petrovietnam.petrotimes.vn/bsr-cung-co-noi-luc-mo-rong-khong-gian-tang-truong-746764.html"
+     }
+    ]
+   },
+   {
+    "tag": "Đóng tàu trong nước",
+    "title": "HD Hyundai Vietnam (Khánh Hòa) đã giao 207 tàu, trong đó 140 tàu chở sản phẩm; mục tiêu 23 tàu/năm vào 2030",
+    "text": "Lũy kế đến hết tháng 9/2026: 140 tàu chở sản phẩm và 67 tàu hàng rời. Xưởng có 2 ụ (400.000 và 200.000 DWT) và đầu tư 100 triệu USD mở rộng ụ, cầu cảng; công suất có thể lên 30 tàu/năm.",
+    "impact": "Đây là một trong những xưởng đóng MR lớn của khu vực. Năng lực tăng sẽ thêm cung MR trong dài hạn, bất lợi cho 8 tàu SP/MR của PVT.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (Business Korea), 17/10",
+      "u": "https://www.hellenicshippingnews.com/hd-hyundai-vietnam-shipbuilding-expands-output/"
+     }
+    ]
+   }
+  ],
+  "peers": [
+   {
+    "company": "Pacific Basin",
+    "seg": "Handysize, Supramax",
+    "data": "Q3/2026: Handysize 16.020 USD/ngày (+37% so cùng kỳ), Supramax 17.990 (+34%). Phần còn lại năm 2026 đã ký: Handysize 65% ngày tàu ở 16.480, Supramax 76% ở 18.960. Năm 2027 mới ký: Handysize 7% ở 13.180, Supramax 19% ở 15.590. Orderbook Handysize 8%, Supramax 16%, toàn ngành hàng rời 15%; cung ròng Handysize/Supramax +3,9% (2026), +3,8% (2027). Bán 2 Supramax 20 tuổi.",
+    "read": "Giá ký cho 2027 thấp hơn quý 4 khoảng 18–20%, cùng chiều với FFA. Mức này vẫn cao hơn cước TC 2025 của PVT (Handysize 9.000–12.000, Supramax 11.000–13.000).",
+    "src": [
+     {
+      "t": "Investing.com (Pacific Basin Q3 call), 15/10",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-pacific-basin-posts-strong-q3-2026-operating-gains-93CH-4951098"
+     },
+     {
+      "t": "GuruFocus (Pacific Basin Q3 call), 15/10",
+      "u": "https://www.gurufocus.com/news/9125766/q3-2026-pacific-basin-shipping-limited-trading-statement-call-transcript"
+     }
+    ]
+   },
+   {
+    "company": "International Seaways (INSW)",
+    "seg": "Tàu dầu (VLCC, LR, MR)",
+    "data": "Số sơ bộ: cước giao ngay quý 3 bình quân ~68.000 USD/ngày (cùng kỳ ~29.000); quý 4 đã ký ~37% số ngày ở ~180.000. Mua Bruton (4 VLCC) khoảng 370 triệu USD.",
+    "read": "Quý 4 cao gấp khoảng 2,6 lần quý 3; chủ tàu dầu vẫn dùng tiền mua thêm tàu ở giá cao.",
+    "src": [
+     {
+      "t": "gCaptain, 16/10",
+      "u": "https://gcaptain.com/international-seaways-adds-to-vlcc-fleet-with-370-million-bruton-deal/"
+     }
+    ]
+   },
+   {
+    "company": "COSCO Shipping Energy, CMES, CM Nanjing Tanker",
+    "seg": "Tàu dầu",
+    "data": "15/10: COSCO Shipping Energy −13% ở Hồng Kông; CMES, COSCO Energy (cổ phiếu A) và CM Nanjing Tanker giảm sàn −10%.",
+    "read": "Cổ phiếu tàu dầu phản ứng mạnh với tin Mỹ có thể nới trừng phạt, dù cung tàu thực tế quay lại có hạn.",
+    "src": [
+     {
+      "t": "Splash247, 15/10",
+      "u": "https://splash247.com/us-shadow-fleet-proposal-sparks-tanker-stock-rout/"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-10-18",
   "dataAsOf": "2026-10-16",
   "headline": "Chủ nhật, không có phiên Baltic mới (số liệu vẫn của 16/10). Hormuz: IRGC nói 2 tàu dầu, mỗi tàu chở khoảng 2 triệu thùng, trúng thủy lôi trong eo ngày 17/10 (chưa có xác nhận độc lập). Trump ký lệnh miễn áp dụng luật trừng phạt Nga–Iran ngay trước hạn 18/10; OFAC vẫn chưa nới trừng phạt cho tàu bóng tối. Brent đóng tuần ở 109,86 USD nhưng đường cong dốc xuống mạnh (tháng 12/2027: 84,75). Hàng sạch hai chiều: Mỹ xếp 8 MR chở diesel đi Brazil, trong khi crack xăng châu Á giảm còn khoảng 24 USD/thùng (đỉnh 1/10: 50,5) vì Trung Quốc xuất khẩu trở lại.",
