@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-19 lần 1)
+# Sổ nguồn (cập nhật 2026-10-20 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -158,3 +158,15 @@ Vietstock | https://vietstock.vn/rss/doanh-nghiep.rss trả HTML (không phải 
 Federal Register | /api/v1/public-inspection-documents/current.json qua WebFetch (3 đoạn offset); curl bị chặn IP | hằng ngày | 19/10–20/10 (nộp 16/10): không có văn bản USTR | 19/10 | curl HTTP 403 "address has been blocked" (19/10) | —
 SEC EDGAR (DN cùng ngành niêm yết Mỹ) | https://data.sec.gov/submissions/CIK<10 số>.json (curl, UA có email liên hệ chung) → lọc filingDate; tài liệu https://www.sec.gov/Archives/edgar/data/<cik>/<accession>/<file> | theo sự kiện | INSW 8-K 16/10; Hafnia, TORM 6-K 13/10; DHT 6-K 13/10 | 19/10 | không | globenewswire/stocktitan (403)
 Pacific Basin | bản chép lời investing.com (OK); gurufocus (tường phí sau mở đầu) | quý (trading update giữa tháng 1/4/7/10) | Q3 15/10 | 19/10 | không | pacificbasin.com chưa thử
+Cập nhật 2026-10-20:
+Optima Shipbroking (Baltic tanker theo tuyến hằng ngày, LPG/petchem) | https://www.optimashipbroking.com/market-reports/ (trang liệt kê; /market-report/ không có chữ s trả 404) ; bài dạng /market-report/dirty-tanker-index-summary-DD-month-YYYY/ , /lpg-petchem-market-report-DD-month-YYYY/ | ngày làm việc (số của phiên trước) | 19/10 (dirty: số 16/10; LPG: định hạn VLGC và LPG nhỏ Đông/Tây) | 20/10 | clean 19/10 404 | Xclusiv
+FreightX (hàng rời theo tuyến hằng ngày + FFA FIS) | https://freightx.gr/reports/ (dữ liệu tuyến nhúng trong HTML) | ngày làm việc | 19/10 tuần 43 | 20/10 | không | The Edge
+Baltic khí tuần (HSN) | HSN tiêu đề kiểu "LNG, Gas Shipping Rates Under Pressure" (Source: Baltic Exchange), đăng thứ Hai | tuần | 19/10 (tuần đến 16/10) | 20/10 | không | Optima LPG
+Kpler blog | https://www.kpler.com/blog/<slug> (mở được) | theo sự kiện | 19/10 LPG shuttle trade | 20/10 | không | —
+ENGINE (bunker, tồn kho ARA/Singapore, EIA) | https://engine.online/news/<slug> | ngày | 19/10 East of Suez | 20/10 | không | —
+BOE Report (Reuters đăng lại) | https://boereport.com/YYYY/MM/DD/<slug>/ | ngày | 19/10 Bousso | 20/10 | không | —
+Gulf News | bài lẻ gulfnews.com/world/mena/<slug> mở được | ngày | 19/10 | 20/10 | không | Al Jazeera
+Mekong ASEAN (tin BSR, doanh nghiệp năng lượng) | bài lẻ mekongasean.vn/<slug>.html | ngày | 19/10 BSR dầu nội địa 88% | 20/10 | không | petrotimes
+SEC EDGAR (doanh nghiệp cùng ngành) | https://www.sec.gov/Archives/edgar/data/<CIK>/... (6-K exhibit 99.1); submissions JSON | theo DN | 19/10 Scorpio lịch quý 3 (28/10) | 20/10 | không | HSN
+zoom.earth (bão, dữ liệu JTWC) | https://zoom.earth/storms/<tên>-2026/ | theo bão | Champi 21:00 UTC 19/10 | 20/10 | không | NCHMF
+aa.com.tr (20/10: không kết nối), bne IntelliNews, oilandgas360, S&P Global (403), globenewswire, torm.com | | | | | 20/10 | anews.com.tr, HSN
