@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-20 lần 1)
+# Sổ nguồn (cập nhật 2026-10-21 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -170,3 +170,46 @@ Mekong ASEAN (tin BSR, doanh nghiệp năng lượng) | bài lẻ mekongasean.vn
 SEC EDGAR (doanh nghiệp cùng ngành) | https://www.sec.gov/Archives/edgar/data/<CIK>/... (6-K exhibit 99.1); submissions JSON | theo DN | 19/10 Scorpio lịch quý 3 (28/10) | 20/10 | không | HSN
 zoom.earth (bão, dữ liệu JTWC) | https://zoom.earth/storms/<tên>-2026/ | theo bão | Champi 21:00 UTC 19/10 | 20/10 | không | NCHMF
 aa.com.tr (20/10: không kết nối), bne IntelliNews, oilandgas360, S&P Global (403), globenewswire, torm.com | | | | | 20/10 | anews.com.tr, HSN
+Cập nhật 2026-10-21:
+straits.live | /briefs/YYYY-MM-DD | hằng ngày | 20/10 (đóng dấu 15:28 UTC, có số tàu chờ 115) | 21/10 | không | —
+OFAC Recent Actions | https://ofac.treasury.gov/recent-actions (curl 200) | theo sự kiện | 19/10 PAIPA | 21/10 | không | —
+ReCAAP ISC | https://www.recaap.org/reports (curl 200, link PDF dạng /resources/ck/files/reports/weekly/2026/ReCAAP%20ISC%20Weekly%20Report%20(DD-DD%20Mon)%202026.pdf) | hằng tuần (bản tuần đăng ~thứ Ba sau tuần) | tuần 13–19/10 + Q3 2026 | 21/10 | không | —
+Riviera Maritime Media | bài lẻ rivieramm.com/news-content-hub/<slug>-<id> (curl 200) | hằng ngày | 19/10 (tên VLCC ST3, Loyalty; Kpler lượt qua eo) | 21/10 | không | —
+The Peninsula Qatar (dẫn UKMTO) | bài lẻ thepeninsulaqatar.com/article/DD/MM/YYYY/<slug> (curl 200) | hằng ngày | 20/10 | 21/10 | không | Euronews
+Euronews | bài lẻ euronews.com/YYYY/MM/DD/<slug> (curl 200) | hằng ngày | 20/10 | 21/10 | không | —
+United24 Media | bài lẻ united24media.com/world/<slug>-<id> (curl 200) | hằng ngày | 20/10 | 21/10 | không | —
+Seoul Economic Daily (en.sedaily.com) | bài lẻ (curl 200) | hằng ngày | 20/10 | 21/10 | không | —
+energynews.pro | | | | | 403 (21/10) | United24
+Gulf News live | bài lẻ /world/mena/<slug>-1.5007xxxxx (curl 200; WebFetch lấy được mục theo giờ) | hằng ngày | 21/10 03:59 GST | 21/10 | không | —
+Kpler blog | https://www.kpler.com/blog (curl 200) | vài ngày | Hormuz mới nhất 9/10 | 21/10 | không | Riviera/Bloomberg dẫn Kpler
+- OilPrice.com | https://oilprice.com/rss/main (curl); bài lẻ chỉ đọc được bằng WebFetch; URL bài mới lấy từ thanh bên của một bài bất kỳ (curl, grep oilprice.com/Latest-Energy-News) | hằng ngày | 20/10 19:00 | 21/10 | không | —
+- Trading Economics Brent/WTI | /commodity/brent-crude-oil ; /commodity/crude-oil (WebFetch) | ngày | 21/10: Brent 109,50, WTI 98,49 (HĐ tháng 12 sau khi HĐ tháng 11 đáo hạn 20/10) | 21/10 | không | Yahoo UK Finance
+- Marinelink (Reuters đăng lại) | https://www.marinelink.com/news/<slug>-<id> (curl OK) | ngày | 20/10 Russian diesel cargoes | 21/10 | không | Baird Maritime
+- Breakwave Tanker Report | HSN /breakwave-tanker-report-MM-DD-YYYY/ → PDF wp-content/uploads/YYYY/MM/BreakwaveTankers<Month><DD>YYYYReport.pdf (curl 200) | 2 tuần | 20/10 | 21/10 | không | —
+- Gulf Times (Reuters đăng lại) | bài lẻ /article/<id>/... /amp (WebFetch) | theo sự kiện | 18/10 PetroChina Dalian | 21/10 | không | NST (chỉ ra tiêu đề)
+- brecorder.com | | | | | Cloudflare "Just a moment..." (21/10) | Yahoo UK Finance
+- euromaidanpress.com | | | | | 403 (21/10, lặp lại) | KI, MT
+Intermodal Weekly | HSN "intermodal-weekly-market-report-week-NN-2026-brokers-insight" + PDF Intermodal-Report-Week-NN-2026.pdf | thứ Ba (HSN 21:00 UTC thứ Ba = 04:00 giờ VN thứ Tư) | W42 20/10 | 21/10 | không | Banchero
+Banchero Costa Weekly | HSN "banchero-costa-weekly-market-report-week-NN-2026" + PDF Bancosta-Weekly-2026-NN.pdf | thứ Ba (HSN 21:00 UTC) | W42 (số 16/10) | 21/10 | không | Intermodal
+VesselsValue | trang mục https://www.hellenicshippingnews.com/category/weekly-vessel-valuations-report/ (curl, liệt kê slug) ; slug "weekly-vessel-valuations-report-october-20-2026" | thứ Ba | 20/10 (đã có lúc 00:20 UTC thứ Tư) | 21/10 | slug "-20th-" 404 | Xclusiv
+Optima Shipbroking | https://www.optimashipbroking.com/wp-json/wp/v2/market-report?per_page=20&_fields=date,link (liệt kê bài kèm ngày, ổn định hơn trang /market-reports/) | ngày làm việc; LPG & Petchem thứ Hai | clean/dirty 20/10 | 21/10 | lpg-petchem 20/21-10 404 (không phát hành) | —
+BW LPG (thông cáo) | Inderes: https://www.inderes.se/releases/bwlpg-bw-lpg-limited-announces-sale-of-<tên tàu> | theo sự kiện | 20/10 BW Loyalty | 21/10 | bwlpg.com/investors/news/ 404 | Splash247
+Athenian Shipbrokers (phá dỡ) | HSN "athenian-shipbrokers-s-a-demolition-quick-update-week-NN-2026" + PDF Week_NN_Athenian_Demolition_Report_2026.pdf | thứ Hai/Ba | W42 20/10 | 21/10 | PDF chủ yếu là hình, ít số | GMS, Best Oasis
+Alibra | HSN slug "weekly-tanker-time-charter-estimates-october-21-2026" | thứ Tư (chưa có lúc 00:30 UTC) | 14/10 | 15/10 | 404 21/10 00:30 UTC (chưa đăng) | Intermodal, Banchero
+- Optima Shipbroking | https://www.optimashipbroking.com/wp-json/wp/v2/market-report?per_page=8&_fields=slug,date (curl, 200: liệt kê slug+giờ đăng UTC) ; bài /market-report/dirty-tanker-index-summary-DD-october-2026/ | ngày làm việc, ~10:00 UTC (bản ngày D chứa số Baltic ngày D−1; lần chạy sáng giờ VN chỉ có số D−2) | 20/10 (số 19/10) | 21/10 | 21/10: dirty 20/10 lần 1 HTTP 520 rồi 200; bản 21/10 404 (chưa đăng) | FreightX, Banchero
+- FreightX | https://freightx.gr/reports/ (curl; tuyến trong JS `routes`, FFA bid/offer trong mảng ["Nov 26",bid,offer]) | ngày làm việc, cập nhật ~12:50 UTC | 20/10 | 21/10 | không | —
+- Banchero Costa Weekly | HSN feed → /banchero-costa-weekly-market-report-week-NN-2026/ + PDF wp-content/uploads/2026/10/Bancosta-Weekly-2026-NN.pdf (curl, pdftotext) | thứ Ba (HSN 21:00 UTC thứ Ba) | tuần 42 (20/10; số 16/10, FFA 18/10; có TC11 TCE) | 21/10 | không | Intermodal
+- ENGINE | https://engine.online/news (curl; link /news/<slug>) | hằng ngày | 20/10 East of Suez outlook | 21/10 | không | HSN đăng lại
+- SteelOrbis | bài tin /steel-news/latest-news/… mở được; trang giá /steel-prices/… tường phí | hằng ngày | 15/10 | 21/10 | tường phí (giá quặng 20/10) | HSN MMI
+- Mining Weekly | — | — | — | — | 21/10 HTTP 403 "Just a moment..." | SteelOrbis
+- JTWC | https://www.metoc.navy.mil/jtwc/rss/jtwc.rss ; products/wp2926web.txt, wp2926prog.txt | 6 giờ | Champi cảnh báo 26 (20/10 21Z) | 21/10 | không | ENGINE/HKO qua HSN
+- NCHMF | https://nchmf.gov.vn/kttv/ (curl) → tin-du-bao-gio-manh-song-lon-va-mua-dong-tren-bien-post54353.html | hằng ngày | 04h 21/10 | 21/10 | không | —
+- Kênh Panama | https://pancanal.com/en/maritime-services/advisory-to-shipping/ (curl, link PDF wp-content/uploads/2026/10/) | theo thông báo | A-38 (9/10) | 21/10 | không | HSN
+Tin PVT – BCTC theo mã | https://cafef.vn/du-lieu/Ajax/PageNew/FileBCTC.ashx?Symbol=<MÃ>&Type=1&Year=2026 (curl, JSON: Time, Name, Link PDF) | quý | PVT/PVP/PDV/VOS/VTO/GSP/BSR: mới nhất Q2/2026 (đến 07:10 21/10) | 21/10 | không | Ajax CBTT cafef
+Oslo Børs (thông báo DN cùng ngành) | POST https://api3.oslo.oslobors.no/v1/newsreader/list?category=&issuer=&fromDate=YYYY-MM-DD&toDate=YYYY-MM-DD&market=&messageTitle= (curl; tham số issuer không lọc được, lọc theo issuerSign: BWLPG, HAFNI, ODF, SNI, AGAS, OET, FRO, KCC) | hằng ngày | 20/10 07:30 BWLPG bán BW Loyalty; 20/10 KCC mời họp Q3 | 21/10 | không | Splash feed
+SEC EDGAR (DN cùng ngành) | CIK: STNG 1483934, DHT 1331284, INSW 1679049, FRO 913290, TNK 1419945, TRMD 1655891, HAFN 1815779, ECO 1964954, ASC 1577437, SBLK 1386716, GNK 1326200, BWLP 1649313, CMBT 1604481, NVGS 1581804, LPG 1596993 | theo DN | 20/10 BWLP 6-K (BW Loyalty) | 21/10 | không | Oslo API
+Federal Register (EO/USTR) | https://www.federalregister.gov/api/v1/public-inspection-documents/current.json (curl 200 hôm nay với UA ngắn; WebFetch cũng OK); PDF https://public-inspection.federalregister.gov/<số>.pdf (curl 200) | hằng ngày | nộp 20/10: EO 14436 (Graham Act, miễn trừ vô thời hạn); không có USTR | 21/10 | không | —
+Star Bulk | https://www.starbulk.com/gr/en/press-releases/ (curl, có ngày) | theo DN | 09/10 Hermes World Maritime | 21/10 | không | EDGAR SBLK
+norden.com/investors/company-announcements | | | | | 404 (21/10) | WebSearch
+genco.com | | | | | curl 56 CONNECT 502 (21/10) | EDGAR GNK
+teekay.com, pacificbasin.com (trang IR) | | | | | danh sách JS, không đọc được (21/10) | EDGAR TNK
