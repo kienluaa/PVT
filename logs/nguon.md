@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-21 lần 1)
+# Sổ nguồn (cập nhật 2026-10-22 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -213,3 +213,48 @@ Star Bulk | https://www.starbulk.com/gr/en/press-releases/ (curl, có ngày) | t
 norden.com/investors/company-announcements | | | | | 404 (21/10) | WebSearch
 genco.com | | | | | curl 56 CONNECT 502 (21/10) | EDGAR GNK
 teekay.com, pacificbasin.com (trang IR) | | | | | danh sách JS, không đọc được (21/10) | EDGAR TNK
+Cập nhật 2026-10-22:
+gCaptain | https://gcaptain.com/feed/ (curl 200) | hằng ngày | 21/10 20:35 UTC Panama Canal traffic…; 15:12 Two More Tankers Struck | 22/10 | không | HSN, MarEx
+straits.live | /briefs/YYYY-MM-DD (bản 21/10 đóng dấu 22/10 00:05Z, mở được 00:15 UTC 22/10; có số tàu chờ 90 lúc 03:22 UTC) ; /strait-of-hormuz-war-risk-insurance-rate (số liệu 07/10) | hằng ngày | 21/10 | 22/10 | không | —
+OFAC Recent Actions | https://ofac.treasury.gov/recent-actions ; /recent-actions/20261021 (curl 200) | theo sự kiện | 21/10 Iran-related (9 tàu hàng khô/dịch vụ, GL GG/HH, Russia GL 131K) | 22/10 | không | gCaptain
+ReCAAP ISC | https://www.recaap.org/reports (curl 200) | hằng tuần | vẫn tuần 13–19/10 | 22/10 | không | Safety4Sea
+The National | feed RSS (curl 200) + bài lẻ WebFetch | hằng ngày | 22/10 00:01 | 22/10 | không | —
+Al Jazeera | RSS all.xml (curl 200) + bài lẻ WebFetch | hằng ngày | 21/10 23:20 | 22/10 | không | —
+Iran International | feed /en/feed (curl 200) + bài /en/<id> (WebFetch) | hằng ngày | 21/10 22:26 | 22/10 | không | —
+Al Arabiya | | | | | english.alarabiya.net bài lẻ 403 (22/10, WebFetch) | Iran Intl, gCaptain
+UANI Iran Shipping Update | | 2 lần/tuần | 20/10 | — | 403 (22/10) | gCaptain By the Numbers
+MND Đài Loan (PLA quanh Đài Loan) | https://www.mnd.gov.tw/en/news/plaactlist (curl 200) → /En/News/PLAAct/<id> | hằng ngày | 21/10 (88041) | 22/10 | không | —
+Inquirer (số tàu TQ ở Biển Đông, AFP Philippines) | bài lẻ inquirer.net/<id>/<slug> (WebFetch) | hằng tuần | 21/10 | 22/10 | không | —
+EEAS (europa.eu) | | | | | 403 (22/10) | Law360/CNBC
+Kyiv Independent | https://kyivindependent.com/news-archive/rss/ ; /tag/energy/ ; /tag/black-sea/ (curl, grep 'kyivindependent.com/<slug>/') | hằng ngày | 21/10 23:46 GMT Lipetsk | 22/10 | không | Moscow Times
+The Moscow Times | https://www.themoscowtimes.com/rss/news (curl) | hằng ngày | 21/10 21:46 | 22/10 | không | KI
+OilPrice.com | https://oilprice.com/rss/main (curl); bài lẻ WebFetch | hằng ngày | 21/10 19:00 | 22/10 | không | —
+Trading Economics Brent/WTI | /commodity/brent-crude-oil ; /commodity/crude-oil (WebFetch) | ngày | 22/10: Brent 110,01, WTI ~98,07 | 22/10 | không | HSN (ICIS)
+EIA WPSR | table1.pdf, table2.pdf (công suất lọc), table4.pdf (Cushing), psw00.csv (chỉ tồn kho thô) | thứ Tư | tuần đến 16/10 (21/10) | 22/10 | không | OilPrice
+Hellenic Shipping News | /feed/?paged=1..6 (curl -L) ; ?s=<từ khóa> | hằng ngày | 21/10 21:00 UTC (trang bài ghi 22/10) | 22/10 | không | —
+OPEC MOMR | (opec.org 403 lặp lại – bỏ qua) | tháng | 13/10 | — | 403 (19/10) | HSN, The Star
+Baird Maritime | https://www.bairdmaritime.com/shipping/tankers (curl; grep 'bairdmaritime.com/shipping/tankers/<slug>'); bài lẻ curl, ngày trong "datePublished" | hằng ngày | 21/10 17:47 UTC Urals ~80 USD | 22/10 | không | —
+BOE Report (Reuters) | boereport.com/YYYY/MM/DD/<slug>/ (WebFetch) | ngày | 21/10 Exxon Joliet | 22/10 | không | —
+marinelink.com/news/maritime/tanker | | | | | curl 403 (22/10) | Baird Maritime
+Fearnleys Weekly | tuần 43 PDF: wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-2.pdf (hậu tố tăng mỗi tuần: W42 -1, W43 -2); HSN đăng 21:00 UTC thứ Tư (ghi 22/10); có mục LPG nhỏ: HDY SR 20-22k, SR 6.5k, ETH 8-12k, Coaster Europe 3.500–5.000 cbm (USD/tháng) | thứ Tư | W43 (21/10) | 22/10 | không | —
+Alibra | HSN slug weekly-tanker-time-charter-estimates-october-21-2026 và weekly-dry-…; ảnh DDMMYYYYtanker.png / DDMMYYYYdry.png (21102026tanker.png), tuần trước dùng DDMMtanker.png (1410tanker.png) – lấy link từ trang bài | thứ Tư (HSN 17:00 UTC) | 21/10 | 22/10 | không | Intermodal
+EIA xuất khẩu/tồn propane tuần | https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=W_EPLLPZ_EEX_NUS-Z00_MBBLD&f=W (xuất) ; s=WPRSTUS1 (tồn) (curl 200) | thứ Tư | tuần đến 16/10 | 22/10 | không | —
+Riviera Maritime Media | trang mục news-content-hub: HTTP 429 (22/10, curl) – bài lẻ trước đây 200 | — | — | — | 429 | WebSearch
+Cyprus SN Allied | W42 chưa đăng lúc 00:30 UTC 22/10 (404) | thứ Sáu | W41 | 22/10 kiểm tra | 404 | —
+SEC EDGAR | data.sec.gov/submissions/CIK##########.json (curl với User-Agent, 200) | theo DN | 21/10 INSW 8-K | 22/10 | không | Oslo API
+Optima: wp-json `?_fields=` vẫn trả cả trường `acf` chứa TOÀN BỘ số tuyến (rate_value, rate_change, tce, tce_change), chuyến thực tế, giá bunker → không cần mở bài lẻ. Bài lẻ dirty 21/10: curl 403 (mới), WebFetch OK. Clean 21/10 chưa đăng lúc 00:20 UTC 22/10.
+FreightX: đến 00:20 UTC 22/10 vẫn bản 20/10 → bản 21/10 trễ hoặc không phát hành; thay thế: Fearnleys Weekly PDF (thứ Tư) có bảng "Rates" gồm C5, C9, C10, P1A, P2A, P3A, P4, S1C, S10 đúng số Baltic ngày phát hành (đã đối chiếu khớp với FreightX phiên trước).
+ADMIS Singapore "Ag Market View" https://admis.com.sg/ag-market-view-for-oct-DD-2026 (curl 200; bản ngày D đăng tối D giờ Mỹ) — ngũ cốc: flash sale USDA, xuất Brazil theo tháng, SovEcon/IKAR.
+Breakwave insights https://www.breakwaveadvisors.com/insights (curl 200, link /insights/2026/MM/DD/slug) — bài Commodore/Signal hàng rời gần như hằng ngày.
+Alibra dry TC: HSN "weekly-dry-time-charter-estimates-<ngày>" là ẢNH (wp-content/uploads/2026/10/DDMM2026dry.png) → tải ảnh và đọc.
+turkishstraits.com: trang /demo/gplan-* (tàu chờ) nạp bằng JS → không lấy được số tàu chờ Bosphorus bằng curl.
+IRI ENSO https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/ (WebFetch OK, cập nhật ~ngày 19 hằng tháng).
+Everstream: bản 20/21/22-10 404; mysteel.net trang chủ curl reset (35).
+Taipei Times bài lẻ WebFetch OK; malaymail.com 403 → dùng malaysia.news.yahoo.com.
+Vietstock | bài lẻ vietstock.vn/2026/10/<slug>-<số>.htm đọc được bằng WebFetch (22/10, bài 1504597) | hằng ngày | 20/10 17:33 Vietcap về PVT | 22/10 | trang danh sách/RSS vẫn JS/HTML | cafef CBTT. → bỏ nhãn "CHƯA XÁC MINH (trang JS)" cho bài lẻ.
+cafef trang CBTT chi tiết: URL trong Ajax dạng /du-lieu/VOS-3003130/... trả 301 sang chữ thường; dùng curl -L; PDF ở cafefnew.mediacdn.vn/download/<ddmmyy>/<slug>-0.pdf (scan, đọc bằng pdftoppm -r 80). | 22/10 OK
+cafef FileBCTC.ashx: VOS có Q3/2026 (21/10 16:21); VTO đã giải trình Q3 nhưng chưa có file BCTC Q3 trong danh mục (07:15 22/10); PVT, PVP, PDV, GSP, BSR mới nhất Q2/2026.
+Oslo Børs API: chi tiết tin GET https://api3.oslo.oslobors.no/v1/newsreader/message?messageId=<id> (curl, JSON body) | 22/10 OK.
+Splash247 bài lẻ: 21/10 'shipping-equities-turn-geopolitical-risk-into-an-advantage' và 20/10 'uk-shipowners-warn-against-copying-fueleu-red-tape' mở được bằng WebFetch (không 403). Feed chuyên mục quy định: https://splash247.com/category/sector/regulatory/feed/ (curl 200).
+tienphong.vn bài lẻ WebFetch OK (17/10 NSRP).
+uniindia.com bài lẻ WebFetch OK (16/10). blogs.tradlinx.com OK (bài 14/8).
