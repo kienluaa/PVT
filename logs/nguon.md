@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-25 lần 1)
+# Sổ nguồn (cập nhật 2026-10-26 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -271,3 +271,5 @@ Federal Register public inspection | https://public-inspection.federalregister.g
 moit.gov.vn (giá xăng dầu) | bài điều hành giá lấy từ WebSearch, không tự đoán URL (URL đoán trả 404) | 10 ngày/lần (thứ Năm) | 22/10 | 25/10 | 404 URL đoán | —
 JTWC / JMA | metoc.navy.mil/jtwc/products/wpNNNNweb.txt, abioweb.txt (io9126web.txt 403); jma.go.jp/bosai/typhoon/data/TC26NN/specifications.json | theo bão | 24/10 | 25/10 | io 403 | NCHMF
 gulfbusiness.com, TradeWinds | | | | | 403 / tường phí (25/10) | The National, Lion
+
+Lần 26/10: straits.live/briefs/YYYY-MM-DD (hằng ngày, đếm tàu chờ Hormuz tự đếm), Optima (optimashipbroking.com/market-report/...), Agora weekly snapshot (HSN PDF), freightx.gr/reports, transclew.com (IMD), metoc.navy.mil/jtwc/products/wp3026web.txt (JTWC) mở được.
