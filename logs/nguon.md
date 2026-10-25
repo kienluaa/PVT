@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-22 lần 1)
+# Sổ nguồn (cập nhật 2026-10-25 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -258,3 +258,16 @@ Oslo Børs API: chi tiết tin GET https://api3.oslo.oslobors.no/v1/newsreader/m
 Splash247 bài lẻ: 21/10 'shipping-equities-turn-geopolitical-risk-into-an-advantage' và 20/10 'uk-shipowners-warn-against-copying-fueleu-red-tape' mở được bằng WebFetch (không 403). Feed chuyên mục quy định: https://splash247.com/category/sector/regulatory/feed/ (curl 200).
 tienphong.vn bài lẻ WebFetch OK (17/10 NSRP).
 uniindia.com bài lẻ WebFetch OK (16/10). blogs.tradlinx.com OK (bài 14/8).
+Cập nhật 2026-10-25:
+Báo cáo tuần Baltic theo tuyến | The Edge "Baltic Exchange shipping updates: Oct 23, 2026" = theedgemalaysia.com/node/823074 (đăng 12:57 UTC thứ Sáu; curl, đọc __NEXT_DATA__; số tanker/gas là của thứ Năm, dry là thứ Sáu; có BLPG1–3) ; Affinity Tanker Weekly PDF (TCE thứ Sáu, không có TD8/TD14) ; Optima wp-json https://www.optimashipbroking.com/wp-json/wp/v2/market-report?per_page=12 (HTTP 403 nhưng thân JSON đủ, trường acf có số tuyến) ; FreightX https://freightx.gr/reports/ (bảng tuyến hàng rời S1B–S15, HS1–HS7, FFA) | thứ Sáu | tuần 43 (23/10) | 25/10 | The Edge search 404, API 502 | Gibson
+Lion Shipbrokers | PDF wp-content/uploads/2026/10/Lion-Weekly-Report-23-October-2026-W43.pdf | thứ Sáu | tuần 43 | 25/10 | không | Clarksons Hellas
+Clarksons Hellas | PDF wp-content/uploads/2026/10/Weekly-Sales-23rd-October-2026.pdf | thứ Sáu | 23/10 | 25/10 | không | Lion
+Best Oasis (phá dỡ) | PDF wp-content/uploads/2026/10/Weekly-Ship-Recycling-Report-17-October-23-October-2026.pdf | thứ Sáu | 23/10 | 25/10 | không | GMS
+Advanced, Star Asia | slug tuần 43 trên HSN trả 404 lúc 07:15 Chủ nhật (thường đăng thứ Hai) | thứ Sáu | tuần 42 | 25/10 (kiểm tra) | 404 | Lion, Clarksons
+OPEC MOMR | opec.org, momr.opec.org: 403 (curl) | hằng tháng | 13/10 | — | 403 (25/10) | HSN ?s=OPEC
+cyprusshippingnews.com | dùng bản không có www (www lỗi SSL) | hằng ngày | 23/10 BIMCO Number of the Week | 25/10 | www: SSL | —
+ENGINE (engine.online/news) | bài lẻ mở được (tồn kho ARA, Singapore, Brent) | hằng ngày | 23/10 | 25/10 | không | —
+Federal Register public inspection | https://public-inspection.federalregister.gov/<số>.pdf mở được | theo sự kiện | 2026-21755 (USTR, 23/10) | 25/10 | không | gCaptain
+moit.gov.vn (giá xăng dầu) | bài điều hành giá lấy từ WebSearch, không tự đoán URL (URL đoán trả 404) | 10 ngày/lần (thứ Năm) | 22/10 | 25/10 | 404 URL đoán | —
+JTWC / JMA | metoc.navy.mil/jtwc/products/wpNNNNweb.txt, abioweb.txt (io9126web.txt 403); jma.go.jp/bosai/typhoon/data/TC26NN/specifications.json | theo bão | 24/10 | 25/10 | io 403 | NCHMF
+gulfbusiness.com, TradeWinds | | | | | 403 / tường phí (25/10) | The National, Lion
