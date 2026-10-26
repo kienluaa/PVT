@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-26 lần 1)
+# Sổ nguồn (cập nhật 2026-10-26 lần 2)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -273,3 +273,18 @@ JTWC / JMA | metoc.navy.mil/jtwc/products/wpNNNNweb.txt, abioweb.txt (io9126web.
 gulfbusiness.com, TradeWinds | | | | | 403 / tường phí (25/10) | The National, Lion
 
 Lần 26/10: straits.live/briefs/YYYY-MM-DD (hằng ngày, đếm tàu chờ Hormuz tự đếm), Optima (optimashipbroking.com/market-report/...), Agora weekly snapshot (HSN PDF), freightx.gr/reports, transclew.com (IMD), metoc.navy.mil/jtwc/products/wp3026web.txt (JTWC) mở được.
+
+Cập nhật 2026-10-26 lần 2 (18:46–19:10 giờ VN):
+JMIC (qua Gulf News) | bài lẻ gulfnews.com/world/mena/strait-of-hormuz-crisis-...-1.500723273 (curl/WebFetch 200) có số lượt qua, tàu chờ, mức đe dọa | theo khuyến cáo | kỳ đến 25/10 (101 lượt 22–24/10) | 26/10 | ukmto.org 403 (bỏ qua, lỗi lặp lại) | MarEx, The National
+Advanced, Star Asia, Clarksons Hellas | PDF tuần 43: wp-content/uploads/2026/10/ADVANCED-MARKET-REPORT-WEEK-43.pdf ; Market-Report-Week-43.pdf ; Weekly-Sales-23rd-October-2026.pdf (HSN đăng thứ Hai) | thứ Sáu | 23/10 | 26/10 | không | Lion
+Xclusiv | slug "xclusiv-shipbrokers-weekly-26th-october-2026" và PDF xclusiv-2026_10_26.pdf trả 404 lúc 12:00 UTC 26/10 (thường đăng muộn thứ Hai) | thứ Hai | 19/10 | 19/10 | 404 (26/10 12:00 UTC) | Advanced, Star Asia
+ICIS cước tàu hóa chất | HSN lô feed 11:00 UTC thứ Hai 26/10 chưa có kỳ 23/10 | thứ Sáu (HSN thứ Hai, có thể muộn) | 16/10 (HSN 19/10) | 26/10 (kiểm tra) | — | HSN feed
+Baltic gas tuần (BLPG1–3) | HSN "lng-shipping-market-recovering" (đăng 11:00 UTC thứ Hai) | thứ Sáu | 23/10 | 26/10 | không | The Edge
+Baltic dry tuần | HSN "dry-bulk-market-capesize-market-recovering-steadily" (thứ Hai) có mô tả tuyến Supramax/Handysize châu Á | thứ Sáu | 23/10 | 26/10 | không | The Edge
+SEC EDGAR 6-K (Robin Energy CIK 2039060, AI OKTO CIK 2095591) | sec.gov/Archives/edgar/data/<CIK>/... mở được | theo sự kiện | 23/10 (Dream Arrax 18 triệu) | 26/10 | không | Splash feed
+Great Eastern Shipping | greatship.com/upload/press_releases/... PDF mở được | theo sự kiện | 23/10 (mua VLGC 2015) | 26/10 | không | BSE
+IMD | rsmcnewdelhi.imd.gov.in, mausam.imd.gov.in: lỗi SSL (curl 60) | theo bão | — | — | SSL 60 (26/10) | Outlook India, The Week, Inchcape (iss-shipping.com/advisories), JTWC io02NNweb.txt
+JTWC Ấn Độ Dương | metoc.navy.mil/jtwc/products/io0226web.txt mở được (26/10) | theo bão | 09Z 26/10 Arnab | 26/10 | io9126 403 (25/10) | IMD qua báo
+Allied Shipbroking | cyprusshippingnews.com/wp-content/uploads/2026/10/ALLIED-Weekly-Market-Report-Week-NN.pdf | thứ Hai–Ba | tuần 42 | 26/10 | — | Banchero, Intermodal
+maritimenews.gr | bài lẻ mở được | ngày | 25/10 | 26/10 | không | —
+charter97.org | | | | | 403 (26/10) | Kyiv Independent, Moscow Times
