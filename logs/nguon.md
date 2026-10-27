@@ -290,3 +290,5 @@ maritimenews.gr | bài lẻ mở được | ngày | 25/10 | 26/10 | không | —
 charter97.org | | | | | 403 (26/10) | Kyiv Independent, Moscow Times
 
 2026-10-27 | HSN: curl /feed/ OK (200) nhưng ?paged=2, ?s=, trang category trả 403 'Just a moment' (WebFetch và curl) lúc 01:10 giờ VN | Splash247 bài lẻ vẫn 403 (odfjell, vlcc-delivery-wave, black-sea-bloodshed, great-eastern, panagiotidis) | cafef.vn/pvtrans.html 302 | Oilprice: bài lẻ đọc bằng WebFetch (curl chỉ ra thanh giá) | curl với UA trình duyệt giả bị môi trường từ chối: dùng UA mặc định
+
+2026-10-28 | feed Splash247 tổng + tankers/dry-cargo/gas, HSN, gCaptain OK (200) | bài lẻ Splash247 vẫn 403 (Yangzijiang, Wall Street splits) | RSS themoscowtimes.com/rss/news, oilprice.com/rss/main, aljazeera.com/xml/rss/all.xml, kyivindependent.com/news-archive/rss mở được (curl UA mặc định); cafef.vn/doanh-nghiep.rss trả rỗng | HSN Weekly Vessel Valuations (hellenicshippingnews.com/weekly-vessel-valuations-report-...) mở được, thứ Ba | Athenian demolition, Breakwave: chỉ tiêu đề, PDF
