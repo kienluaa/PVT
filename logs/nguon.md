@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-27 lần 1)
+# Sổ nguồn (cập nhật 2026-10-29 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -292,3 +292,5 @@ charter97.org | | | | | 403 (26/10) | Kyiv Independent, Moscow Times
 2026-10-27 | HSN: curl /feed/ OK (200) nhưng ?paged=2, ?s=, trang category trả 403 'Just a moment' (WebFetch và curl) lúc 01:10 giờ VN | Splash247 bài lẻ vẫn 403 (odfjell, vlcc-delivery-wave, black-sea-bloodshed, great-eastern, panagiotidis) | cafef.vn/pvtrans.html 302 | Oilprice: bài lẻ đọc bằng WebFetch (curl chỉ ra thanh giá) | curl với UA trình duyệt giả bị môi trường từ chối: dùng UA mặc định
 
 2026-10-28 | feed Splash247 tổng + tankers/dry-cargo/gas, HSN, gCaptain OK (200) | bài lẻ Splash247 vẫn 403 (Yangzijiang, Wall Street splits) | RSS themoscowtimes.com/rss/news, oilprice.com/rss/main, aljazeera.com/xml/rss/all.xml, kyivindependent.com/news-archive/rss mở được (curl UA mặc định); cafef.vn/doanh-nghiep.rss trả rỗng | HSN Weekly Vessel Valuations (hellenicshippingnews.com/weekly-vessel-valuations-report-...) mở được, thứ Ba | Athenian demolition, Breakwave: chỉ tiêu đề, PDF
+
+Ghi chú 29/10: Splash247 feed OK (bài lẻ iran-singles-out-sinokor 403); python3 mặc định thiếu pandas, dùng /usr/bin/python3 build.py; HSN Intermodal tuần 43 URL đoán 404 (lấy URL từ HSN, không đoán); Xclusiv PDF mở được qua curl (HSN 26/10); Affinity 23/10 và Fearnleys tuần 43 PDF OK.
