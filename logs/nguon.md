@@ -1,4 +1,4 @@
-# Sổ nguồn (cập nhật 2026-10-29 lần 1)
+# Sổ nguồn (cập nhật 2026-10-30 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
 Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 13/10 20:00 Splash Cruise launches…; Tankers 13/10 11:33 Emarat 6 LR1 | 18/10 (bài lẻ 200 hôm nay) | bài lẻ HTTP 403 (14/10: iran-threatens-ships-going-dark, emarat, two-more-ships-hit-off-bulgaria; curl + WebFetch) | đoạn mô tả trong feed; gCaptain, MarEx, The National cho cùng tin
 Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (curl -L; ?paged=2..9) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl) ; tìm kiếm ?s=<từ khóa> (curl) | hằng ngày + báo cáo tuần | 13/10 21:00 UTC (ghi 14/10) | 14/10 | không | gCaptain, MarEx, Baird
@@ -294,3 +294,9 @@ charter97.org | | | | | 403 (26/10) | Kyiv Independent, Moscow Times
 2026-10-28 | feed Splash247 tổng + tankers/dry-cargo/gas, HSN, gCaptain OK (200) | bài lẻ Splash247 vẫn 403 (Yangzijiang, Wall Street splits) | RSS themoscowtimes.com/rss/news, oilprice.com/rss/main, aljazeera.com/xml/rss/all.xml, kyivindependent.com/news-archive/rss mở được (curl UA mặc định); cafef.vn/doanh-nghiep.rss trả rỗng | HSN Weekly Vessel Valuations (hellenicshippingnews.com/weekly-vessel-valuations-report-...) mở được, thứ Ba | Athenian demolition, Breakwave: chỉ tiêu đề, PDF
 
 Ghi chú 29/10: Splash247 feed OK (bài lẻ iran-singles-out-sinokor 403); python3 mặc định thiếu pandas, dùng /usr/bin/python3 build.py; HSN Intermodal tuần 43 URL đoán 404 (lấy URL từ HSN, không đoán); Xclusiv PDF mở được qua curl (HSN 26/10); Affinity 23/10 và Fearnleys tuần 43 PDF OK.
+
+Cập nhật 30/10: Fearnleys Weekly tuần 44 | HSN fearnleys-week-44-2026 → PDF wp-content/uploads/2026/10/Fearnleys-Weekly-Report-_-Fearnpulse-3.pdf (curl+pdftotext) | thứ Tư | tuần 44 (28/10 22:00 UTC+?) | 30/10 | không | —
+Cập nhật 30/10: Splash247 bài lẻ tanker-feared-sinking-off-oman, maritime-ceo-forum | HTTP 403 (30/10) | dùng feed
+Cập nhật 30/10: malaymail.com | 403 (30/10) | Al-Monitor (Reuters) mở được
+Cập nhật 30/10: build.py BDTI/BPI | HTTP 429 lần 1, chạy lại sau 20 giây OK
+Cập nhật 30/10: Moscow Times bài lẻ (themoscowtimes.com/2026/10/DD/...) mở được qua WebFetch | The National bài lẻ mở được | Al-Monitor mở được
