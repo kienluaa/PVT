@@ -301,3 +301,9 @@ Cập nhật 30/10: Splash247 bài lẻ tanker-feared-sinking-off-oman, maritime
 Cập nhật 30/10: malaymail.com | 403 (30/10) | Al-Monitor (Reuters) mở được
 Cập nhật 30/10: build.py BDTI/BPI | HTTP 429 lần 1, chạy lại sau 20 giây OK
 Cập nhật 30/10: Moscow Times bài lẻ (themoscowtimes.com/2026/10/DD/...) mở được qua WebFetch | The National bài lẻ mở được | Al-Monitor mở được
+Cập nhật 2026-11-01:
+Affinity Tanker Weekly 30/10 | PDF https://www.hellenicshippingnews.com/wp-content/uploads/2026/10/Affinity-Tanker-Weekly-30.10.2026-HSN.pdf ; dùng `pdftotext -raw` để lấy bảng Baltic TCE (layout làm mất cột) | thứ Sáu | 30/10 | 01/11 | không | The Edge
+HSN các bài 31/10 (Windward, Banchero Costa newbuilding, Veson Suezmax) | bài lẻ WebFetch OK | | 31/10 | 01/11 | không |
+Al Jazeera | bài lẻ /news/2026/10/31/... WebFetch OK; RSS lọc từ khóa | ngày | 31/10 | 01/11 | không | The National
+Kyiv Independent | trang chủ curl lấy href; bài lẻ WebFetch OK | ngày | 31/10 | 01/11 | không | Moscow Times
+build.py | chạy bằng /usr/bin/python3 (python3 mặc định không có pandas) | | | 01/11 | python3 -> ModuleNotFoundError |
