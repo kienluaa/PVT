@@ -1,4 +1,5 @@
-# Sổ nguồn (cập nhật 2026-11-03 lần 1)
+# Sổ nguồn (cập nhật 2026-11-04 lần 1)
+Ghi chú 04/11: HSN/gCaptain/Splash feed + 3 mục, Moscow Times RSS OK (curl không UA giả); WebFetch bài lẻ Splash 403 (4 bài); tradingeconomics BDI OK (03/11 = 2.590); build.py chậm, cần chạy nền.
 Ghi chú 03/11: HSN/gCaptain/Splash feed + 3 mục (curl) OK, Moscow Times/Al Jazeera RSS OK; Splash bài lẻ 403 (Yangzijiang) và bài CEO Forum bị challenge; WebFetch tradingeconomics OK (BDI 02/11 = 2.648). data.js từ build.py chậm 1 phiên so với HSN.
 Ghi chú 02/11: HSN/gCaptain/Splash/Al Jazeera/Moscow Times/OilPrice feed OK (curl); Splash bài lẻ vẫn 403; python3 cần `python3 -m pip install pandas --break-system-packages` rồi chạy python3 build.py .
 Ghi chú 31/10: Splash247 bài lẻ vẫn 403 (2 bài), feed OK; HSN/gCaptain/Moscow Times/Al Jazeera feed OK; The Edge mới nhất 23/10 (node/823074); tradingeconomics BDI OK.
