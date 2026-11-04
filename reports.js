@@ -1,5 +1,548 @@
 window.REPORTS = [
  {
+  "date": "2026-11-05",
+  "dataAsOf": "2026-11-04",
+  "headline": "Thứ Năm 05/11: IRGC nói 4 tàu dầu bị mìn phá hủy phía nam Hormuz (chưa kiểm chứng độc lập) trong khi Brent rớt còn 100,60 USD vì kỳ vọng thỏa thuận Mỹ–Iran; BDI 04/11 2.694 (+104) nhờ Capesize; BDTI 6.140 (−4,64%); SFL bán 4 LR2 + 3 Suezmax; Mỹ cho phép nhập diesel Nga đến 07/04/2027.",
+  "summary": [
+   "Số liệu build.py (errors rỗng, phiên 04/11): BDI 2.694 (+4,02%, phân vị 5 năm 88); BCI 4.097 (+7,22%); BPI 1.894 (+1,5%); BSI 1.835 (−0,6%); BHSI 1.016 (+0,2%); BDTI 6.140 (−4,64%, −13,35% 1 tuần, phân vị 98); BCTI 2.757 (−1,32%, phân vị 99). Đối chiếu BDI với tradingeconomics 04/11: khớp (2.694).",
+   "Hormuz: IRGC nói 4 tàu dầu trúng mìn hải quân ở vùng phía nam eo mà Iran tuyên bố cấm hàng hải, 2 tàu khác bị bắt (OilPrice 04/11; chưa có xác nhận độc lập). Vortexa: xuất khẩu đường biển Trung Đông tháng 10 còn 17,1 triệu thùng/ngày (tháng 9: 18,9). Cùng ngày Brent giảm 3,04 USD (−2,9%) còn 100,60, WTI 93,23, phiên giảm thứ 3 liên tiếp vì kỳ vọng thỏa thuận; Iran nói có thể mở eo trong 2 ngày nếu Mỹ đáp ứng điều kiện (dỡ trừng phạt dầu, trả tài sản đóng băng). Hai tín hiệu ngược chiều trong cùng ngày.",
+   "Chính trị Mỹ: đảng Dân chủ thắng cả hai viện trong bầu cử giữa kỳ 03/11. Reuters (Bousso, gCaptain 04/11): dòng dầu thô qua Hormuz đã hồi phục ~80% trước chiến tranh nhờ hộ tống hải quân Mỹ, dầu vẫn cao hơn ~40% trước chiến tranh; Mỹ có 2 nhóm tàu sân bay trong khu vực, nhóm thứ 3 đang tới. Al Jazeera 04/11: Iran đặt 7 điều kiện để mở một phần, chuyên gia cho rằng thỏa thuận tạm thời khả thi hơn thỏa thuận toàn diện; vẫn không loại trừ đợt đánh giới hạn trong giai đoạn Quốc hội cũ còn nhiệm kỳ.",
+   "Cung tàu: SFL (HSN 04/11) đồng ý bán 4 LR2 và 3 Suezmax, lãi sổ sách dự kiến ~175 triệu USD; Splash247 04/11 (mô tả feed, bài gốc 403): Torm đặt 8 LR2 đóng mới qua liên doanh 50:50, Ardmore bán MR 2013 (49.859 DWT, STX) 34,3 triệu USD, Benelux đặt thêm 2 tàu LPG 48.000 cbm tại Huangpu Wenchong.",
+   "Hạn chế: lần chạy này 6 truy vấn WebSearch và 14 bài mở được, dưới sàn 24/15 của RUNBOOK; chưa có báo cáo tuần Baltic theo tuyến (kỳ tới 06/11), Fearnleys tuần 45, kết quả Odfjell Q3, tin PVT."
+  ],
+  "pvt": [
+   {
+    "seg": "Dầu thô Aframax (4 tàu)",
+    "signal": "flat",
+    "text": "BDTI 04/11 6.140 (−4,64%, −13,35% 1 tuần), vẫn ở phân vị 98. Hai hướng ngược nhau: IRGC nói phá hủy 4 tàu dầu (rủi ro lên) và Brent về 100,60 vì kỳ vọng thỏa thuận (rủi ro xuống). Cước định hạn 6–12 tháng của PVT chưa đổi ngay; chưa có cước Aframax theo tuyến mới."
+   },
+   {
+    "seg": "Dầu SP / MR (8 tàu)",
+    "signal": "flat",
+    "text": "BCTI 2.757 (−1,32%, phân vị 99). Hai tín hiệu cung: SFL bán 7 tàu dầu cỡ lớn (không phải MR), Torm đặt thêm 8 LR2 và Ardmore bán MR 2013 giá 34,3 triệu USD (feed Splash, chưa mở bài gốc) cho thấy chủ tàu niêm yết vẫn đặt đóng mới trong lúc cước cao. Diesel Nga được phép vào Mỹ đến 04/2027 nhưng Windward ghi chưa có chuyến nào cập; tác động tới MR chưa đo được."
+   },
+   {
+    "seg": "Hóa chất (19 tàu)",
+    "signal": "na",
+    "text": "Không có số mới. Odfjell và Stolt Q3 chưa tìm thấy bài gốc; Odfjell Q2/2026 TCE ~29.486 USD/ngày và dự báo Q3 thấp hơn (kết quả tìm kiếm 04/11, chưa mở bản gốc)."
+   },
+   {
+    "seg": "LPG (22 tàu, trong đó 2 VLGC)",
+    "signal": "flat",
+    "text": "Không có BLPG mới sau 02/11 (BLPG1 TCE 245.402 USD/ngày). Benelux đặt thêm LPG 48.000 cbm (feed Splash) là cỡ lớn hơn tàu nhỏ của PVT. Nếu Hormuz mở lại, BW LPG cảnh báo chênh giá Mỹ–Viễn Đông thu hẹp và cước VLGC giảm."
+   },
+   {
+    "seg": "Hàng rời Supramax/Handysize (13 tàu)",
+    "signal": "flat",
+    "text": "BDI lên nhờ Capesize (BCI +7,22%); BSI 1.835 (−0,6%) và BHSI 1.016 (+0,2%) không theo. Supramax/Handysize của PVT chưa hưởng đợt tăng này. Ursa (Splash 04/11, feed): khởi công nhà ở Trung Quốc về mức 2002, rủi ro cầu quặng sắt/than luyện kim dài hạn."
+   }
+  ],
+  "headlines": [
+   {
+    "when": "04/11",
+    "tag": "Hormuz – tàu dầu trúng mìn",
+    "dir": "up",
+    "segs": [
+     "Aframax",
+     "VLCC",
+     "MR",
+     "LPG"
+    ],
+    "title": "OilPrice 04/11: IRGC nói 4 tàu dầu trúng mìn hải quân bị phá hủy phía nam Hormuz, 2 tàu khác bị bắt; Vortexa: xuất khẩu đường biển Trung Đông tháng 10 còn 17,1 triệu thùng/ngày (tháng 9: 18,9)",
+    "impact": "Đây là tuyên bố của IRGC, bài viết không xác nhận độc lập; Kpler đo 16,1 triệu thùng/ngày (từ 17,09), số sơ bộ. Nếu đúng, tăng chi phí rủi ro và giảm tàu sẵn sàng vào Vùng Vịnh, đỡ cho cước tàu dầu. Với PVT: Aframax chở dầu Vùng Vịnh và 2 VLGC chạy Trung Đông chịu rủi ro an ninh trực tiếp.",
+    "src": [
+     {
+      "t": "OilPrice (Paraskova), 04/11",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html"
+     }
+    ]
+   },
+   {
+    "when": "04/11",
+    "tag": "Dầu – kỳ vọng thỏa thuận Mỹ–Iran",
+    "dir": "down",
+    "segs": [
+     "Aframax",
+     "MR",
+     "LPG"
+    ],
+    "title": "Brent −3,04 USD (−2,9%) còn 100,60, WTI 93,23, phiên giảm thứ 3 liên tiếp (OilPrice 04/11); Iran nói có thể mở Hormuz trong 2 ngày nếu Mỹ đáp ứng điều kiện; JPMorgan: dư cung dầu tháng 10 1,4 triệu thùng/ngày",
+    "impact": "Thị trường đang định giá thỏa thuận; Al Jazeera 04/11 ghi Iran đặt 7 điều kiện và nói Mỹ phải đi bước đầu. Thỏa thuận mở eo giảm phí rủi ro và chênh giá, bất lợi cho cước dầu thô và VLGC ngắn hạn nhưng cũng đưa chuyến đi về bình thường. Trang OilPrice cùng ngày có ticker Brent thấp hơn nhiều (~94), chưa rõ giờ; số trong bài là 100,60.",
+    "src": [
+     {
+      "t": "OilPrice, 04/11",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html"
+     },
+     {
+      "t": "Al Jazeera, 04/11",
+      "u": "https://www.aljazeera.com/news/2026/11/4/iranian-leaders-welcome-us-midterms-but-trump-may-still-attack"
+     }
+    ]
+   },
+   {
+    "when": "04/11",
+    "tag": "Hàng rời – Baltic",
+    "dir": "mixed",
+    "segs": [
+     "Supramax",
+     "Handysize"
+    ],
+    "title": "Baltic 04/11: BDI 2.694 (+104, +4,02%) nhờ Capesize BCI 4.097 (+7,22%); BPI 1.894 (+1,5%), BSI 1.835 (−0,6%), BHSI 1.016 (+0,2%)",
+    "impact": "Đợt tăng nằm ở Capesize, không lan sang cỡ của PVT: BSI giảm 2,29% 1 tuần. Splash247 (02/11, mô tả feed) ghi chủ tàu hàng rời kỳ vọng chu kỳ tăng mạnh, nhưng BSI/BHSI chưa xác nhận.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 04/11",
+      "u": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2694-up-104-points/"
+     },
+     {
+      "t": "Trading Economics, 04/11",
+      "u": "https://tradingeconomics.com/commodity/baltic"
+     }
+    ]
+   },
+   {
+    "when": "04/11",
+    "tag": "Cung tàu – SFL bán tàu dầu",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "Aframax"
+    ],
+    "title": "SFL Q3/2026 (HSN 04/11): đồng ý bán 4 LR2 và 3 Suezmax, lãi sổ sách ~175 triệu USD; mua 2 container 8.800 TEU và 3 tàu amoniac cỡ lớn, đều gắn hợp đồng dài hạn",
+    "impact": "Chủ tàu tài chính bán tàu dầu ở giá cao chu kỳ, một dấu hiệu giá tàu đang cao; bài không nêu giá/tuổi từng tàu nên không so được với tàu 10–17 tuổi PVT hay mua. Giá tàu cao là lý do ban lãnh đạo PVT hoãn mua tàu năm 2026.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 04/11",
+      "u": "https://www.hellenicshippingnews.com/sfl-third-quarter-2026-results/"
+     }
+    ]
+   },
+   {
+    "when": "03/11",
+    "tag": "Trừng phạt Nga – diesel vào Mỹ",
+    "dir": "mixed",
+    "segs": [
+     "MR"
+    ],
+    "title": "gCaptain 03/11: OFAC General License 135 (09/10) cho phép giao dịch diesel Nga đến 07/04/2027; tàu Agioi Fanendes (~40.000 tấn, Primorsk) hướng bờ Đông Mỹ; Thống đốc New Jersey kêu cảng từ chối, Windward: chưa có chuyến nào giao",
+    "impact": "Nếu dòng diesel Nga sang Mỹ thành thật, tăng hàng và quãng đường cho MR/LR Đại Tây Dương, nhưng pháp lý đang bị thách thức và Phillips 66 nói 'giọt nước trong biển' (OilPrice 04/11). Hiện chưa tác động tới MR của PVT chạy hợp đồng định hạn.",
+    "src": [
+     {
+      "t": "gCaptain, 03/11",
+      "u": "https://gcaptain.com/new-jersey-governor-warns-ports-against-handling-russian-diesel/"
+     },
+     {
+      "t": "OilPrice, 04/11",
+      "u": "https://oilprice.com/Energy/Energy-General/New-Jersey-Moves-to-Block-Trumps-Russian-Diesel-Imports.html"
+     }
+    ]
+   },
+   {
+    "when": "03/11",
+    "tag": "Hormuz – số liệu rủi ro",
+    "dir": "mixed",
+    "segs": [
+     "Aframax",
+     "VLCC"
+    ],
+    "title": "Bloomberg (gCaptain 03/11): lưu lượng qua Hormuz ~80% trước chiến tranh; CENTCOM: ~95% tàu qua không sự cố; IMO ghi 121 sự cố và 24 thủy thủ tử vong từ đầu chiến sự, ít nhất 28 báo cáo tàu hư hại tháng 10; Bloomberg Economics: leo thang có thể đẩy dầu lên 120–130 USD",
+    "impact": "Dòng hàng đã phục hồi nhưng dựa vào hộ tống hải quân Mỹ; cước dầu thô giữ cao nhờ phí rủi ro, nên cước giảm nếu có thỏa thuận. Sau bầu cử, Reuters (04/11) nói tình trạng hiện tại, thỏa thuận hay đánh tiếp đều khó dự báo.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg), 03/11",
+      "u": "https://gcaptain.com/hormuz-standoff-leaves-both-sides-with-economic-pain/"
+     },
+     {
+      "t": "gCaptain (Reuters), 04/11",
+      "u": "https://gcaptain.com/trumps-election-defeat-leaves-iran-war-with-no-easy-exit/"
+     }
+    ]
+   },
+   {
+    "when": "03/11",
+    "tag": "Nga–Ukraine – đàm phán",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "Aframax"
+    ],
+    "title": "Moscow Times 03/11: Mỹ và Nga xác nhận đàm phán ba bên về Ukraine nối lại ở Abu Dhabi ngày 10–11/11, sau khi ngừng từ tháng 2",
+    "impact": "Bài không nêu thỏa thuận ngừng đánh lọc dầu/cảng. Khi chưa có điều đó, Ukraine vẫn đánh lọc dầu Nga (Yaroslavl 02–03/11), hỗ trợ cầu MR; một thỏa thuận năng lượng sẽ đảo chiều.",
+    "src": [
+     {
+      "t": "The Moscow Times, 03/11",
+      "u": "https://www.themoscowtimes.com/2026/11/03/melania-trump-to-host-russian-and-ukrainian-delegations-at-white-house-a94165"
+     }
+    ]
+   }
+  ],
+  "news": [
+   {
+    "tag": "Kịch bản Hormuz sau bầu cử Mỹ",
+    "title": "Ba hướng cho Hormuz: thỏa thuận tạm thời, đánh giới hạn, hoặc giữ nguyên hộ tống",
+    "text": "Số liệu 03–04/11: dòng dầu thô ~80% trước chiến tranh nhờ hộ tống (Reuters, Bloomberg); Brent 100,60 (cao hơn ~40% trước chiến tranh); xuất khẩu Trung Đông qua đường biển tháng 10 17,1 triệu thùng/ngày (Vortexa) so với 18,9 tháng 9. Chuyên gia Chatham House (qua Al Jazeera) cho thỏa thuận tạm thời về Hormuz và dỡ phong tỏa là khả thi nhất; ICG nói Iran khó nhượng bộ hạt nhân. Phía bất lợi cho thesis: thỏa thuận làm cước dầu thô và VLGC về mức bình thường; phía có lợi: leo thang giữ cước, nhưng cũng đưa chi phí bảo hiểm và rủi ro mất tàu tới đội tàu có tàu chạy Vùng Vịnh.",
+    "impact": "Aframax và 2 VLGC của PVT là hai phân khúc nhạy nhất; hợp đồng định hạn làm cước tái ký 2027 phụ thuộc mặt bằng ở thời điểm đó.",
+    "src": [
+     {
+      "t": "Al Jazeera, 04/11",
+      "u": "https://www.aljazeera.com/news/2026/11/4/iranian-leaders-welcome-us-midterms-but-trump-may-still-attack"
+     },
+     {
+      "t": "gCaptain (Reuters), 04/11",
+      "u": "https://gcaptain.com/trumps-election-defeat-leaves-iran-war-with-no-easy-exit/"
+     }
+    ]
+   },
+   {
+    "tag": "Chu kỳ giá tàu và orderbook",
+    "title": "Chủ tàu bán tàu dầu cỡ lớn ở đỉnh, đồng thời đặt thêm đóng mới: tín hiệu giai đoạn muộn của chu kỳ",
+    "text": "SFL bán 4 LR2 và 3 Suezmax với lãi sổ sách ~175 triệu USD (HSN 04/11). Splash247 04/11 (mô tả feed, chưa mở bài gốc): Torm đặt 8 LR2 qua liên doanh, Laskaridis đặt thêm 2 LR2 tại Hengli, Orkim 2 tàu sản phẩm 38 triệu USD tại Trung Quốc, Benelux 2 tàu LPG 48.000 cbm. Orderbook tàu dầu thô >60.000 DWT 29,3% đội tàu (Banchero Costa 31/10, bản trước) vượt ngưỡng đỏ của RUNBOOK; MR chưa có số mới.",
+    "impact": "Cước hiện tại cao hơn nhiều mốc 2025 của PVT, nhưng lịch sử chu kỳ cho thấy orderbook đặt lúc này giao 2028–2029 là rủi ro cho cước tái ký sau 2027. Cần số orderbook MR mới trước khi kết luận.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 04/11",
+      "u": "https://www.hellenicshippingnews.com/sfl-third-quarter-2026-results/"
+     },
+     {
+      "t": "Splash247 feed (tankers), 04/11",
+      "u": "https://splash247.com/category/sector/tankers/feed/"
+     }
+    ]
+   }
+  ],
+  "watch": [
+   "Torm Q3/2026 và Ardmore Q3/2026: chỉ thấy mô tả trong feed Splash247 04/11 (bài gốc HTTP 403, chưa đọc số ngày tàu đã ký). Cần số này cho cước MR/LR2 quý 4.",
+   "Ardmore bán MR 2013 (49.859 DWT, STX, không scrubber) 34,3 triệu USD, tuổi 13 là đúng tuổi PVT hay mua (feed Splash247 04/11, chưa kiểm chứng bằng bài gốc).",
+   "Ursa (Splash247 04/11, feed): khởi công nhà ở Trung Quốc về mức 2002, rủi ro dài hạn cho cầu quặng/than luyện kim; chưa mở bài gốc.",
+   "Nga muốn bán 7,8% Sovcomflot (~180 triệu USD) và nước này dự định cấm tàu nước ngoài già vào cảng (Splash247 02–04/11, mô tả feed): tác động tuổi tàu 17 năm của PVT chưa rõ, cần bài gốc.",
+   "Greenland cấm xả nước scrubber (gCaptain 04/11, tiêu đề feed): ít tác động tuyến PVT.",
+   "Ấn Độ: nhập than tháng 8/2026 104,57 triệu tấn (−5,83% so cùng kỳ), nhập than luyện kim 27,3 triệu tấn (−4,18%) (HSN 04/11, số từ Bộ Than): số tháng 8, chậm; ngược với tin Ấn Độ tích trữ than (OilPrice 04/11, tiêu đề).",
+   "Nguồn tin 'ticker' Brent ~94 USD trên trang OilPrice 04/11 chưa kiểm chứng; dùng 100,60 trong bài."
+  ],
+  "gaps": [
+   "Lần chạy 01:0x giờ VN 05/11: chỉ 6 truy vấn WebSearch (Odfjell Q3, Torm Q3, VLGC/BLPG, PVT tiếng Việt, Biển Đen/Novorossiysk, Houthi) và 14 bài mở thành công, dưới sàn 24 truy vấn/15 trang; 9 trong 15 nhóm không có truy vấn riêng. Đây là thiếu sót của lần chạy, không phải kết luận thị trường.",
+   "Nguồn chưa phát hành số mới: Baltic tuần theo tuyến (06/11), NOAA ENSO và OPEC MOMR (12/11). Fearnleys tuần 45 (04/11) và Intermodal tuần 44 (HSN 04/11) chưa đọc được số: trang HSN chỉ có tiêu đề/đoạn đầu, PDF chưa mở.",
+   "Không truy cập được: các bài lẻ Splash247 (HTTP 403 với bài 'Russia moves to bar ageing foreign ships'); dùng mô tả feed. Odfjell Q3 và Torm Q3: tìm kiếm không ra bản gốc 04/11.",
+   "CHƯA XÁC MINH: tin PVT/BCTC quý 3 (tìm kiếm tiếng Việt chỉ ra bài tháng 8/2026), UKMTO/JMIC, Houthi/Biển Đỏ (tìm kiếm chỉ ra bài giữa năm), Biển Đen (không có bài tháng 11 ngoài số liệu 03/11), nhóm 7, 9–10, 12–14, giá tàu cũ và ICIS hóa chất.",
+   "BLPG1–3 mới nhất vẫn là phiên 02/11 (bản trước); VLGC không có số mới trong lần chạy này."
+  ],
+  "scoreManual": [
+   {
+    "key": "warrisk",
+    "name": "Phí bảo hiểm rủi ro chiến tranh qua Hormuz",
+    "value": "Không có báo giá môi giới mới. 04/11: IRGC nói 4 tàu dầu trúng mìn phía nam Hormuz, 2 tàu bị bắt (OilPrice, chưa kiểm chứng độc lập). Bloomberg 03/11: IMO 121 sự cố, 24 thủy thủ tử vong; CENTCOM ~95% tàu qua không sự cố; ≥28 báo cáo hư hại tháng 10.",
+    "asof": "2026-11-04",
+    "status": "green",
+    "rule": "Xanh: vẫn cao (gián đoạn kéo dài) · Đỏ: giảm về dưới 1%",
+    "why": "Không có số phí bảo hiểm, nhưng sự cố vẫn tiếp tục.",
+    "src": [
+     {
+      "t": "OilPrice, 04/11",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html"
+     },
+     {
+      "t": "gCaptain (Bloomberg), 03/11",
+      "u": "https://gcaptain.com/hormuz-standoff-leaves-both-sides-with-economic-pain/"
+     }
+    ]
+   },
+   {
+    "key": "talks",
+    "name": "Đàm phán Mỹ–Iran",
+    "value": "04/11: Brent rớt xuống 100,60 vì kỳ vọng thỏa thuận; Iran nói có thể mở eo trong 2 ngày nếu Mỹ đáp ứng điều kiện (OilPrice). Al Jazeera: Iran đặt 7 điều kiện, Mỹ phải đi bước đầu; thỏa thuận tạm thời khả thi hơn toàn diện; Trump chưa quyết định đánh. Vance nói 'có tiến triển'.",
+    "asof": "2026-11-04",
+    "status": "yellow",
+    "rule": "Xanh: bế tắc · Vàng: có lộ trình · Đỏ: thỏa thuận mở Hormuz",
+    "why": "Tín hiệu từ cả hai phía đều có đàm phán, nhưng chưa có lộ trình hay văn bản; nâng từ Xanh lên Vàng theo giá dầu và phát biểu, chưa theo văn bản chính thức.",
+    "src": [
+     {
+      "t": "OilPrice, 04/11",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html"
+     },
+     {
+      "t": "Al Jazeera, 04/11",
+      "u": "https://www.aljazeera.com/news/2026/11/4/iranian-leaders-welcome-us-midterms-but-trump-may-still-attack"
+     }
+    ]
+   },
+   {
+    "key": "gulfflows",
+    "name": "Xuất khẩu dầu vùng Vịnh so với trước chiến tranh",
+    "value": "Vortexa sơ bộ: xuất khẩu dầu thô (không Iran) phía tây Hormuz ~11 triệu thùng/ngày tháng 10 (tháng 5: 1,56; tiền chiến 14,5). Lưu lượng tàu Hormuz 7 ngày: 122 ra, 155 vào, thấp hơn ~70% so với trước chiến sự. Mới 31/10: 9 VLCC cùng neo ở bến xuất Vùng Vịnh Ả Rập Xê Út (~18 triệu thùng), mức hoạt động cao nhất từ cuối tháng 2 (Investing.com). Bloomberg 31/10: lưu lượng Hormuz ~80% tiền chiến (khác số ~70% ở trên: khác phương pháp). | 04/11: Vortexa xuất khẩu đường biển Trung Đông tháng 10 17,1 triệu thùng/ngày (tháng 9: 18,9); Kpler dầu thô+condensate 16,1 (từ 17,09).",
+    "asof": "2026-11-04",
+    "status": "yellow",
+    "rule": "Xanh <60% · Vàng 60–90% · Đỏ >90% kèm lượt tàu qua Hormuz tăng",
+    "why": "Hai nguồn mâu thuẫn (Bloomberg ‘gần mức trước chiến tranh’ so với UBS ‘vẫn dưới’); lượt tàu qua eo vẫn thấp, nên giữ Vàng.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 30/10",
+      "u": "https://www.hellenicshippingnews.com/how-a-new-arab-dark-fleet-keeps-hormuz-oil-flowing/"
+     },
+     {
+      "t": "gCaptain, 30/10",
+      "u": "https://gcaptain.com/tanker-hit-by-limpet-mines-in-strait-of-hormuz-as-new-threat-to-shipping-emerges/"
+     },
+     {
+      "t": "Investing.com qua Hellenic Shipping News, 31/10",
+      "u": "https://www.hellenicshippingnews.com/saudi-arabia-tanker-oil-loadings-rise-to-highest-level-since-february/"
+     },
+     {
+      "t": "OilPrice, 04/11",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html"
+     }
+    ]
+   },
+   {
+    "key": "orderbook",
+    "name": "Orderbook tàu dầu / đội tàu (DWT)",
+    "value": "Banchero Costa 31/10: dầu thô >60.000 DWT 29,3% đội tàu, dầu SP 30.000–119.999 DWT 20,7%, hóa chất IMO I/II 20,2%; 267 tàu dầu thô đặt mới 9 tháng 2026 (+268%, 172 VLCC). Veson/VV (22/10, định nghĩa khác): tàu dầu 11,8%, VLCC 27,5%, Suezmax 26,8%, Aframax/LR2 20,7%. BIMCO 23/10: orderbook mọi loại 203,2 triệu CGT.",
+    "asof": "2026-10-31",
+    "status": "red",
+    "rule": "Xanh <10% · Vàng 10–20% · Đỏ >20%",
+    "why": "MR2 vẫn trên ngưỡng cảnh báo 18% (Hồ sơ PVT), Aframax/LR2 trên 20%; BIMCO xác nhận làn sóng giao tàu 2027–2028.",
+    "src": [
+     {
+      "t": "Banchero Costa qua Hellenic Shipping News, 31/10",
+      "u": "https://www.hellenicshippingnews.com/tanker-orders-leading-newbuilding-activity-with-prices-expected-to-remain-high-throughout-2027/"
+     },
+     {
+      "t": "Hellenic Shipping News (Veson Nautical), 22/10",
+      "u": "https://www.hellenicshippingnews.com/"
+     }
+    ]
+   },
+   {
+    "key": "drysupply",
+    "name": "Cung – cầu hàng rời 2027",
+    "value": "BDI 02/11: 2.648 (−66, −2,43%). Baltic tuần: Capesize 5TC 33.795 → 37.420 USD/ngày (hàng cuối tháng 11 gần đủ); Panamax giảm đều, Atlantic yếu, fixture 17.500–25.000; Supramax: Bắc Á vững (63.000 DWT 28.000 USD/ngày đi Tây Phi), Mỹ Gulf giảm, định hạn 3–6 tháng Nam Trung Quốc 24.000. 30/10: BSI 1.865, Panamax 1.889 (thấp nhất từ 13/4). Vale: freight Tubarão–Qingdao 36,80 USD/tấn (30/10) so đỉnh 43,35 (22/9). Định hạn 1 năm và FFA 2027: số bản trước.",
+    "asof": "2026-11-02",
+    "status": "red",
+    "rule": "Xanh: cầu > cung · Vàng: cân bằng · Đỏ: cung > cầu",
+    "why": "Capesize hồi nhưng Panamax/Supramax yếu và đường kỳ hạn 2027 dốc xuống; cầu quặng/than Trung Quốc chưa cải thiện.",
+    "src": [
+     {
+      "t": "HSN (Baltic Exchange), 26/10",
+      "u": "https://www.hellenicshippingnews.com/dry-bulk-market-capesize-market-recovering-steadily/"
+     },
+     {
+      "t": "HSN (SMM), 26/10",
+      "u": "https://www.hellenicshippingnews.com/imported-iron-ore-margin-narrows-to-1-03-yuan-mt-as-port-prices-slump/"
+     },
+     {
+      "t": "HSN (worldsteel), 24/10",
+      "u": "https://www.hellenicshippingnews.com/world-steel-association-september-2026-crude-steel-production-marginally-lower/"
+     },
+     {
+      "t": "HSN (Global Times/MIIT), 26/10",
+      "u": "https://www.hellenicshippingnews.com/china-takes-81-8-of-global-new-ship-orders-in-first-nine-months-cementing-its-lead-in-shipbuilding-market/"
+     }
+    ]
+   },
+   {
+    "key": "peers",
+    "name": "Ngày tàu đã ký trước của doanh nghiệp cùng ngành",
+    "value": "Scorpio (28/10): quý 4 đã chốt LR2 181.000 USD/ngày (44% ngày), MR 56.000 (47%), Handymax 40.000 (37%), cao hơn nhiều so với 3/9 (MR 30.000, 79% ngày quý 3). Còn lại: INSW quý 4 ~37% ngày spot ở ~180.000 (16/10); DHT ~50% quý 4 ở 509.100 (12/10); NORDEN (21/10) nói tàu dầu ‘có thể gần đỉnh’. Sắp tới: NORDEN 29/10, TORM và Odfjell 4/11 Mới 30/10: NORDEN quý 3 nâng dự báo năm lên 200–250 triệu USD, ký thêm hợp đồng MR dài hạn. Mới 31/10: Capital CCEC quý 3 TCE đội khí 40.987 USD/ngày, LNG 83.862; spot LNG mềm hơn nửa đầu năm do giao tàu mới.",
+    "asof": "2026-10-31",
+    "status": "green",
+    "rule": "Xanh: giá ký trước > TB 5 năm · Đỏ: thấp hơn",
+    "why": "Giá đã chốt cho quý 4 vẫn trên TB 5 năm; nhưng Scorpio nhấn mạnh phụ thuộc diễn biến chiến tranh và đã bán đội tàu từ 99 xuống ~75. NORDEN 29/10 là mốc kiểm tra tiếp theo.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News (NORDEN), 30/10",
+      "u": "https://www.hellenicshippingnews.com/norden-delivered-a-net-profit-of-usd-54-million-dkk-350-million-in-the-third-quarter-of-2026-supported-by-strong-markets-and-solid-underlying-operating-performance-across-dry-cargo-and-tankers/"
+     },
+     {
+      "t": "Capital Clean Energy Carriers qua Hellenic Shipping News, 31/10",
+      "u": "https://www.hellenicshippingnews.com/capital-clean-energy-carriers-corp-announces-third-quarter-2026-financial-results/"
+     }
+    ]
+   },
+   {
+    "key": "dark",
+    "name": "Đội tàu bóng tối / tàu dầu toàn cầu",
+    "value": "Bổ sung: 'Arab dark fleet' gần 230 tàu (80% VLCC, 10% Aframax/LR2) thuộc/chịu kiểm soát doanh nghiệp quốc doanh vùng Vịnh, 70% tắt AIS ~12 ngày trong 3 tháng; khác với đội tàu bị trừng phạt. OFAC không thêm chỉ định sau 21/10; không có bắt giữ mới ở Baltic, nhưng Bộ Ngoại giao Nga 25/10 gọi việc EU bắt tàu là 'khiêu khích thù địch' và nói đang đáp trả. BRS (22/10): chỉ 148 tàu dầu biển sâu bị riêng Mỹ trừng phạt (2,5% đội tàu, 14 chiếc nằm im >3 tháng). Braemar: 170 VLCC bị Mỹ trừng phạt, chỉ 44 chiếc dưới 20 tuổi. Quy mô đội bóng tối giữ số cũ (Wright 1.600, TankerTrackers 1.480, Windward 1.100) Mới 31/10: Windward – 3 tàu Iran bị trừng phạt (kể cả 1 VLGC) tắt AIS ở vùng cáp ngầm Vịnh Oman; ghi nhận hành vi, không phải thay đổi quy mô đội tàu.",
+    "asof": "2026-10-31",
+    "status": "yellow",
+    "rule": "Xanh: ổn định hoặc tăng · Đỏ: giảm nhanh do gỡ trừng phạt",
+    "why": "Nếu Mỹ nới trừng phạt (Bộ trưởng Wright), một phần tàu có thể vào tuyến con thoi Hormuz và gây áp lực giảm cước; nhưng tàu vẫn bị EU/Anh trừng phạt và quá già.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 30/10",
+      "u": "https://www.hellenicshippingnews.com/how-a-new-arab-dark-fleet-keeps-hormuz-oil-flowing/"
+     },
+     {
+      "t": "Windward qua Hellenic Shipping News, 31/10",
+      "u": "https://www.hellenicshippingnews.com/sanctioned-iran-linked-tankers-went-dark-over-gulf-of-oman-cables-as-the-irgc-threatened-them/"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "date": "2026-10-09",
+    "end": "2026-12-07",
+    "event": "Sinopec Shanghai bảo dưỡng CDU 320.000 thùng/ngày",
+    "why": "Giảm nguồn xăng dầu Trung Quốc có thể xuất trong quý 4."
+   },
+   {
+    "date": "2026-10-17",
+    "end": "2026-11-21",
+    "event": "Kỳ họp 2 Quốc hội khóa XVI (đợt 1 17/10–14/11, đợt 2 20–21/11): cho ý kiến Bộ luật Hàng hải và Đường thủy Việt Nam",
+    "why": "Bộ luật được thông qua ở kỳ họp 3; phát biểu của lãnh đạo PVN về nguồn dầu thô."
+   },
+   {
+    "date": "2026-11-01",
+    "end": "2026-11-30",
+    "tentative": true,
+    "event": "PetroChina chạy lại CDU 200.000 thùng/ngày ở Dalian",
+    "why": "Thêm nhu cầu nhập dầu thô ~122.000–146.000 thùng/ngày qua cảng Xingang (Dalian)."
+   },
+   {
+    "date": "2026-11-05",
+    "event": "International Seaways công bố kết quả quý 3; Genco họp nhà đầu tư 8:30 ET",
+    "why": "Cước quý 4 đã ký của tàu dầu và tàu hàng rời."
+   },
+   {
+    "date": "2026-11-06",
+    "event": "Baltic Exchange báo cáo tuần theo tuyến (tanker, dry, gas)",
+    "why": "Cước TD7/TC2/TC14 và TCE VLGC theo tuyến; kỳ gần nhất với routes[] bị bỏ trống."
+   },
+   {
+    "date": "2026-11-09",
+    "event": "Hết hạn tạm dừng phí cảng USTR hiện hành (23:59 EST); USTR đã đề xuất gia hạn đến 9/1/2027 (văn bản 2026-21755 nộp 23/10)",
+    "why": "Nếu đề xuất được chốt, phí Annex I/II/III và thuế cẩu STS tiếp tục tạm dừng; Trung Quốc chưa thông báo gia hạn phí đối ứng. (Sửa dòng cũ.)"
+   },
+   {
+    "date": "2026-11-09",
+    "end": "2026-11-13",
+    "tentative": true,
+    "event": "Đàm phán Ukraine do Mỹ làm trung gian nối lại ở Abu Dhabi (tuần tới, Moscow Times 03/11)",
+    "why": "Nếu có nhượng bộ về năng lượng, xuất sản phẩm Nga và cước MR/Aframax Baltic có thể đổi chiều."
+   },
+   {
+    "date": "2026-11-10",
+    "end": "2026-11-11",
+    "event": "Đàm phán ba bên về Ukraine nối lại ở Abu Dhabi (Moscow Times 03/11)",
+    "why": "Theo dõi điều khoản về tấn công năng lượng; ảnh hưởng cước MR/Aframax Baltic và Biển Đen."
+   },
+   {
+    "date": "2026-11-12",
+    "event": "NOAA cập nhật ENSO",
+    "why": "Bản 8/10: Niño-3.4 +2,1°C, 83% khả năng sự kiện lịch sử mùa tháng 10–12."
+   },
+   {
+    "date": "2026-11-12",
+    "tentative": true,
+    "event": "OPEC MOMR tháng 11 (ngày dự kiến)",
+    "why": "Bản 13/10 hạ tăng trưởng cầu 2026 còn +0,2 triệu thùng/ngày, nâng 2027 lên +2,6."
+   },
+   {
+    "date": "2026-11-15",
+    "event": "Hạn chót PVP họp ĐHĐCĐ bất thường (dự án Aframax số 3); hạn nộp hạn mức khai thác RKAB 2027 của Indonesia",
+    "why": "PVP gia hạn họp đến không muộn hơn 15/11 (nghị quyết HĐQT 2/10), mốc 23/10 không còn chắc chắn. RKAB quyết định nguồn than cho Supramax 2027."
+   },
+   {
+    "date": "2026-11-16",
+    "event": "Cổ đông Navigator bỏ phiếu chuyển pháp nhân sang Anh",
+    "why": "Tham chiếu LPG cỡ nhỏ/trung."
+   },
+   {
+    "date": "2026-11-17",
+    "end": "2026-11-24",
+    "event": "Kênh Panama đấu slot dài hạn mùa khô 2027",
+    "why": "Lần đầu đấu slot dài hạn cho âu Panamax cũ."
+   },
+   {
+    "date": "2026-11-18",
+    "event": "Hafnia công bố kết quả quý 3",
+    "why": "Tàu SP MR/LR, tỷ lệ ngày tàu đã ký."
+   },
+   {
+    "date": "2026-11-18",
+    "event": "Star Bulk công bố kết quả quý 3",
+    "why": "Tham chiếu Supramax/Ultramax: số ngày quý 4 đã ký và giá bán tàu cũ."
+   },
+   {
+    "date": "2026-11-23",
+    "end": "2026-11-27",
+    "event": "Họp liên kỳ IMO về khung Net-Zero (ISWG-GHG 23)",
+    "why": "Bàn văn bản ngày 9/10 của Nhật (bỏ Quỹ Net-Zero, thay bằng surplus units và đóng góp trực tiếp) cùng các phương án của Tuvalu, Brazil, Liberia, ACSA-UK."
+   },
+   {
+    "date": "2026-11-24",
+    "event": "BW LPG công bố kết quả quý 3",
+    "why": "Tham chiếu VLGC: số ngày quý 4 đã ký."
+   },
+   {
+    "date": "2026-11-26",
+    "event": "CMB.TECH (đã sáp nhập Golden Ocean) công bố kết quả quý 3",
+    "why": "Tham chiếu Capesize, Suezmax; giá bán tàu 15 tuổi."
+   },
+   {
+    "date": "2026-11-30",
+    "tentative": true,
+    "event": "Frontline công bố kết quả quý 3",
+    "why": "Tham chiếu VLCC/Suezmax/LR2."
+   },
+   {
+    "date": "2026-11-30",
+    "tentative": true,
+    "event": "Tàu sân bay USS Theodore Roosevelt và 13th MEU (~10.000 quân) tới Trung Đông (Fox News, Mỹ chưa xác nhận)",
+    "why": "Mỹ sẽ có 3 tàu sân bay trong khu vực, khả năng không kích lại Iran sau bầu cử tăng."
+   },
+   {
+    "date": "2026-11-30",
+    "end": "2026-12-03",
+    "event": "IMO MEPC 85",
+    "why": "Quyết định có nối lại phiên bất thường ngày 4/12."
+   },
+   {
+    "date": "2026-12-04",
+    "event": "IMO MEPC phiên bất thường 2: quyết định khung Net-Zero",
+    "why": "Nếu không thông qua, cơ hội tiếp theo là MEPC 86 (10/2027); đội tàu PVT bình quân ~17 tuổi."
+   }
+  ],
+  "flows": [
+   {
+    "topic": "Hormuz – sự cố và lưu lượng",
+    "value": "IMO: 121 sự cố, 24 thủy thủ tử vong từ đầu chiến sự; ≥28 báo cáo hư hại tàu tháng 10; lưu lượng ~80% trước chiến tranh, CENTCOM: ~95% tàu qua không sự cố",
+    "note": "Bloomberg qua gCaptain 03/11; IRGC (04/11) tuyên bố 4 tàu dầu trúng mìn, chưa kiểm chứng độc lập.",
+    "src": [
+     {
+      "t": "gCaptain, 03/11",
+      "u": "https://gcaptain.com/hormuz-standoff-leaves-both-sides-with-economic-pain/"
+     },
+     {
+      "t": "OilPrice, 04/11",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html"
+     }
+    ]
+   },
+   {
+    "topic": "Nhập khẩu than Ấn Độ (tháng 8/2026)",
+    "value": "104,57 triệu tấn (−5,83% so cùng kỳ); than luyện kim 27,30 triệu tấn (−4,18%); tỷ trọng than nhập khẩu 19,3% tiêu thụ (21,2%)",
+    "note": "Số tháng 8, công bố 04/11 (Bộ Than qua HSN); dữ liệu chậm 2 tháng.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News, 04/11",
+      "u": "https://www.hellenicshippingnews.com/india-coal-imports-decline-5-83-to-104-57-mt-blending-purchases-fall-35-23/"
+     }
+    ]
+   },
+   {
+    "topic": "Diesel Nga vào Mỹ (OFAC GL 135)",
+    "value": "Giấy phép đến 07/04/2027; 1 tàu (~40.000 tấn) còn hướng bờ Đông, chưa có chuyến giao",
+    "note": "Windward 03/11 qua gCaptain; pháp lý bị bang New Jersey phản đối.",
+    "src": [
+     {
+      "t": "gCaptain, 03/11",
+      "u": "https://gcaptain.com/new-jersey-governor-warns-ports-against-handling-russian-diesel/"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-11-04",
   "dataAsOf": "2026-11-03",
   "headline": "Thứ Tư 04/11: Mỹ không kích đảo Qeshm (Hormuz) ngày 03/11 sau khi Iran nói đàm phán còn xa thỏa thuận, Brent hồi lên 106,61 USD; BDI 03/11 còn 2.590 (−58); ADNOC: gần 1 tỷ thùng dầu đã rút từ tồn kho; Biển Đen: 317 tàu bị đánh từ tháng 5 đến tháng 10; Ukraine đánh nhà máy Yaroslavl 300.000 thùng/ngày.",
