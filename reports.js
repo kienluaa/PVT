@@ -4,7 +4,7 @@ window.REPORTS = [
   "dataAsOf": "2026-11-03",
   "headline": "Thứ Tư 04/11: Mỹ không kích đảo Qeshm (Hormuz) ngày 03/11 sau khi Iran nói đàm phán còn xa thỏa thuận, Brent hồi lên 106,61 USD; BDI 03/11 còn 2.590 (−58); ADNOC: gần 1 tỷ thùng dầu đã rút từ tồn kho; Biển Đen: 317 tàu bị đánh từ tháng 5 đến tháng 10; Ukraine đánh nhà máy Yaroslavl 300.000 thùng/ngày.",
   "summary": [
-   "Số liệu: build.py chạy OK, errors rỗng, data.js dừng ở phiên 02/11 (BDI 2.648). BDI phiên 03/11 lấy từ tradingeconomics: 2.590 (−58, −2,19%); chưa có chỉ số con của phiên 03/11 trong dữ liệu.",
+   "Số liệu: build.py chạy lại sau khi nguồn cập nhật, errors rỗng, data.js tới phiên 03/11: BDI 2.590 (−58, −2,19%); BDTI 6.439 (−5,79%, −10,1% 1 tuần, phân vị 5 năm 98,2); BCTI 2.794 (−1,48%, +15,7% 1 tháng); BSI 1.846 (−0,54%); BHSI 1.014 (đi ngang); BCI 3.821 (−3,58%); BPI 1.866 (−0,43%). Đối chiếu BDI với tradingeconomics: khớp.",
    "Hormuz: Mỹ đánh tài sản Iran ở đảo Qeshm ngày 03/11 và gọi là phòng thủ để ngăn Iran nhắm vào tàu thương mại; một quan chức Iran nói với Reuters đàm phán còn xa mới giải quyết được xung đột (HSN 03/11). Brent 106,61 USD (+1,76%), WTI 98,06. Trước đó (gCaptain/Reuters 02/11) Iran nói liên lạc qua Qatar tiếp tục nhưng vòng đàm phán nhiều ngày kết thúc không đột phá; Trump từng nói không đánh trước bầu cử.",
    "Tồn kho: CEO ADNOC (ADIPEC, 03/11) nói gần 1 tỷ thùng dầu thô đã rút từ tồn kho từ khi Hormuz gián đoạn; tồn kho diesel ở một số thị trường thấp nhất theo mùa trong 35 năm; chi phí logistics >30% giá một thùng dầu (trước đây <5%).",
    "Nga/Biển Đen: Ukraine đánh nhà máy Slavneft-Yanos (Yaroslavl, 300.000 thùng/ngày) đêm 02–03/11; Bộ Quốc phòng Nga báo bắn hạ 856 UAV. Reuters (gCaptain 03/11): 317 tàu bị Nga/Ukraine đánh ở Biển Đen và Azov từ tháng 5 đến tháng 10, gấp hơn 4 lần nửa năm trước.",
@@ -14,12 +14,12 @@ window.REPORTS = [
    {
     "seg": "Dầu thô Aframax (4 tàu)",
     "signal": "flat",
-    "text": "Không có cước Aframax mới. Vụ Qeshm và Brent 106 USD giữ rủi ro an ninh ở Vùng Vịnh; Breakwave 03/11 ghi VLCC vẫn mạnh vì ít tàu trống. Cước định hạn của PVT không đổi ngay theo diễn biến ngày."
+    "text": "BDTI 03/11 6.439 (−5,79%, −10,1% trong tuần) nhưng vẫn ở phân vị 98 của 5 năm. Rủi ro Hormuz sau vụ Qeshm giữ mặt bằng cước; cước định hạn của PVT không đổi ngay. Chưa có cước Aframax theo tuyến mới."
    },
    {
     "seg": "Dầu SP / MR (8 tàu)",
     "signal": "up",
-    "text": "Tồn kho diesel thấp nhất theo mùa 35 năm (ADNOC) và Ukraine tiếp tục đánh lọc dầu Nga hỗ trợ cầu chở dầu sản phẩm; orderbook MR vẫn là rủi ro cung từ 2028 (bản trước)."
+    "text": "BCTI 03/11 2.794 (−1,48%, +15,7% 1 tháng, phân vị 99). Tồn kho diesel thấp nhất theo mùa 35 năm (ADNOC) và Ukraine đánh lọc dầu Nga hỗ trợ cầu; orderbook MR vẫn là rủi ro cung từ 2028."
    },
    {
     "seg": "Hóa chất (19 tàu)",
@@ -34,7 +34,7 @@ window.REPORTS = [
    {
     "seg": "Hàng rời Supramax/Handysize (13 tàu)",
     "signal": "down",
-    "text": "BDI 2.590, giảm tiếp 2 phiên liền. Biển Đen: xuất khẩu ngũ cốc Nga tháng 9 chỉ 0,3 triệu tấn (so 4,74 năm trước) làm mất một nguồn hàng cho Supramax/Handysize."
+    "text": "BDI 2.590 giảm 2 phiên liền; BSI 1.846 (−0,54%), BHSI 1.014 đi ngang, Panamax 1.866 yếu (−7,7% 1 tuần). Ngũ cốc Nga tháng 9 chỉ 0,3 triệu tấn (so 4,74 năm trước) làm mất nguồn hàng."
    }
   ],
   "headlines": [
@@ -87,9 +87,13 @@ window.REPORTS = [
      "Supramax",
      "Handysize"
     ],
-    "title": "BDI 03/11: 2.590 (−58, −2,19%), phiên giảm thứ hai liền sau 2.648 (02/11)",
-    "impact": "Chưa có chỉ số con của phiên 03/11. Giảm tiếp trong bối cảnh Panamax yếu (bản trước) là tín hiệu bất lợi cho Supramax/Handysize của PVT; đường kỳ hạn 2027 thấp hơn hiện tại (FFA Supramax −35,8% so với giá hiện tại trong bảng điểm).",
+    "title": "Baltic 03/11: BDI 2.590 (−58, −2,19%), BSI 1.846, BHSI 1.014, BCI 3.821 (−3,58%), BPI 1.866; BDTI 6.439 (−5,79%), BCTI 2.794 (−1,48%)",
+    "impact": "Hàng rời giảm 2 phiên liền, Panamax −7,7% trong tuần; Supramax/Handysize của PVT đi ngang nhưng đường kỳ hạn 2027 thấp hơn hiện tại (FFA Supramax −35,8%). Tàu dầu thô giảm 10% trong tuần nhưng vẫn ở phân vị 98 của 5 năm.",
     "src": [
+     {
+      "t": "Baltic (build.py, nguồn yieldchaser/Shipping), 03/11",
+      "u": "https://raw.githubusercontent.com/yieldchaser/Shipping/main/data/indices/dirtytanker_historical.csv"
+     },
      {
       "t": "Trading Economics, 03/11",
       "u": "https://tradingeconomics.com/commodity/baltic"
@@ -197,8 +201,8 @@ window.REPORTS = [
    "Nguồn chưa phát hành số mới: Baltic tuần theo tuyến (thứ Sáu 06/11), Fearnleys Weekly tuần 45 (04/11), Odfjell và TORM quý 3 (04/11), NOAA ENSO (12/11), OPEC MOMR (~12/11).",
    "Không truy cập được: Splash247 bài lẻ (4 bài: Panama, JP Morgan VLCC, VLSFO, Stefanou) trả HTTP 403 qua WebFetch; dùng mô tả feed.",
    "CHƯA XÁC MINH: Xclusiv/Intermodal/Banchero tuần 45, tin PVT/BCTC quý 3 (tìm kiếm tiếng Việt chỉ ra bài giữa năm 2026), giá tàu cũ tháng 11 (tìm kiếm không ra), nhóm 9–15 và Houthi.",
-   "Số liệu phiên 03/11: BDI 2.590 lấy từ tradingeconomics, chưa có trong data.js (dừng ở 02/11).",
-   "Breakwave và NAT (03/11): trang HSN không có bảng số, chỉ tiêu đề/thư cổ đông."
+   "Breakwave và NAT (03/11): trang HSN không có bảng số, chỉ tiêu đề/thư cổ đông.",
+   "Lần build.py đầu (18:04Z) chạy trước khi nguồn đăng phiên 03/11 nên số liệu ban đầu dừng ở 02/11; đã chạy lại lúc 00:28Z 04/11 và cập nhật. Giá trị 'BDTI/BCTI' là chỉ số, chưa có cước theo tuyến."
   ],
   "scoreManual": [
    {
