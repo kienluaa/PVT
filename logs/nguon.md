@@ -313,3 +313,10 @@ HSN các bài 31/10 (Windward, Banchero Costa newbuilding, Veson Suezmax) | bài
 Al Jazeera | bài lẻ /news/2026/10/31/... WebFetch OK; RSS lọc từ khóa | ngày | 31/10 | 01/11 | không | The National
 Kyiv Independent | trang chủ curl lấy href; bài lẻ WebFetch OK | ngày | 31/10 | 01/11 | không | Moscow Times
 build.py | chạy bằng /usr/bin/python3 (python3 mặc định không có pandas) | | | 01/11 | python3 -> ModuleNotFoundError |
+
+Cập nhật 2026-11-23:
+Affinity Tanker Weekly 20/11 | https://www.hellenicshippingnews.com/wp-content/uploads/2026/11/Affinity-Tanker-Weekly-20.11.2026-HSN.pdf (curl + pdftotext -raw) | thứ Sáu | 20/11 | 23/11 | không | |
+Advanced W47 | .../2026/11/ADVANCED-MARKET-REPORT-WEEK-47.pdf | thứ Sáu | 20/11 | 23/11 | không | |
+Fearnleys W47 | HSN fearnleys-week-47-2026 → .../2026/11/Fearnleys-Weekly-Report-_-Fearnpulse-2.pdf | thứ Tư | 18/11 | 23/11 | không | |
+Splash247 feed | trang thử thách (HTTP 200 nhưng "One moment, please...") 23/11 | | | | lỗi 23/11 | HSN, gCaptain |
+build.py | /usr/bin/python3 build.py . | | | 23/11 | python3 mặc định thiếu pandas |
